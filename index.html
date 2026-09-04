@@ -7,10 +7,27 @@
     <link rel="manifest" href="/manifest.webmanifest" />
     <link rel="icon" href="/icon.svg" />
     <title>JUMPROPE</title>
-    <link href="./_app/immutable/entry/start.DzsNpyjV.js" rel="modulepreload">
-		<link href="./_app/immutable/chunks/65vEDA-h.js" rel="modulepreload">
+    <script>
+      if (typeof navigator !== 'undefined' && !navigator.mediaDevices) {
+        try {
+          Object.defineProperty(navigator, 'mediaDevices', {
+            configurable: true,
+            value: {
+              getUserMedia() {
+                const message = window.isSecureContext
+                  ? '이 브라우저에서는 카메라 기능을 사용할 수 없습니다.'
+                  : '카메라는 HTTPS 보안 연결에서만 사용할 수 있습니다. https://jumprope.suaveforge.com 으로 접속하세요.';
+                return Promise.reject(new Error(message));
+              }
+            }
+          });
+        } catch {}
+      }
+    </script>
+    <link href="./_app/immutable/entry/start.iTxuxPdh.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/BOuRK3nl.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/BhPArii1.js" rel="modulepreload">
-		<link href="./_app/immutable/entry/app.Cri0fNdv.js" rel="modulepreload">
+		<link href="./_app/immutable/entry/app.DL2D1grP.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/HclGiUj8.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/xihTtKlq.js" rel="modulepreload">
 		<link href="./_app/immutable/nodes/0.FleixUf5.js" rel="modulepreload">
@@ -22,15 +39,15 @@
     <div style="display: contents">
 			<script>
 				{
-					__sveltekit_18q0woj = {
+					__sveltekit_yanr6d = {
 						base: new URL(".", location).pathname.slice(0, -1)
 					};
 
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("./_app/immutable/entry/start.DzsNpyjV.js"),
-						import("./_app/immutable/entry/app.Cri0fNdv.js")
+						import("./_app/immutable/entry/start.iTxuxPdh.js"),
+						import("./_app/immutable/entry/app.DL2D1grP.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element);
 					});
