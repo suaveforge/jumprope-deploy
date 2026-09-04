@@ -1,0 +1,14 @@
+{
+  "name": "JUMPROPE",
+  "short_name": "JUMPROPE",
+  "description": "온디바이스 실시간 줄넘기 카운터",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#07090d",
+  "theme_color": "#07090d",
+  "orientation": "any",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
