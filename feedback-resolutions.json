@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-05T12:51:00.000Z",
+  "updatedAt": "2026-09-05T13:14:31.068Z",
   "items": {
     "JR-20260904-56EA94C8": {
       "status": "done",
@@ -45,6 +45,30 @@
     "JR-20260905-CE4FD321": {
       "status": "done",
       "resolution": "Expanded social-login account email detection across nested provider identity/profile fields for completion notifications."
+    },
+    "JR-20260905-CF60A4A4": {
+      "status": "in_progress",
+      "resolution": "처리 중"
+    },
+    "JR-20260905-98DFE852": {
+      "status": "in_progress",
+      "resolution": "처리 중"
+    },
+    "JR-20260905-F5902747": {
+      "status": "in_progress",
+      "resolution": "처리 중"
+    },
+    "JR-20260905-67A87592": {
+      "status": "in_progress",
+      "resolution": "처리 중"
+    },
+    "JR-20260905-3BC2F32F": {
+      "status": "in_progress",
+      "resolution": "처리 중"
+    },
+    "JR-20260905-B5BCF6F0": {
+      "status": "in_progress",
+      "resolution": "처리 중"
     }
   }
 }
