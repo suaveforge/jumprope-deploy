@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-05T12:01:39.095Z",
+  "updatedAt": "2026-09-05T12:44:51.465Z",
   "items": {
     "JR-20260904-56EA94C8": {
       "status": "done",
@@ -33,6 +33,18 @@
     "JR-20260905-755BD336": {
       "status": "done",
       "resolution": "건의 첨부 업로드가 빈/비표준 MIME에서 거부되던 공통 경로를 확장자 fallback으로 수정해 접수 후 첨부 실패 문제를 해결했습니다."
+    },
+    "JR-20260905-D84A9F56": {
+      "status": "in_progress",
+      "resolution": "처리 중"
+    },
+    "JR-20260905-18EC4839": {
+      "status": "in_progress",
+      "resolution": "처리 중"
+    },
+    "JR-20260905-CE4FD321": {
+      "status": "in_progress",
+      "resolution": "처리 중"
     }
   }
 }
