@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-05T03:00:48.260Z",
+  "updatedAt": "2026-09-05T11:35:38.232Z",
   "items": {
     "JR-20260904-56EA94C8": {
       "status": "done",
@@ -20,19 +20,19 @@
     },
     "JR-20260905-2440104A": {
       "status": "in_progress",
-      "resolution": "처리 중"
+      "resolution": "로그인 세션이 있으면 authUser 초기화 전에도 완료 알림 이메일을 다시 조회하도록 수정했습니다. 다만 '이 화면만 남아 있다'는 UI 문제는 첨부가 없어 재현 화면을 특정할 수 없어 추가 확인이 필요합니다."
     },
     "JR-20260905-4F697E85": {
-      "status": "in_progress",
-      "resolution": "처리 중"
+      "status": "done",
+      "resolution": "게시판 로딩 중 feedbackBoardBusy 때문에 닫기 동작이 차단되던 조건을 제거해 글 작성 후에도 닫기/화면 이탈이 즉시 가능하도록 수정했습니다."
     },
     "JR-20260905-F382C1F4": {
-      "status": "in_progress",
-      "resolution": "처리 중"
+      "status": "done",
+      "resolution": "브라우저가 첨부파일 MIME을 비워 보내는 경우에도 파일 확장자로 이미지·영상을 판별하도록 프론트와 API를 보강해 첨부 업로드 실패를 수정했습니다."
     },
     "JR-20260905-755BD336": {
-      "status": "in_progress",
-      "resolution": "처리 중"
+      "status": "done",
+      "resolution": "건의 첨부 업로드가 빈/비표준 MIME에서 거부되던 공통 경로를 확장자 fallback으로 수정해 접수 후 첨부 실패 문제를 해결했습니다."
     }
   }
 }
