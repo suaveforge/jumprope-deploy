@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-05T13:47:15.059Z",
+  "updatedAt": "2026-09-05T14:04:38.474Z",
   "items": {
     "JR-20260904-56EA94C8": {
       "status": "done",
@@ -51,8 +51,8 @@
       "resolution": "처리 중"
     },
     "JR-20260905-98DFE852": {
-      "status": "in_progress",
-      "resolution": "처리 중"
+      "status": "done",
+      "resolution": "건의 접수 본문 저장 후 첨부 업로드가 진행 중이어도 접수 완료 상태에서는 닫기와 화면 이탈이 가능하도록 busy 차단 조건을 분리했습니다."
     },
     "JR-20260905-F5902747": {
       "status": "in_progress",
