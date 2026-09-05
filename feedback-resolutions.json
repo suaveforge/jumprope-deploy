@@ -1,10 +1,22 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T18:23:00Z",
+  "updatedAt": "2026-09-05T00:17:27.518Z",
   "items": {
     "JR-20260904-56EA94C8": {
       "status": "done",
       "resolution": "모바일 피드백 화면의 중복 영문 보조 타이틀을 제거하고 닫기 버튼을 원형 X로 정리했습니다. 짧은 화면에서는 모달을 세로 스크롤 가능하게 하고 접수 버튼을 하단 고정 처리해 잘리지 않게 했으며, 첨부 3개가 채워지면 추가 선택을 막아 4번째 파일 선택 시 멈추는 흐름을 차단했습니다."
+    },
+    "JR-20260904-2F2F74EE": {
+      "status": "in_progress",
+      "resolution": "처리 중"
+    },
+    "JR-20260904-D73BCF09": {
+      "status": "in_progress",
+      "resolution": "처리 중"
+    },
+    "JR-20260904-75F6A389": {
+      "status": "in_progress",
+      "resolution": "처리 중"
     }
   }
 }
