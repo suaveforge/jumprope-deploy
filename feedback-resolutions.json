@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-05T13:14:31.068Z",
+  "updatedAt": "2026-09-05T13:47:15.059Z",
   "items": {
     "JR-20260904-56EA94C8": {
       "status": "done",
@@ -67,6 +67,14 @@
       "resolution": "처리 중"
     },
     "JR-20260905-B5BCF6F0": {
+      "status": "in_progress",
+      "resolution": "처리 중"
+    },
+    "JR-20260905-894DC6EB": {
+      "status": "in_progress",
+      "resolution": "처리 중"
+    },
+    "JR-20260905-0F0F7CE3": {
       "status": "in_progress",
       "resolution": "처리 중"
     }
