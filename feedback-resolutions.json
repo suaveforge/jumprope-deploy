@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-06T05:07:00.000Z",
+  "updatedAt": "2026-09-06T07:47:08.000Z",
   "items": {
     "JR-20260904-56EA94C8": {
       "status": "done",
@@ -87,8 +87,20 @@
       "resolution": "처리 중"
     },
     "JR-20260905-23908BF0": {
-      "status": "in_progress",
-      "resolution": "처리 중"
+      "status": "done",
+      "resolution": "첨부 업로드가 브라우저에서 빈 MIME으로 전달될 때 실패하던 경로를 파일명 확장자 fallback으로 처리하도록 보강해 사진·영상 첨부 실패 문제를 해결했습니다."
+    },
+    "JR-20260905-4619D8CB": {
+      "status": "done",
+      "resolution": "건의 작성·게시판·상세 창의 닫기 조작을 동일한 원형 X 버튼 규격으로 통일해 우상단 닫기 버튼 디자인을 정리했습니다."
+    },
+    "JR-20260905-2A0F3045": {
+      "status": "done",
+      "resolution": "게시판 각 글에 전체 목록 기준의 숫자 글 번호를 표시해 현재 글이 몇 번째인지 바로 확인할 수 있도록 개선했습니다."
+    },
+    "JR-20260906-5451ED0B": {
+      "status": "done",
+      "resolution": "신규 건의 등록 직후 status를 in_progress로 저장하던 로직을 unseen으로 교정해, 실제 예약 처리 시작 전에는 미확인 상태로 유지되도록 수정했습니다."
     }
   }
 }
