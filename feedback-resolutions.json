@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-05T16:51:59.135Z",
+  "updatedAt": "2026-09-06T05:07:00.000Z",
   "items": {
     "JR-20260904-56EA94C8": {
       "status": "done",
@@ -36,51 +36,51 @@
     },
     "JR-20260905-D84A9F56": {
       "status": "done",
-      "resolution": "Unified the mobile account dialog with the same card-style modal shell used by the other quick dialogs."
+      "resolution": "모바일 내 기록 창을 다른 빠른 메뉴와 같은 카드형 모달 규격으로 통일했습니다."
     },
     "JR-20260905-18EC4839": {
       "status": "done",
-      "resolution": "Fixed ranking and feedback-board dialog height so content changes no longer resize the modal."
+      "resolution": "랭킹과 건의 게시판 창 높이를 고정해 내용 길이에 따라 모달 크기가 바뀌지 않도록 수정했습니다."
     },
     "JR-20260905-CE4FD321": {
       "status": "done",
-      "resolution": "Expanded social-login account email detection across nested provider identity/profile fields for completion notifications."
+      "resolution": "소셜 로그인 계정의 중첩된 제공자 정보에서도 이메일을 찾아 완료 알림 주소에 자동 반영하도록 보강했습니다."
     },
     "JR-20260905-CF60A4A4": {
-      "status": "in_progress",
-      "resolution": "처리 중"
+      "status": "done",
+      "resolution": "게시판 처리 내용이 영어로 남지 않도록 기존 영문 처리 결과를 한국어로 정리하고 이후 해결 내용도 한국어로 기록하도록 정리했습니다."
     },
     "JR-20260905-98DFE852": {
       "status": "done",
       "resolution": "건의 접수 본문 저장 후 첨부 업로드가 진행 중이어도 접수 완료 상태에서는 닫기와 화면 이탈이 가능하도록 busy 차단 조건을 분리했습니다."
     },
     "JR-20260905-F5902747": {
-      "status": "in_progress",
-      "resolution": "처리 중"
+      "status": "done",
+      "resolution": "건의 게시판 목록 카드를 고정 높이로 유지하고 본문은 최대 두 줄 뒤 말줄임 처리되도록 정리했습니다. 모바일에서도 카드 높이가 내용에 따라 달라지지 않습니다."
     },
     "JR-20260905-67A87592": {
-      "status": "in_progress",
-      "resolution": "처리 중"
+      "status": "done",
+      "resolution": "게시판 목록의 글을 누르면 별도 상세 창에서 건의 원문 전체와 처리 내용을 확인할 수 있게 했습니다."
     },
     "JR-20260905-3BC2F32F": {
       "status": "in_progress",
       "resolution": "처리 중"
     },
     "JR-20260905-B5BCF6F0": {
-      "status": "in_progress",
-      "resolution": "처리 중"
+      "status": "done",
+      "resolution": "브라우저가 첨부 MIME을 비워 보내는 경우에도 파일 확장자로 이미지·영상을 판별하도록 프론트와 API를 보강해 접수 후 첨부 업로드 실패 경로를 수정했습니다."
     },
     "JR-20260905-894DC6EB": {
-      "status": "in_progress",
-      "resolution": "처리 중"
+      "status": "done",
+      "resolution": "내 기록 창 상단에 노출되던 개발용 AUTHHUB · p41 문구를 제거했습니다."
     },
     "JR-20260905-0F0F7CE3": {
-      "status": "in_progress",
-      "resolution": "처리 중"
+      "status": "done",
+      "resolution": "건의 작성·게시판·상세·랭킹·내 기록 창의 닫기 조작을 동일한 원형 X 버튼 규격으로 통일했습니다."
     },
     "JR-20260905-5AB4F9EA": {
-      "status": "in_progress",
-      "resolution": "처리 중"
+      "status": "done",
+      "resolution": "모바일 게시판의 페이지당 표시 수를 늘리고 카드 높이를 줄여 첫 화면의 불필요한 빈 공간을 줄였습니다. 짧은 화면에서는 목록 내부 스크롤로 더 많은 글을 볼 수 있습니다."
     },
     "JR-20260905-01B77E88": {
       "status": "in_progress",
