@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-06T13:03:02.000Z",
+  "updatedAt": "2026-09-06T13:05:59.000Z",
   "items": {
     "JR-20260904-56EA94C8": {
       "status": "done",
@@ -35,6 +35,6 @@
     "JR-20260906-6B5AC544": {"status": "done", "type": "bug", "resolution": "실제 버그가 아닌 테스트·확인 글을 버그 수정처럼 표시하던 처리 규칙을 고쳤습니다. terminal resolution에 상황에 맞는 type을 함께 기록하면 DB 게시판 분류도 동기화되도록 바꾸고, 무인 처리 규칙에도 테스트·비버그 항목은 코드 수정이 없다고 명시하고 일반/기타로 재분류하도록 반영했습니다."},
     "JR-20260906-91B0D252": {"status": "in_progress", "type": "bug", "resolution": "AuthHub p41 카카오 로그인에 account_email 동의 범위를 활성화했습니다. 다만 기존 카카오 세션은 이메일 권한을 받기 전에 발급돼 실제 이메일 값이 없으므로 한 번 재로그인·재동의가 필요합니다. 재로그인 뒤 실제 이메일 자동 채움이 확인되기 전까지 완료 처리하지 않습니다."},
     "JR-20260906-39EEB5B3": {"status": "in_progress", "type": "bug", "resolution": "같은 카카오 이메일 자동 채움 문제를 확인 중입니다. account_email 동의 범위와 재로그인 안내 경로는 배포했으며, 실제 카카오 재동의 뒤 이메일 자동 채움이 확인될 때 완료 처리합니다."},
-    "JR-20260906-8E90B49F": {"status": "in_progress", "type": "bug", "resolution": "실제 처리에 들어간 항목이 게시판에서 미확인으로 남는 상태 동기화 문제를 수정 중입니다. SOURCE in_progress도 PostgreSQL 게시판 상태에 즉시 반영하도록 동기화 경로를 보강합니다."}
+    "JR-20260906-8E90B49F": {"status": "done", "type": "bug", "resolution": "실제 처리를 시작한 항목이 게시판에서 미확인으로 남던 상태 동기화 문제를 수정했습니다. SOURCE의 in_progress 상태도 PostgreSQL 게시판에 즉시 반영하도록 resolution sync를 확장했고, terminal 상태에서만 completed_at이 기록되도록 유지했습니다. 실제 미처리 3건이 모두 처리중으로 전환되는 것을 확인했습니다."}
   }
 }
