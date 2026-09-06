@@ -57,6 +57,10 @@
       .feedback-media-field:has(.feedback-media-list > div:nth-child(3)) .feedback-media-input {
         pointer-events: none;
       }
+      /* MOBILE_MAIN_CENTERING_V1 */
+      @media (max-width: 900px) {
+        main { margin-left: auto !important; margin-right: auto !important; }
+      }
       @media (max-height: 680px) and (max-width: 1024px), (hover: none) and (pointer: coarse) and (max-height: 680px) {
         .feedback-layer { padding: 6px !important; align-items: stretch !important; }
         .feedback-compose { max-height: calc(100dvh - 12px) !important; }
@@ -83,10 +87,10 @@
         } catch {}
       }
     </script>
-    <link href="./_app/immutable/entry/start.CBbTgt_V.js" rel="modulepreload">
-		<link href="./_app/immutable/chunks/u_KTTuXd.js" rel="modulepreload">
+    <link href="./_app/immutable/entry/start.BgDowCuh.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/C8sHubB1.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/Bh_z7CMd.js" rel="modulepreload">
-		<link href="./_app/immutable/entry/app.DD_VcIEp.js" rel="modulepreload">
+		<link href="./_app/immutable/entry/app.CiCe6srl.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/HclGiUj8.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/xihTtKlq.js" rel="modulepreload">
 		<link href="./_app/immutable/nodes/0.BDC9dx8y.js" rel="modulepreload">
@@ -98,15 +102,15 @@
     <div style="display: contents">
 			<script>
 				{
-					__sveltekit_wkrfqs = {
+					__sveltekit_1wxe0k7 = {
 						base: new URL(".", location).pathname.slice(0, -1)
 					};
 
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("./_app/immutable/entry/start.CBbTgt_V.js"),
-						import("./_app/immutable/entry/app.DD_VcIEp.js")
+						import("./_app/immutable/entry/start.BgDowCuh.js"),
+						import("./_app/immutable/entry/app.CiCe6srl.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element);
 					});
