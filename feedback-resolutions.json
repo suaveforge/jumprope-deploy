@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-06T17:15:00.000Z",
+  "updatedAt": "2026-09-08T08:49:00.000Z",
   "items": {
     "JR-20260904-56EA94C8": {
       "status": "done",
@@ -157,6 +157,10 @@
       "status": "done",
       "type": "general",
       "resolution": "랭킹을 현재·주간·월간·전체 기간으로 확장하고 총 점프·최고 JPM 기준을 함께 제공하도록 개편했습니다. 기간은 한국시간 기준으로 집계되며 로그인 사용자는 해당 기간의 내 순위도 별도 카드에서 확인할 수 있습니다."
-    }
+    },
+    "JR-20260908-D2D7CDAE": {"status": "in_progress", "type": "bug", "resolution": "운동 종료·결과 화면 전환 뒤 포즈 오버레이가 남는 경로를 확인 중입니다."},
+    "JR-20260908-03497426": {"status": "in_progress", "type": "general", "resolution": "낮은 점프와 번갈아 뛰기 카운트 경로를 보강하고 기존 더블언더 분류가 실제 카운트 이후 정상 연결되는지 함께 검증 중입니다."},
+    "JR-20260908-9AB04BBF": {"status": "in_progress", "type": "bug", "resolution": "게시판을 한 페이지 4개 카드 기준으로 줄이고 카드 내부 글자·본문 영역을 키워 모바일 잘림을 수정 중입니다."},
+    "JR-20260908-04ABAE08": {"status": "in_progress", "type": "bug", "resolution": "실제 작업을 시작한 항목은 즉시 처리중으로 표시되도록 이번 처리부터 SOURCE 상태를 먼저 반영하고 있습니다."}
   }
 }
