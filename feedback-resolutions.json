@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-08T13:16:11.043Z",
+  "updatedAt": "2026-09-08T13:53:41.515Z",
   "items": {
     "JR-20260904-56EA94C8": {
       "status": "done",
@@ -220,7 +220,7 @@
     },
     "JR-20260908-F45E4935": {
       "status": "in_progress",
-      "resolution": "첨부 실제 영상을 기준으로 현재 TYPE A Pose/FSM의 0회 원인을 계속 추적하면서, 기존 A 튜닝은 중단하거나 되돌리지 않고 같은 영상에 TYPE B temporal repetition 및 현실적으로 검증 가능한 TYPE C rope/motion 계열을 독립 비교하는 검증 작업을 병행합니다. 최종 count만이 아니라 이벤트 timestamp 기준 TP/FP/FN까지 남기는 구조로 검증 중입니다."
+      "resolution": "기존 TYPE A Pose/FSM 개선과 B/C 비교는 유지합니다. D/E를 추가 실험 계열로 병행하되 production callback에는 B/C/D/E 무거운 분석을 직렬 삽입하지 않습니다. 공통 source media timestamp, bounded queue, worker/offline lane, TYPE별 FPS/latency/queue/drop telemetry를 추가했고 TYPE A accepted event도 media timestamp로 보존하도록 적용 중입니다. TYPE D는 count voting이 아닌 A/B/C phase/reliability fusion이며 TYPE E는 실제 rope rolling-shutter signature가 검증되는 영상에서만 계속하고 신호가 없으면 적용불가로 종료합니다. 모든 최종 비교는 동일 GT timestamp의 1:1 TP/FP/FN으로 판정합니다."
     }
   }
 }
