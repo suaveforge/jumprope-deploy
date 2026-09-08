@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-08T13:53:41.515Z",
+  "updatedAt": "2026-09-08T14:03:55.783Z",
   "items": {
     "JR-20260904-56EA94C8": {
       "status": "done",
@@ -220,7 +220,7 @@
     },
     "JR-20260908-F45E4935": {
       "status": "in_progress",
-      "resolution": "기존 TYPE A Pose/FSM 개선과 B/C 비교는 유지합니다. D/E를 추가 실험 계열로 병행하되 production callback에는 B/C/D/E 무거운 분석을 직렬 삽입하지 않습니다. 공통 source media timestamp, bounded queue, worker/offline lane, TYPE별 FPS/latency/queue/drop telemetry를 추가했고 TYPE A accepted event도 media timestamp로 보존하도록 적용 중입니다. TYPE D는 count voting이 아닌 A/B/C phase/reliability fusion이며 TYPE E는 실제 rope rolling-shutter signature가 검증되는 영상에서만 계속하고 신호가 없으면 적용불가로 종료합니다. 모든 최종 비교는 동일 GT timestamp의 1:1 TP/FP/FN으로 판정합니다."
+      "resolution": "A/B/C 기존 작업은 유지하고 D/E 실험을 추가했습니다. A~E 추가 부하가 production A FPS를 떨어뜨리지 않도록 B/C/E는 bounded worker/offline lane, D는 phase 숫자만 처리하는 경량 fusion으로 분리했고 processFrame에 A→B→C→D→E 직렬 실행을 넣지 않았습니다. 원본 media timestamp를 공통 event time으로 사용하며 실제 camera track frameRate를 input FPS, callback 관측률을 observed capture FPS, 각 TYPE 분석률을 effective analysis FPS로 분리 기록합니다. D는 A/B/C phase와 동적 reliability를 fusion하고 E는 실제 rolling-shutter rope signature가 없으면 즉시 적용불가 처리합니다. 현재 F45 원본 약 60fps 영상에서는 rope-specific row signature를 식별할 수 없어 E는 해당 영상 적용불가로 기록했고 A/B/C/D 및 GT 1:1 비교는 계속 진행 중입니다."
     }
   }
 }
