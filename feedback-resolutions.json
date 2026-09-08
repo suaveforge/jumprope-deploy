@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-08T14:03:55.783Z",
+  "updatedAt": "2026-09-08T23:04:28.508Z",
   "items": {
     "JR-20260904-56EA94C8": {
       "status": "done",
@@ -220,7 +220,7 @@
     },
     "JR-20260908-F45E4935": {
       "status": "in_progress",
-      "resolution": "A/B/C 기존 작업은 유지하고 D/E 실험을 추가했습니다. A~E 추가 부하가 production A FPS를 떨어뜨리지 않도록 B/C/E는 bounded worker/offline lane, D는 phase 숫자만 처리하는 경량 fusion으로 분리했고 processFrame에 A→B→C→D→E 직렬 실행을 넣지 않았습니다. 원본 media timestamp를 공통 event time으로 사용하며 실제 camera track frameRate를 input FPS, callback 관측률을 observed capture FPS, 각 TYPE 분석률을 effective analysis FPS로 분리 기록합니다. D는 A/B/C phase와 동적 reliability를 fusion하고 E는 실제 rolling-shutter rope signature가 없으면 즉시 적용불가 처리합니다. 현재 F45 원본 약 60fps 영상에서는 rope-specific row signature를 식별할 수 없어 E는 해당 영상 적용불가로 기록했고 A/B/C/D 및 GT 1:1 비교는 계속 진행 중입니다."
+      "resolution": "동일 원본에서 후보 카운터는 실제 점프 7회를 정확히 7회로 복구했고 가짜 접근 동작은 제거했습니다. 방금 Preview 요약이 TP=0으로 나온 것은 카운터 실패가 아니라 검증 스크립트가 tolerance 숫자 대신 객체를 넘겨 허용오차가 0ms가 된 별도 버그임을 확인했습니다. predicted apex는 GT 대비 +123,+103,+91,+117,+56,+85,+104ms로 모두 220ms 허용범위 안입니다. replay가 counter의 실제 event trace를 읽고 숫자 tolerance를 넘기도록 고치며, cameraConfidence가 높아도 실제 카메라 이동이 0이면 정상 점프를 차단하지 않는 회귀테스트를 영구 추가합니다. production은 아직 배포하지 않습니다."
     }
   }
 }
