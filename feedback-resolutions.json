@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-08T12:44:57.433Z",
+  "updatedAt": "2026-09-08T13:16:11.043Z",
   "items": {
     "JR-20260904-56EA94C8": {
       "status": "done",
@@ -217,6 +217,10 @@
     "JR-20260908-913C26E0": {
       "status": "done",
       "resolution": "첨부 영상을 직접 확인해 초반 원거리 구간에서 전신이 정상 프레이밍된 상태로 실제 두 발 줄넘기 점프가 반복되는데도 13초 동안 139프레임이 LOST로 폐기되고, 폰 앞으로 다가와 숙이는 큰 동작만 1회로 잡히는 현상을 확인했습니다. Git 이력 역추적 결과 9월 8일 59e5979 변경에서 기존의 '어깨·골반·무릎·발 landmark 전체 confidence 중 최저 1점만 제외한 평균'이 '좌우 발 중 더 약한 한쪽을 프레임 전체 confidence의 하한으로 사용'하는 방식으로 바뀐 것이 회귀 원인이었습니다. 멀리서 줄넘기할 때 한쪽 발 landmark가 순간 약해지면 실제 정상 점프 프레임이 점프 판정 전에 LOST로 탈락했습니다. d54425ad에서 정상 동작하던 기존 aggregate confidence 방식으로 복구했고, 실제 한쪽 발 전체 confidence가 0.05 이하로 유실된 경우만 별도 hard-loss로 유지했습니다. 원거리 한쪽 발 confidence 0.08 회귀 시나리오 30회는 30회 전부 계수·missedFrames 0으로 통과했고, 한쪽 발 전체 유실·motion blur·broken geometry 기존 안전 테스트도 모두 통과했습니다. 전체 엔진 테스트, Svelte check, production build, 정적 배포, DNS 및 custom-domain HTTPS 검증까지 성공했습니다."
+    },
+    "JR-20260908-F45E4935": {
+      "status": "in_progress",
+      "resolution": "첨부 실제 영상을 기준으로 현재 TYPE A Pose/FSM의 0회 원인을 계속 추적하면서, 기존 A 튜닝은 중단하거나 되돌리지 않고 같은 영상에 TYPE B temporal repetition 및 현실적으로 검증 가능한 TYPE C rope/motion 계열을 독립 비교하는 검증 작업을 병행합니다. 최종 count만이 아니라 이벤트 timestamp 기준 TP/FP/FN까지 남기는 구조로 검증 중입니다."
     }
   }
 }
