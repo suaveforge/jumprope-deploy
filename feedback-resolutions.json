@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-09T02:26:09.853Z",
+  "updatedAt": "2026-09-09T09:21:02.049Z",
   "items": {
     "JR-20260904-56EA94C8": {
       "status": "done",
@@ -237,6 +237,14 @@
     "JR-20260909-4F42CFA0": {
       "status": "done",
       "resolution": "원인 확인 및 배포 완료. 6개 타입 정의는 있었지만 첫 분류 전 style-grid를 통째로 숨기는 조건 때문에 기본/현재 패턴 정보만 보였습니다. 베이직·번갈아·복서·하이니·크로스·더블언더 6개 타입을 시작 전에도 모두 0회 상태로 표시하도록 변경했습니다. 엔진 회귀, Svelte 검사/build, 잠금 영상 event-level 1:1 검증 후 production Build and publish #295와 HTTPS 확인까지 성공했습니다."
+    },
+    "JR-20260909-C0F35922": {
+      "status": "done",
+      "resolution": "이 신고는 Safari/iOS에서 14회 정상 판정·4회 noAir 제외·233 missed frames까지 진단값은 서버에 도착했지만, 당시 라이브 API 빌드가 버그 신고 시 프론트가 자동 생성하는 application/json 세션 진단 첨부를 허용하지 않아 첨부 업로드가 415 unsupported_feedback_media로 실패했고 결과적으로 attachmentCount=0으로 저장됐습니다. 따라서 이 과거 신고만으로 4회 noAir 자체를 프레임 단위로 재판정할 원본 자료는 복구할 수 없습니다. 최신 서버의 JSON diagnostic 및 최대 5개 첨부 지원을 production에 재배포했고, backend deploy #36에서 실제 application/json multipart 업로드 후 attachment kind=diagnostic 저장까지 smoke로 검증했으며 public HTTPS/CORS/feedback API 검증도 통과했습니다. 향후 같은 증상 재신고 시 진단 첨부가 보존되어 실제 프레임 기준 분석이 가능합니다. 기존 Type A pose-confidence 복구 및 카운트 임계값은 변경하지 않았습니다."
+    },
+    "JR-20260909-D48755F4": {
+      "status": "done",
+      "resolution": "C0F35922와 같은 구형 API 빌드에서 2분 36초 뒤 제출된 연속 신고로, Safari/iOS·14회 정상 판정·4회 noAir 제외·233 missed frames 값이 동일하고 첨부도 0개였습니다. 당시 라이브 API가 application/json 세션 진단 첨부를 거부해 원본 진단 첨부가 저장되지 않은 동일 수집 회귀로 확인했습니다. 최신 서버를 production에 재배포하고 backend deploy #36에서 실제 JSON multipart diagnostic 업로드와 저장을 smoke 검증했으며 public API 검증까지 통과했습니다. 이 과거 신고의 4회 noAir는 첨부가 소실되어 프레임 기준 확정 판정은 불가능하므로 임계값을 추측 수정하지 않았고, 동일 증상 재신고부터는 보존되는 첨부를 기준으로 분석할 수 있습니다. 기존 Type A pose-confidence 및 카운트 임계값은 변경하지 않았습니다."
     }
   }
 }
