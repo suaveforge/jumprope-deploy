@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-08T23:04:28.508Z",
+  "updatedAt": "2026-09-09T01:05:25.214Z",
   "items": {
     "JR-20260904-56EA94C8": {
       "status": "done",
@@ -219,8 +219,12 @@
       "resolution": "첨부 영상을 직접 확인해 초반 원거리 구간에서 전신이 정상 프레이밍된 상태로 실제 두 발 줄넘기 점프가 반복되는데도 13초 동안 139프레임이 LOST로 폐기되고, 폰 앞으로 다가와 숙이는 큰 동작만 1회로 잡히는 현상을 확인했습니다. Git 이력 역추적 결과 9월 8일 59e5979 변경에서 기존의 '어깨·골반·무릎·발 landmark 전체 confidence 중 최저 1점만 제외한 평균'이 '좌우 발 중 더 약한 한쪽을 프레임 전체 confidence의 하한으로 사용'하는 방식으로 바뀐 것이 회귀 원인이었습니다. 멀리서 줄넘기할 때 한쪽 발 landmark가 순간 약해지면 실제 정상 점프 프레임이 점프 판정 전에 LOST로 탈락했습니다. d54425ad에서 정상 동작하던 기존 aggregate confidence 방식으로 복구했고, 실제 한쪽 발 전체 confidence가 0.05 이하로 유실된 경우만 별도 hard-loss로 유지했습니다. 원거리 한쪽 발 confidence 0.08 회귀 시나리오 30회는 30회 전부 계수·missedFrames 0으로 통과했고, 한쪽 발 전체 유실·motion blur·broken geometry 기존 안전 테스트도 모두 통과했습니다. 전체 엔진 테스트, Svelte check, production build, 정적 배포, DNS 및 custom-domain HTTPS 검증까지 성공했습니다."
     },
     "JR-20260908-F45E4935": {
+      "status": "done",
+      "resolution": "원본 영상을 다시 프레임 단위로 검증해 실제 점프 7회를 독립 GT로 잠갔습니다. 카메라 움직임 추정의 ‘신뢰도’가 높다는 이유만으로 실제 카메라 이동이 0이어도 점프 시작을 차단하던 오류를 수정했고, 앞으로 다가오거나 몸을 기울이는 동작은 공중 구간의 일관된 증거가 없으면 점프로 세지 않도록 보강했습니다. 동일 원본을 최종 후보로 재생한 결과 7회 중 7회 검출, TP 7 / FP 0 / FN 0, 프레임 드롭 0으로 통과했습니다. cameraConfidence=.99 + 실제 이동 0에서도 정상 점프가 차단되지 않는 회귀테스트를 추가했고, Preview event-level gate와 production build/publish까지 통과해 배포했습니다."
+    },
+    "JR-20260909-AC5539AF": {
       "status": "in_progress",
-      "resolution": "동일 원본에서 후보 카운터는 실제 점프 7회를 정확히 7회로 복구했고 가짜 접근 동작은 제거했습니다. 방금 Preview 요약이 TP=0으로 나온 것은 카운터 실패가 아니라 검증 스크립트가 tolerance 숫자 대신 객체를 넘겨 허용오차가 0ms가 된 별도 버그임을 확인했습니다. predicted apex는 GT 대비 +123,+103,+91,+117,+56,+85,+104ms로 모두 220ms 허용범위 안입니다. replay가 counter의 실제 event trace를 읽고 숫자 tolerance를 넘기도록 고치며, cameraConfidence가 높아도 실제 카메라 이동이 0이면 정상 점프를 차단하지 않는 회귀테스트를 영구 추가합니다. production은 아직 배포하지 않습니다."
+      "resolution": "신고 영상의 원본은 정상적으로 움직이는데 앱의 FPS가 0이고 skeleton만 한 프레임에 굳은 점을 코드와 대조했습니다. iOS Safari MediaStream에서 video.currentTime 또는 requestVideoFrameCallback mediaTime이 고정될 수 있는데 production processFrame이 video.currentTime 중복값을 새 프레임으로 인정하지 않아 첫 프레임 이후 분석을 전부 건너뛰는 시작 단계 회귀가 핵심 원인입니다. source mediaTime이 정상 증가하면 그대로 사용하고, 고정될 때만 rVFC capture/presentation/callback 시각으로 session-relative monotonic media clock을 복구하도록 수정합니다. 카메라 시작 시점부터 영상 녹화와 pose/게이지/카운트/FPS/latency trace를 JSON sidecar로 함께 생성하고 버그 접수 시 영상+메타데이터를 자동 첨부하도록 적용 중이며, F45 카운팅 회귀와 AC5539AF 시작 단계 검증 후에만 production 배포합니다."
     }
   }
 }
