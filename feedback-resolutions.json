@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-09T09:21:02.049Z",
+  "updatedAt": "2026-09-09T13:39:05.938Z",
   "items": {
     "JR-20260904-56EA94C8": {
       "status": "done",
@@ -245,6 +245,10 @@
     "JR-20260909-D48755F4": {
       "status": "done",
       "resolution": "C0F35922와 같은 구형 API 빌드에서 2분 36초 뒤 제출된 연속 신고로, Safari/iOS·14회 정상 판정·4회 noAir 제외·233 missed frames 값이 동일하고 첨부도 0개였습니다. 당시 라이브 API가 application/json 세션 진단 첨부를 거부해 원본 진단 첨부가 저장되지 않은 동일 수집 회귀로 확인했습니다. 최신 서버를 production에 재배포하고 backend deploy #36에서 실제 JSON multipart diagnostic 업로드와 저장을 smoke 검증했으며 public API 검증까지 통과했습니다. 이 과거 신고의 4회 noAir는 첨부가 소실되어 프레임 기준 확정 판정은 불가능하므로 임계값을 추측 수정하지 않았고, 동일 증상 재신고부터는 보존되는 첨부를 기준으로 분석할 수 있습니다. 기존 Type A pose-confidence 및 카운트 임계값은 변경하지 않았습니다."
+    },
+    "JR-20260909-9BDBF573": {
+      "status": "in_progress",
+      "resolution": "신고 세션에서 A~E는 모두 실행·기록됐지만 결과 화면에 노출되지 않는 원인을 확인했습니다. A~E별 결과·신뢰도·역할과 observed/recovered 출처, 구간별 신뢰도 진단을 추가하고 기존 A-primary 최종 정책은 유지한 채 실제 영상 회귀 검증 후 배포합니다."
     }
   }
 }
