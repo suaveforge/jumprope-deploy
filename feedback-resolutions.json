@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-10T00:48:51.491Z",
+  "updatedAt": "2026-09-10T12:29:28.257Z",
   "items": {
     "JR-20260904-56EA94C8": {
       "status": "done",
@@ -251,8 +251,12 @@
       "resolution": "결과화면 진입 시 requestVideoFrameCallback/RAF 분석 루프를 중단하고 scheduleFrame/processFrame에도 resultVisible 차단을 추가해 MediaPipe·모션·A~E 신뢰도가 결과 화면에서 더 이상 갱신되지 않도록 했습니다. 결과 확인 완료 후에만 모션 이력을 초기화하고 분석을 재개합니다. 결과 화면은 세로 스크롤 가능하게 바꾸고 하단 건의하기·게시판 보기·확인 완료 버튼을 sticky로 고정해 짧은 모바일 화면에서도 접근할 수 있게 했습니다. 잠긴 F45 실제영상에서 GT=7/A=7/final=7/TP=7/FP=0/FN=0 회귀 검증 후 production 배포와 HTTPS 확인까지 통과했습니다."
     },
     "JR-20260909-ECE57E53": {
+      "status": "done",
+      "resolution": "실제 점프 이벤트 기준으로 낮은 점프·번갈아뛰기·2단뛰기 검증을 완료했습니다. 낮은 점프는 임의의 cm 임계값을 제품 정답으로 쓰지 않고 실제 BODY_GT 이벤트로 판정했고, 번갈아뛰기는 오른발 기준 위상을 apex가 아닌 명확한 takeoff 발 위상에서 고정해 실제영상 product 7/7로 수정했습니다. 2단뛰기는 BODY_GT와 물리적 ROPE_GT를 분리해 검증했습니다. 기존 F45 잠금 실제영상도 BODY_GT 7, A 7, final 7, TP 7, FP 0, FN 0을 유지했습니다. exact source SHA 39d626058372c5afaf4d2839a4a02f145843195c가 preview run 34452284436에서 F45 7/7, double-under 5/5, alternating 7/7, low 10/10 및 role-aware event-level gate를 모두 통과했고, production deploy repo의 DEPLOY_SOURCE.txt에서 동일 SHA와 validation run receipt가 server123 runner로 배포된 것을 확인했습니다. Type A pose-confidence 기준과 A 이벤트 보존 정책은 낮추지 않았습니다."
+    },
+    "JR-20260910-07583788": {
       "status": "in_progress",
-      "resolution": "검증 기준은 고정합니다. A/body의 정답은 실제 점프 이벤트 발생 여부이고, 줄 계열/rope/final의 정답은 그 점프와 연결된 실제 물리적 줄 통과 여부입니다. 높이·속도·정규화 진폭은 엔진 내부 보조 특징이지 GT가 아닙니다. 직전 preview에서 여러 synthetic 진폭(0.008/0.012/0.018)을 모두 40/40으로 강제한 테스트가 0.012에서 39/40으로 실패했는데, 이 수치에 맞춰 런타임을 튜닝하지 않습니다. 그 테스트 자체가 다시 숫자 목표를 만든 것이므로 제거하고, 0.008은 '아주 작은 상대 움직임도 검출 경로가 살아 있는가'를 보는 비규범적 방어 샘플 하나로만 유지합니다. 실제 합격/불합격과 향후 튜닝은 독립 판독한 실제 영상의 jump-event/body GT와 physical-rope-pass/rope GT를 기준으로 합니다. 실제 특수동작 영상 검증 전에는 완료 처리하지 않습니다."
+      "resolution": "Attached Android video independently reviewed at BODY_GT=34. Exact preview on 49087395 produced A=34/final=34 with TP34 FP0 FN0 and every locked real-video regression passed. The only failed gate was false decoder-drop telemetry: OpenCV CAP_PROP_FRAME_COUNT hinted 2162 while ffprobe counted exactly 2150 video frames and 2150 packets, matching the extractor's 2150 decoded rows. Keep the count logic unchanged; treat frameCountHint as advisory and rerun exact preview before production."
     }
   }
 }
