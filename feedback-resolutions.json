@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-11T07:11:54.741Z",
+  "updatedAt": "2026-09-11T07:31:07.375Z",
   "items": {
     "JR-20260904-56EA94C8": {
       "status": "done",
@@ -255,12 +255,16 @@
       "resolution": "실제 점프 이벤트 기준으로 낮은 점프·번갈아뛰기·2단뛰기 검증을 완료했습니다. 낮은 점프는 임의의 cm 임계값을 제품 정답으로 쓰지 않고 실제 BODY_GT 이벤트로 판정했고, 번갈아뛰기는 오른발 기준 위상을 apex가 아닌 명확한 takeoff 발 위상에서 고정해 실제영상 product 7/7로 수정했습니다. 2단뛰기는 BODY_GT와 물리적 ROPE_GT를 분리해 검증했습니다. 기존 F45 잠금 실제영상도 BODY_GT 7, A 7, final 7, TP 7, FP 0, FN 0을 유지했습니다. exact source SHA 39d626058372c5afaf4d2839a4a02f145843195c가 preview run 34452284436에서 F45 7/7, double-under 5/5, alternating 7/7, low 10/10 및 role-aware event-level gate를 모두 통과했고, production deploy repo의 DEPLOY_SOURCE.txt에서 동일 SHA와 validation run receipt가 server123 runner로 배포된 것을 확인했습니다. Type A pose-confidence 기준과 A 이벤트 보존 정책은 낮추지 않았습니다."
     },
     "JR-20260910-07583788": {
-      "status": "in_progress",
-      "resolution": "075는 전체 mandatory exact 유지 중이며 마지막 C32 temporal/visual guard 후에도 전체 locked preview로 회귀 여부를 확인한다."
+      "status": "done",
+      "resolution": "원본 BODY_GT 34/34 exact를 유지했고 Lv0~Lv2 mandatory stress 전체가 FP0/FN0으로 통과했습니다. 최종 source 88ff4a55f81ccc25ea15bc7c64cbb6d587740a68가 preview run 34573269438의 role-aware event-level exact gate를 통과했고 production run 34573552418로 배포되었습니다."
     },
     "JR-20260910-C32FED68": {
+      "status": "done",
+      "resolution": "원본 BODY_GT 20/20 exact와 Lv0~Lv2 mandatory stress 전체 FP0/FN0을 달성했습니다. 10/13/15/20/30fps phase, drop5/drop10, irregular 및 visual mild/common까지 모두 exact 통과했습니다. 최종 source 88ff4a55f81ccc25ea15bc7c64cbb6d587740a68가 preview run 34573269438을 통과했고 production run 34573552418로 배포되었습니다."
+    },
+    "JR-20260911-BD41E9A3": {
       "status": "in_progress",
-      "resolution": "Temporal은 drop10의 완전 유실 1회만 남아 burst-tail missing-frame recovery로 보간하고, visual mild/common FP는 mandatory Lv0~Lv2 TP 전체에 0건인 세 가지 pose-artifact shape와 extreme tracking warp만 차단해 검증한다."
+      "resolution": "신고 메타는 현재 6.7초/count0 세션인데 첨부 diagnostic은 이전 61초/count13 세션으로 확인됐다. 결과→메인 복귀 시 이전 녹화/진단 generation이 남고, 전신 적합성 없이 landmarks만으로 자동 3-2-1이 재무장되는 원인을 수정한다. 새 세션마다 pose/A~E/녹화 증거를 초기화하고 setupQuality 75% 미만에서는 자동 시작하지 않도록 검증한다."
     }
   }
 }
