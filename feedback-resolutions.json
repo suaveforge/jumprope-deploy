@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-10T12:29:28.257Z",
+  "updatedAt": "2026-09-11T07:11:54.741Z",
   "items": {
     "JR-20260904-56EA94C8": {
       "status": "done",
@@ -256,7 +256,11 @@
     },
     "JR-20260910-07583788": {
       "status": "in_progress",
-      "resolution": "Attached Android video independently reviewed at BODY_GT=34. Exact preview on 49087395 produced A=34/final=34 with TP34 FP0 FN0 and every locked real-video regression passed. The only failed gate was false decoder-drop telemetry: OpenCV CAP_PROP_FRAME_COUNT hinted 2162 while ffprobe counted exactly 2150 video frames and 2150 packets, matching the extractor's 2150 decoded rows. Keep the count logic unchanged; treat frameCountHint as advisory and rerun exact preview before production."
+      "resolution": "075는 전체 mandatory exact 유지 중이며 마지막 C32 temporal/visual guard 후에도 전체 locked preview로 회귀 여부를 확인한다."
+    },
+    "JR-20260910-C32FED68": {
+      "status": "in_progress",
+      "resolution": "Temporal은 drop10의 완전 유실 1회만 남아 burst-tail missing-frame recovery로 보간하고, visual mild/common FP는 mandatory Lv0~Lv2 TP 전체에 0건인 세 가지 pose-artifact shape와 extreme tracking warp만 차단해 검증한다."
     }
   }
 }
