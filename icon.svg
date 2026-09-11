@@ -1,6 +1,52 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <rect width="512" height="512" rx="120" fill="#07090d"/>
-  <circle cx="256" cy="190" r="48" fill="#67e8f9"/>
-  <path d="M194 388c12-83 26-126 62-126s50 43 62 126" fill="none" stroke="#f8fafc" stroke-width="34" stroke-linecap="round"/>
-  <path d="M142 178c-54 28-73 125-16 193M370 178c54 28 73 125 16 193" fill="none" stroke="#67e8f9" stroke-width="18" stroke-linecap="round"/>
+  <defs>
+    <radialGradient id="bg" cx="18%" cy="10%" r="95%">
+      <stop offset="0" stop-color="#5a1d17"/>
+      <stop offset=".28" stop-color="#171426"/>
+      <stop offset="1" stop-color="#07101f"/>
+    </radialGradient>
+    <linearGradient id="rope" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff3a4"/>
+      <stop offset=".35" stop-color="#ffb21a"/>
+      <stop offset=".72" stop-color="#ff6a00"/>
+      <stop offset="1" stop-color="#ff3b00"/>
+    </linearGradient>
+    <linearGradient id="grip" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2b303c"/>
+      <stop offset=".5" stop-color="#0b111d"/>
+      <stop offset="1" stop-color="#141925"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="9" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="118" fill="url(#bg)"/>
+  <g opacity=".48" fill="none" stroke="#ff6a00">
+    <circle cx="256" cy="242" r="157" stroke-width="2"/>
+    <circle cx="256" cy="242" r="123" stroke-width="1.5" opacity=".65"/>
+    <path d="M256 72v20M256 392v20M86 242h20M406 242h20" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <g filter="url(#glow)">
+    <path d="M168 334C150 289 156 205 185 150c18-34 42-54 71-54s53 20 71 54c29 55 35 139 17 184"
+      fill="none" stroke="#ff5a00" stroke-width="26" stroke-linecap="round" opacity=".45"/>
+    <path d="M168 334C150 289 156 205 185 150c18-34 42-54 71-54s53 20 71 54c29 55 35 139 17 184"
+      fill="none" stroke="url(#rope)" stroke-width="18" stroke-linecap="round"/>
+    <path d="M171 326C157 282 164 210 190 159c17-32 39-49 66-49s49 17 66 49c26 51 33 123 19 167"
+      fill="none" stroke="#fff6bd" stroke-width="3.2" stroke-linecap="round" opacity=".85"/>
+  </g>
+  <g transform="rotate(24 154 372)">
+    <rect x="126" y="304" width="56" height="142" rx="25" fill="url(#grip)" stroke="#515866" stroke-width="2"/>
+    <rect x="127" y="327" width="54" height="13" rx="6" fill="#ff7a00"/>
+    <ellipse cx="154" cy="440" rx="24" ry="10" fill="#ff8b00"/>
+  </g>
+  <g transform="rotate(-24 358 372)">
+    <rect x="330" y="304" width="56" height="142" rx="25" fill="url(#grip)" stroke="#515866" stroke-width="2"/>
+    <rect x="331" y="327" width="54" height="13" rx="6" fill="#ff7a00"/>
+    <ellipse cx="358" cy="440" rx="24" ry="10" fill="#ff8b00"/>
+  </g>
+  <g stroke="#ff8a00" stroke-linecap="round" opacity=".8">
+    <path d="M256 171v22M256 291v22M185 242h22M305 242h22" stroke-width="2"/>
+  </g>
+  <circle cx="256" cy="242" r="2.5" fill="#fff7cf"/>
 </svg>

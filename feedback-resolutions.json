@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-11T07:31:07.375Z",
+  "updatedAt": "2026-09-11T07:36:50.505Z",
   "items": {
     "JR-20260904-56EA94C8": {
       "status": "done",
@@ -263,8 +263,8 @@
       "resolution": "원본 BODY_GT 20/20 exact와 Lv0~Lv2 mandatory stress 전체 FP0/FN0을 달성했습니다. 10/13/15/20/30fps phase, drop5/drop10, irregular 및 visual mild/common까지 모두 exact 통과했습니다. 최종 source 88ff4a55f81ccc25ea15bc7c64cbb6d587740a68가 preview run 34573269438을 통과했고 production run 34573552418로 배포되었습니다."
     },
     "JR-20260911-BD41E9A3": {
-      "status": "in_progress",
-      "resolution": "신고 메타는 현재 6.7초/count0 세션인데 첨부 diagnostic은 이전 61초/count13 세션으로 확인됐다. 결과→메인 복귀 시 이전 녹화/진단 generation이 남고, 전신 적합성 없이 landmarks만으로 자동 3-2-1이 재무장되는 원인을 수정한다. 새 세션마다 pose/A~E/녹화 증거를 초기화하고 setupQuality 75% 미만에서는 자동 시작하지 않도록 검증한다."
+      "status": "done",
+      "resolution": "세션 초기화·증거 generation·전신 자동시작 조건 수정이 검증/운영배포 완료됨."
     }
   }
 }
