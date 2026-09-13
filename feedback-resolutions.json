@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-11T07:36:50.505Z",
+  "updatedAt": "2026-09-13T06:00:10Z",
   "items": {
     "JR-20260904-56EA94C8": {
       "status": "done",
@@ -265,6 +265,11 @@
     "JR-20260911-BD41E9A3": {
       "status": "done",
       "resolution": "세션 초기화·증거 generation·전신 자동시작 조건 수정이 검증/운영배포 완료됨."
+    },
+    "JR-20260912-D5EEAE97": {
+      "status": "done",
+      "type": "bug",
+      "resolution": "첨부 원본을 독립 검수해 BODY_GT=10·ROPE_GT=10을 고정한 뒤, 저프레임/프레임 타이밍 변화에서 실제 점프 경계가 한 프레임에 겹치거나 샘플 누락으로 첫 점프·연속 점프가 합쳐지는 A 로직의 시간축 경계 문제를 수정했습니다. 전역 임계값을 낮추지 않고 경계 프레임 재사용, raw 양발 하강·재상승 교차검증, 관측 공백 보정, 첫 약신호의 후속 2회 cadence 사후확정으로 해결했습니다. D5 원본 10/10·FP0/FN0, mandatory temporal stress 23개 전부, 기존 locked GOLD/negative 전체 회귀를 통과한 SHA 24d22150c38f6a8d135f8b12c8b2a31d68e743d3를 프로덕션에 적용했습니다. B/C/D/E는 이 해결로 완료 처리하지 않으며 Final 개입 없이 별도 미통과 연구 과제로 계속 추적·수정합니다."
     }
   }
 }
