@@ -1,0 +1,10 @@
+{
+  "job_id": "anno-aaae3e6ed47eae66",
+  "sha256": "aaae3e6ed47eae66bd07d335936ef59615ff0a0109c3a68d8342a82e655b71c0",
+  "video_path": "/home/jumprope-research/annotation-media/aaae3e6ed47eae66bd07d335936ef59615ff0a0109c3a68d8342a82e655b71c0.mp4",
+  "fps": 29.97002997002997,
+  "frame_count": 17709,
+  "duration_s": 590.8903,
+  "coarse_interval_s": 5.0,
+  "coarse_sample_count": 119
+}
