@@ -1,7 +1,7 @@
 {
-  "schemaVersion": 3,
-  "generatedAtUtc": "2026-09-18T11:26:36.173Z",
-  "corpusSnapshotUtc": "2026-09-18T10:34:55.427081+00:00",
+  "schemaVersion": 4,
+  "generatedAtUtc": "2026-09-18T11:35:08.536Z",
+  "corpusSnapshotUtc": "2026-09-18T11:34:55.472519+00:00",
   "source": "server123:/home/jumprope-research/corpus-registry + discovery candidate registries",
   "refreshPolicy": "server sync hourly; viewer polls every 5 minutes",
   "stats": {
@@ -9,10 +9,16 @@
     "youtubeSourceRecords": 632,
     "openMediaSourceRecords": 2,
     "viewerRows": 649,
+    "canonicalTotal": 15,
     "canonicalUniqueSha256": 15,
     "lockedGt": 15,
+    "lockedGtTotal": 15,
     "linkedLockedGt": 15,
-    "groundCountedTotal": 15,
+    "viewerRowsWithLockedGt": 15,
+    "viewerRowsWithoutLockedGt": 634,
+    "canonicalWithoutLockedGt": 0,
+    "finalComparableLockedGt": 15,
+    "groundCountedTotal": 0,
     "gradedRows": 7,
     "gptGroundCounted": 0,
     "logicCells": 31
@@ -41,6 +47,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -94,6 +102,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -147,6 +157,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -200,6 +212,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -253,6 +267,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -306,6 +322,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -359,6 +377,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -412,6 +432,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -465,6 +487,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -518,6 +542,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -571,6 +597,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -624,6 +652,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -677,6 +707,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -730,6 +762,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -783,6 +817,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -836,6 +872,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -889,6 +927,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -942,6 +982,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -995,6 +1037,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -1048,6 +1092,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -1101,6 +1147,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -1154,6 +1202,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -1207,6 +1257,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -1260,6 +1312,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -1313,6 +1367,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -1366,6 +1422,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -1419,6 +1477,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -1472,6 +1532,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -1525,6 +1587,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -1578,6 +1642,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -1631,6 +1697,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -1684,6 +1752,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -1737,6 +1807,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -1790,6 +1862,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -1843,6 +1917,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -1896,6 +1972,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -1949,6 +2027,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -2002,6 +2082,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -2055,6 +2137,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -2108,6 +2192,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -2161,6 +2247,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -2214,6 +2302,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -2267,6 +2357,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -2320,6 +2412,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -2373,6 +2467,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -2426,6 +2522,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -2479,6 +2577,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -2532,6 +2632,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -2585,6 +2687,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -2638,6 +2742,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -2691,6 +2797,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -2744,6 +2852,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -2797,6 +2907,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -2850,6 +2962,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -2903,6 +3017,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -2956,6 +3072,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -3009,6 +3127,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -3062,6 +3182,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -3115,6 +3237,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -3168,6 +3292,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -3221,6 +3347,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -3274,6 +3402,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -3327,6 +3457,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -3380,6 +3512,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -3433,6 +3567,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -3486,6 +3622,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -3539,6 +3677,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -3592,6 +3732,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -3645,6 +3787,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -3698,6 +3842,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -3751,6 +3897,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -3804,6 +3952,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -3857,6 +4007,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -3910,6 +4062,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -3963,6 +4117,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -4016,6 +4172,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -4069,6 +4227,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -4122,6 +4282,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -4175,6 +4337,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -4228,6 +4392,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -4281,6 +4447,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -4334,6 +4502,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -4387,6 +4557,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -4440,6 +4612,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -4493,6 +4667,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -4546,6 +4722,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -4599,6 +4777,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -4652,6 +4832,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -4705,6 +4887,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -4758,6 +4942,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -4811,6 +4997,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -4864,6 +5052,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -4917,6 +5107,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -4970,6 +5162,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -5023,6 +5217,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -5076,6 +5272,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -5129,6 +5327,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -5182,6 +5382,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -5235,6 +5437,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -5288,6 +5492,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -5341,6 +5547,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -5394,6 +5602,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -5447,6 +5657,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -5500,6 +5712,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -5553,6 +5767,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -5606,6 +5822,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -5659,6 +5877,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -5712,6 +5932,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -5765,6 +5987,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -5818,6 +6042,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -5871,6 +6097,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -5924,6 +6152,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -5977,6 +6207,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -6030,6 +6262,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -6083,6 +6317,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -6136,6 +6372,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -6189,6 +6427,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -6242,6 +6482,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -6295,6 +6537,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -6348,6 +6592,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -6401,6 +6647,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -6454,6 +6702,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -6507,6 +6757,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -6560,6 +6812,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -6613,6 +6867,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -6666,6 +6922,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -6719,6 +6977,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -6772,6 +7032,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -6825,6 +7087,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -6878,6 +7142,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -6931,6 +7197,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -6984,6 +7252,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -7037,6 +7307,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -7090,6 +7362,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -7143,6 +7417,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -7196,6 +7472,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -7249,6 +7527,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -7302,6 +7582,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -7355,6 +7637,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -7408,6 +7692,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -7461,6 +7747,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -7514,6 +7802,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -7567,6 +7857,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -7620,6 +7912,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -7673,6 +7967,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -7726,6 +8022,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -7779,6 +8077,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -7832,6 +8132,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -7885,6 +8187,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -7938,6 +8242,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -7991,6 +8297,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -8044,6 +8352,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -8097,6 +8407,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -8150,6 +8462,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -8203,6 +8517,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -8256,6 +8572,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -8309,6 +8627,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -8362,6 +8682,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -8415,6 +8737,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -8468,6 +8792,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -8521,6 +8847,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -8574,6 +8902,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -8627,6 +8957,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -8680,6 +9012,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -8733,6 +9067,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -8786,6 +9122,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -8839,6 +9177,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -8892,6 +9232,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -8945,6 +9287,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -8998,6 +9342,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -9051,6 +9397,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -9104,6 +9452,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -9157,6 +9507,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -9210,6 +9562,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -9263,6 +9617,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -9316,6 +9672,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -9369,6 +9727,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -9422,6 +9782,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -9475,6 +9837,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -9528,6 +9892,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -9581,6 +9947,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -9634,6 +10002,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -9687,6 +10057,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -9740,6 +10112,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -9793,6 +10167,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -9846,6 +10222,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -9899,6 +10277,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -9952,6 +10332,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -10005,6 +10387,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -10058,6 +10442,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -10111,6 +10497,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -10164,6 +10552,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -10217,6 +10607,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -10270,6 +10662,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -10323,6 +10717,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -10376,6 +10772,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -10429,6 +10827,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -10482,6 +10882,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -10535,6 +10937,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -10588,6 +10992,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -10641,6 +11047,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -10694,6 +11102,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -10747,6 +11157,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -10800,6 +11212,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -10853,6 +11267,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -10906,6 +11322,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -10959,6 +11377,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -11012,6 +11432,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -11065,6 +11487,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -11118,6 +11542,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -11171,6 +11597,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -11224,6 +11652,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -11277,6 +11707,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -11330,6 +11762,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -11383,6 +11817,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -11436,6 +11872,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -11489,6 +11927,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -11542,6 +11982,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -11595,6 +12037,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -11648,6 +12092,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -11701,6 +12147,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -11754,6 +12202,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -11807,6 +12257,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -11860,6 +12312,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -11913,6 +12367,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -11966,6 +12422,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -12019,6 +12477,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -12072,6 +12532,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -12125,6 +12587,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -12178,6 +12642,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -12231,6 +12697,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -12284,6 +12752,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -12337,6 +12807,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -12390,6 +12862,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -12443,6 +12917,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -12496,6 +12972,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -12549,6 +13027,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -12602,6 +13082,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -12655,6 +13137,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -12708,6 +13192,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -12761,6 +13247,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -12814,6 +13302,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -12867,6 +13357,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -12920,6 +13412,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -12973,6 +13467,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -13026,6 +13522,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -13079,6 +13577,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -13132,6 +13632,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -13185,6 +13687,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -13238,6 +13742,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -13291,6 +13797,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -13344,6 +13852,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -13397,6 +13907,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -13450,6 +13962,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -13503,6 +14017,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -13556,6 +14072,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -13609,6 +14127,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -13662,6 +14182,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -13715,6 +14237,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -13768,6 +14292,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -13821,6 +14347,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -13874,6 +14402,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -13927,6 +14457,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -13980,6 +14512,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -14033,6 +14567,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -14086,6 +14622,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -14139,6 +14677,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -14192,6 +14732,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -14245,6 +14787,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -14298,6 +14842,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -14351,6 +14897,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -14404,6 +14952,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -14457,6 +15007,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -14510,6 +15062,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -14563,6 +15117,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -14616,6 +15172,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -14669,6 +15227,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -14722,6 +15282,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -14775,6 +15337,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -14828,6 +15392,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -14881,6 +15447,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -14934,6 +15502,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -14987,6 +15557,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -15040,6 +15612,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -15093,6 +15667,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -15146,6 +15722,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -15199,6 +15777,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -15252,6 +15832,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -15305,6 +15887,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -15358,6 +15942,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -15411,6 +15997,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -15464,6 +16052,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -15517,6 +16107,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -15570,6 +16162,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -15623,6 +16217,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -15676,6 +16272,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -15729,6 +16327,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -15782,6 +16382,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -15835,6 +16437,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -15888,6 +16492,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -15941,6 +16547,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -15994,6 +16602,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -16047,6 +16657,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -16100,6 +16712,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -16153,6 +16767,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -16206,6 +16822,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -16259,6 +16877,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -16312,6 +16932,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -16365,6 +16987,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -16418,6 +17042,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -16471,6 +17097,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -16524,6 +17152,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -16577,6 +17207,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -16630,6 +17262,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -16683,6 +17317,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -16736,6 +17372,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -16789,6 +17427,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -16842,6 +17482,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -16895,6 +17537,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -16948,6 +17592,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -17001,6 +17647,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -17054,6 +17702,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -17107,6 +17757,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -17160,6 +17812,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -17213,6 +17867,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -17266,6 +17922,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -17319,6 +17977,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -17372,6 +18032,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -17425,6 +18087,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -17478,6 +18142,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -17531,6 +18197,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -17584,6 +18252,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -17637,6 +18307,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -17690,6 +18362,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -17743,6 +18417,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -17796,6 +18472,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -17849,6 +18527,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -17902,6 +18582,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -17955,6 +18637,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -18008,6 +18692,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -18061,6 +18747,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -18114,6 +18802,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -18167,6 +18857,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -18220,6 +18912,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -18273,6 +18967,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -18326,6 +19022,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -18379,6 +19077,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -18432,6 +19132,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -18485,6 +19187,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -18538,6 +19242,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -18591,6 +19297,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -18644,6 +19352,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -18697,6 +19407,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -18750,6 +19462,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -18803,6 +19517,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -18856,6 +19572,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -18909,6 +19627,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -18962,6 +19682,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -19015,6 +19737,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -19068,6 +19792,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -19121,6 +19847,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -19174,6 +19902,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -19227,6 +19957,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -19280,6 +20012,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -19333,6 +20067,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -19386,6 +20122,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -19439,6 +20177,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -19492,6 +20232,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -19545,6 +20287,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -19598,6 +20342,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -19651,6 +20397,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -19704,6 +20452,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -19757,6 +20507,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -19810,6 +20562,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -19863,6 +20617,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -19916,6 +20672,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -19969,6 +20727,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -20022,6 +20782,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -20075,6 +20837,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -20128,6 +20892,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -20181,6 +20947,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -20234,6 +21002,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -20287,6 +21057,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -20340,6 +21112,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -20393,6 +21167,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -20446,6 +21222,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -20499,6 +21277,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -20552,6 +21332,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -20605,6 +21387,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -20658,6 +21442,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -20711,6 +21497,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -20764,6 +21552,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -20817,6 +21607,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -20870,6 +21662,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -20923,6 +21717,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -20976,6 +21772,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -21029,6 +21827,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -21082,6 +21882,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -21135,6 +21937,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -21188,6 +21992,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -21241,6 +22047,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -21294,6 +22102,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -21347,6 +22157,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -21400,6 +22212,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -21453,6 +22267,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -21506,6 +22322,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -21559,6 +22377,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -21612,6 +22432,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -21665,6 +22487,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -21718,6 +22542,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -21771,6 +22597,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -21824,6 +22652,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -21877,6 +22707,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -21930,6 +22762,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -21983,6 +22817,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -22036,6 +22872,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -22089,6 +22927,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -22142,6 +22982,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -22195,6 +23037,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -22248,6 +23092,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -22301,6 +23147,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -22354,6 +23202,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -22407,6 +23257,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -22460,6 +23312,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -22513,6 +23367,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -22566,6 +23422,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -22619,6 +23477,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -22672,6 +23532,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -22725,6 +23587,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -22778,6 +23642,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -22831,6 +23697,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -22884,6 +23752,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -22937,6 +23807,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -22990,6 +23862,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -23043,6 +23917,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -23096,6 +23972,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -23149,6 +24027,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -23202,6 +24082,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -23255,6 +24137,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -23308,6 +24192,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -23361,6 +24247,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -23414,6 +24302,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -23467,6 +24357,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -23520,6 +24412,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -23573,6 +24467,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -23626,6 +24522,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -23679,6 +24577,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -23732,6 +24632,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -23785,6 +24687,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -23838,6 +24742,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -23891,6 +24797,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -23944,6 +24852,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -23997,6 +24907,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -24050,6 +24962,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -24103,6 +25017,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -24156,6 +25072,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -24209,6 +25127,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -24262,6 +25182,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -24315,6 +25237,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -24368,6 +25292,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -24421,6 +25347,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -24474,6 +25402,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -24527,6 +25457,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -24580,6 +25512,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -24633,6 +25567,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -24686,6 +25622,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -24739,6 +25677,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -24792,6 +25732,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -24845,6 +25787,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -24898,6 +25842,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -24951,6 +25897,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -25004,6 +25952,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -25057,6 +26007,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -25110,6 +26062,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -25163,6 +26117,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -25216,6 +26172,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -25269,6 +26227,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -25322,6 +26282,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -25375,6 +26337,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -25428,6 +26392,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -25481,6 +26447,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -25534,6 +26502,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -25587,6 +26557,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -25640,6 +26612,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -25693,6 +26667,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -25746,6 +26722,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -25799,6 +26777,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -25852,6 +26832,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -25905,6 +26887,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -25958,6 +26942,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -26011,6 +26997,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -26064,6 +27052,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -26117,6 +27107,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -26170,6 +27162,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -26223,6 +27217,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -26276,6 +27272,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -26329,6 +27327,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -26382,6 +27382,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -26435,6 +27437,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -26488,6 +27492,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -26541,6 +27547,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -26594,6 +27602,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -26647,6 +27657,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -26700,6 +27712,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -26753,6 +27767,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -26806,6 +27822,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -26859,6 +27877,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -26912,6 +27932,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -26965,6 +27987,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -27018,6 +28042,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -27071,6 +28097,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -27124,6 +28152,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -27177,6 +28207,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -27230,6 +28262,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -27283,6 +28317,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -27336,6 +28372,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -27389,6 +28427,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -27442,6 +28482,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -27495,6 +28537,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -27548,6 +28592,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -27601,6 +28647,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -27654,6 +28702,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -27707,6 +28757,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -27760,6 +28812,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -27813,6 +28867,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -27866,6 +28922,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -27919,6 +28977,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -27972,6 +29032,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -28025,6 +29087,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -28078,6 +29142,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -28131,6 +29197,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -28184,6 +29252,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -28237,6 +29307,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -28290,6 +29362,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -28343,6 +29417,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -28396,6 +29472,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -28449,6 +29527,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -28502,6 +29582,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -28555,6 +29637,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -28608,6 +29692,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -28661,6 +29747,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -28714,6 +29802,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -28767,6 +29857,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -28820,6 +29912,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -28873,6 +29967,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -28926,6 +30022,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -28979,6 +30077,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -29032,6 +30132,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -29085,6 +30187,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -29138,6 +30242,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -29191,6 +30297,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -29244,6 +30352,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -29297,6 +30407,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -29350,6 +30462,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -29403,6 +30517,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -29456,6 +30572,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -29509,6 +30627,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -29562,6 +30682,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -29615,6 +30737,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -29668,6 +30792,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -29721,6 +30847,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -29774,6 +30902,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -29827,6 +30957,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -29880,6 +31012,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -29933,6 +31067,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -29986,6 +31122,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -30039,6 +31177,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -30092,6 +31232,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -30145,6 +31287,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -30198,6 +31342,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -30251,6 +31397,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -30304,6 +31452,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -30357,6 +31507,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -30410,6 +31562,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -30463,6 +31617,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -30516,6 +31672,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -30569,6 +31727,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -30622,6 +31782,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -30675,6 +31837,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -30728,6 +31892,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -30781,6 +31947,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -30834,6 +32002,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -30887,6 +32057,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -30940,6 +32112,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -30993,6 +32167,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -31046,6 +32222,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -31099,6 +32277,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -31152,6 +32332,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -31205,6 +32387,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -31258,6 +32442,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -31311,6 +32497,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -31364,6 +32552,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -31417,6 +32607,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -31470,6 +32662,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -31523,6 +32717,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -31576,6 +32772,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -31629,6 +32827,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -31682,6 +32882,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -31735,6 +32937,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -31788,6 +32992,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -31841,6 +33047,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -31894,6 +33102,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -31947,6 +33157,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -32000,6 +33212,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -32053,6 +33267,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -32106,6 +33322,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -32159,6 +33377,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -32212,6 +33432,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -32265,6 +33487,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -32318,6 +33542,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -32370,40 +33596,33 @@
       "sourceClass": "USER_ORIGINAL",
       "sha256": "9787f3a21a14871e199474a008d66a12c6d8029557a2b5e4a2f6c387b6f39d93",
       "evidenceGrade": "GOLD",
-      "ground": {
-        "count": 6,
-        "events": [
-          {
-            "index": 1,
-            "mediaTimeMs": 3169
-          },
-          {
-            "index": 2,
-            "mediaTimeMs": 3992
-          },
-          {
-            "index": 3,
-            "mediaTimeMs": 4485
-          },
-          {
-            "index": 4,
-            "mediaTimeMs": 4938
-          },
-          {
-            "index": 5,
-            "mediaTimeMs": 5350
-          },
-          {
-            "index": 6,
-            "mediaTimeMs": 5761
-          }
-        ],
+      "lockedGt": {
         "source": "LOCKED_GT",
+        "publicId": "JR-20260908-E86C659B",
         "locked": true,
         "derivedFromCounter": false,
         "eventConvention": "visual_apex",
-        "publicId": "JR-20260908-E86C659B"
+        "metrics": {
+          "body": {
+            "count": 6,
+            "eventCount": 6,
+            "countEventConsistent": true
+          },
+          "rope": null,
+          "product": null
+        },
+        "validationTargets": {
+          "A": "body",
+          "B": "none",
+          "C": "none",
+          "D": "none",
+          "E": "none",
+          "final": "body"
+        },
+        "finalTarget": "body"
       },
+      "gptGround": null,
+      "ground": null,
       "logic": {
         "A": {
           "count": 6,
@@ -32455,32 +33674,33 @@
       "sourceClass": "USER_ORIGINAL",
       "sha256": "711b89492f78e3386ff045f7a816cf66a8a4b435bf1f05c8f07882e7dfad2e22",
       "evidenceGrade": "GOLD",
-      "ground": {
-        "count": 4,
-        "events": [
-          {
-            "index": 1,
-            "mediaTimeMs": 1400
-          },
-          {
-            "index": 2,
-            "mediaTimeMs": 2320
-          },
-          {
-            "index": 3,
-            "mediaTimeMs": 3700
-          },
-          {
-            "index": 4,
-            "mediaTimeMs": 4940
-          }
-        ],
+      "lockedGt": {
         "source": "LOCKED_GT",
+        "publicId": "JR-20260908-376EF057",
         "locked": true,
         "derivedFromCounter": false,
         "eventConvention": "visual_apex",
-        "publicId": "JR-20260908-376EF057"
+        "metrics": {
+          "body": {
+            "count": 4,
+            "eventCount": 4,
+            "countEventConsistent": true
+          },
+          "rope": null,
+          "product": null
+        },
+        "validationTargets": {
+          "A": "body",
+          "B": "none",
+          "C": "none",
+          "D": "none",
+          "E": "none",
+          "final": "body"
+        },
+        "finalTarget": "body"
       },
+      "gptGround": null,
+      "ground": null,
       "logic": {
         "A": {
           "count": 4,
@@ -32532,112 +33752,33 @@
       "sourceClass": "USER_ORIGINAL",
       "sha256": "1cbb78f65e660c52d8471366cadf4ec7395f65fe3ddf02690e5fbfceb9be04fe",
       "evidenceGrade": "GOLD",
-      "ground": {
-        "count": 24,
-        "events": [
-          {
-            "index": 1,
-            "mediaTimeMs": 41240
-          },
-          {
-            "index": 2,
-            "mediaTimeMs": 41725
-          },
-          {
-            "index": 3,
-            "mediaTimeMs": 42175
-          },
-          {
-            "index": 4,
-            "mediaTimeMs": 42658
-          },
-          {
-            "index": 5,
-            "mediaTimeMs": 43125
-          },
-          {
-            "index": 6,
-            "mediaTimeMs": 46427
-          },
-          {
-            "index": 7,
-            "mediaTimeMs": 47027
-          },
-          {
-            "index": 8,
-            "mediaTimeMs": 47545
-          },
-          {
-            "index": 9,
-            "mediaTimeMs": 48078
-          },
-          {
-            "index": 10,
-            "mediaTimeMs": 48612
-          },
-          {
-            "index": 11,
-            "mediaTimeMs": 49145
-          },
-          {
-            "index": 12,
-            "mediaTimeMs": 49697
-          },
-          {
-            "index": 13,
-            "mediaTimeMs": 50197
-          },
-          {
-            "index": 14,
-            "mediaTimeMs": 50762
-          },
-          {
-            "index": 15,
-            "mediaTimeMs": 51280
-          },
-          {
-            "index": 16,
-            "mediaTimeMs": 51797
-          },
-          {
-            "index": 17,
-            "mediaTimeMs": 52330
-          },
-          {
-            "index": 18,
-            "mediaTimeMs": 53383
-          },
-          {
-            "index": 19,
-            "mediaTimeMs": 53983
-          },
-          {
-            "index": 20,
-            "mediaTimeMs": 55332
-          },
-          {
-            "index": 21,
-            "mediaTimeMs": 57122
-          },
-          {
-            "index": 22,
-            "mediaTimeMs": 59102
-          },
-          {
-            "index": 23,
-            "mediaTimeMs": 60822
-          },
-          {
-            "index": 24,
-            "mediaTimeMs": 62772
-          }
-        ],
+      "lockedGt": {
         "source": "LOCKED_GT",
+        "publicId": "JR-20260909-9BDBF573",
         "locked": true,
         "derivedFromCounter": false,
         "eventConvention": "visual_apex",
-        "publicId": "JR-20260909-9BDBF573"
+        "metrics": {
+          "body": {
+            "count": 24,
+            "eventCount": 24,
+            "countEventConsistent": true
+          },
+          "rope": null,
+          "product": null
+        },
+        "validationTargets": {
+          "A": "body",
+          "B": "none",
+          "C": "none",
+          "D": "none",
+          "E": "none",
+          "final": "body"
+        },
+        "finalTarget": "body"
       },
+      "gptGround": null,
+      "ground": null,
       "logic": {
         "A": {
           "count": 24,
@@ -32689,15 +33830,33 @@
       "sourceClass": "USER_ORIGINAL",
       "sha256": "3175f101b902c5b7a8dc1da6010ff1d2c155847872582dfbf12b076a7bcf35ca",
       "evidenceGrade": "GOLD",
-      "ground": {
-        "count": 0,
-        "events": [],
+      "lockedGt": {
         "source": "LOCKED_GT",
+        "publicId": "JR-20260909-AC5539AF",
         "locked": true,
         "derivedFromCounter": false,
         "eventConvention": "visual_apex",
-        "publicId": "JR-20260909-AC5539AF"
+        "metrics": {
+          "body": {
+            "count": 0,
+            "eventCount": 0,
+            "countEventConsistent": true
+          },
+          "rope": null,
+          "product": null
+        },
+        "validationTargets": {
+          "A": "body",
+          "B": "none",
+          "C": "none",
+          "D": "none",
+          "E": "none",
+          "final": "body"
+        },
+        "finalTarget": "body"
       },
+      "gptGround": null,
+      "ground": null,
       "logic": {
         "A": {
           "count": 0,
@@ -32749,15 +33908,33 @@
       "sourceClass": "USER_ORIGINAL",
       "sha256": "3812aa2afaa929dc93e8d999e27075698aeee568a9667e0360c230717583f4bb",
       "evidenceGrade": "GOLD",
-      "ground": {
-        "count": 0,
-        "events": [],
+      "lockedGt": {
         "source": "LOCKED_GT",
+        "publicId": "JR-20260911-BD41E9A3",
         "locked": true,
         "derivedFromCounter": false,
         "eventConvention": "visual_apex",
-        "publicId": "JR-20260911-BD41E9A3"
+        "metrics": {
+          "body": {
+            "count": 0,
+            "eventCount": 0,
+            "countEventConsistent": true
+          },
+          "rope": null,
+          "product": null
+        },
+        "validationTargets": {
+          "A": "body",
+          "B": "none",
+          "C": "none",
+          "D": "none",
+          "E": "none",
+          "final": "body"
+        },
+        "finalTarget": "body"
       },
+      "gptGround": null,
+      "ground": null,
       "logic": {
         "A": {
           "count": 0,
@@ -32809,40 +33986,33 @@
       "sourceClass": "USER_ORIGINAL",
       "sha256": "7e3d6256d7d9e35409488427a7b1dbfe2cee2451be6cd6e2cf798f3691dc4bdf",
       "evidenceGrade": "GOLD",
-      "ground": {
-        "count": 6,
-        "events": [
-          {
-            "index": 1,
-            "mediaTimeMs": 1155
-          },
-          {
-            "index": 2,
-            "mediaTimeMs": 2226
-          },
-          {
-            "index": 3,
-            "mediaTimeMs": 3164
-          },
-          {
-            "index": 4,
-            "mediaTimeMs": 3566
-          },
-          {
-            "index": 5,
-            "mediaTimeMs": 3984
-          },
-          {
-            "index": 6,
-            "mediaTimeMs": 5457
-          }
-        ],
+      "lockedGt": {
         "source": "LOCKED_GT",
+        "publicId": "JR-20260908-F62DC60E",
         "locked": true,
         "derivedFromCounter": false,
         "eventConvention": "visual_apex",
-        "publicId": "JR-20260908-F62DC60E"
+        "metrics": {
+          "body": {
+            "count": 6,
+            "eventCount": 6,
+            "countEventConsistent": true
+          },
+          "rope": null,
+          "product": null
+        },
+        "validationTargets": {
+          "A": "body",
+          "B": "none",
+          "C": "none",
+          "D": "none",
+          "E": "none",
+          "final": "body"
+        },
+        "finalTarget": "body"
       },
+      "gptGround": null,
+      "ground": null,
       "logic": {
         "A": {
           "count": 6,
@@ -32894,152 +34064,33 @@
       "sourceClass": "USER_ORIGINAL",
       "sha256": "a2030f88490c41598a6f53f2b58b3bb33b247a7fd5e5f70e7f9f0b00d3e4e898",
       "evidenceGrade": "GOLD",
-      "ground": {
-        "count": 34,
-        "events": [
-          {
-            "index": 1,
-            "mediaTimeMs": 52936
-          },
-          {
-            "index": 2,
-            "mediaTimeMs": 53330
-          },
-          {
-            "index": 3,
-            "mediaTimeMs": 53727
-          },
-          {
-            "index": 4,
-            "mediaTimeMs": 54098
-          },
-          {
-            "index": 5,
-            "mediaTimeMs": 54501
-          },
-          {
-            "index": 6,
-            "mediaTimeMs": 54895
-          },
-          {
-            "index": 7,
-            "mediaTimeMs": 55294
-          },
-          {
-            "index": 8,
-            "mediaTimeMs": 55697
-          },
-          {
-            "index": 9,
-            "mediaTimeMs": 56096
-          },
-          {
-            "index": 10,
-            "mediaTimeMs": 56460
-          },
-          {
-            "index": 11,
-            "mediaTimeMs": 56862
-          },
-          {
-            "index": 12,
-            "mediaTimeMs": 57266
-          },
-          {
-            "index": 13,
-            "mediaTimeMs": 57697
-          },
-          {
-            "index": 14,
-            "mediaTimeMs": 58097
-          },
-          {
-            "index": 15,
-            "mediaTimeMs": 58492
-          },
-          {
-            "index": 16,
-            "mediaTimeMs": 58897
-          },
-          {
-            "index": 17,
-            "mediaTimeMs": 59289
-          },
-          {
-            "index": 18,
-            "mediaTimeMs": 59693
-          },
-          {
-            "index": 19,
-            "mediaTimeMs": 60091
-          },
-          {
-            "index": 20,
-            "mediaTimeMs": 60498
-          },
-          {
-            "index": 21,
-            "mediaTimeMs": 60897
-          },
-          {
-            "index": 22,
-            "mediaTimeMs": 61256
-          },
-          {
-            "index": 23,
-            "mediaTimeMs": 61665
-          },
-          {
-            "index": 24,
-            "mediaTimeMs": 62064
-          },
-          {
-            "index": 25,
-            "mediaTimeMs": 62460
-          },
-          {
-            "index": 26,
-            "mediaTimeMs": 62859
-          },
-          {
-            "index": 27,
-            "mediaTimeMs": 63269
-          },
-          {
-            "index": 28,
-            "mediaTimeMs": 63662
-          },
-          {
-            "index": 29,
-            "mediaTimeMs": 64068
-          },
-          {
-            "index": 30,
-            "mediaTimeMs": 64499
-          },
-          {
-            "index": 31,
-            "mediaTimeMs": 64891
-          },
-          {
-            "index": 32,
-            "mediaTimeMs": 65298
-          },
-          {
-            "index": 33,
-            "mediaTimeMs": 65697
-          },
-          {
-            "index": 34,
-            "mediaTimeMs": 66100
-          }
-        ],
+      "lockedGt": {
         "source": "LOCKED_GT",
+        "publicId": "JR-20260910-07583788",
         "locked": true,
         "derivedFromCounter": false,
         "eventConvention": "visual_apex",
-        "publicId": "JR-20260910-07583788"
+        "metrics": {
+          "body": {
+            "count": 34,
+            "eventCount": 34,
+            "countEventConsistent": true
+          },
+          "rope": null,
+          "product": null
+        },
+        "validationTargets": {
+          "A": "body",
+          "B": "none",
+          "C": "none",
+          "D": "none",
+          "E": "none",
+          "final": "body"
+        },
+        "finalTarget": "body"
       },
+      "gptGround": null,
+      "ground": null,
       "logic": {
         "A": {
           "count": 34,
@@ -33091,44 +34142,33 @@
       "sourceClass": "USER_ORIGINAL",
       "sha256": "712d2738d9bd412d332191994644600ff815946a27536a5d7466965b205b43a0",
       "evidenceGrade": "",
-      "ground": {
-        "count": 7,
-        "events": [
-          {
-            "index": 1,
-            "mediaTimeMs": 1087
-          },
-          {
-            "index": 2,
-            "mediaTimeMs": 1605
-          },
-          {
-            "index": 3,
-            "mediaTimeMs": 2123
-          },
-          {
-            "index": 4,
-            "mediaTimeMs": 3343
-          },
-          {
-            "index": 5,
-            "mediaTimeMs": 4513
-          },
-          {
-            "index": 6,
-            "mediaTimeMs": 5015
-          },
-          {
-            "index": 7,
-            "mediaTimeMs": 5667
-          }
-        ],
+      "lockedGt": {
         "source": "LOCKED_GT",
+        "publicId": "JR-20260908-913C26E0",
         "locked": true,
         "derivedFromCounter": false,
         "eventConvention": "visual_apex",
-        "publicId": "JR-20260908-913C26E0"
+        "metrics": {
+          "body": {
+            "count": 7,
+            "eventCount": 7,
+            "countEventConsistent": true
+          },
+          "rope": null,
+          "product": null
+        },
+        "validationTargets": {
+          "A": "body",
+          "B": "none",
+          "C": "none",
+          "D": "none",
+          "E": "none",
+          "final": "body"
+        },
+        "finalTarget": "body"
       },
+      "gptGround": null,
+      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -33180,44 +34220,33 @@
       "sourceClass": "USER_ORIGINAL",
       "sha256": "7600030b114fac88dcd149047df4e92fd305a97acc9ed5af8359377ea295880b",
       "evidenceGrade": "",
-      "ground": {
-        "count": 7,
-        "events": [
-          {
-            "index": 1,
-            "mediaTimeMs": 1380
-          },
-          {
-            "index": 2,
-            "mediaTimeMs": 2047
-          },
-          {
-            "index": 3,
-            "mediaTimeMs": 2772
-          },
-          {
-            "index": 4,
-            "mediaTimeMs": 4585
-          },
-          {
-            "index": 5,
-            "mediaTimeMs": 5202
-          },
-          {
-            "index": 6,
-            "mediaTimeMs": 9103
-          },
-          {
-            "index": 7,
-            "mediaTimeMs": 10803
-          }
-        ],
+      "lockedGt": {
         "source": "LOCKED_GT",
+        "publicId": "JR-20260908-F45E4935",
         "locked": true,
         "derivedFromCounter": false,
         "eventConvention": "visual_apex",
-        "publicId": "JR-20260908-F45E4935"
+        "metrics": {
+          "body": {
+            "count": 7,
+            "eventCount": 7,
+            "countEventConsistent": true
+          },
+          "rope": null,
+          "product": null
+        },
+        "validationTargets": {
+          "A": "body",
+          "B": "none",
+          "C": "none",
+          "D": "none",
+          "E": "none",
+          "final": "body"
+        },
+        "finalTarget": "body"
       },
+      "gptGround": null,
+      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -33269,96 +34298,33 @@
       "sourceClass": "USER_ORIGINAL",
       "sha256": "6bf454a676ecfaa8bd3e5e6bbe478ac4255dbbf19237cf391c973b07157842ef",
       "evidenceGrade": "",
-      "ground": {
-        "count": 20,
-        "events": [
-          {
-            "index": 1,
-            "mediaTimeMs": 22465
-          },
-          {
-            "index": 2,
-            "mediaTimeMs": 23031
-          },
-          {
-            "index": 3,
-            "mediaTimeMs": 23437
-          },
-          {
-            "index": 4,
-            "mediaTimeMs": 27674
-          },
-          {
-            "index": 5,
-            "mediaTimeMs": 28156
-          },
-          {
-            "index": 6,
-            "mediaTimeMs": 32350
-          },
-          {
-            "index": 7,
-            "mediaTimeMs": 32808
-          },
-          {
-            "index": 8,
-            "mediaTimeMs": 33292
-          },
-          {
-            "index": 9,
-            "mediaTimeMs": 35813
-          },
-          {
-            "index": 10,
-            "mediaTimeMs": 36278
-          },
-          {
-            "index": 11,
-            "mediaTimeMs": 36739
-          },
-          {
-            "index": 12,
-            "mediaTimeMs": 38829
-          },
-          {
-            "index": 13,
-            "mediaTimeMs": 39142
-          },
-          {
-            "index": 14,
-            "mediaTimeMs": 39512
-          },
-          {
-            "index": 15,
-            "mediaTimeMs": 41421
-          },
-          {
-            "index": 16,
-            "mediaTimeMs": 41812
-          },
-          {
-            "index": 17,
-            "mediaTimeMs": 42172
-          },
-          {
-            "index": 18,
-            "mediaTimeMs": 42452
-          },
-          {
-            "index": 19,
-            "mediaTimeMs": 44253
-          },
-          {
-            "index": 20,
-            "mediaTimeMs": 44544
-          }
-        ],
+      "lockedGt": {
         "source": "LOCKED_GT",
+        "publicId": "JR-20260910-C32FED68",
         "locked": true,
         "derivedFromCounter": false,
         "eventConvention": "visual_apex",
-        "publicId": "JR-20260910-C32FED68"
+        "metrics": {
+          "body": {
+            "count": 20,
+            "eventCount": 20,
+            "countEventConsistent": true
+          },
+          "rope": null,
+          "product": null
+        },
+        "validationTargets": {
+          "A": "body",
+          "B": "none",
+          "C": "none",
+          "D": "none",
+          "E": "none",
+          "final": "body"
+        },
+        "finalTarget": "body"
       },
+      "gptGround": null,
+      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -33410,56 +34376,37 @@
       "sourceClass": "USER_ORIGINAL",
       "sha256": "8ebe77b26beae6afcad031c3d01809981c736a24b9cee6647544cf5261c4c802",
       "evidenceGrade": "",
-      "ground": {
-        "count": 10,
-        "events": [
-          {
-            "index": 1,
-            "mediaTimeMs": 16317
-          },
-          {
-            "index": 2,
-            "mediaTimeMs": 16617
-          },
-          {
-            "index": 3,
-            "mediaTimeMs": 16917
-          },
-          {
-            "index": 4,
-            "mediaTimeMs": 17217
-          },
-          {
-            "index": 5,
-            "mediaTimeMs": 17450
-          },
-          {
-            "index": 6,
-            "mediaTimeMs": 17717
-          },
-          {
-            "index": 7,
-            "mediaTimeMs": 17983
-          },
-          {
-            "index": 8,
-            "mediaTimeMs": 18250
-          },
-          {
-            "index": 9,
-            "mediaTimeMs": 18517
-          },
-          {
-            "index": 10,
-            "mediaTimeMs": 18783
-          }
-        ],
+      "lockedGt": {
         "source": "LOCKED_GT",
+        "publicId": "JR-20260912-D5EEAE97",
         "locked": true,
         "derivedFromCounter": false,
         "eventConvention": "visual_apex",
-        "publicId": "JR-20260912-D5EEAE97"
+        "metrics": {
+          "body": {
+            "count": 10,
+            "eventCount": 10,
+            "countEventConsistent": true
+          },
+          "rope": {
+            "count": 10,
+            "eventCount": 10,
+            "countEventConsistent": true
+          },
+          "product": null
+        },
+        "validationTargets": {
+          "A": "body",
+          "B": "none",
+          "C": "none",
+          "D": "none",
+          "E": "none",
+          "final": "body"
+        },
+        "finalTarget": "body"
       },
+      "gptGround": null,
+      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -33511,536 +34458,33 @@
       "sourceClass": "USER_ORIGINAL",
       "sha256": "fda492fa1ce637261837b07ba73ea1aea3535f711d5bd02d9ab3719118cba6d9",
       "evidenceGrade": "",
-      "ground": {
-        "count": 130,
-        "events": [
-          {
-            "index": 1,
-            "mediaTimeMs": 26242
-          },
-          {
-            "index": 2,
-            "mediaTimeMs": 26606
-          },
-          {
-            "index": 3,
-            "mediaTimeMs": 27042
-          },
-          {
-            "index": 4,
-            "mediaTimeMs": 27405
-          },
-          {
-            "index": 5,
-            "mediaTimeMs": 27788
-          },
-          {
-            "index": 6,
-            "mediaTimeMs": 28161
-          },
-          {
-            "index": 7,
-            "mediaTimeMs": 28540
-          },
-          {
-            "index": 8,
-            "mediaTimeMs": 28903
-          },
-          {
-            "index": 9,
-            "mediaTimeMs": 29281
-          },
-          {
-            "index": 10,
-            "mediaTimeMs": 29616
-          },
-          {
-            "index": 11,
-            "mediaTimeMs": 30031
-          },
-          {
-            "index": 12,
-            "mediaTimeMs": 30415
-          },
-          {
-            "index": 13,
-            "mediaTimeMs": 30748
-          },
-          {
-            "index": 14,
-            "mediaTimeMs": 31116
-          },
-          {
-            "index": 15,
-            "mediaTimeMs": 31535
-          },
-          {
-            "index": 16,
-            "mediaTimeMs": 31955
-          },
-          {
-            "index": 17,
-            "mediaTimeMs": 32296
-          },
-          {
-            "index": 18,
-            "mediaTimeMs": 32617
-          },
-          {
-            "index": 19,
-            "mediaTimeMs": 32994
-          },
-          {
-            "index": 20,
-            "mediaTimeMs": 33378
-          },
-          {
-            "index": 21,
-            "mediaTimeMs": 33758
-          },
-          {
-            "index": 22,
-            "mediaTimeMs": 34116
-          },
-          {
-            "index": 23,
-            "mediaTimeMs": 34506
-          },
-          {
-            "index": 24,
-            "mediaTimeMs": 34869
-          },
-          {
-            "index": 25,
-            "mediaTimeMs": 35244
-          },
-          {
-            "index": 26,
-            "mediaTimeMs": 35670
-          },
-          {
-            "index": 27,
-            "mediaTimeMs": 36043
-          },
-          {
-            "index": 28,
-            "mediaTimeMs": 36379
-          },
-          {
-            "index": 29,
-            "mediaTimeMs": 36751
-          },
-          {
-            "index": 30,
-            "mediaTimeMs": 37169
-          },
-          {
-            "index": 31,
-            "mediaTimeMs": 37506
-          },
-          {
-            "index": 32,
-            "mediaTimeMs": 37927
-          },
-          {
-            "index": 33,
-            "mediaTimeMs": 38214
-          },
-          {
-            "index": 34,
-            "mediaTimeMs": 38643
-          },
-          {
-            "index": 35,
-            "mediaTimeMs": 39053
-          },
-          {
-            "index": 36,
-            "mediaTimeMs": 39420
-          },
-          {
-            "index": 37,
-            "mediaTimeMs": 39755
-          },
-          {
-            "index": 38,
-            "mediaTimeMs": 40169
-          },
-          {
-            "index": 39,
-            "mediaTimeMs": 40547
-          },
-          {
-            "index": 40,
-            "mediaTimeMs": 40931
-          },
-          {
-            "index": 41,
-            "mediaTimeMs": 41310
-          },
-          {
-            "index": 42,
-            "mediaTimeMs": 41636
-          },
-          {
-            "index": 43,
-            "mediaTimeMs": 42049
-          },
-          {
-            "index": 44,
-            "mediaTimeMs": 42416
-          },
-          {
-            "index": 45,
-            "mediaTimeMs": 42846
-          },
-          {
-            "index": 46,
-            "mediaTimeMs": 43176
-          },
-          {
-            "index": 47,
-            "mediaTimeMs": 43553
-          },
-          {
-            "index": 48,
-            "mediaTimeMs": 43971
-          },
-          {
-            "index": 49,
-            "mediaTimeMs": 44309
-          },
-          {
-            "index": 50,
-            "mediaTimeMs": 44729
-          },
-          {
-            "index": 51,
-            "mediaTimeMs": 45098
-          },
-          {
-            "index": 52,
-            "mediaTimeMs": 45465
-          },
-          {
-            "index": 53,
-            "mediaTimeMs": 45839
-          },
-          {
-            "index": 54,
-            "mediaTimeMs": 46229
-          },
-          {
-            "index": 55,
-            "mediaTimeMs": 46588
-          },
-          {
-            "index": 56,
-            "mediaTimeMs": 46974
-          },
-          {
-            "index": 57,
-            "mediaTimeMs": 47385
-          },
-          {
-            "index": 58,
-            "mediaTimeMs": 47766
-          },
-          {
-            "index": 59,
-            "mediaTimeMs": 48183
-          },
-          {
-            "index": 60,
-            "mediaTimeMs": 48505
-          },
-          {
-            "index": 61,
-            "mediaTimeMs": 48927
-          },
-          {
-            "index": 62,
-            "mediaTimeMs": 49310
-          },
-          {
-            "index": 63,
-            "mediaTimeMs": 49680
-          },
-          {
-            "index": 64,
-            "mediaTimeMs": 50054
-          },
-          {
-            "index": 65,
-            "mediaTimeMs": 50430
-          },
-          {
-            "index": 66,
-            "mediaTimeMs": 50816
-          },
-          {
-            "index": 67,
-            "mediaTimeMs": 51225
-          },
-          {
-            "index": 68,
-            "mediaTimeMs": 51597
-          },
-          {
-            "index": 69,
-            "mediaTimeMs": 52009
-          },
-          {
-            "index": 70,
-            "mediaTimeMs": 52400
-          },
-          {
-            "index": 71,
-            "mediaTimeMs": 52768
-          },
-          {
-            "index": 72,
-            "mediaTimeMs": 53136
-          },
-          {
-            "index": 73,
-            "mediaTimeMs": 53569
-          },
-          {
-            "index": 74,
-            "mediaTimeMs": 53930
-          },
-          {
-            "index": 75,
-            "mediaTimeMs": 54308
-          },
-          {
-            "index": 76,
-            "mediaTimeMs": 54736
-          },
-          {
-            "index": 77,
-            "mediaTimeMs": 55102
-          },
-          {
-            "index": 78,
-            "mediaTimeMs": 55478
-          },
-          {
-            "index": 79,
-            "mediaTimeMs": 55895
-          },
-          {
-            "index": 80,
-            "mediaTimeMs": 56278
-          },
-          {
-            "index": 81,
-            "mediaTimeMs": 56647
-          },
-          {
-            "index": 82,
-            "mediaTimeMs": 57068
-          },
-          {
-            "index": 83,
-            "mediaTimeMs": 57438
-          },
-          {
-            "index": 84,
-            "mediaTimeMs": 57806
-          },
-          {
-            "index": 85,
-            "mediaTimeMs": 58204
-          },
-          {
-            "index": 86,
-            "mediaTimeMs": 58567
-          },
-          {
-            "index": 87,
-            "mediaTimeMs": 58993
-          },
-          {
-            "index": 88,
-            "mediaTimeMs": 59313
-          },
-          {
-            "index": 89,
-            "mediaTimeMs": 59722
-          },
-          {
-            "index": 90,
-            "mediaTimeMs": 60128
-          },
-          {
-            "index": 91,
-            "mediaTimeMs": 60478
-          },
-          {
-            "index": 92,
-            "mediaTimeMs": 60904
-          },
-          {
-            "index": 93,
-            "mediaTimeMs": 61278
-          },
-          {
-            "index": 94,
-            "mediaTimeMs": 61657
-          },
-          {
-            "index": 95,
-            "mediaTimeMs": 62077
-          },
-          {
-            "index": 96,
-            "mediaTimeMs": 62454
-          },
-          {
-            "index": 97,
-            "mediaTimeMs": 62816
-          },
-          {
-            "index": 98,
-            "mediaTimeMs": 63192
-          },
-          {
-            "index": 99,
-            "mediaTimeMs": 63609
-          },
-          {
-            "index": 100,
-            "mediaTimeMs": 63982
-          },
-          {
-            "index": 101,
-            "mediaTimeMs": 64359
-          },
-          {
-            "index": 102,
-            "mediaTimeMs": 64729
-          },
-          {
-            "index": 103,
-            "mediaTimeMs": 65153
-          },
-          {
-            "index": 104,
-            "mediaTimeMs": 65537
-          },
-          {
-            "index": 105,
-            "mediaTimeMs": 65897
-          },
-          {
-            "index": 106,
-            "mediaTimeMs": 66283
-          },
-          {
-            "index": 107,
-            "mediaTimeMs": 66705
-          },
-          {
-            "index": 108,
-            "mediaTimeMs": 67066
-          },
-          {
-            "index": 109,
-            "mediaTimeMs": 67487
-          },
-          {
-            "index": 110,
-            "mediaTimeMs": 67859
-          },
-          {
-            "index": 111,
-            "mediaTimeMs": 68241
-          },
-          {
-            "index": 112,
-            "mediaTimeMs": 68656
-          },
-          {
-            "index": 113,
-            "mediaTimeMs": 69042
-          },
-          {
-            "index": 114,
-            "mediaTimeMs": 69419
-          },
-          {
-            "index": 115,
-            "mediaTimeMs": 69786
-          },
-          {
-            "index": 116,
-            "mediaTimeMs": 70195
-          },
-          {
-            "index": 117,
-            "mediaTimeMs": 70570
-          },
-          {
-            "index": 118,
-            "mediaTimeMs": 70947
-          },
-          {
-            "index": 119,
-            "mediaTimeMs": 71328
-          },
-          {
-            "index": 120,
-            "mediaTimeMs": 71741
-          },
-          {
-            "index": 121,
-            "mediaTimeMs": 72111
-          },
-          {
-            "index": 122,
-            "mediaTimeMs": 72491
-          },
-          {
-            "index": 123,
-            "mediaTimeMs": 72905
-          },
-          {
-            "index": 124,
-            "mediaTimeMs": 73278
-          },
-          {
-            "index": 125,
-            "mediaTimeMs": 73660
-          },
-          {
-            "index": 126,
-            "mediaTimeMs": 74035
-          },
-          {
-            "index": 127,
-            "mediaTimeMs": 74443
-          },
-          {
-            "index": 128,
-            "mediaTimeMs": 74787
-          },
-          {
-            "index": 129,
-            "mediaTimeMs": 75240
-          },
-          {
-            "index": 130,
-            "mediaTimeMs": 75672
-          }
-        ],
+      "lockedGt": {
         "source": "LOCKED_GT",
+        "publicId": "JR-20260913-694638E8",
         "locked": true,
         "derivedFromCounter": false,
         "eventConvention": "visual_apex",
-        "publicId": "JR-20260913-694638E8"
+        "metrics": {
+          "body": {
+            "count": 130,
+            "eventCount": 130,
+            "countEventConsistent": true
+          },
+          "rope": null,
+          "product": null
+        },
+        "validationTargets": {
+          "A": "body",
+          "B": "none",
+          "C": "none",
+          "D": "none",
+          "E": "none",
+          "final": "body"
+        },
+        "finalTarget": "body"
       },
+      "gptGround": null,
+      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -34093,6 +34537,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -34146,6 +34592,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -34201,36 +34649,37 @@
       "sourceClass": "WEB",
       "sha256": "903e266cfc4d8cdcc4931b0544d1db6d16a8db10c835e69f75a4e5c53bf46ee3",
       "evidenceGrade": "",
-      "ground": {
-        "count": 5,
-        "events": [
-          {
-            "index": 1,
-            "mediaTimeMs": 542
-          },
-          {
-            "index": 2,
-            "mediaTimeMs": 1208
-          },
-          {
-            "index": 3,
-            "mediaTimeMs": 1875
-          },
-          {
-            "index": 4,
-            "mediaTimeMs": 2542
-          },
-          {
-            "index": 5,
-            "mediaTimeMs": 3208
-          }
-        ],
+      "lockedGt": {
         "source": "LOCKED_GT",
+        "publicId": "JR-20260910-6579D76C",
         "locked": true,
         "derivedFromCounter": false,
         "eventConvention": "visual_apex",
-        "publicId": "JR-20260910-6579D76C"
+        "metrics": {
+          "body": {
+            "count": 5,
+            "eventCount": 5,
+            "countEventConsistent": true
+          },
+          "rope": {
+            "count": 10,
+            "eventCount": 5,
+            "countEventConsistent": false
+          },
+          "product": null
+        },
+        "validationTargets": {
+          "A": "body",
+          "B": "none",
+          "C": "none",
+          "D": "none",
+          "E": "none",
+          "final": "body"
+        },
+        "finalTarget": "body"
       },
+      "gptGround": null,
+      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -34283,6 +34732,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -34336,6 +34787,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -34389,6 +34842,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -34444,68 +34899,41 @@
       "sourceClass": "WEB",
       "sha256": "0592cbb19613e5df54d2e2f84f654cea6b5e08347bcc324c46994986edd4e849",
       "evidenceGrade": "",
-      "ground": {
-        "count": 13,
-        "events": [
-          {
-            "index": 1,
-            "mediaTimeMs": 631
-          },
-          {
-            "index": 2,
-            "mediaTimeMs": 1090
-          },
-          {
-            "index": 3,
-            "mediaTimeMs": 1558
-          },
-          {
-            "index": 4,
-            "mediaTimeMs": 1965
-          },
-          {
-            "index": 5,
-            "mediaTimeMs": 2415
-          },
-          {
-            "index": 6,
-            "mediaTimeMs": 2941
-          },
-          {
-            "index": 7,
-            "mediaTimeMs": 3300
-          },
-          {
-            "index": 8,
-            "mediaTimeMs": 3759
-          },
-          {
-            "index": 9,
-            "mediaTimeMs": 4218
-          },
-          {
-            "index": 10,
-            "mediaTimeMs": 4676
-          },
-          {
-            "index": 11,
-            "mediaTimeMs": 5094
-          },
-          {
-            "index": 12,
-            "mediaTimeMs": 5552
-          },
-          {
-            "index": 13,
-            "mediaTimeMs": 6011
-          }
-        ],
+      "lockedGt": {
         "source": "LOCKED_GT",
+        "publicId": "JR-20260910-83F35476",
         "locked": true,
         "derivedFromCounter": false,
         "eventConvention": "visual_apex",
-        "publicId": "JR-20260910-83F35476"
+        "metrics": {
+          "body": {
+            "count": 13,
+            "eventCount": 13,
+            "countEventConsistent": true
+          },
+          "rope": {
+            "count": 13,
+            "eventCount": 13,
+            "countEventConsistent": true
+          },
+          "product": {
+            "count": 7,
+            "eventCount": 7,
+            "countEventConsistent": true
+          }
+        },
+        "validationTargets": {
+          "A": "product",
+          "B": "none",
+          "C": "none",
+          "D": "none",
+          "E": "none",
+          "final": "product"
+        },
+        "finalTarget": "product"
       },
+      "gptGround": null,
+      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -34558,6 +34986,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -34611,6 +35041,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -34664,6 +35096,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -34717,6 +35151,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -34770,6 +35206,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -34823,6 +35261,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -34876,6 +35316,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -34929,6 +35371,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -34982,6 +35426,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -35035,6 +35481,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -35088,6 +35536,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -35141,6 +35591,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -35194,6 +35646,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -35247,6 +35701,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -35300,6 +35756,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -35353,6 +35811,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -35406,6 +35866,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -35459,6 +35921,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
@@ -35514,56 +35978,37 @@
       "sourceClass": "WEB",
       "sha256": "2f935c5d27b86f484fb44dec8b015638f37c8ec6f828ad67c148452ef3070fbd",
       "evidenceGrade": "",
-      "ground": {
-        "count": 10,
-        "events": [
-          {
-            "index": 1,
-            "mediaTimeMs": 433
-          },
-          {
-            "index": 2,
-            "mediaTimeMs": 1000
-          },
-          {
-            "index": 3,
-            "mediaTimeMs": 1633
-          },
-          {
-            "index": 4,
-            "mediaTimeMs": 2300
-          },
-          {
-            "index": 5,
-            "mediaTimeMs": 2933
-          },
-          {
-            "index": 6,
-            "mediaTimeMs": 3567
-          },
-          {
-            "index": 7,
-            "mediaTimeMs": 4200
-          },
-          {
-            "index": 8,
-            "mediaTimeMs": 4833
-          },
-          {
-            "index": 9,
-            "mediaTimeMs": 5433
-          },
-          {
-            "index": 10,
-            "mediaTimeMs": 6033
-          }
-        ],
+      "lockedGt": {
         "source": "LOCKED_GT",
+        "publicId": "JR-20260910-A7D305FC",
         "locked": true,
         "derivedFromCounter": false,
         "eventConvention": "visual_apex",
-        "publicId": "JR-20260910-A7D305FC"
+        "metrics": {
+          "body": {
+            "count": 10,
+            "eventCount": 10,
+            "countEventConsistent": true
+          },
+          "rope": {
+            "count": 10,
+            "eventCount": 10,
+            "countEventConsistent": true
+          },
+          "product": null
+        },
+        "validationTargets": {
+          "A": "body",
+          "B": "none",
+          "C": "none",
+          "D": "none",
+          "E": "none",
+          "final": "rope"
+        },
+        "finalTarget": "rope"
       },
+      "gptGround": null,
+      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -35616,6 +36061,8 @@
       "sourceClass": "",
       "sha256": "",
       "evidenceGrade": "",
+      "lockedGt": null,
+      "gptGround": null,
       "ground": null,
       "logic": {
         "A": {
