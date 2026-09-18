@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "server123 F autolab runtime metadata",
-  "latestStateAtUtc": "2026-09-18T15:00:17.460Z",
+  "latestStateAtUtc": "2026-09-18T15:15:44.064Z",
   "phase1": {
     "process": {
       "pid": 24032,
@@ -143,19 +143,19 @@
   "phase3": {
     "process": {
       "pid": 4864,
-      "alive": false
+      "alive": true
     },
     "sourceSha": "9b12dc5511f902be701e203944b97b7d054d1088",
     "phase": "architecture_v3",
-    "candidate": 23,
+    "candidate": 24,
     "total": 160,
-    "attemptedNew": 6,
-    "completedNew": 5,
+    "attemptedNew": 7,
+    "completedNew": 6,
     "unlabeledSequences": 4,
     "config": {
       "architecture": "hybrid",
       "channels": 32,
-      "augmentation_strength": 0.25,
+      "augmentation_strength": 0.75,
       "hard_negative_weight": 4,
       "lr": 0.001,
       "dropout": 0.1,
@@ -171,11 +171,11 @@
       31,
       48
     ],
-    "updatedAtUtc": "2026-09-18T15:00:17.460Z",
+    "updatedAtUtc": "2026-09-18T15:15:44.064Z",
     "registry": {
       "exists": true,
       "generation": null,
-      "completedCount": 22,
+      "completedCount": 23,
       "errorCount": 0,
       "bestId": "arch3:02ac6f251a4a",
       "bestScore": [
