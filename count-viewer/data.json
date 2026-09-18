@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 4,
-  "generatedAtUtc": "2026-09-18T11:35:08.536Z",
+  "schemaVersion": 5,
+  "generatedAtUtc": "2026-09-18T12:23:30.821Z",
   "corpusSnapshotUtc": "2026-09-18T11:34:55.472519+00:00",
   "source": "server123:/home/jumprope-research/corpus-registry + discovery candidate registries",
   "refreshPolicy": "server sync hourly; viewer polls every 5 minutes",
@@ -18,7 +18,7 @@
     "viewerRowsWithoutLockedGt": 634,
     "canonicalWithoutLockedGt": 0,
     "finalComparableLockedGt": 15,
-    "groundCountedTotal": 0,
+    "viewerRowsWithGptGround": 0,
     "gradedRows": 7,
     "gptGroundCounted": 0,
     "logicCells": 31
@@ -49,7 +49,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -104,7 +103,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -159,7 +157,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -214,7 +211,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -269,7 +265,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -324,7 +319,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -379,7 +373,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -434,7 +427,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -489,7 +481,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -544,7 +535,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -599,7 +589,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -654,7 +643,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -709,7 +697,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -764,7 +751,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -819,7 +805,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -874,7 +859,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -929,7 +913,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -984,7 +967,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -1039,7 +1021,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -1094,7 +1075,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -1149,7 +1129,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -1204,7 +1183,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -1259,7 +1237,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -1314,7 +1291,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -1369,7 +1345,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -1424,7 +1399,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -1479,7 +1453,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -1534,7 +1507,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -1589,7 +1561,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -1644,7 +1615,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -1699,7 +1669,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -1754,7 +1723,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -1809,7 +1777,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -1864,7 +1831,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -1919,7 +1885,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -1974,7 +1939,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -2029,7 +1993,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -2084,7 +2047,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -2139,7 +2101,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -2194,7 +2155,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -2249,7 +2209,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -2304,7 +2263,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -2359,7 +2317,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -2414,7 +2371,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -2469,7 +2425,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -2524,7 +2479,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -2579,7 +2533,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -2634,7 +2587,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -2689,7 +2641,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -2744,7 +2695,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -2799,7 +2749,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -2854,7 +2803,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -2909,7 +2857,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -2964,7 +2911,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -3019,7 +2965,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -3074,7 +3019,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -3129,7 +3073,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -3184,7 +3127,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -3239,7 +3181,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -3294,7 +3235,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -3349,7 +3289,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -3404,7 +3343,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -3459,7 +3397,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -3514,7 +3451,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -3569,7 +3505,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -3624,7 +3559,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -3679,7 +3613,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -3734,7 +3667,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -3789,7 +3721,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -3844,7 +3775,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -3899,7 +3829,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -3954,7 +3883,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -4009,7 +3937,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -4064,7 +3991,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -4119,7 +4045,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -4174,7 +4099,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -4229,7 +4153,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -4284,7 +4207,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -4339,7 +4261,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -4394,7 +4315,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -4449,7 +4369,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -4504,7 +4423,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -4559,7 +4477,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -4614,7 +4531,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -4669,7 +4585,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -4724,7 +4639,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -4779,7 +4693,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -4834,7 +4747,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -4889,7 +4801,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -4944,7 +4855,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -4999,7 +4909,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -5054,7 +4963,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -5109,7 +5017,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -5164,7 +5071,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -5219,7 +5125,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -5274,7 +5179,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -5329,7 +5233,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -5384,7 +5287,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -5439,7 +5341,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -5494,7 +5395,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -5549,7 +5449,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -5604,7 +5503,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -5659,7 +5557,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -5714,7 +5611,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -5769,7 +5665,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -5824,7 +5719,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -5879,7 +5773,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -5934,7 +5827,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -5989,7 +5881,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -6044,7 +5935,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -6099,7 +5989,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -6154,7 +6043,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -6209,7 +6097,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -6264,7 +6151,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -6319,7 +6205,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -6374,7 +6259,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -6429,7 +6313,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -6484,7 +6367,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -6539,7 +6421,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -6594,7 +6475,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -6649,7 +6529,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -6704,7 +6583,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -6759,7 +6637,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -6814,7 +6691,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -6869,7 +6745,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -6924,7 +6799,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -6979,7 +6853,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -7034,7 +6907,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -7089,7 +6961,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -7144,7 +7015,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -7199,7 +7069,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -7254,7 +7123,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -7309,7 +7177,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -7364,7 +7231,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -7419,7 +7285,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -7474,7 +7339,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -7529,7 +7393,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -7584,7 +7447,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -7639,7 +7501,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -7694,7 +7555,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -7749,7 +7609,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -7804,7 +7663,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -7859,7 +7717,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -7914,7 +7771,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -7969,7 +7825,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -8024,7 +7879,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -8079,7 +7933,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -8134,7 +7987,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -8189,7 +8041,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -8244,7 +8095,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -8299,7 +8149,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -8354,7 +8203,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -8409,7 +8257,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -8464,7 +8311,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -8519,7 +8365,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -8574,7 +8419,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -8629,7 +8473,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -8684,7 +8527,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -8739,7 +8581,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -8794,7 +8635,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -8849,7 +8689,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -8904,7 +8743,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -8959,7 +8797,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -9014,7 +8851,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -9069,7 +8905,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -9124,7 +8959,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -9179,7 +9013,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -9234,7 +9067,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -9289,7 +9121,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -9344,7 +9175,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -9399,7 +9229,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -9454,7 +9283,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -9509,7 +9337,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -9564,7 +9391,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -9619,7 +9445,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -9674,7 +9499,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -9729,7 +9553,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -9784,7 +9607,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -9839,7 +9661,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -9894,7 +9715,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -9949,7 +9769,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -10004,7 +9823,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -10059,7 +9877,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -10114,7 +9931,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -10169,7 +9985,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -10224,7 +10039,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -10279,7 +10093,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -10334,7 +10147,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -10389,7 +10201,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -10444,7 +10255,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -10499,7 +10309,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -10554,7 +10363,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -10609,7 +10417,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -10664,7 +10471,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -10719,7 +10525,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -10774,7 +10579,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -10829,7 +10633,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -10884,7 +10687,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -10939,7 +10741,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -10994,7 +10795,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -11049,7 +10849,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -11104,7 +10903,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -11159,7 +10957,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -11214,7 +11011,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -11269,7 +11065,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -11324,7 +11119,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -11379,7 +11173,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -11434,7 +11227,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -11489,7 +11281,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -11544,7 +11335,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -11599,7 +11389,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -11654,7 +11443,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -11709,7 +11497,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -11764,7 +11551,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -11819,7 +11605,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -11874,7 +11659,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -11929,7 +11713,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -11984,7 +11767,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -12039,7 +11821,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -12094,7 +11875,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -12149,7 +11929,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -12204,7 +11983,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -12259,7 +12037,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -12314,7 +12091,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -12369,7 +12145,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -12424,7 +12199,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -12479,7 +12253,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -12534,7 +12307,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -12589,7 +12361,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -12644,7 +12415,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -12699,7 +12469,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -12754,7 +12523,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -12809,7 +12577,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -12864,7 +12631,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -12919,7 +12685,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -12974,7 +12739,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -13029,7 +12793,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -13084,7 +12847,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -13139,7 +12901,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -13194,7 +12955,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -13249,7 +13009,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -13304,7 +13063,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -13359,7 +13117,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -13414,7 +13171,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -13469,7 +13225,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -13524,7 +13279,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -13579,7 +13333,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -13634,7 +13387,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -13689,7 +13441,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -13744,7 +13495,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -13799,7 +13549,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -13854,7 +13603,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -13909,7 +13657,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -13964,7 +13711,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -14019,7 +13765,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -14074,7 +13819,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -14129,7 +13873,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -14184,7 +13927,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -14239,7 +13981,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -14294,7 +14035,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -14349,7 +14089,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -14404,7 +14143,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -14459,7 +14197,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -14514,7 +14251,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -14569,7 +14305,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -14624,7 +14359,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -14679,7 +14413,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -14734,7 +14467,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -14789,7 +14521,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -14844,7 +14575,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -14899,7 +14629,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -14954,7 +14683,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -15009,7 +14737,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -15064,7 +14791,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -15119,7 +14845,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -15174,7 +14899,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -15229,7 +14953,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -15284,7 +15007,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -15339,7 +15061,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -15394,7 +15115,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -15449,7 +15169,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -15504,7 +15223,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -15559,7 +15277,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -15614,7 +15331,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -15669,7 +15385,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -15724,7 +15439,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -15779,7 +15493,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -15834,7 +15547,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -15889,7 +15601,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -15944,7 +15655,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -15999,7 +15709,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -16054,7 +15763,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -16109,7 +15817,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -16164,7 +15871,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -16219,7 +15925,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -16274,7 +15979,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -16329,7 +16033,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -16384,7 +16087,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -16439,7 +16141,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -16494,7 +16195,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -16549,7 +16249,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -16604,7 +16303,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -16659,7 +16357,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -16714,7 +16411,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -16769,7 +16465,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -16824,7 +16519,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -16879,7 +16573,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -16934,7 +16627,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -16989,7 +16681,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -17044,7 +16735,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -17099,7 +16789,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -17154,7 +16843,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -17209,7 +16897,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -17264,7 +16951,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -17319,7 +17005,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -17374,7 +17059,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -17429,7 +17113,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -17484,7 +17167,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -17539,7 +17221,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -17594,7 +17275,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -17649,7 +17329,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -17704,7 +17383,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -17759,7 +17437,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -17814,7 +17491,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -17869,7 +17545,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -17924,7 +17599,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -17979,7 +17653,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -18034,7 +17707,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -18089,7 +17761,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -18144,7 +17815,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -18199,7 +17869,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -18254,7 +17923,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -18309,7 +17977,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -18364,7 +18031,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -18419,7 +18085,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -18474,7 +18139,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -18529,7 +18193,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -18584,7 +18247,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -18639,7 +18301,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -18694,7 +18355,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -18749,7 +18409,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -18804,7 +18463,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -18859,7 +18517,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -18914,7 +18571,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -18969,7 +18625,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -19024,7 +18679,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -19079,7 +18733,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -19134,7 +18787,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -19189,7 +18841,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -19244,7 +18895,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -19299,7 +18949,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -19354,7 +19003,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -19409,7 +19057,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -19464,7 +19111,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -19519,7 +19165,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -19574,7 +19219,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -19629,7 +19273,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -19684,7 +19327,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -19739,7 +19381,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -19794,7 +19435,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -19849,7 +19489,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -19904,7 +19543,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -19959,7 +19597,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -20014,7 +19651,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -20069,7 +19705,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -20124,7 +19759,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -20179,7 +19813,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -20234,7 +19867,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -20289,7 +19921,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -20344,7 +19975,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -20399,7 +20029,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -20454,7 +20083,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -20509,7 +20137,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -20564,7 +20191,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -20619,7 +20245,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -20674,7 +20299,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -20729,7 +20353,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -20784,7 +20407,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -20839,7 +20461,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -20894,7 +20515,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -20949,7 +20569,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -21004,7 +20623,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -21059,7 +20677,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -21114,7 +20731,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -21169,7 +20785,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -21224,7 +20839,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -21279,7 +20893,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -21334,7 +20947,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -21389,7 +21001,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -21444,7 +21055,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -21499,7 +21109,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -21554,7 +21163,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -21609,7 +21217,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -21664,7 +21271,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -21719,7 +21325,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -21774,7 +21379,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -21829,7 +21433,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -21884,7 +21487,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -21939,7 +21541,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -21994,7 +21595,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -22049,7 +21649,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -22104,7 +21703,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -22159,7 +21757,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -22214,7 +21811,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -22269,7 +21865,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -22324,7 +21919,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -22379,7 +21973,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -22434,7 +22027,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -22489,7 +22081,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -22544,7 +22135,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -22599,7 +22189,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -22654,7 +22243,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -22709,7 +22297,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -22764,7 +22351,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -22819,7 +22405,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -22874,7 +22459,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -22929,7 +22513,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -22984,7 +22567,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -23039,7 +22621,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -23094,7 +22675,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -23149,7 +22729,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -23204,7 +22783,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -23259,7 +22837,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -23314,7 +22891,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -23369,7 +22945,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -23424,7 +22999,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -23479,7 +23053,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -23534,7 +23107,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -23589,7 +23161,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -23644,7 +23215,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -23699,7 +23269,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -23754,7 +23323,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -23809,7 +23377,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -23864,7 +23431,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -23919,7 +23485,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -23974,7 +23539,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -24029,7 +23593,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -24084,7 +23647,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -24139,7 +23701,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -24194,7 +23755,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -24249,7 +23809,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -24304,7 +23863,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -24359,7 +23917,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -24414,7 +23971,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -24469,7 +24025,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -24524,7 +24079,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -24579,7 +24133,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -24634,7 +24187,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -24689,7 +24241,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -24744,7 +24295,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -24799,7 +24349,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -24854,7 +24403,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -24909,7 +24457,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -24964,7 +24511,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -25019,7 +24565,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -25074,7 +24619,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -25129,7 +24673,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -25184,7 +24727,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -25239,7 +24781,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -25294,7 +24835,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -25349,7 +24889,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -25404,7 +24943,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -25459,7 +24997,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -25514,7 +25051,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -25569,7 +25105,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -25624,7 +25159,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -25679,7 +25213,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -25734,7 +25267,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -25789,7 +25321,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -25844,7 +25375,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -25899,7 +25429,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -25954,7 +25483,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -26009,7 +25537,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -26064,7 +25591,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -26119,7 +25645,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -26174,7 +25699,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -26229,7 +25753,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -26284,7 +25807,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -26339,7 +25861,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -26394,7 +25915,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -26449,7 +25969,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -26504,7 +26023,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -26559,7 +26077,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -26614,7 +26131,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -26669,7 +26185,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -26724,7 +26239,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -26779,7 +26293,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -26834,7 +26347,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -26889,7 +26401,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -26944,7 +26455,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -26999,7 +26509,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -27054,7 +26563,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -27109,7 +26617,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -27164,7 +26671,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -27219,7 +26725,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -27274,7 +26779,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -27329,7 +26833,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -27384,7 +26887,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -27439,7 +26941,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -27494,7 +26995,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -27549,7 +27049,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -27604,7 +27103,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -27659,7 +27157,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -27714,7 +27211,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -27769,7 +27265,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -27824,7 +27319,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -27879,7 +27373,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -27934,7 +27427,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -27989,7 +27481,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -28044,7 +27535,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -28099,7 +27589,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -28154,7 +27643,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -28209,7 +27697,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -28264,7 +27751,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -28319,7 +27805,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -28374,7 +27859,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -28429,7 +27913,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -28484,7 +27967,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -28539,7 +28021,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -28594,7 +28075,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -28649,7 +28129,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -28704,7 +28183,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -28759,7 +28237,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -28814,7 +28291,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -28869,7 +28345,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -28924,7 +28399,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -28979,7 +28453,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -29034,7 +28507,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -29089,7 +28561,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -29144,7 +28615,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -29199,7 +28669,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -29254,7 +28723,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -29309,7 +28777,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -29364,7 +28831,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -29419,7 +28885,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -29474,7 +28939,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -29529,7 +28993,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -29584,7 +29047,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -29639,7 +29101,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -29694,7 +29155,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -29749,7 +29209,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -29804,7 +29263,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -29859,7 +29317,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -29914,7 +29371,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -29969,7 +29425,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -30024,7 +29479,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -30079,7 +29533,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -30134,7 +29587,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -30189,7 +29641,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -30244,7 +29695,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -30299,7 +29749,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -30354,7 +29803,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -30409,7 +29857,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -30464,7 +29911,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -30519,7 +29965,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -30574,7 +30019,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -30629,7 +30073,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -30684,7 +30127,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -30739,7 +30181,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -30794,7 +30235,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -30849,7 +30289,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -30904,7 +30343,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -30959,7 +30397,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -31014,7 +30451,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -31069,7 +30505,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -31124,7 +30559,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -31179,7 +30613,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -31234,7 +30667,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -31289,7 +30721,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -31344,7 +30775,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -31399,7 +30829,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -31454,7 +30883,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -31509,7 +30937,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -31564,7 +30991,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -31619,7 +31045,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -31674,7 +31099,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -31729,7 +31153,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -31784,7 +31207,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -31839,7 +31261,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -31894,7 +31315,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -31949,7 +31369,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -32004,7 +31423,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -32059,7 +31477,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -32114,7 +31531,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -32169,7 +31585,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -32224,7 +31639,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -32279,7 +31693,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -32334,7 +31747,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -32389,7 +31801,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -32444,7 +31855,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -32499,7 +31909,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -32554,7 +31963,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -32609,7 +32017,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -32664,7 +32071,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -32719,7 +32125,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -32774,7 +32179,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -32829,7 +32233,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -32884,7 +32287,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -32939,7 +32341,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -32994,7 +32395,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -33049,7 +32449,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -33104,7 +32503,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -33159,7 +32557,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -33214,7 +32611,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -33269,7 +32665,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -33324,7 +32719,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -33379,7 +32773,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -33434,7 +32827,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -33489,7 +32881,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -33544,7 +32935,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -33605,6 +32995,32 @@
         "metrics": {
           "body": {
             "count": 6,
+            "events": [
+              {
+                "index": 1,
+                "mediaTimeMs": 3169
+              },
+              {
+                "index": 2,
+                "mediaTimeMs": 3992
+              },
+              {
+                "index": 3,
+                "mediaTimeMs": 4485
+              },
+              {
+                "index": 4,
+                "mediaTimeMs": 4938
+              },
+              {
+                "index": 5,
+                "mediaTimeMs": 5350
+              },
+              {
+                "index": 6,
+                "mediaTimeMs": 5761
+              }
+            ],
             "eventCount": 6,
             "countEventConsistent": true
           },
@@ -33622,7 +33038,6 @@
         "finalTarget": "body"
       },
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": 6,
@@ -33683,6 +33098,24 @@
         "metrics": {
           "body": {
             "count": 4,
+            "events": [
+              {
+                "index": 1,
+                "mediaTimeMs": 1400
+              },
+              {
+                "index": 2,
+                "mediaTimeMs": 2320
+              },
+              {
+                "index": 3,
+                "mediaTimeMs": 3700
+              },
+              {
+                "index": 4,
+                "mediaTimeMs": 4940
+              }
+            ],
             "eventCount": 4,
             "countEventConsistent": true
           },
@@ -33700,7 +33133,6 @@
         "finalTarget": "body"
       },
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": 4,
@@ -33761,6 +33193,104 @@
         "metrics": {
           "body": {
             "count": 24,
+            "events": [
+              {
+                "index": 1,
+                "mediaTimeMs": 41240
+              },
+              {
+                "index": 2,
+                "mediaTimeMs": 41725
+              },
+              {
+                "index": 3,
+                "mediaTimeMs": 42175
+              },
+              {
+                "index": 4,
+                "mediaTimeMs": 42658
+              },
+              {
+                "index": 5,
+                "mediaTimeMs": 43125
+              },
+              {
+                "index": 6,
+                "mediaTimeMs": 46427
+              },
+              {
+                "index": 7,
+                "mediaTimeMs": 47027
+              },
+              {
+                "index": 8,
+                "mediaTimeMs": 47545
+              },
+              {
+                "index": 9,
+                "mediaTimeMs": 48078
+              },
+              {
+                "index": 10,
+                "mediaTimeMs": 48612
+              },
+              {
+                "index": 11,
+                "mediaTimeMs": 49145
+              },
+              {
+                "index": 12,
+                "mediaTimeMs": 49697
+              },
+              {
+                "index": 13,
+                "mediaTimeMs": 50197
+              },
+              {
+                "index": 14,
+                "mediaTimeMs": 50762
+              },
+              {
+                "index": 15,
+                "mediaTimeMs": 51280
+              },
+              {
+                "index": 16,
+                "mediaTimeMs": 51797
+              },
+              {
+                "index": 17,
+                "mediaTimeMs": 52330
+              },
+              {
+                "index": 18,
+                "mediaTimeMs": 53383
+              },
+              {
+                "index": 19,
+                "mediaTimeMs": 53983
+              },
+              {
+                "index": 20,
+                "mediaTimeMs": 55332
+              },
+              {
+                "index": 21,
+                "mediaTimeMs": 57122
+              },
+              {
+                "index": 22,
+                "mediaTimeMs": 59102
+              },
+              {
+                "index": 23,
+                "mediaTimeMs": 60822
+              },
+              {
+                "index": 24,
+                "mediaTimeMs": 62772
+              }
+            ],
             "eventCount": 24,
             "countEventConsistent": true
           },
@@ -33778,7 +33308,6 @@
         "finalTarget": "body"
       },
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": 24,
@@ -33839,6 +33368,7 @@
         "metrics": {
           "body": {
             "count": 0,
+            "events": [],
             "eventCount": 0,
             "countEventConsistent": true
           },
@@ -33856,7 +33386,6 @@
         "finalTarget": "body"
       },
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": 0,
@@ -33917,6 +33446,7 @@
         "metrics": {
           "body": {
             "count": 0,
+            "events": [],
             "eventCount": 0,
             "countEventConsistent": true
           },
@@ -33934,7 +33464,6 @@
         "finalTarget": "body"
       },
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": 0,
@@ -33995,6 +33524,32 @@
         "metrics": {
           "body": {
             "count": 6,
+            "events": [
+              {
+                "index": 1,
+                "mediaTimeMs": 1155
+              },
+              {
+                "index": 2,
+                "mediaTimeMs": 2226
+              },
+              {
+                "index": 3,
+                "mediaTimeMs": 3164
+              },
+              {
+                "index": 4,
+                "mediaTimeMs": 3566
+              },
+              {
+                "index": 5,
+                "mediaTimeMs": 3984
+              },
+              {
+                "index": 6,
+                "mediaTimeMs": 5457
+              }
+            ],
             "eventCount": 6,
             "countEventConsistent": true
           },
@@ -34012,7 +33567,6 @@
         "finalTarget": "body"
       },
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": 6,
@@ -34073,6 +33627,144 @@
         "metrics": {
           "body": {
             "count": 34,
+            "events": [
+              {
+                "index": 1,
+                "mediaTimeMs": 52936
+              },
+              {
+                "index": 2,
+                "mediaTimeMs": 53330
+              },
+              {
+                "index": 3,
+                "mediaTimeMs": 53727
+              },
+              {
+                "index": 4,
+                "mediaTimeMs": 54098
+              },
+              {
+                "index": 5,
+                "mediaTimeMs": 54501
+              },
+              {
+                "index": 6,
+                "mediaTimeMs": 54895
+              },
+              {
+                "index": 7,
+                "mediaTimeMs": 55294
+              },
+              {
+                "index": 8,
+                "mediaTimeMs": 55697
+              },
+              {
+                "index": 9,
+                "mediaTimeMs": 56096
+              },
+              {
+                "index": 10,
+                "mediaTimeMs": 56460
+              },
+              {
+                "index": 11,
+                "mediaTimeMs": 56862
+              },
+              {
+                "index": 12,
+                "mediaTimeMs": 57266
+              },
+              {
+                "index": 13,
+                "mediaTimeMs": 57697
+              },
+              {
+                "index": 14,
+                "mediaTimeMs": 58097
+              },
+              {
+                "index": 15,
+                "mediaTimeMs": 58492
+              },
+              {
+                "index": 16,
+                "mediaTimeMs": 58897
+              },
+              {
+                "index": 17,
+                "mediaTimeMs": 59289
+              },
+              {
+                "index": 18,
+                "mediaTimeMs": 59693
+              },
+              {
+                "index": 19,
+                "mediaTimeMs": 60091
+              },
+              {
+                "index": 20,
+                "mediaTimeMs": 60498
+              },
+              {
+                "index": 21,
+                "mediaTimeMs": 60897
+              },
+              {
+                "index": 22,
+                "mediaTimeMs": 61256
+              },
+              {
+                "index": 23,
+                "mediaTimeMs": 61665
+              },
+              {
+                "index": 24,
+                "mediaTimeMs": 62064
+              },
+              {
+                "index": 25,
+                "mediaTimeMs": 62460
+              },
+              {
+                "index": 26,
+                "mediaTimeMs": 62859
+              },
+              {
+                "index": 27,
+                "mediaTimeMs": 63269
+              },
+              {
+                "index": 28,
+                "mediaTimeMs": 63662
+              },
+              {
+                "index": 29,
+                "mediaTimeMs": 64068
+              },
+              {
+                "index": 30,
+                "mediaTimeMs": 64499
+              },
+              {
+                "index": 31,
+                "mediaTimeMs": 64891
+              },
+              {
+                "index": 32,
+                "mediaTimeMs": 65298
+              },
+              {
+                "index": 33,
+                "mediaTimeMs": 65697
+              },
+              {
+                "index": 34,
+                "mediaTimeMs": 66100
+              }
+            ],
             "eventCount": 34,
             "countEventConsistent": true
           },
@@ -34090,7 +33782,6 @@
         "finalTarget": "body"
       },
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": 34,
@@ -34151,6 +33842,36 @@
         "metrics": {
           "body": {
             "count": 7,
+            "events": [
+              {
+                "index": 1,
+                "mediaTimeMs": 1087
+              },
+              {
+                "index": 2,
+                "mediaTimeMs": 1605
+              },
+              {
+                "index": 3,
+                "mediaTimeMs": 2123
+              },
+              {
+                "index": 4,
+                "mediaTimeMs": 3343
+              },
+              {
+                "index": 5,
+                "mediaTimeMs": 4513
+              },
+              {
+                "index": 6,
+                "mediaTimeMs": 5015
+              },
+              {
+                "index": 7,
+                "mediaTimeMs": 5667
+              }
+            ],
             "eventCount": 7,
             "countEventConsistent": true
           },
@@ -34168,7 +33889,6 @@
         "finalTarget": "body"
       },
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -34229,6 +33949,36 @@
         "metrics": {
           "body": {
             "count": 7,
+            "events": [
+              {
+                "index": 1,
+                "mediaTimeMs": 1380
+              },
+              {
+                "index": 2,
+                "mediaTimeMs": 2047
+              },
+              {
+                "index": 3,
+                "mediaTimeMs": 2772
+              },
+              {
+                "index": 4,
+                "mediaTimeMs": 4585
+              },
+              {
+                "index": 5,
+                "mediaTimeMs": 5202
+              },
+              {
+                "index": 6,
+                "mediaTimeMs": 9103
+              },
+              {
+                "index": 7,
+                "mediaTimeMs": 10803
+              }
+            ],
             "eventCount": 7,
             "countEventConsistent": true
           },
@@ -34246,7 +33996,6 @@
         "finalTarget": "body"
       },
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -34307,6 +34056,88 @@
         "metrics": {
           "body": {
             "count": 20,
+            "events": [
+              {
+                "index": 1,
+                "mediaTimeMs": 22465
+              },
+              {
+                "index": 2,
+                "mediaTimeMs": 23031
+              },
+              {
+                "index": 3,
+                "mediaTimeMs": 23437
+              },
+              {
+                "index": 4,
+                "mediaTimeMs": 27674
+              },
+              {
+                "index": 5,
+                "mediaTimeMs": 28156
+              },
+              {
+                "index": 6,
+                "mediaTimeMs": 32350
+              },
+              {
+                "index": 7,
+                "mediaTimeMs": 32808
+              },
+              {
+                "index": 8,
+                "mediaTimeMs": 33292
+              },
+              {
+                "index": 9,
+                "mediaTimeMs": 35813
+              },
+              {
+                "index": 10,
+                "mediaTimeMs": 36278
+              },
+              {
+                "index": 11,
+                "mediaTimeMs": 36739
+              },
+              {
+                "index": 12,
+                "mediaTimeMs": 38829
+              },
+              {
+                "index": 13,
+                "mediaTimeMs": 39142
+              },
+              {
+                "index": 14,
+                "mediaTimeMs": 39512
+              },
+              {
+                "index": 15,
+                "mediaTimeMs": 41421
+              },
+              {
+                "index": 16,
+                "mediaTimeMs": 41812
+              },
+              {
+                "index": 17,
+                "mediaTimeMs": 42172
+              },
+              {
+                "index": 18,
+                "mediaTimeMs": 42452
+              },
+              {
+                "index": 19,
+                "mediaTimeMs": 44253
+              },
+              {
+                "index": 20,
+                "mediaTimeMs": 44544
+              }
+            ],
             "eventCount": 20,
             "countEventConsistent": true
           },
@@ -34324,7 +34155,6 @@
         "finalTarget": "body"
       },
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -34385,11 +34215,205 @@
         "metrics": {
           "body": {
             "count": 10,
+            "events": [
+              {
+                "index": 1,
+                "mediaTimeMs": 16317
+              },
+              {
+                "index": 2,
+                "mediaTimeMs": 16617
+              },
+              {
+                "index": 3,
+                "mediaTimeMs": 16917
+              },
+              {
+                "index": 4,
+                "mediaTimeMs": 17217
+              },
+              {
+                "index": 5,
+                "mediaTimeMs": 17450
+              },
+              {
+                "index": 6,
+                "mediaTimeMs": 17717
+              },
+              {
+                "index": 7,
+                "mediaTimeMs": 17983
+              },
+              {
+                "index": 8,
+                "mediaTimeMs": 18250
+              },
+              {
+                "index": 9,
+                "mediaTimeMs": 18517
+              },
+              {
+                "index": 10,
+                "mediaTimeMs": 18783
+              }
+            ],
             "eventCount": 10,
             "countEventConsistent": true
           },
           "rope": {
             "count": 10,
+            "events": [
+              {
+                "index": 1,
+                "mediaTimeMs": 16340,
+                "bodyApexMs": 16317,
+                "passMultiplicity": 1,
+                "wristPhaseEvidence": "bilateral handle/wrist rotation remains continuous across the pre-cross-post native-frame sequence",
+                "ropeVisualEvidence": "side-rope trace descends before the crossing interval and reappears in the opposite phase immediately after it",
+                "underFootEvidence": "both feet are airborne during the transition; the rope is partially blended/occluded at the foot/pavement plane but temporal continuity resolves a single under-foot pass",
+                "confidence": "HIGH",
+                "ambiguousFramesMs": [
+                  16325,
+                  16340,
+                  16357
+                ]
+              },
+              {
+                "index": 2,
+                "mediaTimeMs": 16640,
+                "bodyApexMs": 16617,
+                "passMultiplicity": 1,
+                "wristPhaseEvidence": "bilateral handle/wrist rotation remains continuous across the pre-cross-post native-frame sequence",
+                "ropeVisualEvidence": "side-rope trace descends before the crossing interval and reappears in the opposite phase immediately after it",
+                "underFootEvidence": "both feet are airborne during the transition; the rope is partially blended/occluded at the foot/pavement plane but temporal continuity resolves a single under-foot pass",
+                "confidence": "HIGH",
+                "ambiguousFramesMs": [
+                  16628,
+                  16640,
+                  16658
+                ]
+              },
+              {
+                "index": 3,
+                "mediaTimeMs": 16940,
+                "bodyApexMs": 16917,
+                "passMultiplicity": 1,
+                "wristPhaseEvidence": "bilateral handle/wrist rotation remains continuous across the pre-cross-post native-frame sequence",
+                "ropeVisualEvidence": "side-rope trace descends before the crossing interval and reappears in the opposite phase immediately after it",
+                "underFootEvidence": "both feet are airborne during the transition; the rope is partially blended/occluded at the foot/pavement plane but temporal continuity resolves a single under-foot pass",
+                "confidence": "HIGH",
+                "ambiguousFramesMs": [
+                  16923,
+                  16940,
+                  16957
+                ]
+              },
+              {
+                "index": 4,
+                "mediaTimeMs": 17240,
+                "bodyApexMs": 17217,
+                "passMultiplicity": 1,
+                "wristPhaseEvidence": "bilateral handle/wrist rotation remains continuous across the pre-cross-post native-frame sequence",
+                "ropeVisualEvidence": "side-rope trace descends before the crossing interval and reappears in the opposite phase immediately after it",
+                "underFootEvidence": "both feet are airborne during the transition; the rope is partially blended/occluded at the foot/pavement plane but temporal continuity resolves a single under-foot pass",
+                "confidence": "HIGH",
+                "ambiguousFramesMs": [
+                  17223,
+                  17240,
+                  17257
+                ]
+              },
+              {
+                "index": 5,
+                "mediaTimeMs": 17475,
+                "bodyApexMs": 17450,
+                "passMultiplicity": 1,
+                "wristPhaseEvidence": "bilateral handle/wrist rotation remains continuous across the pre-cross-post native-frame sequence",
+                "ropeVisualEvidence": "side-rope trace descends before the crossing interval and reappears in the opposite phase immediately after it",
+                "underFootEvidence": "both feet are airborne during the transition; the rope is partially blended/occluded at the foot/pavement plane but temporal continuity resolves a single under-foot pass",
+                "confidence": "HIGH",
+                "ambiguousFramesMs": [
+                  17458,
+                  17475,
+                  17490
+                ]
+              },
+              {
+                "index": 6,
+                "mediaTimeMs": 17742,
+                "bodyApexMs": 17717,
+                "passMultiplicity": 1,
+                "wristPhaseEvidence": "bilateral handle/wrist rotation remains continuous across the pre-cross-post native-frame sequence",
+                "ropeVisualEvidence": "side-rope trace descends before the crossing interval and reappears in the opposite phase immediately after it",
+                "underFootEvidence": "both feet are airborne during the transition; the rope is partially blended/occluded at the foot/pavement plane but temporal continuity resolves a single under-foot pass",
+                "confidence": "HIGH",
+                "ambiguousFramesMs": [
+                  17723,
+                  17742,
+                  17762
+                ]
+              },
+              {
+                "index": 7,
+                "mediaTimeMs": 18008,
+                "bodyApexMs": 17983,
+                "passMultiplicity": 1,
+                "wristPhaseEvidence": "bilateral handle/wrist rotation remains continuous across the pre-cross-post native-frame sequence",
+                "ropeVisualEvidence": "side-rope trace descends before the crossing interval and reappears in the opposite phase immediately after it",
+                "underFootEvidence": "both feet are airborne during the transition; the rope is partially blended/occluded at the foot/pavement plane but temporal continuity resolves a single under-foot pass",
+                "confidence": "HIGH",
+                "ambiguousFramesMs": [
+                  17990,
+                  18008,
+                  18023
+                ]
+              },
+              {
+                "index": 8,
+                "mediaTimeMs": 18277,
+                "bodyApexMs": 18250,
+                "passMultiplicity": 1,
+                "wristPhaseEvidence": "bilateral handle/wrist rotation remains continuous across the pre-cross-post native-frame sequence",
+                "ropeVisualEvidence": "side-rope trace descends before the crossing interval and reappears in the opposite phase immediately after it",
+                "underFootEvidence": "both feet are airborne during the transition; the rope is partially blended/occluded at the foot/pavement plane but temporal continuity resolves a single under-foot pass",
+                "confidence": "HIGH",
+                "ambiguousFramesMs": [
+                  18258,
+                  18277,
+                  18292
+                ]
+              },
+              {
+                "index": 9,
+                "mediaTimeMs": 18545,
+                "bodyApexMs": 18517,
+                "passMultiplicity": 1,
+                "wristPhaseEvidence": "bilateral handle/wrist rotation remains continuous across the pre-cross-post native-frame sequence",
+                "ropeVisualEvidence": "side-rope trace descends before the crossing interval and reappears in the opposite phase immediately after it",
+                "underFootEvidence": "both feet are airborne during the transition; the rope is partially blended/occluded at the foot/pavement plane but temporal continuity resolves a single under-foot pass",
+                "confidence": "HIGH",
+                "ambiguousFramesMs": [
+                  18523,
+                  18545,
+                  18562
+                ]
+              },
+              {
+                "index": 10,
+                "mediaTimeMs": 18795,
+                "bodyApexMs": 18783,
+                "passMultiplicity": 1,
+                "wristPhaseEvidence": "bilateral handle/wrist rotation remains continuous across the pre-cross-post native-frame sequence",
+                "ropeVisualEvidence": "side-rope trace descends before the crossing interval and reappears in the opposite phase immediately after it",
+                "underFootEvidence": "both feet are airborne during the transition; the rope is partially blended/occluded at the foot/pavement plane but temporal continuity resolves a single under-foot pass",
+                "confidence": "HIGH",
+                "ambiguousFramesMs": [
+                  18778,
+                  18795,
+                  18812
+                ]
+              }
+            ],
             "eventCount": 10,
             "countEventConsistent": true
           },
@@ -34406,7 +34430,6 @@
         "finalTarget": "body"
       },
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -34467,6 +34490,528 @@
         "metrics": {
           "body": {
             "count": 130,
+            "events": [
+              {
+                "index": 1,
+                "mediaTimeMs": 26242
+              },
+              {
+                "index": 2,
+                "mediaTimeMs": 26606
+              },
+              {
+                "index": 3,
+                "mediaTimeMs": 27042
+              },
+              {
+                "index": 4,
+                "mediaTimeMs": 27405
+              },
+              {
+                "index": 5,
+                "mediaTimeMs": 27788
+              },
+              {
+                "index": 6,
+                "mediaTimeMs": 28161
+              },
+              {
+                "index": 7,
+                "mediaTimeMs": 28540
+              },
+              {
+                "index": 8,
+                "mediaTimeMs": 28903
+              },
+              {
+                "index": 9,
+                "mediaTimeMs": 29281
+              },
+              {
+                "index": 10,
+                "mediaTimeMs": 29616
+              },
+              {
+                "index": 11,
+                "mediaTimeMs": 30031
+              },
+              {
+                "index": 12,
+                "mediaTimeMs": 30415
+              },
+              {
+                "index": 13,
+                "mediaTimeMs": 30748
+              },
+              {
+                "index": 14,
+                "mediaTimeMs": 31116
+              },
+              {
+                "index": 15,
+                "mediaTimeMs": 31535
+              },
+              {
+                "index": 16,
+                "mediaTimeMs": 31955
+              },
+              {
+                "index": 17,
+                "mediaTimeMs": 32296
+              },
+              {
+                "index": 18,
+                "mediaTimeMs": 32617
+              },
+              {
+                "index": 19,
+                "mediaTimeMs": 32994
+              },
+              {
+                "index": 20,
+                "mediaTimeMs": 33378
+              },
+              {
+                "index": 21,
+                "mediaTimeMs": 33758
+              },
+              {
+                "index": 22,
+                "mediaTimeMs": 34116
+              },
+              {
+                "index": 23,
+                "mediaTimeMs": 34506
+              },
+              {
+                "index": 24,
+                "mediaTimeMs": 34869
+              },
+              {
+                "index": 25,
+                "mediaTimeMs": 35244
+              },
+              {
+                "index": 26,
+                "mediaTimeMs": 35670
+              },
+              {
+                "index": 27,
+                "mediaTimeMs": 36043
+              },
+              {
+                "index": 28,
+                "mediaTimeMs": 36379
+              },
+              {
+                "index": 29,
+                "mediaTimeMs": 36751
+              },
+              {
+                "index": 30,
+                "mediaTimeMs": 37169
+              },
+              {
+                "index": 31,
+                "mediaTimeMs": 37506
+              },
+              {
+                "index": 32,
+                "mediaTimeMs": 37927
+              },
+              {
+                "index": 33,
+                "mediaTimeMs": 38214
+              },
+              {
+                "index": 34,
+                "mediaTimeMs": 38643
+              },
+              {
+                "index": 35,
+                "mediaTimeMs": 39053
+              },
+              {
+                "index": 36,
+                "mediaTimeMs": 39420
+              },
+              {
+                "index": 37,
+                "mediaTimeMs": 39755
+              },
+              {
+                "index": 38,
+                "mediaTimeMs": 40169
+              },
+              {
+                "index": 39,
+                "mediaTimeMs": 40547
+              },
+              {
+                "index": 40,
+                "mediaTimeMs": 40931
+              },
+              {
+                "index": 41,
+                "mediaTimeMs": 41310
+              },
+              {
+                "index": 42,
+                "mediaTimeMs": 41636
+              },
+              {
+                "index": 43,
+                "mediaTimeMs": 42049
+              },
+              {
+                "index": 44,
+                "mediaTimeMs": 42416
+              },
+              {
+                "index": 45,
+                "mediaTimeMs": 42846
+              },
+              {
+                "index": 46,
+                "mediaTimeMs": 43176
+              },
+              {
+                "index": 47,
+                "mediaTimeMs": 43553
+              },
+              {
+                "index": 48,
+                "mediaTimeMs": 43971
+              },
+              {
+                "index": 49,
+                "mediaTimeMs": 44309
+              },
+              {
+                "index": 50,
+                "mediaTimeMs": 44729
+              },
+              {
+                "index": 51,
+                "mediaTimeMs": 45098
+              },
+              {
+                "index": 52,
+                "mediaTimeMs": 45465
+              },
+              {
+                "index": 53,
+                "mediaTimeMs": 45839
+              },
+              {
+                "index": 54,
+                "mediaTimeMs": 46229
+              },
+              {
+                "index": 55,
+                "mediaTimeMs": 46588
+              },
+              {
+                "index": 56,
+                "mediaTimeMs": 46974
+              },
+              {
+                "index": 57,
+                "mediaTimeMs": 47385
+              },
+              {
+                "index": 58,
+                "mediaTimeMs": 47766
+              },
+              {
+                "index": 59,
+                "mediaTimeMs": 48183
+              },
+              {
+                "index": 60,
+                "mediaTimeMs": 48505
+              },
+              {
+                "index": 61,
+                "mediaTimeMs": 48927
+              },
+              {
+                "index": 62,
+                "mediaTimeMs": 49310
+              },
+              {
+                "index": 63,
+                "mediaTimeMs": 49680
+              },
+              {
+                "index": 64,
+                "mediaTimeMs": 50054
+              },
+              {
+                "index": 65,
+                "mediaTimeMs": 50430
+              },
+              {
+                "index": 66,
+                "mediaTimeMs": 50816
+              },
+              {
+                "index": 67,
+                "mediaTimeMs": 51225
+              },
+              {
+                "index": 68,
+                "mediaTimeMs": 51597
+              },
+              {
+                "index": 69,
+                "mediaTimeMs": 52009
+              },
+              {
+                "index": 70,
+                "mediaTimeMs": 52400
+              },
+              {
+                "index": 71,
+                "mediaTimeMs": 52768
+              },
+              {
+                "index": 72,
+                "mediaTimeMs": 53136
+              },
+              {
+                "index": 73,
+                "mediaTimeMs": 53569
+              },
+              {
+                "index": 74,
+                "mediaTimeMs": 53930
+              },
+              {
+                "index": 75,
+                "mediaTimeMs": 54308
+              },
+              {
+                "index": 76,
+                "mediaTimeMs": 54736
+              },
+              {
+                "index": 77,
+                "mediaTimeMs": 55102
+              },
+              {
+                "index": 78,
+                "mediaTimeMs": 55478
+              },
+              {
+                "index": 79,
+                "mediaTimeMs": 55895
+              },
+              {
+                "index": 80,
+                "mediaTimeMs": 56278
+              },
+              {
+                "index": 81,
+                "mediaTimeMs": 56647
+              },
+              {
+                "index": 82,
+                "mediaTimeMs": 57068
+              },
+              {
+                "index": 83,
+                "mediaTimeMs": 57438
+              },
+              {
+                "index": 84,
+                "mediaTimeMs": 57806
+              },
+              {
+                "index": 85,
+                "mediaTimeMs": 58204
+              },
+              {
+                "index": 86,
+                "mediaTimeMs": 58567
+              },
+              {
+                "index": 87,
+                "mediaTimeMs": 58993
+              },
+              {
+                "index": 88,
+                "mediaTimeMs": 59313
+              },
+              {
+                "index": 89,
+                "mediaTimeMs": 59722
+              },
+              {
+                "index": 90,
+                "mediaTimeMs": 60128
+              },
+              {
+                "index": 91,
+                "mediaTimeMs": 60478
+              },
+              {
+                "index": 92,
+                "mediaTimeMs": 60904
+              },
+              {
+                "index": 93,
+                "mediaTimeMs": 61278
+              },
+              {
+                "index": 94,
+                "mediaTimeMs": 61657
+              },
+              {
+                "index": 95,
+                "mediaTimeMs": 62077
+              },
+              {
+                "index": 96,
+                "mediaTimeMs": 62454
+              },
+              {
+                "index": 97,
+                "mediaTimeMs": 62816
+              },
+              {
+                "index": 98,
+                "mediaTimeMs": 63192
+              },
+              {
+                "index": 99,
+                "mediaTimeMs": 63609
+              },
+              {
+                "index": 100,
+                "mediaTimeMs": 63982
+              },
+              {
+                "index": 101,
+                "mediaTimeMs": 64359
+              },
+              {
+                "index": 102,
+                "mediaTimeMs": 64729
+              },
+              {
+                "index": 103,
+                "mediaTimeMs": 65153
+              },
+              {
+                "index": 104,
+                "mediaTimeMs": 65537
+              },
+              {
+                "index": 105,
+                "mediaTimeMs": 65897
+              },
+              {
+                "index": 106,
+                "mediaTimeMs": 66283
+              },
+              {
+                "index": 107,
+                "mediaTimeMs": 66705
+              },
+              {
+                "index": 108,
+                "mediaTimeMs": 67066
+              },
+              {
+                "index": 109,
+                "mediaTimeMs": 67487
+              },
+              {
+                "index": 110,
+                "mediaTimeMs": 67859
+              },
+              {
+                "index": 111,
+                "mediaTimeMs": 68241
+              },
+              {
+                "index": 112,
+                "mediaTimeMs": 68656
+              },
+              {
+                "index": 113,
+                "mediaTimeMs": 69042
+              },
+              {
+                "index": 114,
+                "mediaTimeMs": 69419
+              },
+              {
+                "index": 115,
+                "mediaTimeMs": 69786
+              },
+              {
+                "index": 116,
+                "mediaTimeMs": 70195
+              },
+              {
+                "index": 117,
+                "mediaTimeMs": 70570
+              },
+              {
+                "index": 118,
+                "mediaTimeMs": 70947
+              },
+              {
+                "index": 119,
+                "mediaTimeMs": 71328
+              },
+              {
+                "index": 120,
+                "mediaTimeMs": 71741
+              },
+              {
+                "index": 121,
+                "mediaTimeMs": 72111
+              },
+              {
+                "index": 122,
+                "mediaTimeMs": 72491
+              },
+              {
+                "index": 123,
+                "mediaTimeMs": 72905
+              },
+              {
+                "index": 124,
+                "mediaTimeMs": 73278
+              },
+              {
+                "index": 125,
+                "mediaTimeMs": 73660
+              },
+              {
+                "index": 126,
+                "mediaTimeMs": 74035
+              },
+              {
+                "index": 127,
+                "mediaTimeMs": 74443
+              },
+              {
+                "index": 128,
+                "mediaTimeMs": 74787
+              },
+              {
+                "index": 129,
+                "mediaTimeMs": 75240
+              },
+              {
+                "index": 130,
+                "mediaTimeMs": 75672
+              }
+            ],
             "eventCount": 130,
             "countEventConsistent": true
           },
@@ -34484,7 +35029,6 @@
         "finalTarget": "body"
       },
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -34539,7 +35083,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -34594,7 +35137,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -34658,11 +35200,60 @@
         "metrics": {
           "body": {
             "count": 5,
+            "events": [
+              {
+                "index": 1,
+                "mediaTimeMs": 542
+              },
+              {
+                "index": 2,
+                "mediaTimeMs": 1208
+              },
+              {
+                "index": 3,
+                "mediaTimeMs": 1875
+              },
+              {
+                "index": 4,
+                "mediaTimeMs": 2542
+              },
+              {
+                "index": 5,
+                "mediaTimeMs": 3208
+              }
+            ],
             "eventCount": 5,
             "countEventConsistent": true
           },
           "rope": {
             "count": 10,
+            "events": [
+              {
+                "index": 1,
+                "mediaTimeMs": 542,
+                "passMultiplicity": 2
+              },
+              {
+                "index": 2,
+                "mediaTimeMs": 1208,
+                "passMultiplicity": 2
+              },
+              {
+                "index": 3,
+                "mediaTimeMs": 1875,
+                "passMultiplicity": 2
+              },
+              {
+                "index": 4,
+                "mediaTimeMs": 2542,
+                "passMultiplicity": 2
+              },
+              {
+                "index": 5,
+                "mediaTimeMs": 3208,
+                "passMultiplicity": 2
+              }
+            ],
             "eventCount": 5,
             "countEventConsistent": false
           },
@@ -34679,7 +35270,6 @@
         "finalTarget": "body"
       },
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -34734,7 +35324,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -34789,7 +35378,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -34844,7 +35432,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -34908,16 +35495,167 @@
         "metrics": {
           "body": {
             "count": 13,
+            "events": [
+              {
+                "index": 1,
+                "mediaTimeMs": 631
+              },
+              {
+                "index": 2,
+                "mediaTimeMs": 1090
+              },
+              {
+                "index": 3,
+                "mediaTimeMs": 1558
+              },
+              {
+                "index": 4,
+                "mediaTimeMs": 1965
+              },
+              {
+                "index": 5,
+                "mediaTimeMs": 2415
+              },
+              {
+                "index": 6,
+                "mediaTimeMs": 2941
+              },
+              {
+                "index": 7,
+                "mediaTimeMs": 3300
+              },
+              {
+                "index": 8,
+                "mediaTimeMs": 3759
+              },
+              {
+                "index": 9,
+                "mediaTimeMs": 4218
+              },
+              {
+                "index": 10,
+                "mediaTimeMs": 4676
+              },
+              {
+                "index": 11,
+                "mediaTimeMs": 5094
+              },
+              {
+                "index": 12,
+                "mediaTimeMs": 5552
+              },
+              {
+                "index": 13,
+                "mediaTimeMs": 6011
+              }
+            ],
             "eventCount": 13,
             "countEventConsistent": true
           },
           "rope": {
             "count": 13,
+            "events": [
+              {
+                "index": 1,
+                "mediaTimeMs": 631,
+                "passMultiplicity": 1
+              },
+              {
+                "index": 2,
+                "mediaTimeMs": 1090,
+                "passMultiplicity": 1
+              },
+              {
+                "index": 3,
+                "mediaTimeMs": 1558,
+                "passMultiplicity": 1
+              },
+              {
+                "index": 4,
+                "mediaTimeMs": 1965,
+                "passMultiplicity": 1
+              },
+              {
+                "index": 5,
+                "mediaTimeMs": 2415,
+                "passMultiplicity": 1
+              },
+              {
+                "index": 6,
+                "mediaTimeMs": 2941,
+                "passMultiplicity": 1
+              },
+              {
+                "index": 7,
+                "mediaTimeMs": 3300,
+                "passMultiplicity": 1
+              },
+              {
+                "index": 8,
+                "mediaTimeMs": 3759,
+                "passMultiplicity": 1
+              },
+              {
+                "index": 9,
+                "mediaTimeMs": 4218,
+                "passMultiplicity": 1
+              },
+              {
+                "index": 10,
+                "mediaTimeMs": 4676,
+                "passMultiplicity": 1
+              },
+              {
+                "index": 11,
+                "mediaTimeMs": 5094,
+                "passMultiplicity": 1
+              },
+              {
+                "index": 12,
+                "mediaTimeMs": 5552,
+                "passMultiplicity": 1
+              },
+              {
+                "index": 13,
+                "mediaTimeMs": 6011,
+                "passMultiplicity": 1
+              }
+            ],
             "eventCount": 13,
             "countEventConsistent": true
           },
           "product": {
             "count": 7,
+            "events": [
+              {
+                "index": 1,
+                "mediaTimeMs": 631
+              },
+              {
+                "index": 2,
+                "mediaTimeMs": 1558
+              },
+              {
+                "index": 3,
+                "mediaTimeMs": 2415
+              },
+              {
+                "index": 4,
+                "mediaTimeMs": 3300
+              },
+              {
+                "index": 5,
+                "mediaTimeMs": 4218
+              },
+              {
+                "index": 6,
+                "mediaTimeMs": 5094
+              },
+              {
+                "index": 7,
+                "mediaTimeMs": 6011
+              }
+            ],
             "eventCount": 7,
             "countEventConsistent": true
           }
@@ -34933,7 +35671,6 @@
         "finalTarget": "product"
       },
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -34988,7 +35725,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -35043,7 +35779,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -35098,7 +35833,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -35153,7 +35887,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -35208,7 +35941,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -35263,7 +35995,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -35318,7 +36049,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -35373,7 +36103,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -35428,7 +36157,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -35483,7 +36211,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -35538,7 +36265,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -35593,7 +36319,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -35648,7 +36373,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -35703,7 +36427,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -35758,7 +36481,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -35813,7 +36535,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -35868,7 +36589,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -35923,7 +36643,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -35987,11 +36706,105 @@
         "metrics": {
           "body": {
             "count": 10,
+            "events": [
+              {
+                "index": 1,
+                "mediaTimeMs": 433
+              },
+              {
+                "index": 2,
+                "mediaTimeMs": 1000
+              },
+              {
+                "index": 3,
+                "mediaTimeMs": 1633
+              },
+              {
+                "index": 4,
+                "mediaTimeMs": 2300
+              },
+              {
+                "index": 5,
+                "mediaTimeMs": 2933
+              },
+              {
+                "index": 6,
+                "mediaTimeMs": 3567
+              },
+              {
+                "index": 7,
+                "mediaTimeMs": 4200
+              },
+              {
+                "index": 8,
+                "mediaTimeMs": 4833
+              },
+              {
+                "index": 9,
+                "mediaTimeMs": 5433
+              },
+              {
+                "index": 10,
+                "mediaTimeMs": 6033
+              }
+            ],
             "eventCount": 10,
             "countEventConsistent": true
           },
           "rope": {
             "count": 10,
+            "events": [
+              {
+                "index": 1,
+                "mediaTimeMs": 433,
+                "passMultiplicity": 1
+              },
+              {
+                "index": 2,
+                "mediaTimeMs": 1000,
+                "passMultiplicity": 1
+              },
+              {
+                "index": 3,
+                "mediaTimeMs": 1633,
+                "passMultiplicity": 1
+              },
+              {
+                "index": 4,
+                "mediaTimeMs": 2300,
+                "passMultiplicity": 1
+              },
+              {
+                "index": 5,
+                "mediaTimeMs": 2933,
+                "passMultiplicity": 1
+              },
+              {
+                "index": 6,
+                "mediaTimeMs": 3567,
+                "passMultiplicity": 1
+              },
+              {
+                "index": 7,
+                "mediaTimeMs": 4200,
+                "passMultiplicity": 1
+              },
+              {
+                "index": 8,
+                "mediaTimeMs": 4833,
+                "passMultiplicity": 1
+              },
+              {
+                "index": 9,
+                "mediaTimeMs": 5433,
+                "passMultiplicity": 1
+              },
+              {
+                "index": 10,
+                "mediaTimeMs": 6033,
+                "passMultiplicity": 1
+              }
+            ],
             "eventCount": 10,
             "countEventConsistent": true
           },
@@ -36008,7 +36821,6 @@
         "finalTarget": "rope"
       },
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
@@ -36063,7 +36875,6 @@
       "evidenceGrade": "",
       "lockedGt": null,
       "gptGround": null,
-      "ground": null,
       "logic": {
         "A": {
           "count": null,
