@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAtUtc": "2026-09-18T05:25:14.771Z",
+  "generatedAtUtc": "2026-09-18T05:27:06.311Z",
   "corpusSnapshotUtc": "2026-09-18T04:34:54.394960+00:00",
   "source": "server123:/home/jumprope-research/corpus-registry + discovery candidate registries",
   "refreshPolicy": "server sync hourly; viewer polls every 5 minutes",
@@ -11,8 +11,8 @@
     "viewerRows": 649,
     "canonicalUniqueSha256": 15,
     "lockedGt": 15,
-    "linkedLockedGt": 14,
-    "groundCountedTotal": 14,
+    "linkedLockedGt": 15,
+    "groundCountedTotal": 15,
     "gradedRows": 7,
     "gptGroundCounted": 0,
     "logicCells": 31
@@ -33180,7 +33180,44 @@
       "sourceClass": "USER_ORIGINAL",
       "sha256": "7600030b114fac88dcd149047df4e92fd305a97acc9ed5af8359377ea295880b",
       "evidenceGrade": "",
-      "ground": null,
+      "ground": {
+        "count": 7,
+        "events": [
+          {
+            "index": 1,
+            "mediaTimeMs": 1380
+          },
+          {
+            "index": 2,
+            "mediaTimeMs": 2047
+          },
+          {
+            "index": 3,
+            "mediaTimeMs": 2772
+          },
+          {
+            "index": 4,
+            "mediaTimeMs": 4585
+          },
+          {
+            "index": 5,
+            "mediaTimeMs": 5202
+          },
+          {
+            "index": 6,
+            "mediaTimeMs": 9103
+          },
+          {
+            "index": 7,
+            "mediaTimeMs": 10803
+          }
+        ],
+        "source": "LOCKED_GT",
+        "locked": true,
+        "derivedFromCounter": false,
+        "eventConvention": "visual_apex",
+        "publicId": "JR-20260908-F45E4935"
+      },
       "logic": {
         "A": {
           "count": null,
