@@ -1,7 +1,7 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "source": "server123 F autolab runtime metadata",
-  "latestStateAtUtc": "2026-09-17T13:47:53.280Z",
+  "latestStateAtUtc": "2026-09-18T15:00:17.460Z",
   "phase1": {
     "process": {
       "pid": 24032,
@@ -134,6 +134,87 @@
         "augmentation_strength": 1,
         "hard_negative_weight": 8,
         "lr": 0.0005,
+        "dropout": 0.1,
+        "epochs": 50,
+        "min_separation_ms": 120
+      }
+    }
+  },
+  "phase3": {
+    "process": {
+      "pid": 4864,
+      "alive": false
+    },
+    "sourceSha": "9b12dc5511f902be701e203944b97b7d054d1088",
+    "phase": "architecture_v3",
+    "candidate": 23,
+    "total": 160,
+    "attemptedNew": 6,
+    "completedNew": 5,
+    "unlabeledSequences": 4,
+    "config": {
+      "architecture": "hybrid",
+      "channels": 32,
+      "augmentation_strength": 0.25,
+      "hard_negative_weight": 4,
+      "lr": 0.001,
+      "dropout": 0.1,
+      "epochs": 50,
+      "min_separation_ms": 120
+    },
+    "bestId": "arch3:02ac6f251a4a",
+    "bestScore": [
+      749,
+      25,
+      224,
+      21,
+      31,
+      48
+    ],
+    "updatedAtUtc": "2026-09-18T15:00:17.460Z",
+    "registry": {
+      "exists": true,
+      "generation": null,
+      "completedCount": 22,
+      "errorCount": 0,
+      "bestId": "arch3:02ac6f251a4a",
+      "bestScore": [
+        749,
+        25,
+        224,
+        21,
+        31,
+        48
+      ],
+      "knownGatePassCount": 0
+    },
+    "best": {
+      "exists": true,
+      "id": "arch3:02ac6f251a4a",
+      "score": [
+        21,
+        224,
+        31,
+        25,
+        48
+      ],
+      "aggregate": {
+        "samples": 36,
+        "exact_count_samples": 11,
+        "event_exact_samples": 5,
+        "total_fp": 54,
+        "total_fn": 170,
+        "negative_fp": 21,
+        "event_failures": 31,
+        "count_failures": 25,
+        "known_gate_pass": false
+      },
+      "config": {
+        "architecture": "hybrid",
+        "channels": 48,
+        "augmentation_strength": 0.5,
+        "hard_negative_weight": 4,
+        "lr": 0.001,
         "dropout": 0.1,
         "epochs": 50,
         "min_separation_ms": 120
