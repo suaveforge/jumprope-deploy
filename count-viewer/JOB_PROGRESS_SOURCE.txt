@@ -1,3 +1,0 @@
-source_repository=suaveforge/jumprope
-source_sha=688046a219cc2c1fb4753d06d45f823903bcae4a
-published_at_utc=2026-09-18T12:25:05Z
