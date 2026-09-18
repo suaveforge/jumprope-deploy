@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "server123 F autolab runtime metadata",
-  "latestStateAtUtc": "2026-09-18T15:15:44.064Z",
+  "latestStateAtUtc": "2026-09-18T16:20:57.649Z",
   "phase1": {
     "process": {
       "pid": 24032,
@@ -143,76 +143,76 @@
   "phase3": {
     "process": {
       "pid": 4864,
-      "alive": true
+      "alive": false
     },
     "sourceSha": "9b12dc5511f902be701e203944b97b7d054d1088",
     "phase": "architecture_v3",
-    "candidate": 24,
+    "candidate": 28,
     "total": 160,
-    "attemptedNew": 7,
-    "completedNew": 6,
+    "attemptedNew": 11,
+    "completedNew": 10,
     "unlabeledSequences": 4,
     "config": {
       "architecture": "hybrid",
       "channels": 32,
-      "augmentation_strength": 0.75,
-      "hard_negative_weight": 4,
+      "augmentation_strength": 0.5,
+      "hard_negative_weight": 3,
       "lr": 0.001,
       "dropout": 0.1,
       "epochs": 50,
       "min_separation_ms": 120
     },
-    "bestId": "arch3:02ac6f251a4a",
+    "bestId": "arch3:bd127b2e69b6",
     "bestScore": [
-      749,
-      25,
-      224,
-      21,
-      31,
-      48
+      343,
+      27,
+      168,
+      7,
+      30,
+      32
     ],
-    "updatedAtUtc": "2026-09-18T15:15:44.064Z",
+    "updatedAtUtc": "2026-09-18T16:20:57.649Z",
     "registry": {
       "exists": true,
       "generation": null,
-      "completedCount": 23,
+      "completedCount": 27,
       "errorCount": 0,
-      "bestId": "arch3:02ac6f251a4a",
+      "bestId": "arch3:bd127b2e69b6",
       "bestScore": [
-        749,
-        25,
-        224,
-        21,
-        31,
-        48
+        343,
+        27,
+        168,
+        7,
+        30,
+        32
       ],
       "knownGatePassCount": 0
     },
     "best": {
       "exists": true,
-      "id": "arch3:02ac6f251a4a",
+      "id": "arch3:bd127b2e69b6",
       "score": [
-        21,
-        224,
-        31,
-        25,
-        48
+        7,
+        168,
+        30,
+        27,
+        32
       ],
       "aggregate": {
         "samples": 36,
-        "exact_count_samples": 11,
-        "event_exact_samples": 5,
-        "total_fp": 54,
-        "total_fn": 170,
-        "negative_fp": 21,
-        "event_failures": 31,
-        "count_failures": 25,
+        "exact_count_samples": 9,
+        "event_exact_samples": 6,
+        "total_fp": 51,
+        "total_fn": 117,
+        "negative_fp": 7,
+        "event_failures": 30,
+        "count_failures": 27,
         "known_gate_pass": false
       },
       "config": {
         "architecture": "hybrid",
-        "channels": 48,
-        "augmentation_strength": 0.5,
+        "channels": 32,
+        "augmentation_strength": 1.25,
         "hard_negative_weight": 4,
         "lr": 0.001,
         "dropout": 0.1,
