@@ -1,10 +1,30 @@
 {
   "schemaVersion": 1,
-  "generatedAtUtc": "2026-09-19T09:12:46.613Z",
+  "generatedAtUtc": "2026-09-19T13:10:53.922Z",
   "source": "GitHub Actions + open research PRs + JobProgress correlation",
   "mainSha": "c128909fa1ffb88a0664215c922cfd90780b8f6b",
   "activeRuns": [],
   "recentRuns": [
+    {
+      "id": 35443170824,
+      "name": "TEMP F phase3 all-runner probe",
+      "displayTitle": "research(F): check current phase3 progress",
+      "status": "completed",
+      "conclusion": "failure",
+      "event": "push",
+      "headBranch": "research/ml-shadow-f-v1",
+      "headSha": "1772c17929c92b7e3a94e6b3a615759461be1e8c",
+      "path": ".github/workflows/tmp-f-phase3-all-runner-probe.yml",
+      "createdAt": "2026-09-19T12:32:51Z",
+      "updatedAt": "2026-09-19T12:33:02Z",
+      "url": "https://github.com/suaveforge/jumprope/actions/runs/35443170824",
+      "progressTracked": false,
+      "progressJobId": "",
+      "progressEffectiveState": "",
+      "progressCurrent": null,
+      "progressTotal": null,
+      "progressPercent": null
+    },
     {
       "id": 35421505794,
       "name": "JUMPROPE job progress validation",
@@ -384,26 +404,6 @@
       "progressCurrent": null,
       "progressTotal": null,
       "progressPercent": null
-    },
-    {
-      "id": 35420836663,
-      "name": "JUMPROPE JR517 local-foot-renewal v4 synthetic verify",
-      "displayTitle": "research: falsify local foot renewal ownership v4",
-      "status": "completed",
-      "conclusion": "success",
-      "event": "pull_request",
-      "headBranch": "research/jr517-local-foot-renewal-v4",
-      "headSha": "89e2a4861d27396aa88fc65efc324630684b1169",
-      "path": ".github/workflows/jr517-local-foot-renewal-v4-synthetic.yml",
-      "createdAt": "2026-09-19T04:16:21Z",
-      "updatedAt": "2026-09-19T04:17:10Z",
-      "url": "https://github.com/suaveforge/jumprope/actions/runs/35420836663",
-      "progressTracked": true,
-      "progressJobId": "gh-35420836663-1",
-      "progressEffectiveState": "completed",
-      "progressCurrent": 0,
-      "progressTotal": 1,
-      "progressPercent": 0
     }
   ],
   "openResearchPrs": [
