@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "server123 F autolab runtime metadata",
-  "latestStateAtUtc": "2026-09-19T11:15:35.840Z",
+  "latestStateAtUtc": "2026-09-19T14:48:18.106Z",
   "phase1": {
     "process": {
       "pid": 24032,
@@ -147,41 +147,41 @@
     },
     "sourceSha": "9b12dc5511f902be701e203944b97b7d054d1088",
     "phase": "architecture_v3",
-    "candidate": 98,
+    "candidate": 114,
     "total": 160,
-    "attemptedNew": 76,
-    "completedNew": 75,
+    "attemptedNew": 87,
+    "completedNew": 86,
     "unlabeledSequences": 4,
     "config": {
       "architecture": "hybrid",
       "channels": 64,
-      "augmentation_strength": 0.5,
-      "hard_negative_weight": 4,
-      "lr": 0.0005,
+      "augmentation_strength": 1,
+      "hard_negative_weight": 6,
+      "lr": 0.001,
       "dropout": 0.1,
       "epochs": 50,
-      "min_separation_ms": 180
+      "min_separation_ms": 120
     },
-    "bestId": "arch3:c458250358b0",
+    "bestId": "arch3:d6fdf9d51c63",
     "bestScore": [
-      222,
+      221,
       28,
-      172,
+      171,
       2,
       29,
       64
     ],
-    "updatedAtUtc": "2026-09-19T11:15:35.840Z",
+    "updatedAtUtc": "2026-09-19T14:48:18.106Z",
     "registry": {
       "exists": true,
       "generation": null,
-      "completedCount": 97,
+      "completedCount": 112,
       "errorCount": 0,
-      "bestId": "arch3:c458250358b0",
+      "bestId": "arch3:d6fdf9d51c63",
       "bestScore": [
-        222,
+        221,
         28,
-        172,
+        171,
         2,
         29,
         64
@@ -190,10 +190,10 @@
     },
     "best": {
       "exists": true,
-      "id": "arch3:c458250358b0",
+      "id": "arch3:d6fdf9d51c63",
       "score": [
         2,
-        172,
+        171,
         29,
         28,
         64
@@ -202,7 +202,7 @@
         "samples": 36,
         "exact_count_samples": 8,
         "event_exact_samples": 7,
-        "total_fp": 24,
+        "total_fp": 23,
         "total_fn": 148,
         "negative_fp": 2,
         "event_failures": 29,
@@ -217,7 +217,7 @@
         "lr": 0.0005,
         "dropout": 0.1,
         "epochs": 50,
-        "min_separation_ms": 160
+        "min_separation_ms": 180
       }
     }
   }
