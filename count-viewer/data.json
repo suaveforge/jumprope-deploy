@@ -1,7 +1,7 @@
 {
   "schemaVersion": 6,
-  "generatedAtUtc": "2026-09-19T18:06:05.059Z",
-  "corpusSnapshotUtc": "2026-09-19T17:35:10.563815+00:00",
+  "generatedAtUtc": "2026-09-19T20:48:55.490Z",
+  "corpusSnapshotUtc": "2026-09-19T20:35:11.290848+00:00",
   "source": "server123:/home/jumprope-research/corpus-registry + discovery candidate registries",
   "refreshPolicy": "server sync hourly; viewer polls every 5 minutes",
   "stats": {
