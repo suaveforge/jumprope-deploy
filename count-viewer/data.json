@@ -1,6 +1,6 @@
 {
   "schemaVersion": 6,
-  "generatedAtUtc": "2026-09-19T14:37:44.780Z",
+  "generatedAtUtc": "2026-09-19T14:46:45.308Z",
   "corpusSnapshotUtc": "2026-09-19T14:35:09.164719+00:00",
   "source": "server123:/home/jumprope-research/corpus-registry + discovery candidate registries",
   "refreshPolicy": "server sync hourly; viewer polls every 5 minutes",
@@ -45336,7 +45336,7 @@
       "sourceDeclaredCount": {
         "count": 130,
         "source_type": "USER_REPORTED",
-        "source_ref": "existing report provenance recorded in GT notes as reporter-entered 130",
+        "source_ref": "사용자 신고에 실제 횟수 130회로 입력됨",
         "note": "Source-provided count only. GPT direct count remains a separate field."
       },
       "lockedGt": {
