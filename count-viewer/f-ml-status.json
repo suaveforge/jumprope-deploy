@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "server123 F autolab runtime metadata",
-  "latestStateAtUtc": "2026-09-19T06:27:24.478Z",
+  "latestStateAtUtc": "2026-09-19T11:15:35.840Z",
   "phase1": {
     "process": {
       "pid": 24032,
@@ -147,77 +147,77 @@
     },
     "sourceSha": "9b12dc5511f902be701e203944b97b7d054d1088",
     "phase": "architecture_v3",
-    "candidate": 84,
+    "candidate": 98,
     "total": 160,
-    "attemptedNew": 62,
-    "completedNew": 61,
+    "attemptedNew": 76,
+    "completedNew": 75,
     "unlabeledSequences": 4,
     "config": {
       "architecture": "hybrid",
       "channels": 64,
       "augmentation_strength": 0.5,
-      "hard_negative_weight": 6,
+      "hard_negative_weight": 4,
       "lr": 0.0005,
       "dropout": 0.1,
       "epochs": 50,
-      "min_separation_ms": 120
+      "min_separation_ms": 180
     },
-    "bestId": "arch3:4c0f8194131b",
+    "bestId": "arch3:c458250358b0",
     "bestScore": [
-      333,
-      27,
-      283,
+      222,
+      28,
+      172,
       2,
-      31,
+      29,
       64
     ],
-    "updatedAtUtc": "2026-09-19T06:27:24.478Z",
+    "updatedAtUtc": "2026-09-19T11:15:35.840Z",
     "registry": {
       "exists": true,
       "generation": null,
-      "completedCount": 83,
+      "completedCount": 97,
       "errorCount": 0,
-      "bestId": "arch3:4c0f8194131b",
+      "bestId": "arch3:c458250358b0",
       "bestScore": [
-        333,
-        27,
-        283,
+        222,
+        28,
+        172,
         2,
-        31,
+        29,
         64
       ],
       "knownGatePassCount": 0
     },
     "best": {
       "exists": true,
-      "id": "arch3:4c0f8194131b",
+      "id": "arch3:c458250358b0",
       "score": [
         2,
-        283,
-        31,
-        27,
+        172,
+        29,
+        28,
         64
       ],
       "aggregate": {
         "samples": 36,
-        "exact_count_samples": 9,
-        "event_exact_samples": 5,
-        "total_fp": 29,
-        "total_fn": 254,
+        "exact_count_samples": 8,
+        "event_exact_samples": 7,
+        "total_fp": 24,
+        "total_fn": 148,
         "negative_fp": 2,
-        "event_failures": 31,
-        "count_failures": 27,
+        "event_failures": 29,
+        "count_failures": 28,
         "known_gate_pass": false
       },
       "config": {
-        "architecture": "gru",
+        "architecture": "hybrid",
         "channels": 64,
         "augmentation_strength": 0.5,
         "hard_negative_weight": 4,
-        "lr": 0.0003,
+        "lr": 0.0005,
         "dropout": 0.1,
         "epochs": 50,
-        "min_separation_ms": 120
+        "min_separation_ms": 160
       }
     }
   }
