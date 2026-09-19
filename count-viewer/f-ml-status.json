@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "server123 F autolab runtime metadata",
-  "latestStateAtUtc": "2026-09-19T19:27:13.072Z",
+  "latestStateAtUtc": "2026-09-19T21:39:46.872Z",
   "phase1": {
     "process": {
       "pid": 24032,
@@ -143,24 +143,24 @@
   "phase3": {
     "process": {
       "pid": 4864,
-      "alive": true
+      "alive": false
     },
     "sourceSha": "9b12dc5511f902be701e203944b97b7d054d1088",
     "phase": "architecture_v3",
-    "candidate": 128,
+    "candidate": 138,
     "total": 160,
-    "attemptedNew": 100,
-    "completedNew": 99,
+    "attemptedNew": 107,
+    "completedNew": 106,
     "unlabeledSequences": 4,
     "config": {
       "architecture": "hybrid",
       "channels": 64,
       "augmentation_strength": 1,
-      "hard_negative_weight": 8,
-      "lr": 0.001,
+      "hard_negative_weight": 3,
+      "lr": 0.0005,
       "dropout": 0.1,
       "epochs": 50,
-      "min_separation_ms": 160
+      "min_separation_ms": 120
     },
     "bestId": "arch3:d6fdf9d51c63",
     "bestScore": [
@@ -171,11 +171,11 @@
       29,
       64
     ],
-    "updatedAtUtc": "2026-09-19T19:27:13.072Z",
+    "updatedAtUtc": "2026-09-19T21:39:46.872Z",
     "registry": {
       "exists": true,
       "generation": null,
-      "completedCount": 127,
+      "completedCount": 137,
       "errorCount": 0,
       "bestId": "arch3:d6fdf9d51c63",
       "bestScore": [
