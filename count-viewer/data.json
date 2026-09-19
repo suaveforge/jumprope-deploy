@@ -1,6 +1,6 @@
 {
   "schemaVersion": 6,
-  "generatedAtUtc": "2026-09-19T14:46:45.308Z",
+  "generatedAtUtc": "2026-09-19T15:31:37.086Z",
   "corpusSnapshotUtc": "2026-09-19T14:35:09.164719+00:00",
   "source": "server123:/home/jumprope-research/corpus-registry + discovery candidate registries",
   "refreshPolicy": "server sync hourly; viewer polls every 5 minutes",
@@ -43811,7 +43811,10 @@
       "title": "JR-20260908-E86C659B",
       "platform": "canonical",
       "sourceUrl": "",
-      "play": null,
+      "play": {
+        "kind": "secure-canonical",
+        "ref": "JR-20260908-E86C659B"
+      },
       "candidateRole": "",
       "query": "",
       "duration": null,
@@ -43915,7 +43918,10 @@
       "title": "JR-20260908-376EF057",
       "platform": "canonical",
       "sourceUrl": "",
-      "play": null,
+      "play": {
+        "kind": "secure-canonical",
+        "ref": "JR-20260908-376EF057"
+      },
       "candidateRole": "",
       "query": "",
       "duration": null,
@@ -44011,7 +44017,10 @@
       "title": "JR-20260909-9BDBF573",
       "platform": "canonical",
       "sourceUrl": "",
-      "play": null,
+      "play": {
+        "kind": "secure-canonical",
+        "ref": "JR-20260909-9BDBF573"
+      },
       "candidateRole": "",
       "query": "",
       "duration": null,
@@ -44187,7 +44196,10 @@
       "title": "JR-20260909-AC5539AF",
       "platform": "canonical",
       "sourceUrl": "",
-      "play": null,
+      "play": {
+        "kind": "secure-canonical",
+        "ref": "JR-20260909-AC5539AF"
+      },
       "candidateRole": "",
       "query": "",
       "duration": null,
@@ -44266,7 +44278,10 @@
       "title": "JR-20260911-BD41E9A3",
       "platform": "canonical",
       "sourceUrl": "",
-      "play": null,
+      "play": {
+        "kind": "secure-canonical",
+        "ref": "JR-20260911-BD41E9A3"
+      },
       "candidateRole": "",
       "query": "",
       "duration": null,
@@ -44345,7 +44360,10 @@
       "title": "JR-20260908-F62DC60E",
       "platform": "canonical",
       "sourceUrl": "",
-      "play": null,
+      "play": {
+        "kind": "secure-canonical",
+        "ref": "JR-20260908-F62DC60E"
+      },
       "candidateRole": "",
       "query": "",
       "duration": null,
@@ -44449,7 +44467,10 @@
       "title": "JR-20260910-07583788",
       "platform": "canonical",
       "sourceUrl": "",
-      "play": null,
+      "play": {
+        "kind": "secure-canonical",
+        "ref": "JR-20260910-07583788"
+      },
       "candidateRole": "",
       "query": "",
       "duration": null,
@@ -44665,7 +44686,10 @@
       "title": "JR-20260908-913C26E0",
       "platform": "canonical",
       "sourceUrl": "",
-      "play": null,
+      "play": {
+        "kind": "secure-canonical",
+        "ref": "JR-20260908-913C26E0"
+      },
       "candidateRole": "",
       "query": "",
       "duration": null,
@@ -44773,7 +44797,10 @@
       "title": "JR-20260908-F45E4935",
       "platform": "canonical",
       "sourceUrl": "",
-      "play": null,
+      "play": {
+        "kind": "secure-canonical",
+        "ref": "JR-20260908-F45E4935"
+      },
       "candidateRole": "",
       "query": "",
       "duration": null,
@@ -44881,7 +44908,10 @@
       "title": "JR-20260910-C32FED68",
       "platform": "canonical",
       "sourceUrl": "",
-      "play": null,
+      "play": {
+        "kind": "secure-canonical",
+        "ref": "JR-20260910-C32FED68"
+      },
       "candidateRole": "",
       "query": "",
       "duration": null,
@@ -45041,7 +45071,10 @@
       "title": "JR-20260912-D5EEAE97",
       "platform": "canonical",
       "sourceUrl": "",
-      "play": null,
+      "play": {
+        "kind": "secure-canonical",
+        "ref": "JR-20260912-D5EEAE97"
+      },
       "candidateRole": "",
       "query": "",
       "duration": null,
@@ -45317,7 +45350,10 @@
       "title": "JR-20260913-694638E8",
       "platform": "canonical",
       "sourceUrl": "",
-      "play": null,
+      "play": {
+        "kind": "secure-canonical",
+        "ref": "JR-20260913-694638E8"
+      },
       "candidateRole": "",
       "query": "",
       "duration": null,
@@ -46033,8 +46069,8 @@
       "platform": "youtube",
       "sourceUrl": "https://www.youtube.com/watch?v=82jNjDS19lg",
       "play": {
-        "kind": "youtube",
-        "ref": "82jNjDS19lg"
+        "kind": "secure-canonical",
+        "ref": "JR-20260910-6579D76C"
       },
       "candidateRole": "",
       "query": "",
@@ -46332,8 +46368,8 @@
       "platform": "youtube",
       "sourceUrl": "https://www.youtube.com/watch?v=fLiozP7GVeA",
       "play": {
-        "kind": "youtube",
-        "ref": "fLiozP7GVeA"
+        "kind": "secure-canonical",
+        "ref": "JR-20260910-83F35476"
       },
       "candidateRole": "",
       "query": "",
@@ -47507,8 +47543,8 @@
       "platform": "youtube",
       "sourceUrl": "https://www.youtube.com/watch?v=Y3wzaWE9QRY",
       "play": {
-        "kind": "youtube",
-        "ref": "Y3wzaWE9QRY"
+        "kind": "secure-canonical",
+        "ref": "JR-20260910-A7D305FC"
       },
       "candidateRole": "",
       "query": "",
