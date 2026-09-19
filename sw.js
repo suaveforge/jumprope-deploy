@@ -1,4 +1,4 @@
-const CACHE = 'jumprope-shell-v7';
+const CACHE = 'jumprope-shell-v8';
 const SHELL = ['/', '/manifest.webmanifest', '/icon.svg', '/icon-180.png', '/icon-192.png'];
 
 self.addEventListener('install', (event) => {
@@ -7,8 +7,24 @@ self.addEventListener('install', (event) => {
 });
 
 self.addEventListener('activate', (event) => {
-  event.waitUntil(caches.keys().then((keys) => Promise.all(keys.filter((k) => k !== CACHE).map((k) => caches.delete(k)))));
-  self.clients.claim();
+  event.waitUntil((async () => {
+    await caches.keys().then((keys) => Promise.all(keys.filter((k) => k !== CACHE).map((k) => caches.delete(k))));
+    await self.clients.claim();
+
+    // COUNT_VIEWER_SW_AUTOHEAL_V1
+    // Users already controlled by the old v6 worker can receive the cached app shell
+    // on the first /count-viewer/ navigation. Once this worker activates, force only
+    // those viewer clients to navigate again so the request bypasses the app-shell fallback.
+    const clients = await self.clients.matchAll({ type: 'window', includeUncontrolled: true });
+    await Promise.all(clients.map(async (client) => {
+      try {
+        const url = new URL(client.url);
+        if (url.pathname === '/count-viewer' || url.pathname.startsWith('/count-viewer/')) {
+          await client.navigate(client.url);
+        }
+      } catch {}
+    }));
+  })());
 });
 
 self.addEventListener('fetch', (event) => {
@@ -16,7 +32,6 @@ self.addEventListener('fetch', (event) => {
   const url = new URL(event.request.url);
   if (url.origin !== self.location.origin) return;
   // The operational count viewer must never fall back to the cached app shell.
-  // A transient Pages/CDN miss previously rendered the public app login screen at /count-viewer/.
   if (url.pathname === '/count-viewer' || url.pathname.startsWith('/count-viewer/')) return;
   event.respondWith(
     fetch(event.request, { cache: 'no-store' }).then((response) => {
