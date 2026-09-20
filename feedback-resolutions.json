@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-13T06:00:10Z",
+  "updatedAt": "2026-09-18T05:59:42.275Z",
   "items": {
     "JR-20260904-56EA94C8": {
       "status": "done",
@@ -270,6 +270,50 @@
       "status": "done",
       "type": "bug",
       "resolution": "첨부 원본을 독립 검수해 BODY_GT=10·ROPE_GT=10을 고정한 뒤, 저프레임/프레임 타이밍 변화에서 실제 점프 경계가 한 프레임에 겹치거나 샘플 누락으로 첫 점프·연속 점프가 합쳐지는 A 로직의 시간축 경계 문제를 수정했습니다. 전역 임계값을 낮추지 않고 경계 프레임 재사용, raw 양발 하강·재상승 교차검증, 관측 공백 보정, 첫 약신호의 후속 2회 cadence 사후확정으로 해결했습니다. D5 원본 10/10·FP0/FN0, mandatory temporal stress 23개 전부, 기존 locked GOLD/negative 전체 회귀를 통과한 SHA 24d22150c38f6a8d135f8b12c8b2a31d68e743d3를 프로덕션에 적용했습니다. B/C/D/E는 이 해결로 완료 처리하지 않으며 Final 개입 없이 별도 미통과 연구 과제로 계속 추적·수정합니다."
+    },
+    "JR-20260913-694638E8": {
+      "status": "in_progress",
+      "resolution": "A-counter 연구에서 BODY_GT 130 기준 Lv0·모든 Lv1·모든 mandatory L2를 130/130, FP0, FN0으로 통과했고 15개 locked 회귀도 전부 mandatoryPass=true로 검증했습니다. 수정안 f209efd8e6539cc4e30db4fb6138912b6e75f5c4는 연구 검증 완료 상태이며, 최신 main 반영·배포 검증 전까지는 완료 처리하지 않습니다."
+    },
+    "JR-20260913-7A348EA7": {
+      "status": "in_progress",
+      "resolution": "오른발 기준 해석과 1회 누락 여부를 첨부 영상으로 확인하고 있습니다. 함께 제안된 양발모아뛰기·번갈아뛰기 30초 속도 측정은 기존 자유 측정과 분리된 30초 타이머+실시간 횟수 측정 모드로 검토 중입니다."
+    },
+    "JR-20260913-EC244349": {
+      "status": "done",
+      "resolution": "피드백을 확인했습니다. 첨부 영상·진단은 향후 2단뛰기 ROPE_GT 및 타입 분류 검증 자료로 보존합니다. 이 글 자체는 추가 오류 신고나 수정 요청이 없어 완료 처리했습니다."
+    },
+    "JR-20260915-DE1CE4AF": {
+      "status": "in_progress",
+      "resolution": "10회 수행 대비 7회로 측정된 신고입니다. 세션에는 rejectedCycles 3개가 모두 foot으로 기록됐고 missed frames는 0입니다. 첨부 원본 영상과 diagnostic을 실제 점프 이벤트와 대조해 3회 누락이 실제 점프인지, 발 상승 관측 실패인지 확인 중입니다."
+    },
+    "JR-20260915-8AAAF02B": {
+      "status": "in_progress",
+      "resolution": "베이직 점프 카운트 오류 신고입니다. 측정 6회, rejectedCycles 2개(foot 1·landing 1), missed frames 0으로 기록됐습니다. 첨부 영상 기준 실제 GT와 거절된 두 사이클의 pose/body trajectory를 대조해 원인을 확인 중입니다."
+    },
+    "JR-20260915-EE633B8E": {
+      "status": "done",
+      "resolution": "사용자가 10회를 수행했고 시스템도 10회로 정확히 측정됐다고 직접 확인한 정상 사례입니다. 첨부 진단에서도 count=10으로 기록되어 정상 확인 건으로 종료합니다."
+    },
+    "JR-20260915-FC47518C": {
+      "status": "in_progress",
+      "resolution": "번갈아 뛰기에서 측정 27회가 실제 수행 수와 약간 다르다는 신고입니다. rejectedCycles 6개(noAir 4·landing 2), missed frames 11이 기록돼 있어 원본 영상의 실제 GT와 누락 후보를 대조 분석 중입니다."
+    },
+    "JR-20260915-9CD789B4": {
+      "status": "done",
+      "resolution": "첨부 원본과 진단을 대조한 결과 실제 점프 구간의 A body event는 20회이고 세션 종목도 더블언더로 정확히 판정됐습니다. 기록된 foot 1·landing 1 거절은 실제 점프 종료 후 약 4초 뒤 퇴장/LOST 동작에서 발생해 누락 점프가 아닙니다. 정상 측정 사례로 종료합니다."
+    },
+    "JR-20260916-C349854C": {
+      "status": "in_progress",
+      "resolution": "빠른 저진폭 점프 과소계수 건을 메인 정확도 연구에서 분석 중입니다. 실제 세션의 active 구간에서는 tracking loss 증가가 확인되지 않았고, exact counter replay에서는 missedFrames=0 상태에서도 score/foot reject가 발생했습니다. timestamp-preserving sparse sampling이 빠른 저진폭 궤적을 충분히 관측하지 못해 reject로 바꾸는 현상은 synthetic matrix에서 재현됐습니다. 다만 기존 FC47518C의 25295ms false-positive를 되살리지 않는 독립 물리 신호 검증이 남아 있어 production 수정은 아직 적용하지 않습니다."
+    },
+    "JR-20260916-82DBCDA2": {
+      "status": "in_progress",
+      "resolution": "번갈아뛰기는 현재 엔진에서 사람 기준 오른발 주도 사이클만 카운트하도록 구현돼 있고, secondary counter가 왼발 사이클을 복원하지 못하게 막혀 있습니다. 이번 세션은 18회, rejectedCycles 3, missedFrames 132로 기록됐지만 첨부 원본 영상이 없어 사용자가 말한 실제 30회와 각 누락 시점을 직접 대조할 수 없습니다. 오른발-only 규칙 자체는 확인됐고, 30→18 과소계수 원인은 증거 부족으로 아직 확정하지 않습니다."
+    },
+    "JR-20260916-B5E7AC1A": {
+      "status": "done",
+      "resolution": "현재 더블언더(2단뛰기)는 줄 회전 2회를 각각 2카운트로 세는 방식이 아니라, 한 번의 몸 점프/착지 사이클을 1회로 카운트하고 종목을 더블언더로 별도 분류하는 방식입니다. 이 세션도 styleCurrent=더블언더, count=28로 기록됐습니다. 즉 화면의 28은 몸 점프 28회를 뜻하며 줄 회전수 56회를 뜻하지 않습니다."
     }
   }
 }
