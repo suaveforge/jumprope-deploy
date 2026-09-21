@@ -51,7 +51,7 @@ jobs:
             file="handoff/$id.mp4"
             curl -fL --retry 2 --connect-timeout 20 --max-time 1200 \
               -o "$file" \
-              "https://api-jumprope.suaveforge.com/v1/gpt-transfer/youtube/$id/file"
+              "https://api-jumprope.suaveforge.com:18456/v1/gpt-transfer/youtube/$id/file"
 
             size="$(stat -c %s "$file")"
             test "$size" -gt 0
