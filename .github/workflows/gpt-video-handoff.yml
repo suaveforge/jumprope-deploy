@@ -42,13 +42,15 @@ jobs:
           sudo apt-get install -y ffmpeg
           ffprobe -version | head -n1
 
-      - name: Fetch two videos from JUMPROPE transfer gateway and validate
+      - name: Install downloader
+        run: python -m pip install --disable-pip-version-check --no-cache-dir yt-dlp
+
+      - name: Download and validate two videos
         shell: bash
         env:
           IDS: ${{ steps.batch.outputs.ids }}
         run: |
           set -Eeuo pipefail
-          command -v ffprobe
           mkdir -p handoff
           : > handoff/manifest.tsv
           PER_VIDEO_MAX=$((90*1024*1024))
@@ -56,16 +58,38 @@ jobs:
           total=0
 
           for id in $IDS; do
-            file="handoff/$id.mp4"
-            curl --fail-with-body -L --retry 2 --connect-timeout 20 --max-time 1200               -o "$file"               "https://api-jumprope.suaveforge.com/v1/gpt-transfer/youtube/$id/file"
+            ok=0
+            for res in 720 480 360 240; do
+              rm -f "handoff/$id".*
+              python -m yt_dlp \
+                --no-playlist --no-warnings --no-progress \
+                --merge-output-format mp4 --remux-video mp4 \
+                -S "res:$res,ext:mp4:m4a" \
+                -o "handoff/$id.%(ext)s" \
+                "https://www.youtube.com/watch?v=$id"
 
-            size="$(stat -c %s "$file")"
-            test "$size" -gt 0
-            test "$size" -le "$PER_VIDEO_MAX" || { echo "VIDEO_CAP_EXCEEDED id=$id bytes=$size cap=$PER_VIDEO_MAX"; exit 31; }
+              file="$(find handoff -maxdepth 1 -type f -name "$id.*" ! -name '*.part' | head -n1)"
+              test -n "$file"
+              size="$(stat -c %s "$file")"
+              if [ "$size" -le "$PER_VIDEO_MAX" ]; then
+                if [ "${file##*.}" != "mp4" ]; then
+                  ffmpeg -hide_banner -loglevel error -y -i "$file" -c copy "handoff/$id.mp4"
+                  rm -f "$file"
+                  file="handoff/$id.mp4"
+                  size="$(stat -c %s "$file")"
+                fi
+                ok=1
+                break
+              fi
+            done
+            test "$ok" = 1 || { echo "VIDEO_TOO_LARGE id=$id"; exit 31; }
 
-            ffprobe -v error               -show_entries format=format_name,duration,size               -show_entries stream=index,codec_type,codec_name,width,height,r_frame_rate               -of json "$file" > "handoff/$id.ffprobe.json"
+            ffprobe -v error \
+              -show_entries format=format_name,duration,size \
+              -show_entries stream=index,codec_type,codec_name,width,height,r_frame_rate \
+              -of json "$file" > "handoff/$id.ffprobe.json"
 
-            python -c 'import hashlib,pathlib,sys; p=pathlib.Path(sys.argv[1]); h=hashlib.sha256(); f=p.open("rb"); [h.update(c) for c in iter(lambda:f.read(1048576), b"")]; f.close(); print(f"{sys.argv[2]}\\t{p.stat().st_size}\\t{h.hexdigest()}")' "$file" "$id" >> handoff/manifest.tsv
+            python -c 'import hashlib,pathlib,sys; p=pathlib.Path(sys.argv[1]); h=hashlib.sha256(); f=p.open("rb"); [h.update(c) for c in iter(lambda:f.read(1048576), b"")]; f.close(); print(f"{sys.argv[2]}\\t{p.stat().st_size}\\t{h.hexdigest()}\\t{sys.argv[3]}")' "$file" "$id" "$res" >> handoff/manifest.tsv
             total=$((total + size))
           done
 
