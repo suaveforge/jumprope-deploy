@@ -1,0 +1,136 @@
+name: ROPEJUMP GPT video handoff
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: read
+  actions: write
+  issues: write
+
+jobs:
+  batch:
+    if: ${{ github.actor == 'programmer119' && startsWith(github.event.issue.title, '[gpt-video-batch] ') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Resolve fixed batch
+        id: batch
+        shell: bash
+        env:
+          TITLE: ${{ github.event.issue.title }}
+        run: |
+          set -Eeuo pipefail
+          n="${TITLE##* }"
+          case "$n" in
+            1) ids="_hjspOjY3OA -4GeZ0-iWmA" ;;
+            2) ids="-aSsSZeisxY -eSBdVqVCRA" ;;
+            3) ids="-iUpSI_eAdU -lHdh0uldkA" ;;
+            4) ids="-lj8WC_PTwU -r5RJhX2HeY" ;;
+            5) ids="-Z8Uo-BIcKI 0-_ADy-gm5I" ;;
+            *) echo "invalid batch"; exit 2 ;;
+          esac
+          echo "batch=$n" >> "$GITHUB_OUTPUT"
+          echo "ids=$ids" >> "$GITHUB_OUTPUT"
+
+      - name: Install downloader
+        run: python -m pip install --disable-pip-version-check --no-cache-dir yt-dlp
+
+      - name: Download and validate two videos
+        shell: bash
+        env:
+          IDS: ${{ steps.batch.outputs.ids }}
+          BATCH: ${{ steps.batch.outputs.batch }}
+        run: |
+          set -Eeuo pipefail
+          mkdir -p handoff
+          : > handoff/manifest.tsv
+          PER_VIDEO_MAX=$((90*1024*1024))
+          BATCH_MAX=$((180*1024*1024))
+          total=0
+
+          for id in $IDS; do
+            ok=0
+            for res in 720 480 360 240; do
+              rm -f "handoff/$id".*
+              python -m yt_dlp                 --no-playlist --no-warnings --no-progress                 --merge-output-format mp4 --remux-video mp4                 -S "res:$res,ext:mp4:m4a"                 -o "handoff/$id.%(ext)s"                 "https://www.youtube.com/watch?v=$id"
+
+              file="$(find handoff -maxdepth 1 -type f -name "$id.*" ! -name '*.part' | head -n1)"
+              test -n "$file"
+              size="$(stat -c %s "$file")"
+              if [ "$size" -le "$PER_VIDEO_MAX" ]; then
+                if [ "${file##*.}" != "mp4" ]; then
+                  ffmpeg -hide_banner -loglevel error -y -i "$file" -c copy "handoff/$id.mp4"
+                  rm -f "$file"
+                  file="handoff/$id.mp4"
+                  size="$(stat -c %s "$file")"
+                fi
+                ok=1
+                break
+              fi
+            done
+            test "$ok" = 1 || { echo "VIDEO_TOO_LARGE id=$id"; exit 31; }
+
+            ffprobe -v error               -show_entries format=format_name,duration,size               -show_entries stream=index,codec_type,codec_name,width,height,r_frame_rate               -of json "$file" > "handoff/$id.ffprobe.json"
+
+            python - "$file" "$id" "$res" >> handoff/manifest.tsv <<'PY'
+import hashlib, pathlib, sys
+p=pathlib.Path(sys.argv[1])
+h=hashlib.sha256()
+with p.open("rb") as f:
+    for chunk in iter(lambda:f.read(1024*1024), b""):
+        h.update(chunk)
+print(f"{sys.argv[2]}\t{p.stat().st_size}\t{h.hexdigest()}\t{sys.argv[3]}")
+PY
+            total=$((total + size))
+          done
+
+          echo "BATCH_TOTAL_BYTES=$total"
+          test "$total" -le "$BATCH_MAX" || { echo "BATCH_CAP_EXCEEDED total=$total cap=$BATCH_MAX"; exit 32; }
+          cat handoff/manifest.tsv
+
+      - name: Upload capped handoff artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ropejump-gpt-batch-${{ steps.batch.outputs.batch }}
+          path: handoff/
+          retention-days: 1
+          compression-level: 0
+          if-no-files-found: error
+
+      - name: Comment and close request
+        if: always()
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          ISSUE: ${{ github.event.issue.number }}
+          BATCH: ${{ steps.batch.outputs.batch }}
+          RESULT: ${{ job.status }}
+        run: |
+          set -Eeuo pipefail
+          body="GPT_VIDEO_BATCH batch=$BATCH result=$RESULT cap=180MiB per_video=90MiB"
+          curl -fsS -X POST             -H "Authorization: Bearer $GH_TOKEN"             -H "Accept: application/vnd.github+json"             -H "X-GitHub-Api-Version: 2022-11-28"             "https://api.github.com/repos/$REPO/issues/$ISSUE/comments"             -d "$(python -c 'import json,os; print(json.dumps({"body":os.environ["BODY"]}))' BODY="$body")" >/dev/null || true
+          curl -fsS -X PATCH             -H "Authorization: Bearer $GH_TOKEN"             -H "Accept: application/vnd.github+json"             -H "X-GitHub-Api-Version: 2022-11-28"             "https://api.github.com/repos/$REPO/issues/$ISSUE"             -d '{"state":"closed"}' >/dev/null || true
+
+  cleanup:
+    if: ${{ github.actor == 'programmer119' && startsWith(github.event.issue.title, '[gpt-artifact-cleanup] ') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Delete exact artifact and close request
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          ISSUE: ${{ github.event.issue.number }}
+          TITLE: ${{ github.event.issue.title }}
+        run: |
+          set -Eeuo pipefail
+          id="${TITLE##* }"
+          [[ "$id" =~ ^[0-9]+$ ]]
+          code="$(curl -sS -o /tmp/delete.txt -w '%{http_code}' -X DELETE             -H "Authorization: Bearer $GH_TOKEN"             -H "Accept: application/vnd.github+json"             -H "X-GitHub-Api-Version: 2022-11-28"             "https://api.github.com/repos/$REPO/actions/artifacts/$id")"
+          echo "ARTIFACT_DELETE_HTTP=$code id=$id"
+          test "$code" = 204
+          curl -fsS -X PATCH             -H "Authorization: Bearer $GH_TOKEN"             -H "Accept: application/vnd.github+json"             -H "X-GitHub-Api-Version: 2022-11-28"             "https://api.github.com/repos/$REPO/issues/$ISSUE"             -d '{"state":"closed"}' >/dev/null || true
