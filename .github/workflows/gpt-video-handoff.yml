@@ -34,35 +34,30 @@ jobs:
           echo "batch=$n" >> "$GITHUB_OUTPUT"
           echo "ids=$ids" >> "$GITHUB_OUTPUT"
 
-      - name: Fetch two videos from JUMPROPE API and validate
+      - name: Fetch two videos from JUMPROPE transfer gateway and validate
         shell: bash
         env:
           IDS: ${{ steps.batch.outputs.ids }}
-          BATCH: ${{ steps.batch.outputs.batch }}
         run: |
           set -Eeuo pipefail
+          command -v ffprobe
           mkdir -p handoff
           : > handoff/manifest.tsv
-          PER_VIDEO_MAX=$((200*1024*1024))
-          BATCH_MAX=$((400*1024*1024))
+          PER_VIDEO_MAX=$((90*1024*1024))
+          BATCH_MAX=$((180*1024*1024))
           total=0
 
           for id in $IDS; do
             file="handoff/$id.mp4"
-            curl -fL --retry 2 --connect-timeout 20 --max-time 1200 \
-              -o "$file" \
-              "https://api-jumprope.suaveforge.com:18456/v1/gpt-transfer/youtube/$id/file"
+            curl --fail-with-body -L --retry 2 --connect-timeout 20 --max-time 1200               -o "$file"               "https://api-jumprope.suaveforge.com:18456/v1/gpt-transfer/youtube/$id/file"
 
             size="$(stat -c %s "$file")"
             test "$size" -gt 0
             test "$size" -le "$PER_VIDEO_MAX" || { echo "VIDEO_CAP_EXCEEDED id=$id bytes=$size cap=$PER_VIDEO_MAX"; exit 31; }
 
-            ffprobe -v error \
-              -show_entries format=format_name,duration,size \
-              -show_entries stream=index,codec_type,codec_name,width,height,r_frame_rate \
-              -of json "$file" > "handoff/$id.ffprobe.json"
+            ffprobe -v error               -show_entries format=format_name,duration,size               -show_entries stream=index,codec_type,codec_name,width,height,r_frame_rate               -of json "$file" > "handoff/$id.ffprobe.json"
 
-            python -c 'import hashlib,pathlib,sys; p=pathlib.Path(sys.argv[1]); d=p.read_bytes(); print(f"{sys.argv[2]}\\t{len(d)}\\t{hashlib.sha256(d).hexdigest()}")' "$file" "$id" >> handoff/manifest.tsv
+            python -c 'import hashlib,pathlib,sys; p=pathlib.Path(sys.argv[1]); h=hashlib.sha256(); f=p.open("rb"); [h.update(c) for c in iter(lambda:f.read(1048576), b"")]; f.close(); print(f"{sys.argv[2]}\\t{p.stat().st_size}\\t{h.hexdigest()}")' "$file" "$id" >> handoff/manifest.tsv
             total=$((total + size))
           done
 
@@ -71,6 +66,7 @@ jobs:
           cat handoff/manifest.tsv
 
       - name: Upload capped handoff artifact
+        id: upload
         uses: actions/upload-artifact@v4
         with:
           name: ropejump-gpt-batch-${{ steps.batch.outputs.batch }}
@@ -79,7 +75,7 @@ jobs:
           compression-level: 0
           if-no-files-found: error
 
-      - name: Comment and close request
+      - name: Report exact run and artifact, then close request
         if: always()
         shell: bash
         env:
@@ -88,8 +84,13 @@ jobs:
           ISSUE: ${{ github.event.issue.number }}
           BATCH: ${{ steps.batch.outputs.batch }}
           RESULT: ${{ job.status }}
+          RUN_ID: ${{ github.run_id }}
+          ARTIFACT_ID: ${{ steps.upload.outputs.artifact-id }}
         run: |
           set -Eeuo pipefail
+          body="GPT_VIDEO_BATCH batch=$BATCH result=$RESULT run_id=$RUN_ID artifact_id=$ARTIFACT_ID caps=90MiB/video,180MiB/batch runner=ubuntu-latest"
+          payload="$(python -c 'import json,sys; print(json.dumps({"body":sys.argv[1]}))' "$body")"
+          curl -fsS -X POST             -H "Authorization: Bearer $GH_TOKEN"             -H "Accept: application/vnd.github+json"             -H "X-GitHub-Api-Version: 2022-11-28"             "https://api.github.com/repos/$REPO/issues/$ISSUE/comments"             -d "$payload" >/dev/null || true
           curl -fsS -X PATCH             -H "Authorization: Bearer $GH_TOKEN"             -H "Accept: application/vnd.github+json"             -H "X-GitHub-Api-Version: 2022-11-28"             "https://api.github.com/repos/$REPO/issues/$ISSUE"             -d '{"state":"closed"}' >/dev/null || true
 
   cleanup:
@@ -104,6 +105,7 @@ jobs:
           REPO: ${{ github.repository }}
           ISSUE: ${{ github.event.issue.number }}
           TITLE: ${{ github.event.issue.title }}
+          RUN_ID: ${{ github.run_id }}
         run: |
           set -Eeuo pipefail
           id="${TITLE##* }"
@@ -111,4 +113,7 @@ jobs:
           code="$(curl -sS -o /tmp/delete.txt -w '%{http_code}' -X DELETE             -H "Authorization: Bearer $GH_TOKEN"             -H "Accept: application/vnd.github+json"             -H "X-GitHub-Api-Version: 2022-11-28"             "https://api.github.com/repos/$REPO/actions/artifacts/$id")"
           echo "ARTIFACT_DELETE_HTTP=$code id=$id"
           test "$code" = 204
+          body="GPT_ARTIFACT_CLEANUP artifact_id=$id result=success run_id=$RUN_ID"
+          payload="$(python -c 'import json,sys; print(json.dumps({"body":sys.argv[1]}))' "$body")"
+          curl -fsS -X POST             -H "Authorization: Bearer $GH_TOKEN"             -H "Accept: application/vnd.github+json"             -H "X-GitHub-Api-Version: 2022-11-28"             "https://api.github.com/repos/$REPO/issues/$ISSUE/comments"             -d "$payload" >/dev/null || true
           curl -fsS -X PATCH             -H "Authorization: Bearer $GH_TOKEN"             -H "Accept: application/vnd.github+json"             -H "X-GitHub-Api-Version: 2022-11-28"             "https://api.github.com/repos/$REPO/issues/$ISSUE"             -d '{"state":"closed"}' >/dev/null || true
