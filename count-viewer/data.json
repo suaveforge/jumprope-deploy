@@ -1,6 +1,6 @@
 {
   "schemaVersion": 7,
-  "generatedAtUtc": "2026-09-23T07:45:59.936Z",
+  "generatedAtUtc": "2026-09-23T07:51:18.836Z",
   "corpusSnapshotUtc": "2026-09-23T07:35:20.067231+00:00",
   "source": "server123:/home/jumprope-research/corpus-registry + discovery candidate registries",
   "refreshPolicy": "relevant main pushes sync immediately; hourly fallback; viewer polls published data",
@@ -29774,7 +29774,7 @@
       "canonicalIds": [],
       "sourceClass": "GPT_REVIEWED_EXTERNAL",
       "sha256": "e1329822d7cd226a05f58d7564922b543e6c7f638386595b8941a256ab4d07d4",
-      "thumbnailUrl": "",
+      "thumbnailUrl": "/count-viewer/thumbs/x7zay0w.jpg",
       "evidenceGrade": "",
       "sourceDeclaredCount": {
         "count": null,
@@ -29849,7 +29849,7 @@
       "canonicalIds": [],
       "sourceClass": "GPT_REVIEWED_EXTERNAL",
       "sha256": "",
-      "thumbnailUrl": "",
+      "thumbnailUrl": "/count-viewer/thumbs/x815y0i.jpg",
       "evidenceGrade": "",
       "sourceDeclaredCount": {
         "count": null,
@@ -29924,7 +29924,7 @@
       "canonicalIds": [],
       "sourceClass": "GPT_REVIEWED_EXTERNAL",
       "sha256": "1dffd35398a8eec4a856ac98178bfde05a41e407863ef6b3438f3199e44526e1",
-      "thumbnailUrl": "",
+      "thumbnailUrl": "/count-viewer/thumbs/x8by42a.jpg",
       "evidenceGrade": "",
       "sourceDeclaredCount": {
         "count": null,
@@ -29999,7 +29999,7 @@
       "canonicalIds": [],
       "sourceClass": "GPT_REVIEWED_EXTERNAL",
       "sha256": "b117ae591b6d61fac9cbfa69d3172e6d90058e7ffbc6010c77d3f617d41ca09e",
-      "thumbnailUrl": "",
+      "thumbnailUrl": "/count-viewer/thumbs/x8au8pu.jpg",
       "evidenceGrade": "",
       "sourceDeclaredCount": {
         "count": null,
