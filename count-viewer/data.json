@@ -1,6 +1,6 @@
 {
   "schemaVersion": 7,
-  "generatedAtUtc": "2026-09-23T06:51:25.812Z",
+  "generatedAtUtc": "2026-09-23T06:56:00.413Z",
   "corpusSnapshotUtc": "2026-09-23T06:35:19.991995+00:00",
   "source": "server123:/home/jumprope-research/corpus-registry + discovery candidate registries",
   "refreshPolicy": "relevant main pushes sync immediately; hourly fallback; viewer polls published data",
@@ -29773,7 +29773,7 @@
       "canonical": false,
       "canonicalIds": [],
       "sourceClass": "GPT_REVIEWED_EXTERNAL",
-      "sha256": "",
+      "sha256": "e1329822d7cd226a05f58d7564922b543e6c7f638386595b8941a256ab4d07d4",
       "thumbnailUrl": "",
       "evidenceGrade": "",
       "sourceDeclaredCount": {
@@ -29791,10 +29791,10 @@
         "source_ref": "https://www.dailymotion.com/video/x7zay0w",
         "note": "GPT direct visual review of the full source at dense 10 fps. Seventeen distinct takeoff/airborne/landing jump cycles were confirmed. The late low crouch/rope-manipulation motion near 14.3 s was not counted as a jump.",
         "source": "GPT_DIRECT_VIEWER",
-        "jump_rope_type": "",
-        "sha256": "",
+        "jump_rope_type": "NON_STANDARD_MIXED_OR_TRICK",
+        "sha256": "e1329822d7cd226a05f58d7564922b543e6c7f638386595b8941a256ab4d07d4",
         "dataset_role": "",
-        "dataset_role_policy": "PENDING_TYPE_PURITY_REVIEW"
+        "dataset_role_policy": "EXCLUDED_NON_STANDARD"
       },
       "logic": {
         "A": {
@@ -29866,7 +29866,7 @@
         "source_ref": "https://www.dailymotion.com/video/x815y0i",
         "note": "GPT direct visual review of the full source at dense 10 fps. Thirteen distinct body jump/hop cycles were confirmed. Ghost/transition motion near 8.7 s and grounded rope-manipulation/pivot motions near 10.1 s and 13-14 s were excluded.",
         "source": "GPT_DIRECT_VIEWER",
-        "jump_rope_type": "",
+        "jump_rope_type": "NON_STANDARD_MIXED_OR_TRICK",
         "sha256": "",
         "dataset_role": "",
         "dataset_role_policy": "EXCLUDED_NON_STANDARD"
@@ -29923,7 +29923,7 @@
       "canonical": false,
       "canonicalIds": [],
       "sourceClass": "GPT_REVIEWED_EXTERNAL",
-      "sha256": "",
+      "sha256": "1dffd35398a8eec4a856ac98178bfde05a41e407863ef6b3438f3199e44526e1",
       "thumbnailUrl": "",
       "evidenceGrade": "",
       "sourceDeclaredCount": {
@@ -29941,10 +29941,10 @@
         "source_ref": "https://www.dailymotion.com/video/x8by42a",
         "note": "GPT direct visual review of the full source using dense 10 fps and targeted 0.2 s interval sheets. Thirty-eight body jump/hop cycles were confirmed. Three turn/walk-only minima around 16.2-17.7 s and one end crouch around 22.1 s were explicitly excluded.",
         "source": "GPT_DIRECT_VIEWER",
-        "jump_rope_type": "",
-        "sha256": "",
+        "jump_rope_type": "NON_STANDARD_MIXED_OR_TRICK",
+        "sha256": "1dffd35398a8eec4a856ac98178bfde05a41e407863ef6b3438f3199e44526e1",
         "dataset_role": "",
-        "dataset_role_policy": "PENDING_TYPE_PURITY_REVIEW"
+        "dataset_role_policy": "EXCLUDED_NON_STANDARD"
       },
       "logic": {
         "A": {
@@ -29998,7 +29998,7 @@
       "canonical": false,
       "canonicalIds": [],
       "sourceClass": "GPT_REVIEWED_EXTERNAL",
-      "sha256": "",
+      "sha256": "b117ae591b6d61fac9cbfa69d3172e6d90058e7ffbc6010c77d3f617d41ca09e",
       "thumbnailUrl": "",
       "evidenceGrade": "",
       "sourceDeclaredCount": {
@@ -30016,10 +30016,10 @@
         "source_ref": "https://www.dailymotion.com/video/x8au8pu",
         "note": "GPT direct visual review of the full source. 31 visually confirmed jump-rope repetitions; bright physical rope remained trackable. Dense review of the two largest cadence gaps found no missed repetition.",
         "source": "GPT_DIRECT_VIEWER",
-        "jump_rope_type": "",
-        "sha256": "",
+        "jump_rope_type": "NON_STANDARD_MIXED_OR_TRICK",
+        "sha256": "b117ae591b6d61fac9cbfa69d3172e6d90058e7ffbc6010c77d3f617d41ca09e",
         "dataset_role": "",
-        "dataset_role_policy": "PENDING_TYPE_PURITY_REVIEW"
+        "dataset_role_policy": "EXCLUDED_NON_STANDARD"
       },
       "logic": {
         "A": {
