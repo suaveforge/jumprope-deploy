@@ -34,10 +34,19 @@ jobs:
             base="https://${host}:${port}"
             health="$(curl -sS --connect-timeout 3 --max-time 6 -o /tmp/health.json -w '%{http_code}' "${base}/health" || true)"
             echo "GATEWAY_PROBE base=${base} health=${health}"
-            [ "${health}" = 200 ] || continue
+            if [ "${health}" = 200 ]; then
+              echo -n "GATEWAY_HEALTH_BODY base=${base} body="
+              tr -d '\n' < /tmp/health.json || true
+              echo
+            else
+              continue
+            fi
 
             manifest="$(curl -sS --connect-timeout 10 --max-time 1000 -o /tmp/manifest.json -w '%{http_code}' "${base}/v1/gpt-transfer/youtube/${first}/manifest" || true)"
             echo "GATEWAY_MANIFEST base=${base} status=${manifest}"
+            echo -n "GATEWAY_MANIFEST_BODY base=${base} body="
+            tr -d '\n' < /tmp/manifest.json || true
+            echo
             if [ "${manifest}" = 200 ]; then
               selected="${base}"
               break
@@ -49,8 +58,14 @@ jobs:
             health="$(curl -sS --connect-timeout 5 --max-time 10 -o /tmp/health.json -w '%{http_code}' "${base}/health" || true)"
             echo "GATEWAY_PROBE base=${base} health=${health}"
             if [ "${health}" = 200 ]; then
+              echo -n "GATEWAY_HEALTH_BODY base=${base} body="
+              tr -d '\n' < /tmp/health.json || true
+              echo
               manifest="$(curl -sS --connect-timeout 10 --max-time 1000 -o /tmp/manifest.json -w '%{http_code}' "${base}/v1/gpt-transfer/youtube/${first}/manifest" || true)"
               echo "GATEWAY_MANIFEST base=${base} status=${manifest}"
+              echo -n "GATEWAY_MANIFEST_BODY base=${base} body="
+              tr -d '\n' < /tmp/manifest.json || true
+              echo
               [ "${manifest}" = 200 ] && selected="${base}"
             fi
           fi
