@@ -1,7 +1,7 @@
 {
   "schemaVersion": 7,
-  "generatedAtUtc": "2026-09-23T10:53:33.668Z",
-  "corpusSnapshotUtc": "2026-09-23T10:35:20.287572+00:00",
+  "generatedAtUtc": "2026-09-23T13:15:01.974Z",
+  "corpusSnapshotUtc": "2026-09-23T12:35:20.420023+00:00",
   "source": "server123:/home/jumprope-research/corpus-registry + discovery candidate registries",
   "refreshPolicy": "relevant main pushes sync immediately; hourly fallback; viewer polls published data",
   "stats": {
@@ -17558,10 +17558,10 @@
         "source_ref": "USER_ORIGINAL:JR-20260908-376EF057",
         "note": "Promoted from locked independent visual GT (derivedFromCounter=false). Count was established from exact canonical USER_ORIGINAL media, not copied from counter output.",
         "source": "GPT_DIRECT_VIEWER",
-        "jump_rope_type": "",
+        "jump_rope_type": "NON_STANDARD_NO_VISIBLE_ROPE_BODY_JUMP",
         "sha256": "711b89492f78e3386ff045f7a816cf66a8a4b435bf1f05c8f07882e7dfad2e22",
         "dataset_role": "",
-        "dataset_role_policy": "PENDING_TYPE_PURITY_REVIEW"
+        "dataset_role_policy": "EXCLUDED_NON_STANDARD"
       },
       "logic": {
         "A": {
@@ -17693,10 +17693,10 @@
         "source_ref": "USER_ORIGINAL:JR-20260908-913C26E0",
         "note": "Promoted from locked independent visual GT (derivedFromCounter=false). Count was established from exact canonical USER_ORIGINAL media, not copied from counter output.",
         "source": "GPT_DIRECT_VIEWER",
-        "jump_rope_type": "",
+        "jump_rope_type": "NON_STANDARD_NO_VISIBLE_ROPE_BODY_JUMP",
         "sha256": "712d2738d9bd412d332191994644600ff815946a27536a5d7466965b205b43a0",
         "dataset_role": "",
-        "dataset_role_policy": "PENDING_TYPE_PURITY_REVIEW"
+        "dataset_role_policy": "EXCLUDED_NON_STANDARD"
       },
       "logic": {
         "A": {
@@ -17824,10 +17824,10 @@
         "source_ref": "USER_ORIGINAL:JR-20260908-E86C659B",
         "note": "Promoted from locked independent visual GT (derivedFromCounter=false). Count was established from exact canonical USER_ORIGINAL media, not copied from counter output.",
         "source": "GPT_DIRECT_VIEWER",
-        "jump_rope_type": "",
+        "jump_rope_type": "NON_STANDARD_NO_VISIBLE_ROPE_BODY_JUMP",
         "sha256": "9787f3a21a14871e199474a008d66a12c6d8029557a2b5e4a2f6c387b6f39d93",
         "dataset_role": "",
-        "dataset_role_policy": "PENDING_TYPE_PURITY_REVIEW"
+        "dataset_role_policy": "EXCLUDED_NON_STANDARD"
       },
       "logic": {
         "A": {
@@ -17959,10 +17959,10 @@
         "source_ref": "USER_ORIGINAL:JR-20260908-F45E4935",
         "note": "Promoted from locked independent visual GT (derivedFromCounter=false). Count was established from exact canonical USER_ORIGINAL media, not copied from counter output.",
         "source": "GPT_DIRECT_VIEWER",
-        "jump_rope_type": "",
+        "jump_rope_type": "NON_STANDARD_NO_VISIBLE_ROPE_BODY_JUMP",
         "sha256": "7600030b114fac88dcd149047df4e92fd305a97acc9ed5af8359377ea295880b",
         "dataset_role": "",
-        "dataset_role_policy": "PENDING_TYPE_PURITY_REVIEW"
+        "dataset_role_policy": "EXCLUDED_NON_STANDARD"
       },
       "logic": {
         "A": {
@@ -18090,10 +18090,10 @@
         "source_ref": "USER_ORIGINAL:JR-20260908-F62DC60E",
         "note": "Promoted from locked independent visual GT (derivedFromCounter=false). Count was established from exact canonical USER_ORIGINAL media, not copied from counter output.",
         "source": "GPT_DIRECT_VIEWER",
-        "jump_rope_type": "",
+        "jump_rope_type": "NON_STANDARD_NO_VISIBLE_ROPE_BODY_JUMP",
         "sha256": "7e3d6256d7d9e35409488427a7b1dbfe2cee2451be6cd6e2cf798f3691dc4bdf",
         "dataset_role": "",
-        "dataset_role_policy": "PENDING_TYPE_PURITY_REVIEW"
+        "dataset_role_policy": "EXCLUDED_NON_STANDARD"
       },
       "logic": {
         "A": {
@@ -18293,10 +18293,10 @@
         "source_ref": "USER_ORIGINAL:JR-20260909-9BDBF573",
         "note": "Promoted from locked independent visual GT (derivedFromCounter=false). Count was established from exact canonical USER_ORIGINAL media, not copied from counter output.",
         "source": "GPT_DIRECT_VIEWER",
-        "jump_rope_type": "",
+        "jump_rope_type": "NON_STANDARD_NO_VISIBLE_ROPE_BODY_JUMP",
         "sha256": "1cbb78f65e660c52d8471366cadf4ec7395f65fe3ddf02690e5fbfceb9be04fe",
         "dataset_role": "",
-        "dataset_role_policy": "PENDING_TYPE_PURITY_REVIEW"
+        "dataset_role_policy": "EXCLUDED_NON_STANDARD"
       },
       "logic": {
         "A": {
@@ -18402,7 +18402,7 @@
         "jump_rope_type": "NO_JUMP_HARD_NEGATIVE",
         "sha256": "3175f101b902c5b7a8dc1da6010ff1d2c155847872582dfbf12b076a7bcf35ca",
         "dataset_role": "",
-        "dataset_role_policy": "EXCLUDED_FROM_STANDARD_POSITIVE"
+        "dataset_role_policy": "HARD_NEGATIVE_ONLY"
       },
       "logic": {
         "A": {
@@ -18642,10 +18642,10 @@
         "source_ref": "USER_ORIGINAL:JR-20260910-07583788",
         "note": "Promoted from locked independent visual GT (derivedFromCounter=false). Count was established from exact canonical USER_ORIGINAL media, not copied from counter output.",
         "source": "GPT_DIRECT_VIEWER",
-        "jump_rope_type": "",
+        "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
         "sha256": "a2030f88490c41598a6f53f2b58b3bb33b247a7fd5e5f70e7f9f0b00d3e4e898",
-        "dataset_role": "",
-        "dataset_role_policy": "PENDING_TYPE_PURITY_REVIEW"
+        "dataset_role": "TRAIN",
+        "dataset_role_policy": "USER_ORIGINAL_VERIFIED_STANDARD_BALANCED_SPLIT"
       },
       "logic": {
         "A": {
@@ -18829,10 +18829,10 @@
         "source_ref": "USER_ORIGINAL:JR-20260910-C32FED68",
         "note": "Promoted from locked independent visual GT (derivedFromCounter=false). Count was established from exact canonical USER_ORIGINAL media, not copied from counter output.",
         "source": "GPT_DIRECT_VIEWER",
-        "jump_rope_type": "",
+        "jump_rope_type": "NON_STANDARD_NO_VISIBLE_ROPE_BODY_JUMP",
         "sha256": "6bf454a676ecfaa8bd3e5e6bbe478ac4255dbbf19237cf391c973b07157842ef",
         "dataset_role": "",
-        "dataset_role_policy": "PENDING_TYPE_PURITY_REVIEW"
+        "dataset_role_policy": "EXCLUDED_NON_STANDARD"
       },
       "logic": {
         "A": {
@@ -18938,7 +18938,7 @@
         "jump_rope_type": "NO_JUMP_HARD_NEGATIVE",
         "sha256": "3812aa2afaa929dc93e8d999e27075698aeee568a9667e0360c230717583f4bb",
         "dataset_role": "",
-        "dataset_role_policy": "EXCLUDED_FROM_STANDARD_POSITIVE"
+        "dataset_role_policy": "HARD_NEGATIVE_ONLY"
       },
       "logic": {
         "A": {
@@ -19238,10 +19238,10 @@
         "source_ref": "USER_ORIGINAL:JR-20260912-D5EEAE97",
         "note": "Promoted from locked independent visual GT (derivedFromCounter=false). Count was established from exact canonical USER_ORIGINAL media, not copied from counter output.",
         "source": "GPT_DIRECT_VIEWER",
-        "jump_rope_type": "",
+        "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
         "sha256": "8ebe77b26beae6afcad031c3d01809981c736a24b9cee6647544cf5261c4c802",
-        "dataset_role": "",
-        "dataset_role_policy": "PENDING_TYPE_PURITY_REVIEW"
+        "dataset_role": "VALIDATION",
+        "dataset_role_policy": "USER_ORIGINAL_VERIFIED_STANDARD_BALANCED_SPLIT"
       },
       "logic": {
         "A": {
@@ -19865,10 +19865,10 @@
         "source_ref": "USER_ORIGINAL:JR-20260913-694638E8",
         "note": "Promoted from locked independent visual GT (derivedFromCounter=false). Count was established from exact canonical USER_ORIGINAL media, not copied from counter output.",
         "source": "GPT_DIRECT_VIEWER",
-        "jump_rope_type": "",
+        "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
         "sha256": "fda492fa1ce637261837b07ba73ea1aea3535f711d5bd02d9ab3719118cba6d9",
-        "dataset_role": "",
-        "dataset_role_policy": "PENDING_TYPE_PURITY_REVIEW"
+        "dataset_role": "HOLDOUT",
+        "dataset_role_policy": "USER_ORIGINAL_VERIFIED_STANDARD_BALANCED_SPLIT"
       },
       "logic": {
         "A": {
