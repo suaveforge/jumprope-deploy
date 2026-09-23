@@ -1,7 +1,7 @@
 {
   "schemaVersion": 7,
-  "generatedAtUtc": "2026-09-23T13:15:01.974Z",
-  "corpusSnapshotUtc": "2026-09-23T12:35:20.420023+00:00",
+  "generatedAtUtc": "2026-09-23T14:44:14.954Z",
+  "corpusSnapshotUtc": "2026-09-23T14:35:20.531593+00:00",
   "source": "server123:/home/jumprope-research/corpus-registry + discovery candidate registries",
   "refreshPolicy": "relevant main pushes sync immediately; hourly fallback; viewer polls published data",
   "stats": {
@@ -10,7 +10,7 @@
     "openMediaSourceRecords": 2,
     "viewerRows": 1433,
     "canonicalTotal": 15,
-    "canonicalUniqueSha256": 15,
+    "canonicalUniqueSha256": 0,
     "lockedGt": 15,
     "lockedGtTotal": 15,
     "linkedLockedGt": 15,
@@ -17559,9 +17559,12 @@
         "note": "Promoted from locked independent visual GT (derivedFromCounter=false). Count was established from exact canonical USER_ORIGINAL media, not copied from counter output.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "NON_STANDARD_NO_VISIBLE_ROPE_BODY_JUMP",
+        "non_standard_subtype": "",
         "sha256": "711b89492f78e3386ff045f7a816cf66a8a4b435bf1f05c8f07882e7dfad2e22",
         "dataset_role": "",
-        "dataset_role_policy": "EXCLUDED_NON_STANDARD"
+        "dataset_role_policy": "EXCLUDED_NON_STANDARD",
+        "dataset_eligibility": "EXCLUDED_NON_STANDARD_NO_VISIBLE_ROPE",
+        "dataset_group": ""
       },
       "logic": {
         "A": {
@@ -17694,9 +17697,12 @@
         "note": "Promoted from locked independent visual GT (derivedFromCounter=false). Count was established from exact canonical USER_ORIGINAL media, not copied from counter output.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "NON_STANDARD_NO_VISIBLE_ROPE_BODY_JUMP",
+        "non_standard_subtype": "",
         "sha256": "712d2738d9bd412d332191994644600ff815946a27536a5d7466965b205b43a0",
         "dataset_role": "",
-        "dataset_role_policy": "EXCLUDED_NON_STANDARD"
+        "dataset_role_policy": "EXCLUDED_NON_STANDARD",
+        "dataset_eligibility": "EXCLUDED_NON_STANDARD_NO_VISIBLE_ROPE",
+        "dataset_group": ""
       },
       "logic": {
         "A": {
@@ -17825,9 +17831,12 @@
         "note": "Promoted from locked independent visual GT (derivedFromCounter=false). Count was established from exact canonical USER_ORIGINAL media, not copied from counter output.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "NON_STANDARD_NO_VISIBLE_ROPE_BODY_JUMP",
+        "non_standard_subtype": "",
         "sha256": "9787f3a21a14871e199474a008d66a12c6d8029557a2b5e4a2f6c387b6f39d93",
         "dataset_role": "",
-        "dataset_role_policy": "EXCLUDED_NON_STANDARD"
+        "dataset_role_policy": "EXCLUDED_NON_STANDARD",
+        "dataset_eligibility": "EXCLUDED_NON_STANDARD_NO_VISIBLE_ROPE",
+        "dataset_group": ""
       },
       "logic": {
         "A": {
@@ -17960,9 +17969,12 @@
         "note": "Promoted from locked independent visual GT (derivedFromCounter=false). Count was established from exact canonical USER_ORIGINAL media, not copied from counter output.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "NON_STANDARD_NO_VISIBLE_ROPE_BODY_JUMP",
+        "non_standard_subtype": "",
         "sha256": "7600030b114fac88dcd149047df4e92fd305a97acc9ed5af8359377ea295880b",
         "dataset_role": "",
-        "dataset_role_policy": "EXCLUDED_NON_STANDARD"
+        "dataset_role_policy": "EXCLUDED_NON_STANDARD",
+        "dataset_eligibility": "EXCLUDED_NON_STANDARD_NO_VISIBLE_ROPE",
+        "dataset_group": ""
       },
       "logic": {
         "A": {
@@ -18091,9 +18103,12 @@
         "note": "Promoted from locked independent visual GT (derivedFromCounter=false). Count was established from exact canonical USER_ORIGINAL media, not copied from counter output.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "NON_STANDARD_NO_VISIBLE_ROPE_BODY_JUMP",
+        "non_standard_subtype": "",
         "sha256": "7e3d6256d7d9e35409488427a7b1dbfe2cee2451be6cd6e2cf798f3691dc4bdf",
         "dataset_role": "",
-        "dataset_role_policy": "EXCLUDED_NON_STANDARD"
+        "dataset_role_policy": "EXCLUDED_NON_STANDARD",
+        "dataset_eligibility": "EXCLUDED_NON_STANDARD_NO_VISIBLE_ROPE",
+        "dataset_group": ""
       },
       "logic": {
         "A": {
@@ -18294,9 +18309,12 @@
         "note": "Promoted from locked independent visual GT (derivedFromCounter=false). Count was established from exact canonical USER_ORIGINAL media, not copied from counter output.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "NON_STANDARD_NO_VISIBLE_ROPE_BODY_JUMP",
+        "non_standard_subtype": "",
         "sha256": "1cbb78f65e660c52d8471366cadf4ec7395f65fe3ddf02690e5fbfceb9be04fe",
         "dataset_role": "",
-        "dataset_role_policy": "EXCLUDED_NON_STANDARD"
+        "dataset_role_policy": "EXCLUDED_NON_STANDARD",
+        "dataset_eligibility": "EXCLUDED_NON_STANDARD_NO_VISIBLE_ROPE",
+        "dataset_group": ""
       },
       "logic": {
         "A": {
@@ -18400,9 +18418,12 @@
         "note": "Promoted from locked independent visual GT (derivedFromCounter=false). Exact canonical USER_ORIGINAL clip is a verified zero-jump hard negative.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "NO_JUMP_HARD_NEGATIVE",
+        "non_standard_subtype": "",
         "sha256": "3175f101b902c5b7a8dc1da6010ff1d2c155847872582dfbf12b076a7bcf35ca",
         "dataset_role": "",
-        "dataset_role_policy": "HARD_NEGATIVE_ONLY"
+        "dataset_role_policy": "HARD_NEGATIVE_ONLY",
+        "dataset_eligibility": "HARD_NEGATIVE_ONLY",
+        "dataset_group": ""
       },
       "logic": {
         "A": {
@@ -18643,9 +18664,12 @@
         "note": "Promoted from locked independent visual GT (derivedFromCounter=false). Count was established from exact canonical USER_ORIGINAL media, not copied from counter output.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
+        "non_standard_subtype": "",
         "sha256": "a2030f88490c41598a6f53f2b58b3bb33b247a7fd5e5f70e7f9f0b00d3e4e898",
-        "dataset_role": "TRAIN",
-        "dataset_role_policy": "USER_ORIGINAL_VERIFIED_STANDARD_BALANCED_SPLIT"
+        "dataset_role": "HOLDOUT",
+        "dataset_role_policy": "USER_ORIGINAL_GROUP_LOCKED_NO_PERSON_LEAKAGE",
+        "dataset_eligibility": "ELIGIBLE_VERIFIED_STANDARD",
+        "dataset_group": "USER_ORIGINAL_REPORTER_ORIGIN_UNRESOLVED_202609"
       },
       "logic": {
         "A": {
@@ -18830,9 +18854,12 @@
         "note": "Promoted from locked independent visual GT (derivedFromCounter=false). Count was established from exact canonical USER_ORIGINAL media, not copied from counter output.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "NON_STANDARD_NO_VISIBLE_ROPE_BODY_JUMP",
+        "non_standard_subtype": "",
         "sha256": "6bf454a676ecfaa8bd3e5e6bbe478ac4255dbbf19237cf391c973b07157842ef",
         "dataset_role": "",
-        "dataset_role_policy": "EXCLUDED_NON_STANDARD"
+        "dataset_role_policy": "EXCLUDED_NON_STANDARD",
+        "dataset_eligibility": "EXCLUDED_NON_STANDARD_NO_VISIBLE_ROPE",
+        "dataset_group": ""
       },
       "logic": {
         "A": {
@@ -18936,9 +18963,12 @@
         "note": "Promoted from locked independent visual GT (derivedFromCounter=false). Exact canonical USER_ORIGINAL clip is a verified zero-jump hard negative.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "NO_JUMP_HARD_NEGATIVE",
+        "non_standard_subtype": "",
         "sha256": "3812aa2afaa929dc93e8d999e27075698aeee568a9667e0360c230717583f4bb",
         "dataset_role": "",
-        "dataset_role_policy": "HARD_NEGATIVE_ONLY"
+        "dataset_role_policy": "HARD_NEGATIVE_ONLY",
+        "dataset_eligibility": "HARD_NEGATIVE_ONLY",
+        "dataset_group": ""
       },
       "logic": {
         "A": {
@@ -19239,9 +19269,12 @@
         "note": "Promoted from locked independent visual GT (derivedFromCounter=false). Count was established from exact canonical USER_ORIGINAL media, not copied from counter output.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
+        "non_standard_subtype": "",
         "sha256": "8ebe77b26beae6afcad031c3d01809981c736a24b9cee6647544cf5261c4c802",
-        "dataset_role": "VALIDATION",
-        "dataset_role_policy": "USER_ORIGINAL_VERIFIED_STANDARD_BALANCED_SPLIT"
+        "dataset_role": "HOLDOUT",
+        "dataset_role_policy": "USER_ORIGINAL_GROUP_LOCKED_NO_PERSON_LEAKAGE",
+        "dataset_eligibility": "ELIGIBLE_VERIFIED_STANDARD",
+        "dataset_group": "USER_ORIGINAL_REPORTER_ORIGIN_UNRESOLVED_202609"
       },
       "logic": {
         "A": {
@@ -19866,9 +19899,12 @@
         "note": "Promoted from locked independent visual GT (derivedFromCounter=false). Count was established from exact canonical USER_ORIGINAL media, not copied from counter output.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
+        "non_standard_subtype": "",
         "sha256": "fda492fa1ce637261837b07ba73ea1aea3535f711d5bd02d9ab3719118cba6d9",
         "dataset_role": "HOLDOUT",
-        "dataset_role_policy": "USER_ORIGINAL_VERIFIED_STANDARD_BALANCED_SPLIT"
+        "dataset_role_policy": "USER_ORIGINAL_GROUP_LOCKED_NO_PERSON_LEAKAGE",
+        "dataset_eligibility": "ELIGIBLE_VERIFIED_STANDARD",
+        "dataset_group": "USER_ORIGINAL_REPORTER_ORIGIN_UNRESOLVED_202609"
       },
       "logic": {
         "A": {
@@ -19944,9 +19980,12 @@
         "note": "GPT direct visual review. Full-source lower/full review confirmed synchronized two-foot uncrossed basic. 35 completed cycles directly verified; large gaps were manually re-read as actual standing/reset pauses and both boundaries were checked. Programmatic motion/centroid analysis was used only to propose timestamps and did not generate the GT.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
+        "non_standard_subtype": "",
         "sha256": "34cbc3d60c99671c6c58f6d7202dd42fda4cace2f25a642356838451e751bf72",
         "dataset_role": "TRAIN",
-        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE"
+        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE",
+        "dataset_eligibility": "ELIGIBLE_VERIFIED_STANDARD",
+        "dataset_group": "g11"
       },
       "logic": {
         "A": {
@@ -20032,9 +20071,12 @@
         "note": "GPT direct visual review. Full-source 15 fps and native-frame foot review confirmed synchronized two-foot uncrossed basic. 35 completed cycles directly verified; long gaps were manually checked as pauses and the final landing completes before source end. Programmatic motion/centroid analysis was used only to propose timestamps and did not generate the GT.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
+        "non_standard_subtype": "",
         "sha256": "f48eb58375a9e4882ebba01eabc5ed8bb82c68352dfd2b6e6a3c0cd9942234ce",
         "dataset_role": "TRAIN",
-        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE"
+        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE",
+        "dataset_eligibility": "ELIGIBLE_VERIFIED_STANDARD",
+        "dataset_group": "g18"
       },
       "logic": {
         "A": {
@@ -20120,9 +20162,12 @@
         "note": "GPT direct visual review. Whole-source and native-frame review confirmed synchronized two-foot uncrossed basic. 48 completed cycles directly verified. All long locator gaps were separately inspected as pauses/reset motion, not missed jumps; final landing completes before source end. Programmatic motion/centroid analysis was used only to propose timestamps and did not generate the GT.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
+        "non_standard_subtype": "",
         "sha256": "826865c0f461be19437a2a9784d0f3ff319f64d5d64f990226275d0e21eddd6d",
         "dataset_role": "TRAIN",
-        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE"
+        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE",
+        "dataset_eligibility": "ELIGIBLE_VERIFIED_STANDARD",
+        "dataset_group": "g18"
       },
       "logic": {
         "A": {
@@ -20208,9 +20253,12 @@
         "note": "GPT direct visual review. Whole-source and targeted foot-level review confirmed synchronized two-foot uncrossed basic. 30 completed cycles directly verified; long gaps were checked as non-jump pauses/reset motion and no extra completed cycle appears after the last admitted jump. Programmatic motion/centroid analysis was used only to propose timestamps and did not generate the GT.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
+        "non_standard_subtype": "",
         "sha256": "3e04bdc9557ff72b4ab4f6de98adf1352a3f3639ecd61fa578e4750a65ed30fd",
         "dataset_role": "TRAIN",
-        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE"
+        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE",
+        "dataset_eligibility": "ELIGIBLE_VERIFIED_STANDARD",
+        "dataset_group": "g18"
       },
       "logic": {
         "A": {
@@ -20296,9 +20344,12 @@
         "note": "GPT direct visual review. Whole-source review confirmed synchronized two-foot uncrossed basic. 52 completed cycles directly verified from native-frame windows with no unresolved cadence gaps; final landing completes before the source boundary. Programmatic motion/centroid analysis was used only to propose timestamps and did not generate the GT.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
+        "non_standard_subtype": "",
         "sha256": "344ea741c30019416b56ea7d12b0f3c83b76f160820751c795aeaf837f30166f",
         "dataset_role": "TRAIN",
-        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE"
+        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE",
+        "dataset_eligibility": "ELIGIBLE_VERIFIED_STANDARD",
+        "dataset_group": "g20"
       },
       "logic": {
         "A": {
@@ -20384,9 +20435,12 @@
         "note": "GPT direct visual review. Whole-source review confirmed synchronized two-foot uncrossed basic. 34 completed cycles directly verified; early and later long gaps were visually confirmed as standing/reset pauses, not missed jumps; final cycle completes before source end. Programmatic motion/centroid analysis was used only to propose timestamps and did not generate the GT.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
+        "non_standard_subtype": "",
         "sha256": "2ef500f689c822576fee95fa74a7a0c1d0675e06ed22a7870fc430877dcf6008",
         "dataset_role": "TRAIN",
-        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE"
+        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE",
+        "dataset_eligibility": "ELIGIBLE_VERIFIED_STANDARD",
+        "dataset_group": "g20"
       },
       "logic": {
         "A": {
@@ -20472,9 +20526,12 @@
         "note": "GPT direct visual review. Whole-source visual review confirmed synchronized two-foot uncrossed basic. 49 completed cycles directly verified; close opening cycles were checked as distinct, long gap as a real pause, and final landing completes before source end. Programmatic motion/centroid analysis was used only to propose timestamps and did not generate the GT.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
+        "non_standard_subtype": "",
         "sha256": "558a46ed0d544ec1cb6a362a3ea305d8a40612be31269d6f84fb43b96da1c7b0",
         "dataset_role": "TRAIN",
-        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE"
+        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE",
+        "dataset_eligibility": "ELIGIBLE_VERIFIED_STANDARD",
+        "dataset_group": "g21"
       },
       "logic": {
         "A": {
@@ -20560,9 +20617,12 @@
         "note": "GPT direct visual review. Whole-source review confirmed synchronized two-foot basic throughout. 37 completed cycles directly verified; long gaps were manually checked as real pauses and the final cycle lands before the source boundary. Programmatic motion/centroid analysis was used only to propose timestamps and did not generate the GT.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
+        "non_standard_subtype": "",
         "sha256": "611f4b3d21725be8cd4081f638395062b7997d8f59739f4927ef02f096ac0c7c",
         "dataset_role": "TRAIN",
-        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE"
+        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE",
+        "dataset_eligibility": "ELIGIBLE_VERIFIED_STANDARD",
+        "dataset_group": "g21"
       },
       "logic": {
         "A": {
@@ -20648,9 +20708,12 @@
         "note": "GPT direct whole-source visual review after targeted re-resolution. Original ~30 fps foot-level frames resolved a blurred 15 fps false reject: both feet take off and land synchronously and no crossover/other subtype appears. Twenty-eight completed jump cycles were directly visually verified; long cadence gaps around ~4.7-5.3 s, ~6.4-7.3 s, and ~8.5-9.3 s were separately checked as real pauses, not missed repetitions. The final cycle near 12.51 s lands before the ~12.75 s source end. Programmatic motion/centroid analysis was used only as a timestamp locator.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
+        "non_standard_subtype": "",
         "sha256": "fe9e03593e078a5c0e6fb703edf6674b967d6fcae0715872c0f51d84a934b899",
         "dataset_role": "TRAIN",
-        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE"
+        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE",
+        "dataset_eligibility": "ELIGIBLE_VERIFIED_STANDARD",
+        "dataset_group": "g18"
       },
       "logic": {
         "A": {
@@ -20736,9 +20799,12 @@
         "note": "GPT direct whole-source visual review. Full-source 15 fps whole-body/lower-body purity review confirmed synchronized two-foot uncrossed basic single-under throughout. Forty completed takeoff/airborne/landing cycles were directly verified in original ~30 fps candidate windows. Programmatic body-motion analysis was used only to propose timestamps and did not generate the GT. The final apex near 17.02 s lands before the 17.284 s source boundary.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
+        "non_standard_subtype": "",
         "sha256": "22358e5adb02e1fe6cf5137c0fce3c51ee2332dfdde73d2680b7bfa6e25c69c0",
         "dataset_role": "TRAIN",
-        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE"
+        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE",
+        "dataset_eligibility": "ELIGIBLE_VERIFIED_STANDARD",
+        "dataset_group": "g11"
       },
       "logic": {
         "A": {
@@ -20824,9 +20890,12 @@
         "note": "GPT direct whole-source visual review. Full-source 15 fps whole-body/lower-body purity review confirmed synchronized two-foot uncrossed basic single-under throughout. Thirty completed takeoff/airborne/landing cycles were directly visually verified. Programmatic centroid/motion analysis was used only as a timestamp locator; direct cadence-gap review recovered one real cycle around 14.15 s that the locator missed. The final cycle near 15.08 s lands before the 15.315 s source boundary.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
+        "non_standard_subtype": "",
         "sha256": "c28db94fe21db381e9f76c55bd4d5be4afa8b81070720dc352f039e2b56b7ade",
         "dataset_role": "TRAIN",
-        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE"
+        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE",
+        "dataset_eligibility": "ELIGIBLE_VERIFIED_STANDARD",
+        "dataset_group": "g08"
       },
       "logic": {
         "A": {
@@ -20912,9 +20981,12 @@
         "note": "GPT direct whole-source visual review. Full-source 15 fps whole-body/lower-body purity review confirmed synchronized two-foot uncrossed basic single-under throughout. 24 completed takeoff/airborne/landing cycles were visually verified from dense locator-centered event windows; first and last cycle boundaries were checked inside the source. Programmatic signals were locators only.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
+        "non_standard_subtype": "",
         "sha256": "05884cb9a9ce755bdd28b2864b2752984dca1d4c172824649fa1bac6f197f7c5",
         "dataset_role": "TRAIN",
-        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE"
+        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE",
+        "dataset_eligibility": "ELIGIBLE_VERIFIED_STANDARD",
+        "dataset_group": "g08"
       },
       "logic": {
         "A": {
@@ -21000,9 +21072,12 @@
         "note": "GPT direct whole-source visual review. Full-source 15 fps whole-body/lower-body purity review confirmed synchronized two-foot uncrossed basic single-under throughout. 33 completed takeoff/airborne/landing cycles were visually verified; 30 fps boundary review confirmed the first takeoff and final landing are inside the source. Programmatic signals were locators only.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
+        "non_standard_subtype": "",
         "sha256": "1a11ff1f12162548db38896e91feded05d8cae1456b2b41e634bc25b529650f7",
         "dataset_role": "TRAIN",
-        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE"
+        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE",
+        "dataset_eligibility": "ELIGIBLE_VERIFIED_STANDARD",
+        "dataset_group": "g08"
       },
       "logic": {
         "A": {
@@ -21088,9 +21163,12 @@
         "note": "GPT direct whole-source visual review. Full-source 15 fps whole-body/lower-body purity review confirmed synchronized two-foot uncrossed basic single-under throughout. 34 completed takeoff/airborne/landing cycles were visually verified; 30 fps boundary review confirmed the first admitted takeoff and final landing are inside the source. Programmatic signals were locators only.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
+        "non_standard_subtype": "",
         "sha256": "f5973a8a934b85c653051d95ed01dbb0c6ebc0092e475495811451d10f77e74d",
         "dataset_role": "TRAIN",
-        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE"
+        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE",
+        "dataset_eligibility": "ELIGIBLE_VERIFIED_STANDARD",
+        "dataset_group": "g15"
       },
       "logic": {
         "A": {
@@ -21176,9 +21254,12 @@
         "note": "GPT direct whole-source visual review. Full-source 15 fps whole-body/lower-body purity review confirmed synchronized two-foot uncrossed basic single-under throughout. 28 completed takeoff/airborne/landing cycles were visually verified; 30 fps end-boundary review confirmed the last landing completes before source end. Programmatic signals were locators only.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
+        "non_standard_subtype": "",
         "sha256": "8d7568bcd0c22b39d6731d140cc434e4760a7521fd007ca41db437c50d310c07",
         "dataset_role": "TRAIN",
-        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE"
+        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE",
+        "dataset_eligibility": "ELIGIBLE_VERIFIED_STANDARD",
+        "dataset_group": "g25"
       },
       "logic": {
         "A": {
@@ -21264,9 +21345,12 @@
         "note": "GPT direct whole-source visual count after independent type-purity review. Whole-source 10-15 fps lower-body and whole-body review confirmed synchronized two-foot uncrossed basic single-under throughout. Twenty-five completed takeoff/airborne/landing cycles were visually verified; 30 fps boundary review confirms the 25th landing completes before source end, while the following end motion does not form another completed cycle. Programmatic motion signals were used only as frame locators and did not generate the GT.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
+        "non_standard_subtype": "",
         "sha256": "671c63842ca3d079bda8cdddf7401af22e686e251381f6df77bab2e74aa9169e",
         "dataset_role": "TRAIN",
-        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE"
+        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE",
+        "dataset_eligibility": "ELIGIBLE_VERIFIED_STANDARD",
+        "dataset_group": "g08"
       },
       "logic": {
         "A": {
@@ -21352,9 +21436,12 @@
         "note": "GPT direct whole-source visual count after independent type-purity review. Whole-source 10-15 fps lower-body and whole-body review confirmed synchronized two-foot uncrossed basic single-under throughout. Thirty-five completed takeoff/airborne/landing cycles were visually verified; 30 fps boundary review confirms the 35th landing completes before source end and no additional completed cycle is present. Programmatic motion signals were used only as frame locators and did not generate the GT.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
+        "non_standard_subtype": "",
         "sha256": "2cf5057cddd08dfe0bc4dae736d133994d6babfa0fa8e265c699a102c10bb949",
         "dataset_role": "TRAIN",
-        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE"
+        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE",
+        "dataset_eligibility": "ELIGIBLE_VERIFIED_STANDARD",
+        "dataset_group": "g23"
       },
       "logic": {
         "A": {
@@ -21440,9 +21527,12 @@
         "note": "GPT direct whole-source visual count after independent type-purity review. Full-source 15 fps lower-body evidence plus a separate 5 fps whole-body/rope pass confirmed synchronized two-foot uncrossed basic single-under throughout. Thirty-two completed body-jump cycles were visually confirmed frame-by-frame; the final apex near 16.12 s is followed by a completed landing before the source ends. Programmatic head/motion tracking was used only to locate candidate apex frames and did not generate the GT.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
+        "non_standard_subtype": "",
         "sha256": "996a358760a78b351aee5900a53d4b2ff273c83db011997bfd775fd535d35857",
         "dataset_role": "TRAIN",
-        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE"
+        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE",
+        "dataset_eligibility": "ELIGIBLE_VERIFIED_STANDARD",
+        "dataset_group": "g15"
       },
       "logic": {
         "A": {
@@ -21528,9 +21618,12 @@
         "note": "GPT direct whole-source visual count after independent type-purity review. Full-source 15 fps lower-body evidence plus a separate 5 fps whole-body/rope pass confirmed synchronized two-foot uncrossed basic single-under throughout. Twenty-nine completed body-jump cycles were directly confirmed. A thirtieth airborne apex near 11.24 s reaches the clip boundary before a completed landing and is explicitly excluded. Programmatic head/motion tracking was used only to locate candidate apex frames and did not generate the GT.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
+        "non_standard_subtype": "",
         "sha256": "8c00e1ec7156bcc81022c2d0caec66f95e428b9cb48bafb50eda78f6949c6057",
         "dataset_role": "TRAIN",
-        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE"
+        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE",
+        "dataset_eligibility": "ELIGIBLE_VERIFIED_STANDARD",
+        "dataset_group": "g23"
       },
       "logic": {
         "A": {
@@ -21616,9 +21709,12 @@
         "note": "GPT direct whole-source visual count after independent type-purity review. Full 10 fps evidence and a separate 15 fps lower-body re-review confirmed pure synchronized two-foot basic single-under throughout. Seventeen completed body-jump cycles were directly checked frame-by-frame; the first airborne cycle begins immediately at the source start and is included. Programmatic motion/centroid signals were used only to locate candidate frames and did not generate the GT.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
+        "non_standard_subtype": "",
         "sha256": "5023daebc325c26fa97134f62156a0c72cdefbdd18d2a1dfa7c9500518168502",
         "dataset_role": "TRAIN",
-        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE"
+        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE",
+        "dataset_eligibility": "ELIGIBLE_VERIFIED_STANDARD",
+        "dataset_group": "g22"
       },
       "logic": {
         "A": {
@@ -21704,9 +21800,12 @@
         "note": "GPT direct whole-source visual review. Dense lower-body/type audit was completed first; motion/optical-flow peaks were used only as frame locators, then every candidate jump and clip boundary was visually checked as a real takeoff/airborne/landing cycle. Mixed/alternate-foot clips were excluded before this count was admitted.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
+        "non_standard_subtype": "",
         "sha256": "a2c0e34603cc73a9aa630335d3f2a185db25b77a6eb04ac9ea7494118014538d",
         "dataset_role": "HOLDOUT",
-        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE"
+        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE",
+        "dataset_eligibility": "ELIGIBLE_VERIFIED_STANDARD",
+        "dataset_group": "g02"
       },
       "logic": {
         "A": {
@@ -21792,9 +21891,12 @@
         "note": "GPT direct whole-source visual review. Dense lower-body/type audit was completed first; motion/optical-flow peaks were used only as frame locators, then every candidate jump and clip boundary was visually checked as a real takeoff/airborne/landing cycle. Mixed/alternate-foot clips were excluded before this count was admitted.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
+        "non_standard_subtype": "",
         "sha256": "196f83741979ae7113cdb2bdb4f11165b43eaf9b63ddeb676e401d9e7685acca",
         "dataset_role": "VALIDATION",
-        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE"
+        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE",
+        "dataset_eligibility": "ELIGIBLE_VERIFIED_STANDARD",
+        "dataset_group": "g03"
       },
       "logic": {
         "A": {
@@ -21880,9 +21982,12 @@
         "note": "GPT direct whole-source visual review. Dense lower-body/type audit was completed first; motion/optical-flow peaks were used only as frame locators, then every candidate jump and clip boundary was visually checked as a real takeoff/airborne/landing cycle. Mixed/alternate-foot clips were excluded before this count was admitted.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
+        "non_standard_subtype": "",
         "sha256": "e7d6681365be2867c7b47a9f77442e0633f504525ca77402898927fb83c44f76",
         "dataset_role": "TRAIN",
-        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE"
+        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE",
+        "dataset_eligibility": "ELIGIBLE_VERIFIED_STANDARD",
+        "dataset_group": "g08"
       },
       "logic": {
         "A": {
@@ -21968,9 +22073,12 @@
         "note": "GPT direct whole-source visual review. Dense lower-body/type audit was completed first; motion/optical-flow peaks were used only as frame locators, then every candidate jump and clip boundary was visually checked as a real takeoff/airborne/landing cycle. Mixed/alternate-foot clips were excluded before this count was admitted.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
+        "non_standard_subtype": "",
         "sha256": "846cd42d398248a269aa81ad70f2f41d54f59a796eed333c01fd0883bcafcc24",
         "dataset_role": "TRAIN",
-        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE"
+        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE",
+        "dataset_eligibility": "ELIGIBLE_VERIFIED_STANDARD",
+        "dataset_group": "g08"
       },
       "logic": {
         "A": {
@@ -22056,9 +22164,12 @@
         "note": "GPT direct whole-source visual count after independent type-purity review. Thirty synchronized two-foot takeoff/airborne/landing cycles were confirmed. Dense 10 fps lower-body review plus targeted 30 fps start/end and cadence-gap review were used; motion signals only located candidate cycles and did not create the count. The final incomplete takeoff at the clip boundary was not counted beyond the last completed landing.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
+        "non_standard_subtype": "",
         "sha256": "de7e980a0922742cf2791efdf13c4ce45ffbe7834d515461989e4bcd096fba8f",
         "dataset_role": "TRAIN",
-        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE"
+        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE",
+        "dataset_eligibility": "ELIGIBLE_VERIFIED_STANDARD",
+        "dataset_group": "g13"
       },
       "logic": {
         "A": {
@@ -22144,9 +22255,12 @@
         "note": "GPT direct whole-source visual review. Dense lower-body/type audit was completed first; motion/optical-flow peaks were used only as frame locators, then every candidate jump and clip boundary was visually checked as a real takeoff/airborne/landing cycle. Mixed/alternate-foot clips were excluded before this count was admitted.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
+        "non_standard_subtype": "",
         "sha256": "767bfd65e3794998892a88e803b1c7169a5590e5645bed5d7ec4fd8d4a86a176",
         "dataset_role": "TRAIN",
-        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE"
+        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE",
+        "dataset_eligibility": "ELIGIBLE_VERIFIED_STANDARD",
+        "dataset_group": "g22"
       },
       "logic": {
         "A": {
@@ -22232,9 +22346,12 @@
         "note": "GPT direct whole-source visual review. Dense lower-body/type audit was completed first; motion/optical-flow peaks were used only as frame locators, then every candidate jump and clip boundary was visually checked as a real takeoff/airborne/landing cycle. Mixed/alternate-foot clips were excluded before this count was admitted.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
+        "non_standard_subtype": "",
         "sha256": "aac83932509a91dfae8cc4e08b76319ce55e12ac52254ecdcf761d4fb73a68e5",
         "dataset_role": "TRAIN",
-        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE"
+        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE",
+        "dataset_eligibility": "ELIGIBLE_VERIFIED_STANDARD",
+        "dataset_group": "g22"
       },
       "logic": {
         "A": {
@@ -22320,9 +22437,12 @@
         "note": "GPT direct whole-source visual review. Dense lower-body/type audit was completed first; motion/optical-flow peaks were used only as frame locators, then every candidate jump and clip boundary was visually checked as a real takeoff/airborne/landing cycle. Mixed/alternate-foot clips were excluded before this count was admitted.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
+        "non_standard_subtype": "",
         "sha256": "44a319e8b42943b733d646b645c610057e0825c8cbd402f2e6d7c6c5ab986f62",
         "dataset_role": "TRAIN",
-        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE"
+        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE",
+        "dataset_eligibility": "ELIGIBLE_VERIFIED_STANDARD",
+        "dataset_group": "g22"
       },
       "logic": {
         "A": {
@@ -22408,9 +22528,12 @@
         "note": "GPT direct whole-source visual review. Dense lower-body/type audit was completed first; motion/optical-flow peaks were used only as frame locators, then every candidate jump and clip boundary was visually checked as a real takeoff/airborne/landing cycle. Mixed/alternate-foot clips were excluded before this count was admitted.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
+        "non_standard_subtype": "",
         "sha256": "c2ee9b1e65db9481e4c06015f1407c1a947b45b865b1c51e3e157fa04d72b701",
         "dataset_role": "HOLDOUT",
-        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE"
+        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE",
+        "dataset_eligibility": "ELIGIBLE_VERIFIED_STANDARD",
+        "dataset_group": "g24"
       },
       "logic": {
         "A": {
@@ -22496,9 +22619,12 @@
         "note": "GPT direct whole-source visual review. Dense lower-body/type audit was completed first; motion/optical-flow peaks were used only as frame locators, then every candidate jump and clip boundary was visually checked as a real takeoff/airborne/landing cycle. Mixed/alternate-foot clips were excluded before this count was admitted.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
+        "non_standard_subtype": "",
         "sha256": "038c7dbbe7f8a9c65491eadf9a82a2025a802f8daa7bd7330cb9937f14ff5b05",
         "dataset_role": "TRAIN",
-        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE"
+        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE",
+        "dataset_eligibility": "ELIGIBLE_VERIFIED_STANDARD",
+        "dataset_group": "g25"
       },
       "logic": {
         "A": {
@@ -22584,9 +22710,12 @@
         "note": "GPT direct whole-source visual review. Dense lower-body/type audit was completed first; motion/optical-flow peaks were used only as frame locators, then every candidate jump and clip boundary was visually checked as a real takeoff/airborne/landing cycle. Mixed/alternate-foot clips were excluded before this count was admitted.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
+        "non_standard_subtype": "",
         "sha256": "55996cf0837d370e47b8eebd788538ba865cca345f24033778d36f3e83ff257d",
         "dataset_role": "TRAIN",
-        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE"
+        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE",
+        "dataset_eligibility": "ELIGIBLE_VERIFIED_STANDARD",
+        "dataset_group": "g25"
       },
       "logic": {
         "A": {
@@ -22672,9 +22801,12 @@
         "note": "GPT direct whole-source visual review. Dense lower-body/type audit was completed first; motion/optical-flow peaks were used only as frame locators, then every candidate jump and clip boundary was visually checked as a real takeoff/airborne/landing cycle. Mixed/alternate-foot clips were excluded before this count was admitted.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
+        "non_standard_subtype": "",
         "sha256": "405dd2d41f4def8dd6129e832aaf785c94793f4e6d545fa19d856f4c7091bb44",
         "dataset_role": "TRAIN",
-        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE"
+        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE",
+        "dataset_eligibility": "ELIGIBLE_VERIFIED_STANDARD",
+        "dataset_group": "g25"
       },
       "logic": {
         "A": {
@@ -32642,9 +32774,12 @@
         "note": "GPT direct visual review of the full source at dense 10 fps. Seventeen distinct takeoff/airborne/landing jump cycles were confirmed. The late low crouch/rope-manipulation motion near 14.3 s was not counted as a jump.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "NON_STANDARD_MIXED_OR_TRICK",
+        "non_standard_subtype": "ALTERNATE_FOOT_TRICK_STEP",
         "sha256": "e1329822d7cd226a05f58d7564922b543e6c7f638386595b8941a256ab4d07d4",
         "dataset_role": "",
-        "dataset_role_policy": "EXCLUDED_NON_STANDARD"
+        "dataset_role_policy": "EXCLUDED_NON_STANDARD",
+        "dataset_eligibility": "EXCLUDED_NON_STANDARD_MIXED_OR_TRICK",
+        "dataset_group": ""
       },
       "logic": {
         "A": {
@@ -32730,9 +32865,12 @@
         "note": "GPT direct visual review of the full source at dense 10 fps. Thirteen distinct body jump/hop cycles were confirmed. Ghost/transition motion near 8.7 s and grounded rope-manipulation/pivot motions near 10.1 s and 13-14 s were excluded.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "NON_STANDARD_MIXED_OR_TRICK",
+        "non_standard_subtype": "TRICK_MIXED_ROPE_MANIPULATION",
         "sha256": "",
         "dataset_role": "",
-        "dataset_role_policy": "EXCLUDED_NON_STANDARD"
+        "dataset_role_policy": "EXCLUDED_NON_STANDARD",
+        "dataset_eligibility": "EXCLUDED_NON_STANDARD_MIXED_OR_TRICK",
+        "dataset_group": ""
       },
       "logic": {
         "A": {
@@ -32818,9 +32956,12 @@
         "note": "GPT direct visual review of the full source using dense 10 fps and targeted 0.2 s interval sheets. Thirty-eight body jump/hop cycles were confirmed. Three turn/walk-only minima around 16.2-17.7 s and one end crouch around 22.1 s were explicitly excluded.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "NON_STANDARD_MIXED_OR_TRICK",
+        "non_standard_subtype": "ALTERNATE_FOOT_HIGH_KNEE_TRICK",
         "sha256": "1dffd35398a8eec4a856ac98178bfde05a41e407863ef6b3438f3199e44526e1",
         "dataset_role": "",
-        "dataset_role_policy": "EXCLUDED_NON_STANDARD"
+        "dataset_role_policy": "EXCLUDED_NON_STANDARD",
+        "dataset_eligibility": "EXCLUDED_NON_STANDARD_MIXED_OR_TRICK",
+        "dataset_group": ""
       },
       "logic": {
         "A": {
@@ -32906,9 +33047,12 @@
         "note": "GPT direct visual review of the full source. 31 visually confirmed jump-rope repetitions; bright physical rope remained trackable. Dense review of the two largest cadence gaps found no missed repetition.",
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "NON_STANDARD_MIXED_OR_TRICK",
+        "non_standard_subtype": "MIXED_DANCE_ALTERNATE_FOOT",
         "sha256": "b117ae591b6d61fac9cbfa69d3172e6d90058e7ffbc6010c77d3f617d41ca09e",
         "dataset_role": "",
-        "dataset_role_policy": "EXCLUDED_NON_STANDARD"
+        "dataset_role_policy": "EXCLUDED_NON_STANDARD",
+        "dataset_eligibility": "EXCLUDED_NON_STANDARD_MIXED_OR_TRICK",
+        "dataset_group": ""
       },
       "logic": {
         "A": {
