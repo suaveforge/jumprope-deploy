@@ -1,4 +1,4 @@
 source_repository=suaveforge/jumprope
-source_sha=1f6ac30b3d88e19e364d43f3e36fc9554b8d04f4
-published_at_utc=2026-09-23T05:34:42Z
+source_sha=339b4c646ba9a7b38c92a0c5d1f83c9efa2da514
+published_at_utc=2026-09-23T05:39:09Z
 publish_mode=full-production
