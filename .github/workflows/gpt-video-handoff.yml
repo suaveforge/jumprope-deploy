@@ -1,0 +1,104 @@
+name: ROPEJUMP GPT handoff batch 1
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: read
+
+jobs:
+  handoff:
+    if: ${{ github.actor == 'programmer119' && github.event.issue.title == '[gpt-video-batch] 1' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Install ffprobe
+        shell: bash
+        run: |
+          set -Eeuo pipefail
+          sudo apt-get update -y
+          sudo apt-get install -y ffmpeg
+          ffprobe -version | head -n 1
+
+      - name: Locate live server transfer gateway
+        id: gateway
+        shell: bash
+        run: |
+          set -Eeuo pipefail
+          host='api-jumprope.suaveforge.com'
+          first='_hjspOjY3OA'
+          selected=''
+
+          for port in $(seq 18454 18469); do
+            base="https://${host}:${port}"
+            health="$(curl -sS --connect-timeout 3 --max-time 6 -o /tmp/health.json -w '%{http_code}' "${base}/health" || true)"
+            echo "GATEWAY_PROBE base=${base} health=${health}"
+            [ "${health}" = 200 ] || continue
+
+            manifest="$(curl -sS --connect-timeout 10 --max-time 1000 -o /tmp/manifest.json -w '%{http_code}' "${base}/v1/gpt-transfer/youtube/${first}/manifest" || true)"
+            echo "GATEWAY_MANIFEST base=${base} status=${manifest}"
+            if [ "${manifest}" = 200 ]; then
+              selected="${base}"
+              break
+            fi
+          done
+
+          if [ -z "${selected}" ]; then
+            base="https://${host}"
+            health="$(curl -sS --connect-timeout 5 --max-time 10 -o /tmp/health.json -w '%{http_code}' "${base}/health" || true)"
+            echo "GATEWAY_PROBE base=${base} health=${health}"
+            if [ "${health}" = 200 ]; then
+              manifest="$(curl -sS --connect-timeout 10 --max-time 1000 -o /tmp/manifest.json -w '%{http_code}' "${base}/v1/gpt-transfer/youtube/${first}/manifest" || true)"
+              echo "GATEWAY_MANIFEST base=${base} status=${manifest}"
+              [ "${manifest}" = 200 ] && selected="${base}"
+            fi
+          fi
+
+          [ -n "${selected}" ] || { echo 'NO_WORKING_TRANSFER_GATEWAY=yes'; exit 41; }
+          echo "base=${selected}" >> "$GITHUB_OUTPUT"
+          echo "SELECTED_GATEWAY=${selected}"
+          cat /tmp/manifest.json
+
+      - name: Download and validate batch 1
+        shell: bash
+        env:
+          BASE: ${{ steps.gateway.outputs.base }}
+        run: |
+          set -Eeuo pipefail
+          mkdir -p handoff
+          : > handoff/manifest.tsv
+          PER_VIDEO_MAX=$((90*1024*1024))
+          BATCH_MAX=$((180*1024*1024))
+          total=0
+
+          for id in '_hjspOjY3OA' '-4GeZ0-iWmA'; do
+            file="handoff/${id}.mp4"
+            code="$(curl -sS -L --connect-timeout 10 --max-time 1200 -o "${file}" -w '%{http_code}' "${BASE}/v1/gpt-transfer/youtube/${id}/file" || true)"
+            echo "VIDEO_FETCH id=${id} status=${code}"
+            [ "${code}" = 200 ] || { echo "VIDEO_FETCH_FAILED id=${id} status=${code}"; exit 42; }
+
+            size="$(stat -c %s "${file}")"
+            [ "${size}" -gt 0 ]
+            [ "${size}" -le "${PER_VIDEO_MAX}" ] || { echo "VIDEO_CAP_EXCEEDED id=${id} bytes=${size} cap=${PER_VIDEO_MAX}"; exit 43; }
+
+            ffprobe -v error               -show_entries format=format_name,duration,size               -show_entries stream=index,codec_type,codec_name,width,height,r_frame_rate               -of json "${file}" > "handoff/${id}.ffprobe.json"
+
+            sha="$(sha256sum "${file}" | awk '{print $1}')"
+            printf '%s\t%s\t%s\n' "${id}" "${size}" "${sha}" >> handoff/manifest.tsv
+            total=$((total + size))
+            echo "VIDEO_OK id=${id} bytes=${size} sha256=${sha}"
+          done
+
+          echo "BATCH_TOTAL_BYTES=${total}"
+          [ "${total}" -le "${BATCH_MAX}" ] || { echo "BATCH_CAP_EXCEEDED total=${total} cap=${BATCH_MAX}"; exit 44; }
+          cat handoff/manifest.tsv
+
+      - name: Upload batch 1 artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ropejump-gpt-batch-1
+          path: handoff/
+          retention-days: 1
+          compression-level: 0
+          if-no-files-found: error
