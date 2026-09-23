@@ -1,6 +1,6 @@
 {
   "schemaVersion": 7,
-  "generatedAtUtc": "2026-09-23T06:39:20.523Z",
+  "generatedAtUtc": "2026-09-23T06:51:25.812Z",
   "corpusSnapshotUtc": "2026-09-23T06:35:19.991995+00:00",
   "source": "server123:/home/jumprope-research/corpus-registry + discovery candidate registries",
   "refreshPolicy": "relevant main pushes sync immediately; hourly fallback; viewer polls published data",
@@ -17494,7 +17494,13 @@
       "sha256": "34cbc3d60c99671c6c58f6d7202dd42fda4cace2f25a642356838451e751bf72",
       "thumbnailUrl": "/count-viewer/thumbs/v_JumpRope_g11_c07.jpg",
       "evidenceGrade": "",
-      "sourceDeclaredCount": null,
+      "sourceDeclaredCount": {
+        "count": null,
+        "source_type": "NO_DECLARED_COUNT",
+        "source_ref": "https://huggingface.co/datasets/bitmind/UCF101Fullvideo/resolve/main/UCF101Fullvideo.zip?download=true#entry=train/JumpRope/v_JumpRope_g11_c07.avi",
+        "display_text": "출처영상에 갯수 미제공",
+        "note": "The source video/archive entry does not provide a declared repetition count. GPT direct count is stored separately."
+      },
       "lockedGt": null,
       "gptGround": {
         "count": 35,
@@ -17563,7 +17569,13 @@
       "sha256": "f48eb58375a9e4882ebba01eabc5ed8bb82c68352dfd2b6e6a3c0cd9942234ce",
       "thumbnailUrl": "/count-viewer/thumbs/v_JumpRope_g18_c05.jpg",
       "evidenceGrade": "",
-      "sourceDeclaredCount": null,
+      "sourceDeclaredCount": {
+        "count": null,
+        "source_type": "NO_DECLARED_COUNT",
+        "source_ref": "https://huggingface.co/datasets/bitmind/UCF101Fullvideo/resolve/main/UCF101Fullvideo.zip?download=true#entry=train/JumpRope/v_JumpRope_g18_c05.avi",
+        "display_text": "출처영상에 갯수 미제공",
+        "note": "The source video/archive entry does not provide a declared repetition count. GPT direct count is stored separately."
+      },
       "lockedGt": null,
       "gptGround": {
         "count": 35,
@@ -17632,7 +17644,13 @@
       "sha256": "826865c0f461be19437a2a9784d0f3ff319f64d5d64f990226275d0e21eddd6d",
       "thumbnailUrl": "/count-viewer/thumbs/v_JumpRope_g18_c06.jpg",
       "evidenceGrade": "",
-      "sourceDeclaredCount": null,
+      "sourceDeclaredCount": {
+        "count": null,
+        "source_type": "NO_DECLARED_COUNT",
+        "source_ref": "https://huggingface.co/datasets/bitmind/UCF101Fullvideo/resolve/main/UCF101Fullvideo.zip?download=true#entry=train/JumpRope/v_JumpRope_g18_c06.avi",
+        "display_text": "출처영상에 갯수 미제공",
+        "note": "The source video/archive entry does not provide a declared repetition count. GPT direct count is stored separately."
+      },
       "lockedGt": null,
       "gptGround": {
         "count": 48,
@@ -17701,7 +17719,13 @@
       "sha256": "3e04bdc9557ff72b4ab4f6de98adf1352a3f3639ecd61fa578e4750a65ed30fd",
       "thumbnailUrl": "/count-viewer/thumbs/v_JumpRope_g18_c07.jpg",
       "evidenceGrade": "",
-      "sourceDeclaredCount": null,
+      "sourceDeclaredCount": {
+        "count": null,
+        "source_type": "NO_DECLARED_COUNT",
+        "source_ref": "https://huggingface.co/datasets/bitmind/UCF101Fullvideo/resolve/main/UCF101Fullvideo.zip?download=true#entry=train/JumpRope/v_JumpRope_g18_c07.avi",
+        "display_text": "출처영상에 갯수 미제공",
+        "note": "The source video/archive entry does not provide a declared repetition count. GPT direct count is stored separately."
+      },
       "lockedGt": null,
       "gptGround": {
         "count": 30,
@@ -17770,7 +17794,13 @@
       "sha256": "344ea741c30019416b56ea7d12b0f3c83b76f160820751c795aeaf837f30166f",
       "thumbnailUrl": "/count-viewer/thumbs/v_JumpRope_g20_c06.jpg",
       "evidenceGrade": "",
-      "sourceDeclaredCount": null,
+      "sourceDeclaredCount": {
+        "count": null,
+        "source_type": "NO_DECLARED_COUNT",
+        "source_ref": "https://huggingface.co/datasets/bitmind/UCF101Fullvideo/resolve/main/UCF101Fullvideo.zip?download=true#entry=train/JumpRope/v_JumpRope_g20_c06.avi",
+        "display_text": "출처영상에 갯수 미제공",
+        "note": "The source video/archive entry does not provide a declared repetition count. GPT direct count is stored separately."
+      },
       "lockedGt": null,
       "gptGround": {
         "count": 52,
@@ -17839,7 +17869,13 @@
       "sha256": "2ef500f689c822576fee95fa74a7a0c1d0675e06ed22a7870fc430877dcf6008",
       "thumbnailUrl": "/count-viewer/thumbs/v_JumpRope_g20_c07.jpg",
       "evidenceGrade": "",
-      "sourceDeclaredCount": null,
+      "sourceDeclaredCount": {
+        "count": null,
+        "source_type": "NO_DECLARED_COUNT",
+        "source_ref": "https://huggingface.co/datasets/bitmind/UCF101Fullvideo/resolve/main/UCF101Fullvideo.zip?download=true#entry=train/JumpRope/v_JumpRope_g20_c07.avi",
+        "display_text": "출처영상에 갯수 미제공",
+        "note": "The source video/archive entry does not provide a declared repetition count. GPT direct count is stored separately."
+      },
       "lockedGt": null,
       "gptGround": {
         "count": 34,
@@ -17908,7 +17944,13 @@
       "sha256": "558a46ed0d544ec1cb6a362a3ea305d8a40612be31269d6f84fb43b96da1c7b0",
       "thumbnailUrl": "/count-viewer/thumbs/v_JumpRope_g21_c05.jpg",
       "evidenceGrade": "",
-      "sourceDeclaredCount": null,
+      "sourceDeclaredCount": {
+        "count": null,
+        "source_type": "NO_DECLARED_COUNT",
+        "source_ref": "https://huggingface.co/datasets/bitmind/UCF101Fullvideo/resolve/main/UCF101Fullvideo.zip?download=true#entry=train/JumpRope/v_JumpRope_g21_c05.avi",
+        "display_text": "출처영상에 갯수 미제공",
+        "note": "The source video/archive entry does not provide a declared repetition count. GPT direct count is stored separately."
+      },
       "lockedGt": null,
       "gptGround": {
         "count": 49,
@@ -17977,7 +18019,13 @@
       "sha256": "611f4b3d21725be8cd4081f638395062b7997d8f59739f4927ef02f096ac0c7c",
       "thumbnailUrl": "/count-viewer/thumbs/v_JumpRope_g21_c07.jpg",
       "evidenceGrade": "",
-      "sourceDeclaredCount": null,
+      "sourceDeclaredCount": {
+        "count": null,
+        "source_type": "NO_DECLARED_COUNT",
+        "source_ref": "https://huggingface.co/datasets/bitmind/UCF101Fullvideo/resolve/main/UCF101Fullvideo.zip?download=true#entry=train/JumpRope/v_JumpRope_g21_c07.avi",
+        "display_text": "출처영상에 갯수 미제공",
+        "note": "The source video/archive entry does not provide a declared repetition count. GPT direct count is stored separately."
+      },
       "lockedGt": null,
       "gptGround": {
         "count": 37,
@@ -18046,7 +18094,13 @@
       "sha256": "fe9e03593e078a5c0e6fb703edf6674b967d6fcae0715872c0f51d84a934b899",
       "thumbnailUrl": "/count-viewer/thumbs/v_JumpRope_g18_c04.jpg",
       "evidenceGrade": "",
-      "sourceDeclaredCount": null,
+      "sourceDeclaredCount": {
+        "count": null,
+        "source_type": "NO_DECLARED_COUNT",
+        "source_ref": "https://huggingface.co/datasets/bitmind/UCF101Fullvideo/resolve/main/UCF101Fullvideo.zip?download=true#entry=train/JumpRope/v_JumpRope_g18_c04.avi",
+        "display_text": "출처영상에 갯수 미제공",
+        "note": "The source video/archive entry does not provide a declared repetition count. GPT direct count is stored separately."
+      },
       "lockedGt": null,
       "gptGround": {
         "count": 28,
@@ -18115,7 +18169,13 @@
       "sha256": "22358e5adb02e1fe6cf5137c0fce3c51ee2332dfdde73d2680b7bfa6e25c69c0",
       "thumbnailUrl": "/count-viewer/thumbs/v_JumpRope_g11_c04.jpg",
       "evidenceGrade": "",
-      "sourceDeclaredCount": null,
+      "sourceDeclaredCount": {
+        "count": null,
+        "source_type": "NO_DECLARED_COUNT",
+        "source_ref": "https://huggingface.co/datasets/bitmind/UCF101Fullvideo/resolve/main/UCF101Fullvideo.zip?download=true#entry=train/JumpRope/v_JumpRope_g11_c04.avi",
+        "display_text": "출처영상에 갯수 미제공",
+        "note": "The source video/archive entry does not provide a declared repetition count. GPT direct count is stored separately."
+      },
       "lockedGt": null,
       "gptGround": {
         "count": 40,
@@ -18184,7 +18244,13 @@
       "sha256": "c28db94fe21db381e9f76c55bd4d5be4afa8b81070720dc352f039e2b56b7ade",
       "thumbnailUrl": "/count-viewer/thumbs/v_JumpRope_g08_c07.jpg",
       "evidenceGrade": "",
-      "sourceDeclaredCount": null,
+      "sourceDeclaredCount": {
+        "count": null,
+        "source_type": "NO_DECLARED_COUNT",
+        "source_ref": "https://huggingface.co/datasets/bitmind/UCF101Fullvideo/resolve/main/UCF101Fullvideo.zip?download=true#entry=val/JumpRope/v_JumpRope_g08_c07.avi",
+        "display_text": "출처영상에 갯수 미제공",
+        "note": "The source video/archive entry does not provide a declared repetition count. GPT direct count is stored separately."
+      },
       "lockedGt": null,
       "gptGround": {
         "count": 30,
@@ -18253,7 +18319,13 @@
       "sha256": "05884cb9a9ce755bdd28b2864b2752984dca1d4c172824649fa1bac6f197f7c5",
       "thumbnailUrl": "/count-viewer/thumbs/v_JumpRope_g08_c06.jpg",
       "evidenceGrade": "",
-      "sourceDeclaredCount": null,
+      "sourceDeclaredCount": {
+        "count": null,
+        "source_type": "NO_DECLARED_COUNT",
+        "source_ref": "https://huggingface.co/datasets/bitmind/UCF101Fullvideo/resolve/main/UCF101Fullvideo.zip?download=true#entry=train/JumpRope/v_JumpRope_g08_c06.avi",
+        "display_text": "출처영상에 갯수 미제공",
+        "note": "The source video/archive entry does not provide a declared repetition count. GPT direct count is stored separately."
+      },
       "lockedGt": null,
       "gptGround": {
         "count": 24,
@@ -18322,7 +18394,13 @@
       "sha256": "1a11ff1f12162548db38896e91feded05d8cae1456b2b41e634bc25b529650f7",
       "thumbnailUrl": "/count-viewer/thumbs/v_JumpRope_g08_c05.jpg",
       "evidenceGrade": "",
-      "sourceDeclaredCount": null,
+      "sourceDeclaredCount": {
+        "count": null,
+        "source_type": "NO_DECLARED_COUNT",
+        "source_ref": "https://huggingface.co/datasets/bitmind/UCF101Fullvideo/resolve/main/UCF101Fullvideo.zip?download=true#entry=train/JumpRope/v_JumpRope_g08_c05.avi",
+        "display_text": "출처영상에 갯수 미제공",
+        "note": "The source video/archive entry does not provide a declared repetition count. GPT direct count is stored separately."
+      },
       "lockedGt": null,
       "gptGround": {
         "count": 33,
@@ -18391,7 +18469,13 @@
       "sha256": "f5973a8a934b85c653051d95ed01dbb0c6ebc0092e475495811451d10f77e74d",
       "thumbnailUrl": "/count-viewer/thumbs/v_JumpRope_g15_c05.jpg",
       "evidenceGrade": "",
-      "sourceDeclaredCount": null,
+      "sourceDeclaredCount": {
+        "count": null,
+        "source_type": "NO_DECLARED_COUNT",
+        "source_ref": "https://huggingface.co/datasets/bitmind/UCF101Fullvideo/resolve/main/UCF101Fullvideo.zip?download=true#entry=test/JumpRope/v_JumpRope_g15_c05.avi",
+        "display_text": "출처영상에 갯수 미제공",
+        "note": "The source video/archive entry does not provide a declared repetition count. GPT direct count is stored separately."
+      },
       "lockedGt": null,
       "gptGround": {
         "count": 34,
@@ -18460,7 +18544,13 @@
       "sha256": "8d7568bcd0c22b39d6731d140cc434e4760a7521fd007ca41db437c50d310c07",
       "thumbnailUrl": "/count-viewer/thumbs/v_JumpRope_g25_c05.jpg",
       "evidenceGrade": "",
-      "sourceDeclaredCount": null,
+      "sourceDeclaredCount": {
+        "count": null,
+        "source_type": "NO_DECLARED_COUNT",
+        "source_ref": "https://huggingface.co/datasets/bitmind/UCF101Fullvideo/resolve/main/UCF101Fullvideo.zip?download=true#entry=train/JumpRope/v_JumpRope_g25_c05.avi",
+        "display_text": "출처영상에 갯수 미제공",
+        "note": "The source video/archive entry does not provide a declared repetition count. GPT direct count is stored separately."
+      },
       "lockedGt": null,
       "gptGround": {
         "count": 28,
@@ -18529,7 +18619,13 @@
       "sha256": "671c63842ca3d079bda8cdddf7401af22e686e251381f6df77bab2e74aa9169e",
       "thumbnailUrl": "/count-viewer/thumbs/v_JumpRope_g08_c04.jpg",
       "evidenceGrade": "",
-      "sourceDeclaredCount": null,
+      "sourceDeclaredCount": {
+        "count": null,
+        "source_type": "NO_DECLARED_COUNT",
+        "source_ref": "https://huggingface.co/datasets/bitmind/UCF101Fullvideo/resolve/main/UCF101Fullvideo.zip?download=true#entry=train/JumpRope/v_JumpRope_g08_c04.avi",
+        "display_text": "출처영상에 갯수 미제공",
+        "note": "The source video/archive entry does not provide a declared repetition count. GPT direct count is stored separately."
+      },
       "lockedGt": null,
       "gptGround": {
         "count": 25,
@@ -18598,7 +18694,13 @@
       "sha256": "2cf5057cddd08dfe0bc4dae736d133994d6babfa0fa8e265c699a102c10bb949",
       "thumbnailUrl": "/count-viewer/thumbs/v_JumpRope_g23_c04.jpg",
       "evidenceGrade": "",
-      "sourceDeclaredCount": null,
+      "sourceDeclaredCount": {
+        "count": null,
+        "source_type": "NO_DECLARED_COUNT",
+        "source_ref": "https://huggingface.co/datasets/bitmind/UCF101Fullvideo/resolve/main/UCF101Fullvideo.zip?download=true#entry=train/JumpRope/v_JumpRope_g23_c04.avi",
+        "display_text": "출처영상에 갯수 미제공",
+        "note": "The source video/archive entry does not provide a declared repetition count. GPT direct count is stored separately."
+      },
       "lockedGt": null,
       "gptGround": {
         "count": 35,
@@ -18667,7 +18769,13 @@
       "sha256": "996a358760a78b351aee5900a53d4b2ff273c83db011997bfd775fd535d35857",
       "thumbnailUrl": "/count-viewer/thumbs/v_JumpRope_g15_c03.jpg",
       "evidenceGrade": "",
-      "sourceDeclaredCount": null,
+      "sourceDeclaredCount": {
+        "count": null,
+        "source_type": "NO_DECLARED_COUNT",
+        "source_ref": "https://huggingface.co/datasets/bitmind/UCF101Fullvideo/resolve/main/UCF101Fullvideo.zip?download=true#entry=train/JumpRope/v_JumpRope_g15_c03.avi",
+        "display_text": "출처영상에 갯수 미제공",
+        "note": "The source video/archive entry does not provide a declared repetition count. GPT direct count is stored separately."
+      },
       "lockedGt": null,
       "gptGround": {
         "count": 32,
@@ -18736,7 +18844,13 @@
       "sha256": "8c00e1ec7156bcc81022c2d0caec66f95e428b9cb48bafb50eda78f6949c6057",
       "thumbnailUrl": "/count-viewer/thumbs/v_JumpRope_g23_c03.jpg",
       "evidenceGrade": "",
-      "sourceDeclaredCount": null,
+      "sourceDeclaredCount": {
+        "count": null,
+        "source_type": "NO_DECLARED_COUNT",
+        "source_ref": "https://huggingface.co/datasets/bitmind/UCF101Fullvideo/resolve/main/UCF101Fullvideo.zip?download=true#entry=train/JumpRope/v_JumpRope_g23_c03.avi",
+        "display_text": "출처영상에 갯수 미제공",
+        "note": "The source video/archive entry does not provide a declared repetition count. GPT direct count is stored separately."
+      },
       "lockedGt": null,
       "gptGround": {
         "count": 29,
@@ -18805,7 +18919,13 @@
       "sha256": "5023daebc325c26fa97134f62156a0c72cdefbdd18d2a1dfa7c9500518168502",
       "thumbnailUrl": "/count-viewer/thumbs/v_JumpRope_g22_c04.jpg",
       "evidenceGrade": "",
-      "sourceDeclaredCount": null,
+      "sourceDeclaredCount": {
+        "count": null,
+        "source_type": "NO_DECLARED_COUNT",
+        "source_ref": "https://huggingface.co/datasets/bitmind/UCF101Fullvideo/resolve/main/UCF101Fullvideo.zip?download=true#entry=train/JumpRope/v_JumpRope_g22_c04.avi",
+        "display_text": "출처영상에 갯수 미제공",
+        "note": "The source video/archive entry does not provide a declared repetition count. GPT direct count is stored separately."
+      },
       "lockedGt": null,
       "gptGround": {
         "count": 17,
@@ -18874,7 +18994,13 @@
       "sha256": "a2c0e34603cc73a9aa630335d3f2a185db25b77a6eb04ac9ea7494118014538d",
       "thumbnailUrl": "/count-viewer/thumbs/v_JumpRope_g02_c01.jpg",
       "evidenceGrade": "",
-      "sourceDeclaredCount": null,
+      "sourceDeclaredCount": {
+        "count": null,
+        "source_type": "NO_DECLARED_COUNT",
+        "source_ref": "https://huggingface.co/datasets/bitmind/UCF101Fullvideo/resolve/main/UCF101Fullvideo.zip?download=true#entry=test/JumpRope/v_JumpRope_g02_c01.avi",
+        "display_text": "출처영상에 갯수 미제공",
+        "note": "The source video/archive entry does not provide a declared repetition count. GPT direct count is stored separately."
+      },
       "lockedGt": null,
       "gptGround": {
         "count": 44,
@@ -18943,7 +19069,13 @@
       "sha256": "196f83741979ae7113cdb2bdb4f11165b43eaf9b63ddeb676e401d9e7685acca",
       "thumbnailUrl": "/count-viewer/thumbs/v_JumpRope_g03_c01.jpg",
       "evidenceGrade": "",
-      "sourceDeclaredCount": null,
+      "sourceDeclaredCount": {
+        "count": null,
+        "source_type": "NO_DECLARED_COUNT",
+        "source_ref": "https://huggingface.co/datasets/bitmind/UCF101Fullvideo/resolve/main/UCF101Fullvideo.zip?download=true#entry=val/JumpRope/v_JumpRope_g03_c01.avi",
+        "display_text": "출처영상에 갯수 미제공",
+        "note": "The source video/archive entry does not provide a declared repetition count. GPT direct count is stored separately."
+      },
       "lockedGt": null,
       "gptGround": {
         "count": 22,
@@ -19012,7 +19144,13 @@
       "sha256": "e7d6681365be2867c7b47a9f77442e0633f504525ca77402898927fb83c44f76",
       "thumbnailUrl": "/count-viewer/thumbs/v_JumpRope_g08_c01.jpg",
       "evidenceGrade": "",
-      "sourceDeclaredCount": null,
+      "sourceDeclaredCount": {
+        "count": null,
+        "source_type": "NO_DECLARED_COUNT",
+        "source_ref": "https://huggingface.co/datasets/bitmind/UCF101Fullvideo/resolve/main/UCF101Fullvideo.zip?download=true#entry=train/JumpRope/v_JumpRope_g08_c01.avi",
+        "display_text": "출처영상에 갯수 미제공",
+        "note": "The source video/archive entry does not provide a declared repetition count. GPT direct count is stored separately."
+      },
       "lockedGt": null,
       "gptGround": {
         "count": 34,
@@ -19081,7 +19219,13 @@
       "sha256": "846cd42d398248a269aa81ad70f2f41d54f59a796eed333c01fd0883bcafcc24",
       "thumbnailUrl": "/count-viewer/thumbs/v_JumpRope_g08_c02.jpg",
       "evidenceGrade": "",
-      "sourceDeclaredCount": null,
+      "sourceDeclaredCount": {
+        "count": null,
+        "source_type": "NO_DECLARED_COUNT",
+        "source_ref": "https://huggingface.co/datasets/bitmind/UCF101Fullvideo/resolve/main/UCF101Fullvideo.zip?download=true#entry=test/JumpRope/v_JumpRope_g08_c02.avi",
+        "display_text": "출처영상에 갯수 미제공",
+        "note": "The source video/archive entry does not provide a declared repetition count. GPT direct count is stored separately."
+      },
       "lockedGt": null,
       "gptGround": {
         "count": 30,
@@ -19150,7 +19294,13 @@
       "sha256": "de7e980a0922742cf2791efdf13c4ce45ffbe7834d515461989e4bcd096fba8f",
       "thumbnailUrl": "/count-viewer/thumbs/v_JumpRope_g13_c02.jpg",
       "evidenceGrade": "",
-      "sourceDeclaredCount": null,
+      "sourceDeclaredCount": {
+        "count": null,
+        "source_type": "NO_DECLARED_COUNT",
+        "source_ref": "https://huggingface.co/datasets/bitmind/UCF101Fullvideo/resolve/main/UCF101Fullvideo.zip?download=true#entry=train/JumpRope/v_JumpRope_g13_c02.avi",
+        "display_text": "출처영상에 갯수 미제공",
+        "note": "The source video/archive entry does not provide a declared repetition count. GPT direct count is stored separately."
+      },
       "lockedGt": null,
       "gptGround": {
         "count": 30,
@@ -19219,7 +19369,13 @@
       "sha256": "767bfd65e3794998892a88e803b1c7169a5590e5645bed5d7ec4fd8d4a86a176",
       "thumbnailUrl": "/count-viewer/thumbs/v_JumpRope_g22_c01.jpg",
       "evidenceGrade": "",
-      "sourceDeclaredCount": null,
+      "sourceDeclaredCount": {
+        "count": null,
+        "source_type": "NO_DECLARED_COUNT",
+        "source_ref": "https://huggingface.co/datasets/bitmind/UCF101Fullvideo/resolve/main/UCF101Fullvideo.zip?download=true#entry=train/JumpRope/v_JumpRope_g22_c01.avi",
+        "display_text": "출처영상에 갯수 미제공",
+        "note": "The source video/archive entry does not provide a declared repetition count. GPT direct count is stored separately."
+      },
       "lockedGt": null,
       "gptGround": {
         "count": 16,
@@ -19288,7 +19444,13 @@
       "sha256": "aac83932509a91dfae8cc4e08b76319ce55e12ac52254ecdcf761d4fb73a68e5",
       "thumbnailUrl": "/count-viewer/thumbs/v_JumpRope_g22_c02.jpg",
       "evidenceGrade": "",
-      "sourceDeclaredCount": null,
+      "sourceDeclaredCount": {
+        "count": null,
+        "source_type": "NO_DECLARED_COUNT",
+        "source_ref": "https://huggingface.co/datasets/bitmind/UCF101Fullvideo/resolve/main/UCF101Fullvideo.zip?download=true#entry=train/JumpRope/v_JumpRope_g22_c02.avi",
+        "display_text": "출처영상에 갯수 미제공",
+        "note": "The source video/archive entry does not provide a declared repetition count. GPT direct count is stored separately."
+      },
       "lockedGt": null,
       "gptGround": {
         "count": 14,
@@ -19357,7 +19519,13 @@
       "sha256": "44a319e8b42943b733d646b645c610057e0825c8cbd402f2e6d7c6c5ab986f62",
       "thumbnailUrl": "/count-viewer/thumbs/v_JumpRope_g22_c03.jpg",
       "evidenceGrade": "",
-      "sourceDeclaredCount": null,
+      "sourceDeclaredCount": {
+        "count": null,
+        "source_type": "NO_DECLARED_COUNT",
+        "source_ref": "https://huggingface.co/datasets/bitmind/UCF101Fullvideo/resolve/main/UCF101Fullvideo.zip?download=true#entry=train/JumpRope/v_JumpRope_g22_c03.avi",
+        "display_text": "출처영상에 갯수 미제공",
+        "note": "The source video/archive entry does not provide a declared repetition count. GPT direct count is stored separately."
+      },
       "lockedGt": null,
       "gptGround": {
         "count": 14,
@@ -19426,7 +19594,13 @@
       "sha256": "c2ee9b1e65db9481e4c06015f1407c1a947b45b865b1c51e3e157fa04d72b701",
       "thumbnailUrl": "/count-viewer/thumbs/v_JumpRope_g24_c01.jpg",
       "evidenceGrade": "",
-      "sourceDeclaredCount": null,
+      "sourceDeclaredCount": {
+        "count": null,
+        "source_type": "NO_DECLARED_COUNT",
+        "source_ref": "https://huggingface.co/datasets/bitmind/UCF101Fullvideo/resolve/main/UCF101Fullvideo.zip?download=true#entry=test/JumpRope/v_JumpRope_g24_c01.avi",
+        "display_text": "출처영상에 갯수 미제공",
+        "note": "The source video/archive entry does not provide a declared repetition count. GPT direct count is stored separately."
+      },
       "lockedGt": null,
       "gptGround": {
         "count": 32,
@@ -19495,7 +19669,13 @@
       "sha256": "038c7dbbe7f8a9c65491eadf9a82a2025a802f8daa7bd7330cb9937f14ff5b05",
       "thumbnailUrl": "/count-viewer/thumbs/v_JumpRope_g25_c01.jpg",
       "evidenceGrade": "",
-      "sourceDeclaredCount": null,
+      "sourceDeclaredCount": {
+        "count": null,
+        "source_type": "NO_DECLARED_COUNT",
+        "source_ref": "https://huggingface.co/datasets/bitmind/UCF101Fullvideo/resolve/main/UCF101Fullvideo.zip?download=true#entry=train/JumpRope/v_JumpRope_g25_c01.avi",
+        "display_text": "출처영상에 갯수 미제공",
+        "note": "The source video/archive entry does not provide a declared repetition count. GPT direct count is stored separately."
+      },
       "lockedGt": null,
       "gptGround": {
         "count": 27,
@@ -19564,7 +19744,13 @@
       "sha256": "55996cf0837d370e47b8eebd788538ba865cca345f24033778d36f3e83ff257d",
       "thumbnailUrl": "/count-viewer/thumbs/v_JumpRope_g25_c02.jpg",
       "evidenceGrade": "",
-      "sourceDeclaredCount": null,
+      "sourceDeclaredCount": {
+        "count": null,
+        "source_type": "NO_DECLARED_COUNT",
+        "source_ref": "https://huggingface.co/datasets/bitmind/UCF101Fullvideo/resolve/main/UCF101Fullvideo.zip?download=true#entry=train/JumpRope/v_JumpRope_g25_c02.avi",
+        "display_text": "출처영상에 갯수 미제공",
+        "note": "The source video/archive entry does not provide a declared repetition count. GPT direct count is stored separately."
+      },
       "lockedGt": null,
       "gptGround": {
         "count": 26,
@@ -19633,7 +19819,13 @@
       "sha256": "405dd2d41f4def8dd6129e832aaf785c94793f4e6d545fa19d856f4c7091bb44",
       "thumbnailUrl": "/count-viewer/thumbs/v_JumpRope_g25_c03.jpg",
       "evidenceGrade": "",
-      "sourceDeclaredCount": null,
+      "sourceDeclaredCount": {
+        "count": null,
+        "source_type": "NO_DECLARED_COUNT",
+        "source_ref": "https://huggingface.co/datasets/bitmind/UCF101Fullvideo/resolve/main/UCF101Fullvideo.zip?download=true#entry=train/JumpRope/v_JumpRope_g25_c03.avi",
+        "display_text": "출처영상에 갯수 미제공",
+        "note": "The source video/archive entry does not provide a declared repetition count. GPT direct count is stored separately."
+      },
       "lockedGt": null,
       "gptGround": {
         "count": 22,
@@ -29584,7 +29776,13 @@
       "sha256": "",
       "thumbnailUrl": "",
       "evidenceGrade": "",
-      "sourceDeclaredCount": null,
+      "sourceDeclaredCount": {
+        "count": null,
+        "source_type": "NO_DECLARED_COUNT",
+        "source_ref": "https://www.dailymotion.com/video/x7zay0w",
+        "display_text": "출처영상에 갯수 미제공",
+        "note": "Exact Dailymotion source metadata reviewed (title, description, duration, owner). No uploader/source-declared repetition count was found."
+      },
       "lockedGt": null,
       "gptGround": {
         "count": 17,
@@ -29653,7 +29851,13 @@
       "sha256": "",
       "thumbnailUrl": "",
       "evidenceGrade": "",
-      "sourceDeclaredCount": null,
+      "sourceDeclaredCount": {
+        "count": null,
+        "source_type": "NO_DECLARED_COUNT",
+        "source_ref": "https://www.dailymotion.com/video/x815y0i",
+        "display_text": "출처영상에 갯수 미제공",
+        "note": "The source video/archive entry does not provide a declared repetition count. GPT direct count is stored separately."
+      },
       "lockedGt": null,
       "gptGround": {
         "count": 13,
@@ -29722,7 +29926,13 @@
       "sha256": "",
       "thumbnailUrl": "",
       "evidenceGrade": "",
-      "sourceDeclaredCount": null,
+      "sourceDeclaredCount": {
+        "count": null,
+        "source_type": "NO_DECLARED_COUNT",
+        "source_ref": "https://www.dailymotion.com/video/x8by42a",
+        "display_text": "출처영상에 갯수 미제공",
+        "note": "Exact Dailymotion source metadata reviewed (title, description, duration, owner). No uploader/source-declared repetition count was found."
+      },
       "lockedGt": null,
       "gptGround": {
         "count": 38,
@@ -29791,7 +30001,13 @@
       "sha256": "",
       "thumbnailUrl": "",
       "evidenceGrade": "",
-      "sourceDeclaredCount": null,
+      "sourceDeclaredCount": {
+        "count": null,
+        "source_type": "NO_DECLARED_COUNT",
+        "source_ref": "https://www.dailymotion.com/video/x8au8pu",
+        "display_text": "출처영상에 갯수 미제공",
+        "note": "Original Dailymotion title/description/video metadata reviewed; no uploader/source-declared repetition count was found. The page duration is not a repetition count."
+      },
       "lockedGt": null,
       "gptGround": {
         "count": 31,
@@ -87178,6 +87394,7 @@
         "count": 130,
         "source_type": "USER_REPORTED",
         "source_ref": "사용자 신고에 실제 횟수 130회로 입력됨",
+        "display_text": "",
         "note": "Source-provided count only. GPT direct count remains a separate field."
       },
       "lockedGt": {
