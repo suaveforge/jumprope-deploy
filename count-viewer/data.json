@@ -1,7 +1,7 @@
 {
   "schemaVersion": 7,
-  "generatedAtUtc": "2026-09-23T05:30:17.571Z",
-  "corpusSnapshotUtc": "2026-09-23T04:35:19.902499+00:00",
+  "generatedAtUtc": "2026-09-23T05:56:34.894Z",
+  "corpusSnapshotUtc": "2026-09-23T05:35:19.950250+00:00",
   "source": "server123:/home/jumprope-research/corpus-registry + discovery candidate registries",
   "refreshPolicy": "relevant main pushes sync immediately; hourly fallback; viewer polls published data",
   "stats": {
@@ -17218,7 +17218,7 @@
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
         "sha256": "fe9e03593e078a5c0e6fb703edf6674b967d6fcae0715872c0f51d84a934b899",
-        "dataset_role": "VALIDATION",
+        "dataset_role": "TRAIN",
         "dataset_role_policy": "UCF_GROUP_LOCKED"
       },
       "logic": {
@@ -17286,7 +17286,7 @@
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
         "sha256": "22358e5adb02e1fe6cf5137c0fce3c51ee2332dfdde73d2680b7bfa6e25c69c0",
-        "dataset_role": "VALIDATION",
+        "dataset_role": "TRAIN",
         "dataset_role_policy": "UCF_GROUP_LOCKED"
       },
       "logic": {
@@ -17354,7 +17354,7 @@
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
         "sha256": "c28db94fe21db381e9f76c55bd4d5be4afa8b81070720dc352f039e2b56b7ade",
-        "dataset_role": "TRAIN",
+        "dataset_role": "VALIDATION",
         "dataset_role_policy": "UCF_GROUP_LOCKED"
       },
       "logic": {
@@ -17558,7 +17558,7 @@
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
         "sha256": "f5973a8a934b85c653051d95ed01dbb0c6ebc0092e475495811451d10f77e74d",
-        "dataset_role": "VALIDATION",
+        "dataset_role": "HOLDOUT",
         "dataset_role_policy": "UCF_GROUP_LOCKED"
       },
       "logic": {
@@ -17762,7 +17762,7 @@
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
         "sha256": "2cf5057cddd08dfe0bc4dae736d133994d6babfa0fa8e265c699a102c10bb949",
-        "dataset_role": "HOLDOUT",
+        "dataset_role": "TRAIN",
         "dataset_role_policy": "UCF_GROUP_LOCKED"
       },
       "logic": {
@@ -17830,7 +17830,7 @@
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
         "sha256": "996a358760a78b351aee5900a53d4b2ff273c83db011997bfd775fd535d35857",
-        "dataset_role": "VALIDATION",
+        "dataset_role": "TRAIN",
         "dataset_role_policy": "UCF_GROUP_LOCKED"
       },
       "logic": {
@@ -17898,7 +17898,7 @@
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
         "sha256": "8c00e1ec7156bcc81022c2d0caec66f95e428b9cb48bafb50eda78f6949c6057",
-        "dataset_role": "HOLDOUT",
+        "dataset_role": "TRAIN",
         "dataset_role_policy": "UCF_GROUP_LOCKED"
       },
       "logic": {
@@ -18034,7 +18034,7 @@
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
         "sha256": "a2c0e34603cc73a9aa630335d3f2a185db25b77a6eb04ac9ea7494118014538d",
-        "dataset_role": "TRAIN",
+        "dataset_role": "HOLDOUT",
         "dataset_role_policy": "UCF_GROUP_LOCKED"
       },
       "logic": {
@@ -18102,7 +18102,7 @@
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
         "sha256": "196f83741979ae7113cdb2bdb4f11165b43eaf9b63ddeb676e401d9e7685acca",
-        "dataset_role": "HOLDOUT",
+        "dataset_role": "VALIDATION",
         "dataset_role_policy": "UCF_GROUP_LOCKED"
       },
       "logic": {
@@ -18238,7 +18238,7 @@
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
         "sha256": "846cd42d398248a269aa81ad70f2f41d54f59a796eed333c01fd0883bcafcc24",
-        "dataset_role": "TRAIN",
+        "dataset_role": "HOLDOUT",
         "dataset_role_policy": "UCF_GROUP_LOCKED"
       },
       "logic": {
@@ -18306,7 +18306,7 @@
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
         "sha256": "de7e980a0922742cf2791efdf13c4ce45ffbe7834d515461989e4bcd096fba8f",
-        "dataset_role": "HOLDOUT",
+        "dataset_role": "TRAIN",
         "dataset_role_policy": "UCF_GROUP_LOCKED"
       },
       "logic": {
@@ -18578,7 +18578,7 @@
         "source": "GPT_DIRECT_VIEWER",
         "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
         "sha256": "c2ee9b1e65db9481e4c06015f1407c1a947b45b865b1c51e3e157fa04d72b701",
-        "dataset_role": "TRAIN",
+        "dataset_role": "HOLDOUT",
         "dataset_role_policy": "UCF_GROUP_LOCKED"
       },
       "logic": {
