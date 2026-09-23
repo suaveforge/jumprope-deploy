@@ -1,6 +1,6 @@
 {
   "schemaVersion": 7,
-  "generatedAtUtc": "2026-09-23T07:51:18.836Z",
+  "generatedAtUtc": "2026-09-23T08:17:12.736Z",
   "corpusSnapshotUtc": "2026-09-23T07:35:20.067231+00:00",
   "source": "server123:/home/jumprope-research/corpus-registry + discovery candidate registries",
   "refreshPolicy": "relevant main pushes sync immediately; hourly fallback; viewer polls published data",
@@ -85777,9 +85777,9 @@
       "sourceDeclaredCount": {
         "count": null,
         "source_type": "NO_DECLARED_COUNT",
-        "source_ref": "사용자 피드백 글: 여전히 카운팅 안된다 영상 첨부했어",
+        "source_ref": "유저 등록 글 JR-20260908-E86C659B",
         "display_text": "출처영상에 갯수 미제공",
-        "note": "User post was reviewed directly. Numeric values describing app miscounts/status were not treated as source-declared actual repetitions."
+        "note": "User feedback post reviewed. No explicit statement of actual performed repetition count was found. App/counter outputs, countdown numbers, or complaint examples are not treated as source-declared counts."
       },
       "lockedGt": {
         "source": "LOCKED_GT",
@@ -85897,9 +85897,9 @@
       "sourceDeclaredCount": {
         "count": null,
         "source_type": "NO_DECLARED_COUNT",
-        "source_ref": "사용자 피드백 글: 전혀측정안되네. 그리고 카메라 세우고 멀어지면 게이지가 차는게 안보여서 가독성이 떨어져",
+        "source_ref": "유저 등록 글 JR-20260908-376EF057",
         "display_text": "출처영상에 갯수 미제공",
-        "note": "User post was reviewed directly. Numeric values describing app miscounts/status were not treated as source-declared actual repetitions."
+        "note": "User feedback post reviewed. No explicit statement of actual performed repetition count was found. App/counter outputs, countdown numbers, or complaint examples are not treated as source-declared counts."
       },
       "lockedGt": {
         "source": "LOCKED_GT",
@@ -86009,9 +86009,9 @@
       "sourceDeclaredCount": {
         "count": null,
         "source_type": "NO_DECLARED_COUNT",
-        "source_ref": "사용자 피드백 글: 다섯개로직 결과는 안보여주나?",
+        "source_ref": "유저 등록 글 JR-20260909-9BDBF573",
         "display_text": "출처영상에 갯수 미제공",
-        "note": "User post was reviewed directly. Numeric values describing app miscounts/status were not treated as source-declared actual repetitions."
+        "note": "User feedback post reviewed. No explicit statement of actual performed repetition count was found. App/counter outputs, countdown numbers, or complaint examples are not treated as source-declared counts."
       },
       "lockedGt": {
         "source": "LOCKED_GT",
@@ -86201,9 +86201,9 @@
       "sourceDeclaredCount": {
         "count": null,
         "source_type": "NO_DECLARED_COUNT",
-        "source_ref": "사용자 피드백 글: 뼈가 굳어있네? 원래 잘 되던 위치로가서 있어도 게잊는 안차고",
+        "source_ref": "유저 등록 글 JR-20260909-AC5539AF",
         "display_text": "출처영상에 갯수 미제공",
-        "note": "User post was reviewed directly. Numeric values describing app miscounts/status were not treated as source-declared actual repetitions."
+        "note": "User feedback post reviewed. No explicit statement of actual performed repetition count was found. App/counter outputs, countdown numbers, or complaint examples are not treated as source-declared counts."
       },
       "lockedGt": {
         "source": "LOCKED_GT",
@@ -86296,9 +86296,9 @@
       "sourceDeclaredCount": {
         "count": null,
         "source_type": "NO_DECLARED_COUNT",
-        "source_ref": "사용자 피드백 글: 촬영종료 후 핸드폰 얼굴로 보면서 메인화면 들어왔는데 얼굴만 찍더니 3,2,1 지혼자세고 0 표시하네 그러고 몸전체 화면에 넣으라고하고. 초기화가 안되는거같다. 지금 첨부하는 영상이 이전영상인지 지금 문제된 영상인지도 확실치않아",
+        "source_ref": "유저 등록 글 JR-20260911-BD41E9A3",
         "display_text": "출처영상에 갯수 미제공",
-        "note": "User post was reviewed directly. Numeric values describing app miscounts/status were not treated as source-declared actual repetitions."
+        "note": "User feedback post reviewed. No explicit statement of actual performed repetition count was found. App/counter outputs, countdown numbers, or complaint examples are not treated as source-declared counts."
       },
       "lockedGt": {
         "source": "LOCKED_GT",
@@ -86391,9 +86391,9 @@
       "sourceDeclaredCount": {
         "count": null,
         "source_type": "NO_DECLARED_COUNT",
-        "source_ref": "사용자 피드백 글: 이게 왜 0점프지?",
+        "source_ref": "유저 등록 글 JR-20260908-F62DC60E",
         "display_text": "출처영상에 갯수 미제공",
-        "note": "User post was reviewed directly. Numeric values describing app miscounts/status were not treated as source-declared actual repetitions."
+        "note": "User feedback post reviewed. No explicit statement of actual performed repetition count was found. App/counter outputs, countdown numbers, or complaint examples are not treated as source-declared counts."
       },
       "lockedGt": {
         "source": "LOCKED_GT",
@@ -86511,9 +86511,9 @@
       "sourceDeclaredCount": {
         "count": null,
         "source_type": "NO_DECLARED_COUNT",
-        "source_ref": "사용자 피드백 글: 점프를 뛰고 있는데 점프를 하라고 하네. 낮게 점프해도 측정해줘야지.",
+        "source_ref": "유저 등록 글 JR-20260910-07583788",
         "display_text": "출처영상에 갯수 미제공",
-        "note": "User post was reviewed directly. Numeric values describing app miscounts/status were not treated as source-declared actual repetitions."
+        "note": "User feedback post reviewed. No explicit statement of actual performed repetition count was found. App/counter outputs, countdown numbers, or complaint examples are not treated as source-declared counts."
       },
       "lockedGt": {
         "source": "LOCKED_GT",
@@ -86743,9 +86743,9 @@
       "sourceDeclaredCount": {
         "count": null,
         "source_type": "NO_DECLARED_COUNT",
-        "source_ref": "사용자 피드백 글: 아진짜 양심없냐? 야 이번엔 왜 노카운팅인데? ㅋㅋ 가까이가서 앉으니까 1카운팅 개웃기네",
+        "source_ref": "유저 등록 글 JR-20260908-913C26E0",
         "display_text": "출처영상에 갯수 미제공",
-        "note": "User post was reviewed directly. Numeric values describing app miscounts/status were not treated as source-declared actual repetitions."
+        "note": "User feedback post reviewed. No explicit statement of actual performed repetition count was found. App/counter outputs, countdown numbers, or complaint examples are not treated as source-declared counts."
       },
       "lockedGt": {
         "source": "LOCKED_GT",
@@ -86867,9 +86867,9 @@
       "sourceDeclaredCount": {
         "count": null,
         "source_type": "NO_DECLARED_COUNT",
-        "source_ref": "사용자 피드백 글: 뭐.. 전혀안되네",
+        "source_ref": "유저 등록 글 JR-20260908-F45E4935",
         "display_text": "출처영상에 갯수 미제공",
-        "note": "User post was reviewed directly. Numeric values describing app miscounts/status were not treated as source-declared actual repetitions."
+        "note": "User feedback post reviewed. No explicit statement of actual performed repetition count was found. App/counter outputs, countdown numbers, or complaint examples are not treated as source-declared counts."
       },
       "lockedGt": {
         "source": "LOCKED_GT",
@@ -86991,9 +86991,9 @@
       "sourceDeclaredCount": {
         "count": null,
         "source_type": "NO_DECLARED_COUNT",
-        "source_ref": "사용자 피드백 글: -5개로직 결과 출력은 일부러 뺐냐? -셀건 안세고 세면 안되는건 또 세네 ㅋㅋ",
+        "source_ref": "유저 등록 글 JR-20260910-C32FED68",
         "display_text": "출처영상에 갯수 미제공",
-        "note": "User post was reviewed directly. Numeric values describing app miscounts/status were not treated as source-declared actual repetitions."
+        "note": "User feedback post reviewed. No explicit statement of actual performed repetition count was found. App/counter outputs, countdown numbers, or complaint examples are not treated as source-declared counts."
       },
       "lockedGt": {
         "source": "LOCKED_GT",
@@ -87167,9 +87167,9 @@
       "sourceDeclaredCount": {
         "count": 10,
         "source_type": "USER_REPORTED",
-        "source_ref": "사용자 피드백 글: 개새끼야 10개했는데",
+        "source_ref": "사용자 등록 글에 실제 횟수 10개로 직접 기재됨",
         "display_text": "",
-        "note": "User explicitly stated actual performed count as 10."
+        "note": "User post content: '10개했는데'. App/counter output is not used as source count."
       },
       "lockedGt": {
         "source": "LOCKED_GT",
@@ -87459,9 +87459,9 @@
       "sourceDeclaredCount": {
         "count": 130,
         "source_type": "USER_REPORTED",
-        "source_ref": "사용자 피드백 글: 130개 했는데 85개로 측정됨. 갯수는 비슷하게 갔는데 갑자기 85개에서 멈춤.",
+        "source_ref": "사용자 등록 글에 실제 횟수 130개로 직접 기재됨",
         "display_text": "",
-        "note": "User explicitly stated actual performed count as 130. The app-reported 85 is not the source truth."
+        "note": "User post content states 130 repetitions performed; separate app result was 85 and is not used as source count."
       },
       "lockedGt": {
         "source": "LOCKED_GT",
