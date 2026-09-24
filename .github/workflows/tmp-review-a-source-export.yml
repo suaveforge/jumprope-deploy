@@ -1,0 +1,118 @@
+name: ROPEJUMP shard A temporary source export
+
+on:
+  push:
+    branches:
+      - 'tmp/review-a-media-20260925'
+    paths:
+      - '.github/workflows/tmp-review-a-source-export.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  export:
+    runs-on: [self-hosted, Linux, X64, server123, suaveforge-deploy, suaveforge-org]
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: tmp/review-a-media-20260925
+          fetch-depth: 1
+
+      - name: Collect exact visual source streams
+        shell: bash
+        run: |
+          set -Eeuo pipefail
+          ROOT="$GITHUB_WORKSPACE/review-a-media"
+          TMP="$RUNNER_TEMP/review-a-downloads"
+          rm -rf "$ROOT" "$TMP"
+          mkdir -p "$ROOT" "$TMP"
+          manifest="$ROOT/manifest.tsv"
+          parts="$ROOT/parts.tsv"
+          missing="$ROOT/missing.txt"
+          printf 'id\tsource_kind\text\tsha256\tbytes\tpart_prefix\n' > "$manifest"
+          : > "$parts"
+          : > "$missing"
+
+          YTDLP="$(command -v yt-dlp || true)"
+          if [ -z "$YTDLP" ]; then
+            YTDLP="$RUNNER_TEMP/yt-dlp"
+            curl -fsSL --retry 3 --retry-delay 2 https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp_linux -o "$YTDLP"
+            chmod 700 "$YTDLP"
+          fi
+          "$YTDLP" --version
+
+          ids=(
+            '_Fj76b5_L0k'
+            '_hjspOjY3OA'
+            '_WMEeIlFPio'
+            '-iUpSI_eAdU'
+            '-lHdh0uldkA'
+            '-NndIs9BaS4'
+            '-QkTD_ie0kI'
+            '-XuanQaDsBw'
+            '0-_ADy-gm5I'
+            '0Ehcb_pD5Q4'
+          )
+
+          for id in "${ids[@]}"; do
+            echo "=== $id ==="
+            src="$(find /home/jumprope-research -type f \( -iname "*$id*.mp4" -o -iname "*$id*.webm" -o -iname "*$id*.mkv" -o -iname "*$id*.mov" -o -iname "*$id*.m4v" \) -size +10k -print -quit 2>/dev/null || true)"
+            kind="server-local"
+            ddir="$TMP/$id"
+
+            if [ -z "$src" ]; then
+              kind="youtube-video-stream"
+              url="https://www.youtube.com/watch?v=$id"
+              rm -rf "$ddir"; mkdir -p "$ddir"
+              "$YTDLP" --no-playlist --no-progress --retries 3 --fragment-retries 3                 -f 'bv*[height<=720]' -o "$ddir/%(id)s.%(ext)s" "$url" || true
+              src="$(find "$ddir" -maxdepth 1 -type f \( -iname '*.mp4' -o -iname '*.webm' -o -iname '*.mkv' -o -iname '*.mov' \) -size +10k -print -quit 2>/dev/null || true)"
+            fi
+
+            if [ -z "$src" ]; then
+              rm -rf "$ddir"; mkdir -p "$ddir"
+              "$YTDLP" --no-playlist --no-progress --retries 3 --fragment-retries 3                 -f '22/18/b[height<=720]' -o "$ddir/%(id)s.%(ext)s" "$url" || true
+              src="$(find "$ddir" -maxdepth 1 -type f \( -iname '*.mp4' -o -iname '*.webm' -o -iname '*.mkv' -o -iname '*.mov' \) -size +10k -print -quit 2>/dev/null || true)"
+            fi
+
+            if [ -z "$src" ]; then
+              rm -rf "$ddir"; mkdir -p "$ddir"
+              "$YTDLP" --no-playlist --no-progress --retries 3 --fragment-retries 3                 --extractor-args 'youtube:player_client=web_safari,android'                 -f 'bv*[height<=720]/18/b[height<=720]' -o "$ddir/%(id)s.%(ext)s" "$url" || true
+              src="$(find "$ddir" -maxdepth 1 -type f \( -iname '*.mp4' -o -iname '*.webm' -o -iname '*.mkv' -o -iname '*.mov' \) -size +10k -print -quit 2>/dev/null || true)"
+            fi
+
+            if [ -z "$src" ] || [ ! -s "$src" ]; then
+              echo "$id" >> "$missing"
+              echo "MISSING $id"
+              continue
+            fi
+
+            ext="${src##*.}"
+            sha="$(sha256sum "$src" | awk '{print $1}')"
+            bytes="$(stat -c '%s' "$src")"
+            prefix="$id.source.part-"
+            printf '%s\t%s\t%s\t%s\t%s\t%s\n' "$id" "$kind" "$ext" "$sha" "$bytes" "$prefix" >> "$manifest"
+            split -b 45M -d -a 3 "$src" "$ROOT/$prefix"
+          done
+
+          for f in "$ROOT"/*.source.part-*; do
+            [ -e "$f" ] || continue
+            printf '%s\t%s\t%s\n' "$(basename "$f")" "$(sha256sum "$f" | awk '{print $1}')" "$(stat -c '%s' "$f")" >> "$parts"
+          done
+
+          cat "$manifest"
+          echo "MISSING:"
+          cat "$missing" || true
+          test "$(tail -n +2 "$manifest" | wc -l)" -eq 10
+          test ! -s "$missing"
+
+      - name: Commit temporary review bytes
+        shell: bash
+        run: |
+          set -Eeuo pipefail
+          git config user.name "ropejump-review-export"
+          git config user.email "actions@users.noreply.github.com"
+          git add review-a-media
+          git commit -m "tmp: add shard A direct-review source bytes"
+          git push origin HEAD:tmp/review-a-media-20260925
