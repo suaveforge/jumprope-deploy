@@ -1,7 +1,7 @@
 {
   "schemaVersion": 7,
-  "generatedAtUtc": "2026-09-24T13:37:38.298Z",
-  "corpusSnapshotUtc": "2026-09-24T13:35:22.195720+00:00",
+  "generatedAtUtc": "2026-09-24T17:48:58.788Z",
+  "corpusSnapshotUtc": "2026-09-24T17:35:23.402246+00:00",
   "source": "server123:/home/jumprope-research/corpus-registry + discovery candidate registries",
   "refreshPolicy": "relevant main pushes sync immediately; hourly fallback; viewer polls published data",
   "stats": {
@@ -29950,15 +29950,15 @@
         "counted_at_kst": "2026-09-23 14:26 KST",
         "confidence": "HIGH",
         "source_ref": "https://huggingface.co/datasets/bitmind/UCF101Fullvideo/resolve/main/UCF101Fullvideo.zip?download=true#entry=train/JumpRope/v_JumpRope_g18_c05.avi",
-        "note": "GPT direct visual review. Full-source 15 fps and native-frame foot review confirmed synchronized two-foot uncrossed basic. 35 completed cycles directly verified; long gaps were manually checked as pauses and the final landing completes before source end. Programmatic motion/centroid analysis was used only to propose timestamps and did not generate the GT.",
+        "note": "Dense 0.1 s lower-body re-review resolves repeated single-leg/high-knee alternation throughout the source. Prior STANDARD/basic metadata is superseded. BODY count remains valid; the source is excluded from basic-positive training.",
         "source": "GPT_DIRECT_VIEWER",
-        "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
-        "non_standard_subtype": "",
+        "jump_rope_type": "NON_STANDARD_MIXED_OR_TRICK",
+        "non_standard_subtype": "ALTERNATING_OR_RUNNING_STEP",
         "sha256": "f48eb58375a9e4882ebba01eabc5ed8bb82c68352dfd2b6e6a3c0cd9942234ce",
-        "dataset_role": "TRAIN",
-        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE",
-        "dataset_eligibility": "ELIGIBLE_VERIFIED_STANDARD",
-        "dataset_group": "g18"
+        "dataset_role": "",
+        "dataset_role_policy": "EXCLUDED_NON_STANDARD",
+        "dataset_eligibility": "EXCLUDED_NON_STANDARD_MIXED_OR_TRICK",
+        "dataset_group": ""
       },
       "logic": {
         "A": {
@@ -30041,15 +30041,15 @@
         "counted_at_kst": "2026-09-23 14:26 KST",
         "confidence": "HIGH",
         "source_ref": "https://huggingface.co/datasets/bitmind/UCF101Fullvideo/resolve/main/UCF101Fullvideo.zip?download=true#entry=train/JumpRope/v_JumpRope_g18_c06.avi",
-        "note": "GPT direct visual review. Whole-source and native-frame review confirmed synchronized two-foot uncrossed basic. 48 completed cycles directly verified. All long locator gaps were separately inspected as pauses/reset motion, not missed jumps; final landing completes before source end. Programmatic motion/centroid analysis was used only to propose timestamps and did not generate the GT.",
+        "note": "Dense 0.1 s lower-body re-review resolves alternating/high-knee single-foot support throughout the clip. Prior STANDARD/basic metadata is superseded. BODY count remains valid; the source is excluded from basic-positive training.",
         "source": "GPT_DIRECT_VIEWER",
-        "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
-        "non_standard_subtype": "",
+        "jump_rope_type": "NON_STANDARD_MIXED_OR_TRICK",
+        "non_standard_subtype": "ALTERNATING_OR_RUNNING_STEP",
         "sha256": "826865c0f461be19437a2a9784d0f3ff319f64d5d64f990226275d0e21eddd6d",
-        "dataset_role": "TRAIN",
-        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE",
-        "dataset_eligibility": "ELIGIBLE_VERIFIED_STANDARD",
-        "dataset_group": "g18"
+        "dataset_role": "",
+        "dataset_role_policy": "EXCLUDED_NON_STANDARD",
+        "dataset_eligibility": "EXCLUDED_NON_STANDARD_MIXED_OR_TRICK",
+        "dataset_group": ""
       },
       "logic": {
         "A": {
@@ -30132,15 +30132,15 @@
         "counted_at_kst": "2026-09-23 14:26 KST",
         "confidence": "HIGH",
         "source_ref": "https://huggingface.co/datasets/bitmind/UCF101Fullvideo/resolve/main/UCF101Fullvideo.zip?download=true#entry=train/JumpRope/v_JumpRope_g18_c07.avi",
-        "note": "GPT direct visual review. Whole-source and targeted foot-level review confirmed synchronized two-foot uncrossed basic. 30 completed cycles directly verified; long gaps were checked as non-jump pauses/reset motion and no extra completed cycle appears after the last admitted jump. Programmatic motion/centroid analysis was used only to propose timestamps and did not generate the GT.",
+        "note": "Whole-source and dense lower-body re-review clearly resolve alternating high-knee/single-leg support rather than synchronized paired-foot basic skipping. Prior STANDARD/basic metadata is superseded. BODY count remains valid; the source is excluded from basic-positive training.",
         "source": "GPT_DIRECT_VIEWER",
-        "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
-        "non_standard_subtype": "",
+        "jump_rope_type": "NON_STANDARD_MIXED_OR_TRICK",
+        "non_standard_subtype": "ALTERNATING_OR_RUNNING_STEP",
         "sha256": "3e04bdc9557ff72b4ab4f6de98adf1352a3f3639ecd61fa578e4750a65ed30fd",
-        "dataset_role": "TRAIN",
-        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE",
-        "dataset_eligibility": "ELIGIBLE_VERIFIED_STANDARD",
-        "dataset_group": "g18"
+        "dataset_role": "",
+        "dataset_role_policy": "EXCLUDED_NON_STANDARD",
+        "dataset_eligibility": "EXCLUDED_NON_STANDARD_MIXED_OR_TRICK",
+        "dataset_group": ""
       },
       "logic": {
         "A": {
@@ -30223,15 +30223,15 @@
         "counted_at_kst": "2026-09-23 14:26 KST",
         "confidence": "HIGH",
         "source_ref": "https://huggingface.co/datasets/bitmind/UCF101Fullvideo/resolve/main/UCF101Fullvideo.zip?download=true#entry=train/JumpRope/v_JumpRope_g20_c06.avi",
-        "note": "GPT direct visual review. Whole-source review confirmed synchronized two-foot uncrossed basic. 52 completed cycles directly verified from native-frame windows with no unresolved cadence gaps; final landing completes before the source boundary. Programmatic motion/centroid analysis was used only to propose timestamps and did not generate the GT.",
+        "note": "Dense lower-body re-review resolves a real within-video technique switch: synchronized two-foot basic single-under first, then alternating/running-step begins at about 12.8 s. Because the source is mixed, the whole clip is excluded from basic-positive training; segment-level annotation preserves the basic and alternating intervals separately.",
         "source": "GPT_DIRECT_VIEWER",
-        "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
-        "non_standard_subtype": "",
+        "jump_rope_type": "NON_STANDARD_MIXED_OR_TRICK",
+        "non_standard_subtype": "MIXED_BASIC_TO_ALTERNATING_RUNNING_STEP",
         "sha256": "344ea741c30019416b56ea7d12b0f3c83b76f160820751c795aeaf837f30166f",
-        "dataset_role": "TRAIN",
-        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE",
-        "dataset_eligibility": "ELIGIBLE_VERIFIED_STANDARD",
-        "dataset_group": "g20"
+        "dataset_role": "",
+        "dataset_role_policy": "EXCLUDED_NON_STANDARD",
+        "dataset_eligibility": "EXCLUDED_NON_STANDARD_MIXED_OR_TRICK",
+        "dataset_group": ""
       },
       "logic": {
         "A": {
@@ -30314,15 +30314,15 @@
         "counted_at_kst": "2026-09-23 14:26 KST",
         "confidence": "HIGH",
         "source_ref": "https://huggingface.co/datasets/bitmind/UCF101Fullvideo/resolve/main/UCF101Fullvideo.zip?download=true#entry=train/JumpRope/v_JumpRope_g20_c07.avi",
-        "note": "GPT direct visual review. Whole-source review confirmed synchronized two-foot uncrossed basic. 34 completed cycles directly verified; early and later long gaps were visually confirmed as standing/reset pauses, not missed jumps; final cycle completes before source end. Programmatic motion/centroid analysis was used only to propose timestamps and did not generate the GT.",
+        "note": "Dense lower-body re-review resolves a real within-video technique switch: synchronized two-foot basic single-under first, then alternating/running-step begins at about 13.0 s. Because the source is mixed, the whole clip is excluded from basic-positive training; segment-level annotation preserves the basic and alternating intervals separately.",
         "source": "GPT_DIRECT_VIEWER",
-        "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
-        "non_standard_subtype": "",
+        "jump_rope_type": "NON_STANDARD_MIXED_OR_TRICK",
+        "non_standard_subtype": "MIXED_BASIC_TO_ALTERNATING_RUNNING_STEP",
         "sha256": "2ef500f689c822576fee95fa74a7a0c1d0675e06ed22a7870fc430877dcf6008",
-        "dataset_role": "TRAIN",
-        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE",
-        "dataset_eligibility": "ELIGIBLE_VERIFIED_STANDARD",
-        "dataset_group": "g20"
+        "dataset_role": "",
+        "dataset_role_policy": "EXCLUDED_NON_STANDARD",
+        "dataset_eligibility": "EXCLUDED_NON_STANDARD_MIXED_OR_TRICK",
+        "dataset_group": ""
       },
       "logic": {
         "A": {
@@ -30587,15 +30587,15 @@
         "counted_at_kst": "2026-09-23 13:31 KST",
         "confidence": "HIGH",
         "source_ref": "https://huggingface.co/datasets/bitmind/UCF101Fullvideo/resolve/main/UCF101Fullvideo.zip?download=true#entry=train/JumpRope/v_JumpRope_g18_c04.avi",
-        "note": "GPT direct whole-source visual review after targeted re-resolution. Original ~30 fps foot-level frames resolved a blurred 15 fps false reject: both feet take off and land synchronously and no crossover/other subtype appears. Twenty-eight completed jump cycles were directly visually verified; long cadence gaps around ~4.7-5.3 s, ~6.4-7.3 s, and ~8.5-9.3 s were separately checked as real pauses, not missed repetitions. The final cycle near 12.51 s lands before the ~12.75 s source end. Programmatic motion/centroid analysis was used only as a timestamp locator.",
+        "note": "Dense 0.1 s lower-body re-review resolves recurring single-leg support/high-knee alternation throughout the clip. Prior STANDARD/basic metadata is superseded. BODY count remains valid; the source is retained only as non-standard research evidence and excluded from basic-positive training.",
         "source": "GPT_DIRECT_VIEWER",
-        "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
-        "non_standard_subtype": "",
+        "jump_rope_type": "NON_STANDARD_MIXED_OR_TRICK",
+        "non_standard_subtype": "ALTERNATING_OR_RUNNING_STEP",
         "sha256": "fe9e03593e078a5c0e6fb703edf6674b967d6fcae0715872c0f51d84a934b899",
-        "dataset_role": "TRAIN",
-        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE",
-        "dataset_eligibility": "ELIGIBLE_VERIFIED_STANDARD",
-        "dataset_group": "g18"
+        "dataset_role": "",
+        "dataset_role_policy": "EXCLUDED_NON_STANDARD",
+        "dataset_eligibility": "EXCLUDED_NON_STANDARD_MIXED_OR_TRICK",
+        "dataset_group": ""
       },
       "logic": {
         "A": {
@@ -31224,15 +31224,15 @@
         "counted_at_kst": "2026-09-23 11:33 KST",
         "confidence": "HIGH",
         "source_ref": "https://huggingface.co/datasets/bitmind/UCF101Fullvideo/resolve/main/UCF101Fullvideo.zip?download=true#entry=train/JumpRope/v_JumpRope_g08_c04.avi",
-        "note": "GPT direct whole-source visual count after independent type-purity review. Whole-source 10-15 fps lower-body and whole-body review confirmed synchronized two-foot uncrossed basic single-under throughout. Twenty-five completed takeoff/airborne/landing cycles were visually verified; 30 fps boundary review confirms the 25th landing completes before source end, while the following end motion does not form another completed cycle. Programmatic motion signals were used only as frame locators and did not generate the GT.",
+        "note": "CERTAIN-ONLY dense 0.1 s lower-body re-review supersedes the prior BASIC_SINGLE_UNDER note. Repeated left/right support and foot lift alternate across the clip, so this is alternating/running-step rather than synchronized two-foot basic single-under. The 25 visually confirmed BODY jump cycles remain valid, but the clip is excluded from basic-positive training.",
         "source": "GPT_DIRECT_VIEWER",
-        "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
-        "non_standard_subtype": "",
+        "jump_rope_type": "NON_STANDARD_MIXED_OR_TRICK",
+        "non_standard_subtype": "ALTERNATING_OR_RUNNING_STEP",
         "sha256": "671c63842ca3d079bda8cdddf7401af22e686e251381f6df77bab2e74aa9169e",
-        "dataset_role": "TRAIN",
-        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE",
-        "dataset_eligibility": "ELIGIBLE_VERIFIED_STANDARD",
-        "dataset_group": "g08"
+        "dataset_role": "",
+        "dataset_role_policy": "EXCLUDED_NON_STANDARD",
+        "dataset_eligibility": "EXCLUDED_NON_STANDARD_MIXED_OR_TRICK",
+        "dataset_group": ""
       },
       "logic": {
         "A": {
@@ -32043,15 +32043,15 @@
         "counted_at_kst": "2026-09-23 07:27 KST",
         "confidence": "HIGH",
         "source_ref": "https://huggingface.co/datasets/bitmind/UCF101Fullvideo/resolve/main/UCF101Fullvideo.zip?download=true#entry=train/JumpRope/v_JumpRope_g13_c02.avi",
-        "note": "GPT direct whole-source visual count after independent type-purity review. Thirty synchronized two-foot takeoff/airborne/landing cycles were confirmed. Dense 10 fps lower-body review plus targeted 30 fps start/end and cadence-gap review were used; motion signals only located candidate cycles and did not create the count. The final incomplete takeoff at the clip boundary was not counted beyond the last completed landing.",
+        "note": "CERTAIN-ONLY dense lower-body re-review supersedes the prior BASIC_SINGLE_UNDER classification. Repeated staggered left/right support and alternating foot/knee lift are visible through the clip. Existing BODY count/timing truth is retained, but the source is excluded from basic-positive training.",
         "source": "GPT_DIRECT_VIEWER",
-        "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
-        "non_standard_subtype": "",
+        "jump_rope_type": "NON_STANDARD_MIXED_OR_TRICK",
+        "non_standard_subtype": "ALTERNATING_OR_RUNNING_STEP",
         "sha256": "de7e980a0922742cf2791efdf13c4ce45ffbe7834d515461989e4bcd096fba8f",
-        "dataset_role": "TRAIN",
-        "dataset_role_policy": "GROUP_LOCKED_BY_UCF_GROUP_NO_LEAKAGE",
-        "dataset_eligibility": "ELIGIBLE_VERIFIED_STANDARD",
-        "dataset_group": "g13"
+        "dataset_role": "",
+        "dataset_role_policy": "EXCLUDED_NON_STANDARD",
+        "dataset_eligibility": "EXCLUDED_NON_STANDARD_MIXED_OR_TRICK",
+        "dataset_group": ""
       },
       "logic": {
         "A": {
