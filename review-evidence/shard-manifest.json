@@ -1,0 +1,209 @@
+{
+  "schema": "ROPEJUMP_REVIEW_EVIDENCE_SHARD_V1",
+  "shard": "C",
+  "expected_count": 10,
+  "video_ids": [
+    "2qWzqnkI6zk",
+    "2UhcHTC4yr8",
+    "3HLCy1PSiVE",
+    "3M_ObU8nnP0",
+    "3Nk6tr2BrZY",
+    "3WzwPiMK66c",
+    "43VfId6QtDc",
+    "4TEkYu6V_80",
+    "4TmdLkaupG0",
+    "4tsT6hDB6Aw"
+  ],
+  "items": {
+    "2qWzqnkI6zk": {
+      "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+      "video_id": "2qWzqnkI6zk",
+      "source_url": "https://www.youtube.com/watch?v=2qWzqnkI6zk",
+      "status": "READY",
+      "reason": "",
+      "title": "Mabilis na pag lose weight o pumayat,Jumping jacks/high knee sprint",
+      "duration_s": 284.0,
+      "source_sha256": "1bde5e54648025d5e6fa805ddbbe2511e8d152beb1b56272febcb2e370acca75",
+      "review_proxy_sha256": "09a0c44db350d26ddb2d271ae2fd63eb54975f904e337bfc3b4bfdab7e4d823c",
+      "review_proxy": "review.mp4",
+      "overview_dir": "overview",
+      "review_contract": {
+        "direct_visual_review_required": true,
+        "count_from_video_only": true,
+        "record_jump_event_ms": true,
+        "metadata_is_not_count_evidence": true
+      }
+    },
+    "2UhcHTC4yr8": {
+      "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+      "video_id": "2UhcHTC4yr8",
+      "source_url": "https://www.youtube.com/watch?v=2UhcHTC4yr8",
+      "status": "READY",
+      "reason": "",
+      "title": "86 Jump Rope Skills For MASTERFUL Handling And ELECTRIC Hand Speed \ud83d\udd0b\u26a1\ufe0f(From Beginner To OutRAGEous)",
+      "duration_s": 769.0,
+      "source_sha256": "1f2d10bb691c2293abb569e768280c1c98150a7bf8eb42e590c7d393d147afe3",
+      "review_proxy_sha256": "4d0958606fbd53a5cb3173e1e55fd54f1126cdfba449f13cd830513a393e60b2",
+      "review_proxy": "review.mp4",
+      "overview_dir": "overview",
+      "review_contract": {
+        "direct_visual_review_required": true,
+        "count_from_video_only": true,
+        "record_jump_event_ms": true,
+        "metadata_is_not_count_evidence": true
+      }
+    },
+    "3HLCy1PSiVE": {
+      "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+      "video_id": "3HLCy1PSiVE",
+      "source_url": "https://www.youtube.com/watch?v=3HLCy1PSiVE",
+      "status": "READY",
+      "reason": "",
+      "title": "How To Jump Rope Like Jake Gyllenhaal",
+      "duration_s": 329.0,
+      "source_sha256": "26122c0b0730278c86af10d84449c19396140009a0ec75f0fdfe8671df197a26",
+      "review_proxy_sha256": "68e9b07df41a3d9339be746a6f6ec5a02ea592bb1fbd04f90fb163e2dd0a4c0f",
+      "review_proxy": "review.mp4",
+      "overview_dir": "overview",
+      "review_contract": {
+        "direct_visual_review_required": true,
+        "count_from_video_only": true,
+        "record_jump_event_ms": true,
+        "metadata_is_not_count_evidence": true
+      }
+    },
+    "3M_ObU8nnP0": {
+      "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+      "video_id": "3M_ObU8nnP0",
+      "source_url": "https://www.youtube.com/watch?v=3M_ObU8nnP0",
+      "status": "READY",
+      "reason": "",
+      "title": "Stop Doing Boring Cardio: 15 Jump Rope Skills to Master",
+      "duration_s": 494.0,
+      "source_sha256": "570592728034c4b82545dc749712188af187e40a6dfadef3f9011ebb7cd1a176",
+      "review_proxy_sha256": "baa363923b9c5dd258e6edb62b7dfb1599f46c56df7bf572b7ff1e82c3c17048",
+      "review_proxy": "review.mp4",
+      "overview_dir": "overview",
+      "review_contract": {
+        "direct_visual_review_required": true,
+        "count_from_video_only": true,
+        "record_jump_event_ms": true,
+        "metadata_is_not_count_evidence": true
+      }
+    },
+    "3Nk6tr2BrZY": {
+      "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+      "video_id": "3Nk6tr2BrZY",
+      "source_url": "https://www.youtube.com/watch?v=3Nk6tr2BrZY",
+      "status": "READY",
+      "reason": "",
+      "title": "Jump Rope Beginner Basics: Correcting Jump Rope Mistakes",
+      "duration_s": 342.0,
+      "source_sha256": "343b1996e482b713380418db1eabcd985ea04cfcc0f5073b312171ef76e3a62e",
+      "review_proxy_sha256": "5388bb44a60fffe4ff2607028691036bb3e9dcb63a65256cdd58cca3c9c8a347",
+      "review_proxy": "review.mp4",
+      "overview_dir": "overview",
+      "review_contract": {
+        "direct_visual_review_required": true,
+        "count_from_video_only": true,
+        "record_jump_event_ms": true,
+        "metadata_is_not_count_evidence": true
+      }
+    },
+    "3WzwPiMK66c": {
+      "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+      "video_id": "3WzwPiMK66c",
+      "source_url": "https://www.youtube.com/watch?v=3WzwPiMK66c",
+      "status": "READY",
+      "reason": "",
+      "title": "Rise Up Buddy Lee \u2013 The Jump Rope Legend Song | Fitness Motivation 2025",
+      "duration_s": 59.0,
+      "source_sha256": "4813dc15419ffb7229725342394d3570fa36d8d5e10deea804e6b8132dc3d272",
+      "review_proxy_sha256": "b6e926af3c87aad3d907864f6e22583c7a09f93c07deafabd018f2ce595b4bc0",
+      "review_proxy": "review.mp4",
+      "overview_dir": "overview",
+      "review_contract": {
+        "direct_visual_review_required": true,
+        "count_from_video_only": true,
+        "record_jump_event_ms": true,
+        "metadata_is_not_count_evidence": true
+      }
+    },
+    "43VfId6QtDc": {
+      "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+      "video_id": "43VfId6QtDc",
+      "source_url": "https://www.youtube.com/watch?v=43VfId6QtDc",
+      "status": "READY",
+      "reason": "",
+      "title": "How to Do the Criss Cross Shuffle | Jump Rope Tutorial | Elite Jumps",
+      "duration_s": 28.0,
+      "source_sha256": "b016f38180eba3bd48381411759aa864db17c432e0a9d72c1c76dc38d5ee582f",
+      "review_proxy_sha256": "bc03091615f520d27d3e4f835000c58cada491105ea156dcf4276d17eca52f50",
+      "review_proxy": "review.mp4",
+      "overview_dir": "overview",
+      "review_contract": {
+        "direct_visual_review_required": true,
+        "count_from_video_only": true,
+        "record_jump_event_ms": true,
+        "metadata_is_not_count_evidence": true
+      }
+    },
+    "4TEkYu6V_80": {
+      "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+      "video_id": "4TEkYu6V_80",
+      "source_url": "https://www.youtube.com/watch?v=4TEkYu6V_80",
+      "status": "READY",
+      "reason": "",
+      "title": "How To Jump Rope Like A Pro",
+      "duration_s": 258.0,
+      "source_sha256": "e295510a73ceb22432403a5aa0244a7e370141908679945efa805b574460e26d",
+      "review_proxy_sha256": "7c189570220e504a3215cd5775a1a4735b6c45078a123c43130deebdec32f483",
+      "review_proxy": "review.mp4",
+      "overview_dir": "overview",
+      "review_contract": {
+        "direct_visual_review_required": true,
+        "count_from_video_only": true,
+        "record_jump_event_ms": true,
+        "metadata_is_not_count_evidence": true
+      }
+    },
+    "4TmdLkaupG0": {
+      "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+      "video_id": "4TmdLkaupG0",
+      "source_url": "https://www.youtube.com/watch?v=4TmdLkaupG0",
+      "status": "READY",
+      "reason": "",
+      "title": "Jump Rope Criss Cross / jump rope crossover ladder workout #shorts",
+      "duration_s": 35.0,
+      "source_sha256": "bb82530723f6071781941b78415b561961d167b0c189d213282b78db0ffeece2",
+      "review_proxy_sha256": "d0924ecbf5acc4d5e30e893332f5567490e55744369ce9a5e7e36331e20d5fbd",
+      "review_proxy": "review.mp4",
+      "overview_dir": "overview",
+      "review_contract": {
+        "direct_visual_review_required": true,
+        "count_from_video_only": true,
+        "record_jump_event_ms": true,
+        "metadata_is_not_count_evidence": true
+      }
+    },
+    "4tsT6hDB6Aw": {
+      "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+      "video_id": "4tsT6hDB6Aw",
+      "source_url": "https://www.youtube.com/watch?v=4tsT6hDB6Aw",
+      "status": "READY",
+      "reason": "",
+      "title": "Jump Rope Double Under Tutorial",
+      "duration_s": 340.0,
+      "source_sha256": "b041f768c94b04e1925e7340c6cebebe85c11dab5de15505030ee7d8e2be9dc8",
+      "review_proxy_sha256": "2a110c73c17ac1cd26c742a2522d76cbb365554332c2b4049f06910d2a72e1fc",
+      "review_proxy": "review.mp4",
+      "overview_dir": "overview",
+      "review_contract": {
+        "direct_visual_review_required": true,
+        "count_from_video_only": true,
+        "record_jump_event_ms": true,
+        "metadata_is_not_count_evidence": true
+      }
+    }
+  }
+}

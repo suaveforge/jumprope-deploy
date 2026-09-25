@@ -1,0 +1,19 @@
+{
+  "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+  "video_id": "2UhcHTC4yr8",
+  "source_url": "https://www.youtube.com/watch?v=2UhcHTC4yr8",
+  "status": "READY",
+  "reason": "",
+  "title": "86 Jump Rope Skills For MASTERFUL Handling And ELECTRIC Hand Speed \ud83d\udd0b\u26a1\ufe0f(From Beginner To OutRAGEous)",
+  "duration_s": 769.0,
+  "source_sha256": "1f2d10bb691c2293abb569e768280c1c98150a7bf8eb42e590c7d393d147afe3",
+  "review_proxy_sha256": "4d0958606fbd53a5cb3173e1e55fd54f1126cdfba449f13cd830513a393e60b2",
+  "review_proxy": "review.mp4",
+  "overview_dir": "overview",
+  "review_contract": {
+    "direct_visual_review_required": true,
+    "count_from_video_only": true,
+    "record_jump_event_ms": true,
+    "metadata_is_not_count_evidence": true
+  }
+}

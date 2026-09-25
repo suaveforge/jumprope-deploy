@@ -1,0 +1,14 @@
+[youtube] Extracting URL: https://www.youtube.com/watch?v=3WzwPiMK66c
+[youtube] 3WzwPiMK66c: Downloading webpage
+[youtube] 3WzwPiMK66c: Downloading visionos player API JSON
+[youtube] 3WzwPiMK66c: Downloading m3u8 information
+ERROR: [youtube] 3WzwPiMK66c: Requested format is not available. Use --list-formats for a list of available formats
+[youtube] Extracting URL: https://www.youtube.com/watch?v=3WzwPiMK66c
+[youtube] 3WzwPiMK66c: Downloading webpage
+[youtube] 3WzwPiMK66c: Downloading visionos player API JSON
+[youtube] 3WzwPiMK66c: Downloading m3u8 information
+[info] 3WzwPiMK66c: Downloading 1 format(s): 395+251
+[download] Destination: /home/actions-runners/slots/02/_work/_temp/review-evidence-C/3WzwPiMK66c/source.f395.mp4
+[download] Download completed
+[download] Destination: /home/actions-runners/slots/02/_work/_temp/review-evidence-C/3WzwPiMK66c/source.f251.webm
+[download] Download completed

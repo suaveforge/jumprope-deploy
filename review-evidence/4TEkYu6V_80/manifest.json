@@ -1,0 +1,19 @@
+{
+  "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+  "video_id": "4TEkYu6V_80",
+  "source_url": "https://www.youtube.com/watch?v=4TEkYu6V_80",
+  "status": "READY",
+  "reason": "",
+  "title": "How To Jump Rope Like A Pro",
+  "duration_s": 258.0,
+  "source_sha256": "e295510a73ceb22432403a5aa0244a7e370141908679945efa805b574460e26d",
+  "review_proxy_sha256": "7c189570220e504a3215cd5775a1a4735b6c45078a123c43130deebdec32f483",
+  "review_proxy": "review.mp4",
+  "overview_dir": "overview",
+  "review_contract": {
+    "direct_visual_review_required": true,
+    "count_from_video_only": true,
+    "record_jump_event_ms": true,
+    "metadata_is_not_count_evidence": true
+  }
+}

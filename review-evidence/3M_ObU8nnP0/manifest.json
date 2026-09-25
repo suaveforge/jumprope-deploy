@@ -1,0 +1,19 @@
+{
+  "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+  "video_id": "3M_ObU8nnP0",
+  "source_url": "https://www.youtube.com/watch?v=3M_ObU8nnP0",
+  "status": "READY",
+  "reason": "",
+  "title": "Stop Doing Boring Cardio: 15 Jump Rope Skills to Master",
+  "duration_s": 494.0,
+  "source_sha256": "570592728034c4b82545dc749712188af187e40a6dfadef3f9011ebb7cd1a176",
+  "review_proxy_sha256": "baa363923b9c5dd258e6edb62b7dfb1599f46c56df7bf572b7ff1e82c3c17048",
+  "review_proxy": "review.mp4",
+  "overview_dir": "overview",
+  "review_contract": {
+    "direct_visual_review_required": true,
+    "count_from_video_only": true,
+    "record_jump_event_ms": true,
+    "metadata_is_not_count_evidence": true
+  }
+}

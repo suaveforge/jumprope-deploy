@@ -1,0 +1,19 @@
+{
+  "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+  "video_id": "3Nk6tr2BrZY",
+  "source_url": "https://www.youtube.com/watch?v=3Nk6tr2BrZY",
+  "status": "READY",
+  "reason": "",
+  "title": "Jump Rope Beginner Basics: Correcting Jump Rope Mistakes",
+  "duration_s": 342.0,
+  "source_sha256": "343b1996e482b713380418db1eabcd985ea04cfcc0f5073b312171ef76e3a62e",
+  "review_proxy_sha256": "5388bb44a60fffe4ff2607028691036bb3e9dcb63a65256cdd58cca3c9c8a347",
+  "review_proxy": "review.mp4",
+  "overview_dir": "overview",
+  "review_contract": {
+    "direct_visual_review_required": true,
+    "count_from_video_only": true,
+    "record_jump_event_ms": true,
+    "metadata_is_not_count_evidence": true
+  }
+}

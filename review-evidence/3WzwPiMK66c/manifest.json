@@ -1,0 +1,19 @@
+{
+  "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+  "video_id": "3WzwPiMK66c",
+  "source_url": "https://www.youtube.com/watch?v=3WzwPiMK66c",
+  "status": "READY",
+  "reason": "",
+  "title": "Rise Up Buddy Lee \u2013 The Jump Rope Legend Song | Fitness Motivation 2025",
+  "duration_s": 59.0,
+  "source_sha256": "4813dc15419ffb7229725342394d3570fa36d8d5e10deea804e6b8132dc3d272",
+  "review_proxy_sha256": "b6e926af3c87aad3d907864f6e22583c7a09f93c07deafabd018f2ce595b4bc0",
+  "review_proxy": "review.mp4",
+  "overview_dir": "overview",
+  "review_contract": {
+    "direct_visual_review_required": true,
+    "count_from_video_only": true,
+    "record_jump_event_ms": true,
+    "metadata_is_not_count_evidence": true
+  }
+}

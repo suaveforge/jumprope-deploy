@@ -1,0 +1,19 @@
+{
+  "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+  "video_id": "2qWzqnkI6zk",
+  "source_url": "https://www.youtube.com/watch?v=2qWzqnkI6zk",
+  "status": "READY",
+  "reason": "",
+  "title": "Mabilis na pag lose weight o pumayat,Jumping jacks/high knee sprint",
+  "duration_s": 284.0,
+  "source_sha256": "1bde5e54648025d5e6fa805ddbbe2511e8d152beb1b56272febcb2e370acca75",
+  "review_proxy_sha256": "09a0c44db350d26ddb2d271ae2fd63eb54975f904e337bfc3b4bfdab7e4d823c",
+  "review_proxy": "review.mp4",
+  "overview_dir": "overview",
+  "review_contract": {
+    "direct_visual_review_required": true,
+    "count_from_video_only": true,
+    "record_jump_event_ms": true,
+    "metadata_is_not_count_evidence": true
+  }
+}

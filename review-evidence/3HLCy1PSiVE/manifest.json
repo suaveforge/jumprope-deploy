@@ -1,0 +1,19 @@
+{
+  "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+  "video_id": "3HLCy1PSiVE",
+  "source_url": "https://www.youtube.com/watch?v=3HLCy1PSiVE",
+  "status": "READY",
+  "reason": "",
+  "title": "How To Jump Rope Like Jake Gyllenhaal",
+  "duration_s": 329.0,
+  "source_sha256": "26122c0b0730278c86af10d84449c19396140009a0ec75f0fdfe8671df197a26",
+  "review_proxy_sha256": "68e9b07df41a3d9339be746a6f6ec5a02ea592bb1fbd04f90fb163e2dd0a4c0f",
+  "review_proxy": "review.mp4",
+  "overview_dir": "overview",
+  "review_contract": {
+    "direct_visual_review_required": true,
+    "count_from_video_only": true,
+    "record_jump_event_ms": true,
+    "metadata_is_not_count_evidence": true
+  }
+}

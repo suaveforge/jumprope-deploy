@@ -1,0 +1,19 @@
+{
+  "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+  "video_id": "4TmdLkaupG0",
+  "source_url": "https://www.youtube.com/watch?v=4TmdLkaupG0",
+  "status": "READY",
+  "reason": "",
+  "title": "Jump Rope Criss Cross / jump rope crossover ladder workout #shorts",
+  "duration_s": 35.0,
+  "source_sha256": "bb82530723f6071781941b78415b561961d167b0c189d213282b78db0ffeece2",
+  "review_proxy_sha256": "d0924ecbf5acc4d5e30e893332f5567490e55744369ce9a5e7e36331e20d5fbd",
+  "review_proxy": "review.mp4",
+  "overview_dir": "overview",
+  "review_contract": {
+    "direct_visual_review_required": true,
+    "count_from_video_only": true,
+    "record_jump_event_ms": true,
+    "metadata_is_not_count_evidence": true
+  }
+}

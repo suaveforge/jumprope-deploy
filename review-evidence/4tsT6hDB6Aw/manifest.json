@@ -1,0 +1,19 @@
+{
+  "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+  "video_id": "4tsT6hDB6Aw",
+  "source_url": "https://www.youtube.com/watch?v=4tsT6hDB6Aw",
+  "status": "READY",
+  "reason": "",
+  "title": "Jump Rope Double Under Tutorial",
+  "duration_s": 340.0,
+  "source_sha256": "b041f768c94b04e1925e7340c6cebebe85c11dab5de15505030ee7d8e2be9dc8",
+  "review_proxy_sha256": "2a110c73c17ac1cd26c742a2522d76cbb365554332c2b4049f06910d2a72e1fc",
+  "review_proxy": "review.mp4",
+  "overview_dir": "overview",
+  "review_contract": {
+    "direct_visual_review_required": true,
+    "count_from_video_only": true,
+    "record_jump_event_ms": true,
+    "metadata_is_not_count_evidence": true
+  }
+}
