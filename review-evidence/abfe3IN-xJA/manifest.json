@@ -1,0 +1,19 @@
+{
+  "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+  "video_id": "abfe3IN-xJA",
+  "source_url": "https://www.youtube.com/watch?v=abfe3IN-xJA",
+  "status": "READY",
+  "reason": "",
+  "title": "Double under crossovers into rapid crossovers (Mayweather style) \ud83d\udcaa\ud83d\udcc8 #jumprope #doubleunder",
+  "duration_s": 28.0,
+  "source_sha256": "e6df2843e89c11d1a01d3b8a1724f919470ebece3dacd0dd7ce5eca39cc62dc1",
+  "review_proxy_sha256": "954171231c74bc541e3e8c00cd346c5452de4a7b4d15a4850c7cac7d69c6586e",
+  "review_proxy": "review.mp4",
+  "overview_dir": "overview",
+  "review_contract": {
+    "direct_visual_review_required": true,
+    "count_from_video_only": true,
+    "record_jump_event_ms": true,
+    "metadata_is_not_count_evidence": true
+  }
+}

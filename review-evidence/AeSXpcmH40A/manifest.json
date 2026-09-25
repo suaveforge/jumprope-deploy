@@ -1,0 +1,19 @@
+{
+  "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+  "video_id": "AeSXpcmH40A",
+  "source_url": "https://www.youtube.com/watch?v=AeSXpcmH40A",
+  "status": "READY",
+  "reason": "",
+  "title": "Did I get the beat drop right? \ud83c\udfb6 \ud83c\udfa4 #crossovers #jumprope #speedrope",
+  "duration_s": 21.0,
+  "source_sha256": "907a859f9fdc15991fe14d01bfaae637698c161949384c6602e7cebd7de2fc3a",
+  "review_proxy_sha256": "f6282f0861eba242f429850f22628a26eea8c27b0e8dd325ac1b95c592eb9ca3",
+  "review_proxy": "review.mp4",
+  "overview_dir": "overview",
+  "review_contract": {
+    "direct_visual_review_required": true,
+    "count_from_video_only": true,
+    "record_jump_event_ms": true,
+    "metadata_is_not_count_evidence": true
+  }
+}

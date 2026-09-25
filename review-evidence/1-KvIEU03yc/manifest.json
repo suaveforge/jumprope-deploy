@@ -1,0 +1,19 @@
+{
+  "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+  "video_id": "1-KvIEU03yc",
+  "source_url": "https://www.youtube.com/watch?v=1-KvIEU03yc",
+  "status": "READY",
+  "reason": "",
+  "title": "Learn The Jump Rope Boxer Skip In 5 Easy Steps",
+  "duration_s": 421.0,
+  "source_sha256": "807973c99637631cfd403781c0078b557a688e7b1b03fd3ad9ea0dab786efef1",
+  "review_proxy_sha256": "93f64c788545c8233d1c8efe9e7b0de77aed16838f36665b3551a33f54c424e3",
+  "review_proxy": "review.mp4",
+  "overview_dir": "overview",
+  "review_contract": {
+    "direct_visual_review_required": true,
+    "count_from_video_only": true,
+    "record_jump_event_ms": true,
+    "metadata_is_not_count_evidence": true
+  }
+}

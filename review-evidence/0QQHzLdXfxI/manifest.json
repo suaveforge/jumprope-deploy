@@ -1,0 +1,19 @@
+{
+  "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+  "video_id": "0QQHzLdXfxI",
+  "source_url": "https://www.youtube.com/watch?v=0QQHzLdXfxI",
+  "status": "READY",
+  "reason": "",
+  "title": "COMO FAZER SALTO DUPLO DE CORDA - DOUBLE UNDERS",
+  "duration_s": 764.0,
+  "source_sha256": "91d4c1d3626c94cfea7d71a7352d7e16aaef66abe936e13b61b4450862b65dae",
+  "review_proxy_sha256": "8adfc1fc7e3a0dbe8fbc7370e0d73407fcf5f387f4aed52e6a004a7ad108b8c8",
+  "review_proxy": "review.mp4",
+  "overview_dir": "overview",
+  "review_contract": {
+    "direct_visual_review_required": true,
+    "count_from_video_only": true,
+    "record_jump_event_ms": true,
+    "metadata_is_not_count_evidence": true
+  }
+}

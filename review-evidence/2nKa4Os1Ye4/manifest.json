@@ -1,0 +1,19 @@
+{
+  "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+  "video_id": "2nKa4Os1Ye4",
+  "source_url": "https://www.youtube.com/watch?v=2nKa4Os1Ye4",
+  "status": "READY",
+  "reason": "",
+  "title": "Jump rope tricks - practising crossovers.",
+  "duration_s": 29.0,
+  "source_sha256": "a48e9f657954c0059583e1198b2a5bebcaf7cfb750ec88676b54cc594c2febd0",
+  "review_proxy_sha256": "8f3d735f27b7baaee2e130986997be448d566e109cd9a462805b9916f634ea00",
+  "review_proxy": "review.mp4",
+  "overview_dir": "overview",
+  "review_contract": {
+    "direct_visual_review_required": true,
+    "count_from_video_only": true,
+    "record_jump_event_ms": true,
+    "metadata_is_not_count_evidence": true
+  }
+}

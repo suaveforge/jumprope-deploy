@@ -1,0 +1,19 @@
+{
+  "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+  "video_id": "0KB05uoobHA",
+  "source_url": "https://www.youtube.com/watch?v=0KB05uoobHA",
+  "status": "READY",
+  "reason": "",
+  "title": "Most viral video \ud83d\udd25\ud83d\udd25 #teamindia  #jumprope #skipping #worldchampionship",
+  "duration_s": 45.0,
+  "source_sha256": "ea015a3d44338296e12b957d76537864660316d5f733ec0b017af53ffd950363",
+  "review_proxy_sha256": "c4d5b748cf0d9342a6dba43910173400be6b032756cc2aac1e2ae73e974d9084",
+  "review_proxy": "review.mp4",
+  "overview_dir": "overview",
+  "review_contract": {
+    "direct_visual_review_required": true,
+    "count_from_video_only": true,
+    "record_jump_event_ms": true,
+    "metadata_is_not_count_evidence": true
+  }
+}

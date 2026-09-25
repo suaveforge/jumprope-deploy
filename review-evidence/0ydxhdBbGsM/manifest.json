@@ -1,0 +1,19 @@
+{
+  "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+  "video_id": "0ydxhdBbGsM",
+  "source_url": "https://www.youtube.com/watch?v=0ydxhdBbGsM",
+  "status": "READY",
+  "reason": "",
+  "title": "What Jump Rope Do I Use During This 12 Week Jump Rope Program?",
+  "duration_s": 328.0,
+  "source_sha256": "a9b3db0415e7dca56a1877da36f12aec57527b301f2fba6d4f3563cdbc8a4038",
+  "review_proxy_sha256": "95ed55751bd9328310a6f8b21e1f0c61611e86a07ca9264838f5f667b0b21efc",
+  "review_proxy": "review.mp4",
+  "overview_dir": "overview",
+  "review_contract": {
+    "direct_visual_review_required": true,
+    "count_from_video_only": true,
+    "record_jump_event_ms": true,
+    "metadata_is_not_count_evidence": true
+  }
+}

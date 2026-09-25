@@ -1,0 +1,19 @@
+{
+  "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+  "video_id": "7cm359zShHw",
+  "source_url": "https://www.youtube.com/watch?v=7cm359zShHw",
+  "status": "READY",
+  "reason": "",
+  "title": "Jump Rope Tutorial - Criss-Cross Double Unders [Crossrope]",
+  "duration_s": 531.0,
+  "source_sha256": "b754dea7948de628b96552a66dc269176ec73fea542b5d12032ff5c79db78b2a",
+  "review_proxy_sha256": "df6ed9e6e7b7818c32ac9510e57255d2f7cc935adcd1de3262fd981ae17b1212",
+  "review_proxy": "review.mp4",
+  "overview_dir": "overview",
+  "review_contract": {
+    "direct_visual_review_required": true,
+    "count_from_video_only": true,
+    "record_jump_event_ms": true,
+    "metadata_is_not_count_evidence": true
+  }
+}

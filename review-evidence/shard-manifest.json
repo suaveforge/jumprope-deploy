@@ -1,0 +1,209 @@
+{
+  "schema": "ROPEJUMP_REVIEW_EVIDENCE_SHARD_V1",
+  "shard": "B",
+  "expected_count": 10,
+  "video_ids": [
+    "0KB05uoobHA",
+    "abfe3IN-xJA",
+    "0QQHzLdXfxI",
+    "0ydxhdBbGsM",
+    "1-KvIEU03yc",
+    "1tEp-VOYpGA",
+    "7cm359zShHw",
+    "2b-bGZDyL1I",
+    "AeSXpcmH40A",
+    "2nKa4Os1Ye4"
+  ],
+  "items": {
+    "0KB05uoobHA": {
+      "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+      "video_id": "0KB05uoobHA",
+      "source_url": "https://www.youtube.com/watch?v=0KB05uoobHA",
+      "status": "READY",
+      "reason": "",
+      "title": "Most viral video \ud83d\udd25\ud83d\udd25 #teamindia  #jumprope #skipping #worldchampionship",
+      "duration_s": 45.0,
+      "source_sha256": "ea015a3d44338296e12b957d76537864660316d5f733ec0b017af53ffd950363",
+      "review_proxy_sha256": "c4d5b748cf0d9342a6dba43910173400be6b032756cc2aac1e2ae73e974d9084",
+      "review_proxy": "review.mp4",
+      "overview_dir": "overview",
+      "review_contract": {
+        "direct_visual_review_required": true,
+        "count_from_video_only": true,
+        "record_jump_event_ms": true,
+        "metadata_is_not_count_evidence": true
+      }
+    },
+    "abfe3IN-xJA": {
+      "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+      "video_id": "abfe3IN-xJA",
+      "source_url": "https://www.youtube.com/watch?v=abfe3IN-xJA",
+      "status": "READY",
+      "reason": "",
+      "title": "Double under crossovers into rapid crossovers (Mayweather style) \ud83d\udcaa\ud83d\udcc8 #jumprope #doubleunder",
+      "duration_s": 28.0,
+      "source_sha256": "e6df2843e89c11d1a01d3b8a1724f919470ebece3dacd0dd7ce5eca39cc62dc1",
+      "review_proxy_sha256": "954171231c74bc541e3e8c00cd346c5452de4a7b4d15a4850c7cac7d69c6586e",
+      "review_proxy": "review.mp4",
+      "overview_dir": "overview",
+      "review_contract": {
+        "direct_visual_review_required": true,
+        "count_from_video_only": true,
+        "record_jump_event_ms": true,
+        "metadata_is_not_count_evidence": true
+      }
+    },
+    "0QQHzLdXfxI": {
+      "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+      "video_id": "0QQHzLdXfxI",
+      "source_url": "https://www.youtube.com/watch?v=0QQHzLdXfxI",
+      "status": "READY",
+      "reason": "",
+      "title": "COMO FAZER SALTO DUPLO DE CORDA - DOUBLE UNDERS",
+      "duration_s": 764.0,
+      "source_sha256": "91d4c1d3626c94cfea7d71a7352d7e16aaef66abe936e13b61b4450862b65dae",
+      "review_proxy_sha256": "8adfc1fc7e3a0dbe8fbc7370e0d73407fcf5f387f4aed52e6a004a7ad108b8c8",
+      "review_proxy": "review.mp4",
+      "overview_dir": "overview",
+      "review_contract": {
+        "direct_visual_review_required": true,
+        "count_from_video_only": true,
+        "record_jump_event_ms": true,
+        "metadata_is_not_count_evidence": true
+      }
+    },
+    "0ydxhdBbGsM": {
+      "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+      "video_id": "0ydxhdBbGsM",
+      "source_url": "https://www.youtube.com/watch?v=0ydxhdBbGsM",
+      "status": "READY",
+      "reason": "",
+      "title": "What Jump Rope Do I Use During This 12 Week Jump Rope Program?",
+      "duration_s": 328.0,
+      "source_sha256": "a9b3db0415e7dca56a1877da36f12aec57527b301f2fba6d4f3563cdbc8a4038",
+      "review_proxy_sha256": "95ed55751bd9328310a6f8b21e1f0c61611e86a07ca9264838f5f667b0b21efc",
+      "review_proxy": "review.mp4",
+      "overview_dir": "overview",
+      "review_contract": {
+        "direct_visual_review_required": true,
+        "count_from_video_only": true,
+        "record_jump_event_ms": true,
+        "metadata_is_not_count_evidence": true
+      }
+    },
+    "1-KvIEU03yc": {
+      "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+      "video_id": "1-KvIEU03yc",
+      "source_url": "https://www.youtube.com/watch?v=1-KvIEU03yc",
+      "status": "READY",
+      "reason": "",
+      "title": "Learn The Jump Rope Boxer Skip In 5 Easy Steps",
+      "duration_s": 421.0,
+      "source_sha256": "807973c99637631cfd403781c0078b557a688e7b1b03fd3ad9ea0dab786efef1",
+      "review_proxy_sha256": "93f64c788545c8233d1c8efe9e7b0de77aed16838f36665b3551a33f54c424e3",
+      "review_proxy": "review.mp4",
+      "overview_dir": "overview",
+      "review_contract": {
+        "direct_visual_review_required": true,
+        "count_from_video_only": true,
+        "record_jump_event_ms": true,
+        "metadata_is_not_count_evidence": true
+      }
+    },
+    "1tEp-VOYpGA": {
+      "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+      "video_id": "1tEp-VOYpGA",
+      "source_url": "https://www.youtube.com/watch?v=1tEp-VOYpGA",
+      "status": "READY",
+      "reason": "",
+      "title": "HOW TO JUMP ROPE FOR BEGINNERS - STRETCHING NEEDED // Day 11",
+      "duration_s": 235.0,
+      "source_sha256": "20a61eca2dec1d3798f62db0a4b346706e870ebc10ad287629de1db008801d27",
+      "review_proxy_sha256": "670a2068a09f67665ae8782cf70e4c6c40e8bb4a053748562591f872029ffc06",
+      "review_proxy": "review.mp4",
+      "overview_dir": "overview",
+      "review_contract": {
+        "direct_visual_review_required": true,
+        "count_from_video_only": true,
+        "record_jump_event_ms": true,
+        "metadata_is_not_count_evidence": true
+      }
+    },
+    "7cm359zShHw": {
+      "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+      "video_id": "7cm359zShHw",
+      "source_url": "https://www.youtube.com/watch?v=7cm359zShHw",
+      "status": "READY",
+      "reason": "",
+      "title": "Jump Rope Tutorial - Criss-Cross Double Unders [Crossrope]",
+      "duration_s": 531.0,
+      "source_sha256": "b754dea7948de628b96552a66dc269176ec73fea542b5d12032ff5c79db78b2a",
+      "review_proxy_sha256": "df6ed9e6e7b7818c32ac9510e57255d2f7cc935adcd1de3262fd981ae17b1212",
+      "review_proxy": "review.mp4",
+      "overview_dir": "overview",
+      "review_contract": {
+        "direct_visual_review_required": true,
+        "count_from_video_only": true,
+        "record_jump_event_ms": true,
+        "metadata_is_not_count_evidence": true
+      }
+    },
+    "2b-bGZDyL1I": {
+      "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+      "video_id": "2b-bGZDyL1I",
+      "source_url": "https://www.youtube.com/watch?v=2b-bGZDyL1I",
+      "status": "READY",
+      "reason": "",
+      "title": "How to Use Double Under Crossovers To Work Your Chest, Back and Calf Muscles\ud83c\udfaf\ud83d\udd25",
+      "duration_s": 28.0,
+      "source_sha256": "e5c8d9ae704de2b0a5b216ea69ebb5bc07a631d9195198c33e32a5de91a7eecb",
+      "review_proxy_sha256": "522d07c49aafb16afedddc0d7c91048d63c578c179e3b7c5baa2ec4e43a97464",
+      "review_proxy": "review.mp4",
+      "overview_dir": "overview",
+      "review_contract": {
+        "direct_visual_review_required": true,
+        "count_from_video_only": true,
+        "record_jump_event_ms": true,
+        "metadata_is_not_count_evidence": true
+      }
+    },
+    "AeSXpcmH40A": {
+      "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+      "video_id": "AeSXpcmH40A",
+      "source_url": "https://www.youtube.com/watch?v=AeSXpcmH40A",
+      "status": "READY",
+      "reason": "",
+      "title": "Did I get the beat drop right? \ud83c\udfb6 \ud83c\udfa4 #crossovers #jumprope #speedrope",
+      "duration_s": 21.0,
+      "source_sha256": "907a859f9fdc15991fe14d01bfaae637698c161949384c6602e7cebd7de2fc3a",
+      "review_proxy_sha256": "f6282f0861eba242f429850f22628a26eea8c27b0e8dd325ac1b95c592eb9ca3",
+      "review_proxy": "review.mp4",
+      "overview_dir": "overview",
+      "review_contract": {
+        "direct_visual_review_required": true,
+        "count_from_video_only": true,
+        "record_jump_event_ms": true,
+        "metadata_is_not_count_evidence": true
+      }
+    },
+    "2nKa4Os1Ye4": {
+      "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+      "video_id": "2nKa4Os1Ye4",
+      "source_url": "https://www.youtube.com/watch?v=2nKa4Os1Ye4",
+      "status": "READY",
+      "reason": "",
+      "title": "Jump rope tricks - practising crossovers.",
+      "duration_s": 29.0,
+      "source_sha256": "a48e9f657954c0059583e1198b2a5bebcaf7cfb750ec88676b54cc594c2febd0",
+      "review_proxy_sha256": "8f3d735f27b7baaee2e130986997be448d566e109cd9a462805b9916f634ea00",
+      "review_proxy": "review.mp4",
+      "overview_dir": "overview",
+      "review_contract": {
+        "direct_visual_review_required": true,
+        "count_from_video_only": true,
+        "record_jump_event_ms": true,
+        "metadata_is_not_count_evidence": true
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+  "video_id": "2b-bGZDyL1I",
+  "source_url": "https://www.youtube.com/watch?v=2b-bGZDyL1I",
+  "status": "READY",
+  "reason": "",
+  "title": "How to Use Double Under Crossovers To Work Your Chest, Back and Calf Muscles\ud83c\udfaf\ud83d\udd25",
+  "duration_s": 28.0,
+  "source_sha256": "e5c8d9ae704de2b0a5b216ea69ebb5bc07a631d9195198c33e32a5de91a7eecb",
+  "review_proxy_sha256": "522d07c49aafb16afedddc0d7c91048d63c578c179e3b7c5baa2ec4e43a97464",
+  "review_proxy": "review.mp4",
+  "overview_dir": "overview",
+  "review_contract": {
+    "direct_visual_review_required": true,
+    "count_from_video_only": true,
+    "record_jump_event_ms": true,
+    "metadata_is_not_count_evidence": true
+  }
+}
