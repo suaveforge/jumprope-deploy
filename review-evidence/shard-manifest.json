@@ -32,6 +32,39 @@
         "count_from_video_only": true,
         "record_jump_event_ms": true,
         "metadata_is_not_count_evidence": true
+      },
+      "visual_b64_ready": true,
+      "visual_access": {
+        "format": "base64-jpeg-contact-sheets",
+        "overview": {
+          "glob": "visual-b64/overview/*.jpg.b64",
+          "fps": 1,
+          "cells_per_sheet": 16,
+          "seconds_per_sheet": 16,
+          "sheet_count": 18
+        },
+        "full_100ms": {
+          "glob": "visual-b64/full-100ms/*.jpg.b64",
+          "fps": 10,
+          "cell_ms": 100,
+          "cells_per_sheet": 100,
+          "seconds_per_sheet": 10,
+          "sheet_count": 29
+        },
+        "lower_100ms": {
+          "glob": "visual-b64/lower-100ms/*.jpg.b64",
+          "fps": 10,
+          "cell_ms": 100,
+          "cells_per_sheet": 100,
+          "seconds_per_sheet": 10,
+          "sheet_count": 29
+        },
+        "decode": "read .b64 as UTF-8, then render data:image/jpeg;base64,<content> with image()",
+        "ffmpeg_return_codes": {
+          "overview": 0,
+          "full_100ms": 0,
+          "lower_100ms": 0
+        }
       }
     },
     "2UhcHTC4yr8": {
@@ -51,6 +84,39 @@
         "count_from_video_only": true,
         "record_jump_event_ms": true,
         "metadata_is_not_count_evidence": true
+      },
+      "visual_b64_ready": true,
+      "visual_access": {
+        "format": "base64-jpeg-contact-sheets",
+        "overview": {
+          "glob": "visual-b64/overview/*.jpg.b64",
+          "fps": 1,
+          "cells_per_sheet": 16,
+          "seconds_per_sheet": 16,
+          "sheet_count": 49
+        },
+        "full_100ms": {
+          "glob": "visual-b64/full-100ms/*.jpg.b64",
+          "fps": 10,
+          "cell_ms": 100,
+          "cells_per_sheet": 100,
+          "seconds_per_sheet": 10,
+          "sheet_count": 77
+        },
+        "lower_100ms": {
+          "glob": "visual-b64/lower-100ms/*.jpg.b64",
+          "fps": 10,
+          "cell_ms": 100,
+          "cells_per_sheet": 100,
+          "seconds_per_sheet": 10,
+          "sheet_count": 77
+        },
+        "decode": "read .b64 as UTF-8, then render data:image/jpeg;base64,<content> with image()",
+        "ffmpeg_return_codes": {
+          "overview": 0,
+          "full_100ms": 0,
+          "lower_100ms": 0
+        }
       }
     },
     "3HLCy1PSiVE": {
@@ -70,6 +136,39 @@
         "count_from_video_only": true,
         "record_jump_event_ms": true,
         "metadata_is_not_count_evidence": true
+      },
+      "visual_b64_ready": true,
+      "visual_access": {
+        "format": "base64-jpeg-contact-sheets",
+        "overview": {
+          "glob": "visual-b64/overview/*.jpg.b64",
+          "fps": 1,
+          "cells_per_sheet": 16,
+          "seconds_per_sheet": 16,
+          "sheet_count": 21
+        },
+        "full_100ms": {
+          "glob": "visual-b64/full-100ms/*.jpg.b64",
+          "fps": 10,
+          "cell_ms": 100,
+          "cells_per_sheet": 100,
+          "seconds_per_sheet": 10,
+          "sheet_count": 33
+        },
+        "lower_100ms": {
+          "glob": "visual-b64/lower-100ms/*.jpg.b64",
+          "fps": 10,
+          "cell_ms": 100,
+          "cells_per_sheet": 100,
+          "seconds_per_sheet": 10,
+          "sheet_count": 33
+        },
+        "decode": "read .b64 as UTF-8, then render data:image/jpeg;base64,<content> with image()",
+        "ffmpeg_return_codes": {
+          "overview": 0,
+          "full_100ms": 0,
+          "lower_100ms": 0
+        }
       }
     },
     "3M_ObU8nnP0": {
@@ -89,6 +188,39 @@
         "count_from_video_only": true,
         "record_jump_event_ms": true,
         "metadata_is_not_count_evidence": true
+      },
+      "visual_b64_ready": true,
+      "visual_access": {
+        "format": "base64-jpeg-contact-sheets",
+        "overview": {
+          "glob": "visual-b64/overview/*.jpg.b64",
+          "fps": 1,
+          "cells_per_sheet": 16,
+          "seconds_per_sheet": 16,
+          "sheet_count": 31
+        },
+        "full_100ms": {
+          "glob": "visual-b64/full-100ms/*.jpg.b64",
+          "fps": 10,
+          "cell_ms": 100,
+          "cells_per_sheet": 100,
+          "seconds_per_sheet": 10,
+          "sheet_count": 50
+        },
+        "lower_100ms": {
+          "glob": "visual-b64/lower-100ms/*.jpg.b64",
+          "fps": 10,
+          "cell_ms": 100,
+          "cells_per_sheet": 100,
+          "seconds_per_sheet": 10,
+          "sheet_count": 50
+        },
+        "decode": "read .b64 as UTF-8, then render data:image/jpeg;base64,<content> with image()",
+        "ffmpeg_return_codes": {
+          "overview": 0,
+          "full_100ms": 0,
+          "lower_100ms": 0
+        }
       }
     },
     "3Nk6tr2BrZY": {
@@ -108,6 +240,39 @@
         "count_from_video_only": true,
         "record_jump_event_ms": true,
         "metadata_is_not_count_evidence": true
+      },
+      "visual_b64_ready": true,
+      "visual_access": {
+        "format": "base64-jpeg-contact-sheets",
+        "overview": {
+          "glob": "visual-b64/overview/*.jpg.b64",
+          "fps": 1,
+          "cells_per_sheet": 16,
+          "seconds_per_sheet": 16,
+          "sheet_count": 22
+        },
+        "full_100ms": {
+          "glob": "visual-b64/full-100ms/*.jpg.b64",
+          "fps": 10,
+          "cell_ms": 100,
+          "cells_per_sheet": 100,
+          "seconds_per_sheet": 10,
+          "sheet_count": 35
+        },
+        "lower_100ms": {
+          "glob": "visual-b64/lower-100ms/*.jpg.b64",
+          "fps": 10,
+          "cell_ms": 100,
+          "cells_per_sheet": 100,
+          "seconds_per_sheet": 10,
+          "sheet_count": 35
+        },
+        "decode": "read .b64 as UTF-8, then render data:image/jpeg;base64,<content> with image()",
+        "ffmpeg_return_codes": {
+          "overview": 0,
+          "full_100ms": 0,
+          "lower_100ms": 0
+        }
       }
     },
     "3WzwPiMK66c": {
@@ -127,6 +292,39 @@
         "count_from_video_only": true,
         "record_jump_event_ms": true,
         "metadata_is_not_count_evidence": true
+      },
+      "visual_b64_ready": true,
+      "visual_access": {
+        "format": "base64-jpeg-contact-sheets",
+        "overview": {
+          "glob": "visual-b64/overview/*.jpg.b64",
+          "fps": 1,
+          "cells_per_sheet": 16,
+          "seconds_per_sheet": 16,
+          "sheet_count": 4
+        },
+        "full_100ms": {
+          "glob": "visual-b64/full-100ms/*.jpg.b64",
+          "fps": 10,
+          "cell_ms": 100,
+          "cells_per_sheet": 100,
+          "seconds_per_sheet": 10,
+          "sheet_count": 6
+        },
+        "lower_100ms": {
+          "glob": "visual-b64/lower-100ms/*.jpg.b64",
+          "fps": 10,
+          "cell_ms": 100,
+          "cells_per_sheet": 100,
+          "seconds_per_sheet": 10,
+          "sheet_count": 6
+        },
+        "decode": "read .b64 as UTF-8, then render data:image/jpeg;base64,<content> with image()",
+        "ffmpeg_return_codes": {
+          "overview": 0,
+          "full_100ms": 0,
+          "lower_100ms": 0
+        }
       }
     },
     "43VfId6QtDc": {
@@ -146,6 +344,39 @@
         "count_from_video_only": true,
         "record_jump_event_ms": true,
         "metadata_is_not_count_evidence": true
+      },
+      "visual_b64_ready": true,
+      "visual_access": {
+        "format": "base64-jpeg-contact-sheets",
+        "overview": {
+          "glob": "visual-b64/overview/*.jpg.b64",
+          "fps": 1,
+          "cells_per_sheet": 16,
+          "seconds_per_sheet": 16,
+          "sheet_count": 2
+        },
+        "full_100ms": {
+          "glob": "visual-b64/full-100ms/*.jpg.b64",
+          "fps": 10,
+          "cell_ms": 100,
+          "cells_per_sheet": 100,
+          "seconds_per_sheet": 10,
+          "sheet_count": 3
+        },
+        "lower_100ms": {
+          "glob": "visual-b64/lower-100ms/*.jpg.b64",
+          "fps": 10,
+          "cell_ms": 100,
+          "cells_per_sheet": 100,
+          "seconds_per_sheet": 10,
+          "sheet_count": 3
+        },
+        "decode": "read .b64 as UTF-8, then render data:image/jpeg;base64,<content> with image()",
+        "ffmpeg_return_codes": {
+          "overview": 0,
+          "full_100ms": 0,
+          "lower_100ms": 0
+        }
       }
     },
     "4TEkYu6V_80": {
@@ -165,6 +396,39 @@
         "count_from_video_only": true,
         "record_jump_event_ms": true,
         "metadata_is_not_count_evidence": true
+      },
+      "visual_b64_ready": true,
+      "visual_access": {
+        "format": "base64-jpeg-contact-sheets",
+        "overview": {
+          "glob": "visual-b64/overview/*.jpg.b64",
+          "fps": 1,
+          "cells_per_sheet": 16,
+          "seconds_per_sheet": 16,
+          "sheet_count": 17
+        },
+        "full_100ms": {
+          "glob": "visual-b64/full-100ms/*.jpg.b64",
+          "fps": 10,
+          "cell_ms": 100,
+          "cells_per_sheet": 100,
+          "seconds_per_sheet": 10,
+          "sheet_count": 26
+        },
+        "lower_100ms": {
+          "glob": "visual-b64/lower-100ms/*.jpg.b64",
+          "fps": 10,
+          "cell_ms": 100,
+          "cells_per_sheet": 100,
+          "seconds_per_sheet": 10,
+          "sheet_count": 26
+        },
+        "decode": "read .b64 as UTF-8, then render data:image/jpeg;base64,<content> with image()",
+        "ffmpeg_return_codes": {
+          "overview": 0,
+          "full_100ms": 0,
+          "lower_100ms": 0
+        }
       }
     },
     "4TmdLkaupG0": {
@@ -184,6 +448,39 @@
         "count_from_video_only": true,
         "record_jump_event_ms": true,
         "metadata_is_not_count_evidence": true
+      },
+      "visual_b64_ready": true,
+      "visual_access": {
+        "format": "base64-jpeg-contact-sheets",
+        "overview": {
+          "glob": "visual-b64/overview/*.jpg.b64",
+          "fps": 1,
+          "cells_per_sheet": 16,
+          "seconds_per_sheet": 16,
+          "sheet_count": 3
+        },
+        "full_100ms": {
+          "glob": "visual-b64/full-100ms/*.jpg.b64",
+          "fps": 10,
+          "cell_ms": 100,
+          "cells_per_sheet": 100,
+          "seconds_per_sheet": 10,
+          "sheet_count": 4
+        },
+        "lower_100ms": {
+          "glob": "visual-b64/lower-100ms/*.jpg.b64",
+          "fps": 10,
+          "cell_ms": 100,
+          "cells_per_sheet": 100,
+          "seconds_per_sheet": 10,
+          "sheet_count": 4
+        },
+        "decode": "read .b64 as UTF-8, then render data:image/jpeg;base64,<content> with image()",
+        "ffmpeg_return_codes": {
+          "overview": 0,
+          "full_100ms": 0,
+          "lower_100ms": 0
+        }
       }
     },
     "4tsT6hDB6Aw": {
@@ -203,7 +500,41 @@
         "count_from_video_only": true,
         "record_jump_event_ms": true,
         "metadata_is_not_count_evidence": true
+      },
+      "visual_b64_ready": true,
+      "visual_access": {
+        "format": "base64-jpeg-contact-sheets",
+        "overview": {
+          "glob": "visual-b64/overview/*.jpg.b64",
+          "fps": 1,
+          "cells_per_sheet": 16,
+          "seconds_per_sheet": 16,
+          "sheet_count": 22
+        },
+        "full_100ms": {
+          "glob": "visual-b64/full-100ms/*.jpg.b64",
+          "fps": 10,
+          "cell_ms": 100,
+          "cells_per_sheet": 100,
+          "seconds_per_sheet": 10,
+          "sheet_count": 34
+        },
+        "lower_100ms": {
+          "glob": "visual-b64/lower-100ms/*.jpg.b64",
+          "fps": 10,
+          "cell_ms": 100,
+          "cells_per_sheet": 100,
+          "seconds_per_sheet": 10,
+          "sheet_count": 34
+        },
+        "decode": "read .b64 as UTF-8, then render data:image/jpeg;base64,<content> with image()",
+        "ffmpeg_return_codes": {
+          "overview": 0,
+          "full_100ms": 0,
+          "lower_100ms": 0
+        }
       }
     }
-  }
+  },
+  "visual_b64_ready": true
 }
