@@ -1,0 +1,19 @@
+{
+  "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+  "video_id": "-lHdh0uldkA",
+  "source_url": "https://www.youtube.com/watch?v=-lHdh0uldkA",
+  "status": "READY",
+  "reason": "",
+  "title": "JUMP ROPE TRICKS for Beginners THE DOUBLE UNDER TUTORIAL Explained | Day 18",
+  "duration_s": 840.0,
+  "source_sha256": "652622ce04b3e85ba81ae9b577da5eb066f721593b8ec47caa7f28e2855301a1",
+  "review_proxy_sha256": "defd3c3f82a9199befa1b26fc494a4c12d8955e9e222ab63bfdb8098187220a8",
+  "review_proxy": "review.mp4",
+  "overview_dir": "overview",
+  "review_contract": {
+    "direct_visual_review_required": true,
+    "count_from_video_only": true,
+    "record_jump_event_ms": true,
+    "metadata_is_not_count_evidence": true
+  }
+}

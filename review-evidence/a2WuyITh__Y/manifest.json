@@ -1,0 +1,19 @@
+{
+  "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+  "video_id": "a2WuyITh__Y",
+  "source_url": "https://www.youtube.com/watch?v=a2WuyITh__Y",
+  "status": "READY",
+  "reason": "",
+  "title": "JUMP ROPE DUX\u2019s DUS & CROSSOVERS. Great warm up before leg session. #shorts | Jump\u2019d Ropes",
+  "duration_s": 23.0,
+  "source_sha256": "ef5337c8c14d3c5a79c79851eea2d5e8f4fe9fbd1a6e527428d4b2b6a8d31e3f",
+  "review_proxy_sha256": "2bacd3867fd4454d17a4ebf7d3bc176afb8f132da9ecdb14747e1365f814b5ef",
+  "review_proxy": "review.mp4",
+  "overview_dir": "overview",
+  "review_contract": {
+    "direct_visual_review_required": true,
+    "count_from_video_only": true,
+    "record_jump_event_ms": true,
+    "metadata_is_not_count_evidence": true
+  }
+}

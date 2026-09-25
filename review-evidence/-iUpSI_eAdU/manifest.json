@@ -1,0 +1,19 @@
+{
+  "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+  "video_id": "-iUpSI_eAdU",
+  "source_url": "https://www.youtube.com/watch?v=-iUpSI_eAdU",
+  "status": "READY",
+  "reason": "",
+  "title": "ZIVA Weighted Skipping Rope - Single Leg Skip",
+  "duration_s": 26.0,
+  "source_sha256": "8400f70388b540cd59b519e4bee2ecb85b3742cd3f8e11ff9777e3da94cc785a",
+  "review_proxy_sha256": "0f114ea6a34f1f314168acc3eb47b29a5d231e97c89c5ffdc0c1c821a51de910",
+  "review_proxy": "review.mp4",
+  "overview_dir": "overview",
+  "review_contract": {
+    "direct_visual_review_required": true,
+    "count_from_video_only": true,
+    "record_jump_event_ms": true,
+    "metadata_is_not_count_evidence": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+  "video_id": "7LGFTgZYeys",
+  "source_url": "https://www.youtube.com/watch?v=7LGFTgZYeys",
+  "status": "READY",
+  "reason": "",
+  "title": "The real key to unlocking the double under crossover #jumprope #fitness #doubleunder",
+  "duration_s": 58.0,
+  "source_sha256": "23d5c49b1a89b8976d7b442d6bbddce88705532f1612c560f71aa17a31b6c1cb",
+  "review_proxy_sha256": "4b573ca6f0b70332649a54a8acfb279178c937c888c0bb4dfa63b3a3816e5c79",
+  "review_proxy": "review.mp4",
+  "overview_dir": "overview",
+  "review_contract": {
+    "direct_visual_review_required": true,
+    "count_from_video_only": true,
+    "record_jump_event_ms": true,
+    "metadata_is_not_count_evidence": true
+  }
+}

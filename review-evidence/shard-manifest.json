@@ -1,0 +1,209 @@
+{
+  "schema": "ROPEJUMP_REVIEW_EVIDENCE_SHARD_V1",
+  "shard": "A",
+  "expected_count": 10,
+  "video_ids": [
+    "_Fj76b5_L0k",
+    "_hjspOjY3OA",
+    "_WMEeIlFPio",
+    "-iUpSI_eAdU",
+    "-lHdh0uldkA",
+    "-NndIs9BaS4",
+    "-QkTD_ie0kI",
+    "79RX7FpbeJI",
+    "7LGFTgZYeys",
+    "a2WuyITh__Y"
+  ],
+  "items": {
+    "_Fj76b5_L0k": {
+      "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+      "video_id": "_Fj76b5_L0k",
+      "source_url": "https://www.youtube.com/watch?v=_Fj76b5_L0k",
+      "status": "READY",
+      "reason": "",
+      "title": "Jump rope dance \ud83d\ude4c #foryou #tiktokuni",
+      "duration_s": 20.0,
+      "source_sha256": "9ca638beccfe031679eb1b5aa16880523482dd2f3f8cfd14ff4d43b42d4aa20c",
+      "review_proxy_sha256": "184065ddb7e594b0cfe4765180137c5bfe6945458b7e7c1e57ab4b33ea8fb517",
+      "review_proxy": "review.mp4",
+      "overview_dir": "overview",
+      "review_contract": {
+        "direct_visual_review_required": true,
+        "count_from_video_only": true,
+        "record_jump_event_ms": true,
+        "metadata_is_not_count_evidence": true
+      }
+    },
+    "_hjspOjY3OA": {
+      "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+      "video_id": "_hjspOjY3OA",
+      "source_url": "https://www.youtube.com/watch?v=_hjspOjY3OA",
+      "status": "READY",
+      "reason": "",
+      "title": "How to Jump Rope: Cross Over Doubles & Alternating Sides",
+      "duration_s": 253.0,
+      "source_sha256": "3a4c61efe8da7efd3255e6d4626681fabddf666be11d41166fb3a93088c8f53c",
+      "review_proxy_sha256": "2f2a33d686489adfc798c65edfc88750dbb4ad4f1eda09b653269f2ba20ab4b2",
+      "review_proxy": "review.mp4",
+      "overview_dir": "overview",
+      "review_contract": {
+        "direct_visual_review_required": true,
+        "count_from_video_only": true,
+        "record_jump_event_ms": true,
+        "metadata_is_not_count_evidence": true
+      }
+    },
+    "_WMEeIlFPio": {
+      "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+      "video_id": "_WMEeIlFPio",
+      "source_url": "https://www.youtube.com/watch?v=_WMEeIlFPio",
+      "status": "READY",
+      "reason": "",
+      "title": "\ud83e\udd4a 10 formas de saltar la soga en boxeo - Parte 2 #shorts #youtubeshorts #boxeo #jumprope",
+      "duration_s": 30.0,
+      "source_sha256": "70e06f159e4b9727b34a83740be3e775cc1c0f5a9667450992eca1198c0a8201",
+      "review_proxy_sha256": "49516b77a5ad8de46274287350c823408aa767e7d4082adc0482ff6f33d0cc1e",
+      "review_proxy": "review.mp4",
+      "overview_dir": "overview",
+      "review_contract": {
+        "direct_visual_review_required": true,
+        "count_from_video_only": true,
+        "record_jump_event_ms": true,
+        "metadata_is_not_count_evidence": true
+      }
+    },
+    "-iUpSI_eAdU": {
+      "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+      "video_id": "-iUpSI_eAdU",
+      "source_url": "https://www.youtube.com/watch?v=-iUpSI_eAdU",
+      "status": "READY",
+      "reason": "",
+      "title": "ZIVA Weighted Skipping Rope - Single Leg Skip",
+      "duration_s": 26.0,
+      "source_sha256": "8400f70388b540cd59b519e4bee2ecb85b3742cd3f8e11ff9777e3da94cc785a",
+      "review_proxy_sha256": "0f114ea6a34f1f314168acc3eb47b29a5d231e97c89c5ffdc0c1c821a51de910",
+      "review_proxy": "review.mp4",
+      "overview_dir": "overview",
+      "review_contract": {
+        "direct_visual_review_required": true,
+        "count_from_video_only": true,
+        "record_jump_event_ms": true,
+        "metadata_is_not_count_evidence": true
+      }
+    },
+    "-lHdh0uldkA": {
+      "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+      "video_id": "-lHdh0uldkA",
+      "source_url": "https://www.youtube.com/watch?v=-lHdh0uldkA",
+      "status": "READY",
+      "reason": "",
+      "title": "JUMP ROPE TRICKS for Beginners THE DOUBLE UNDER TUTORIAL Explained | Day 18",
+      "duration_s": 840.0,
+      "source_sha256": "652622ce04b3e85ba81ae9b577da5eb066f721593b8ec47caa7f28e2855301a1",
+      "review_proxy_sha256": "defd3c3f82a9199befa1b26fc494a4c12d8955e9e222ab63bfdb8098187220a8",
+      "review_proxy": "review.mp4",
+      "overview_dir": "overview",
+      "review_contract": {
+        "direct_visual_review_required": true,
+        "count_from_video_only": true,
+        "record_jump_event_ms": true,
+        "metadata_is_not_count_evidence": true
+      }
+    },
+    "-NndIs9BaS4": {
+      "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+      "video_id": "-NndIs9BaS4",
+      "source_url": "https://www.youtube.com/watch?v=-NndIs9BaS4",
+      "status": "READY",
+      "reason": "",
+      "title": "How to do the criss cross jump rope trick.",
+      "duration_s": 107.0,
+      "source_sha256": "0a673de0bd5b917b40012d41462d1e03abb1f468c563fb3d15e13f0f84933582",
+      "review_proxy_sha256": "4c1389c57dbfd63a4dba123c4d543a406668d8b9a13454e55d27894b92ad9557",
+      "review_proxy": "review.mp4",
+      "overview_dir": "overview",
+      "review_contract": {
+        "direct_visual_review_required": true,
+        "count_from_video_only": true,
+        "record_jump_event_ms": true,
+        "metadata_is_not_count_evidence": true
+      }
+    },
+    "-QkTD_ie0kI": {
+      "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+      "video_id": "-QkTD_ie0kI",
+      "source_url": "https://www.youtube.com/watch?v=-QkTD_ie0kI",
+      "status": "READY",
+      "reason": "",
+      "title": "2018\u4e16\u754c\u8df3\u7ef3\u6bd4\u8d5b\u51c6\u5907\u4e2d",
+      "duration_s": 15.0,
+      "source_sha256": "67f4049e655520d02f3b04309dad2b98f5642ec4ce539ca465812a083e1e0127",
+      "review_proxy_sha256": "b177ae705e64a0c310c996eaa625453c4d71cf9d0bd2c167700e6d4207df8866",
+      "review_proxy": "review.mp4",
+      "overview_dir": "overview",
+      "review_contract": {
+        "direct_visual_review_required": true,
+        "count_from_video_only": true,
+        "record_jump_event_ms": true,
+        "metadata_is_not_count_evidence": true
+      }
+    },
+    "79RX7FpbeJI": {
+      "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+      "video_id": "79RX7FpbeJI",
+      "source_url": "https://www.youtube.com/watch?v=79RX7FpbeJI",
+      "status": "READY",
+      "reason": "",
+      "title": "Pro Tips for Pain-Free Double Unders in CrossFit #doubleunders",
+      "duration_s": 40.0,
+      "source_sha256": "344c2917b976686f176c4b545be29aae0f03c9e5afb7b7c0f8b839dff75c3dab",
+      "review_proxy_sha256": "51af3decd8a0e3a04d92acfa905ae335c1c8e7a1a0be62621353d7cd38b8c0e0",
+      "review_proxy": "review.mp4",
+      "overview_dir": "overview",
+      "review_contract": {
+        "direct_visual_review_required": true,
+        "count_from_video_only": true,
+        "record_jump_event_ms": true,
+        "metadata_is_not_count_evidence": true
+      }
+    },
+    "7LGFTgZYeys": {
+      "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+      "video_id": "7LGFTgZYeys",
+      "source_url": "https://www.youtube.com/watch?v=7LGFTgZYeys",
+      "status": "READY",
+      "reason": "",
+      "title": "The real key to unlocking the double under crossover #jumprope #fitness #doubleunder",
+      "duration_s": 58.0,
+      "source_sha256": "23d5c49b1a89b8976d7b442d6bbddce88705532f1612c560f71aa17a31b6c1cb",
+      "review_proxy_sha256": "4b573ca6f0b70332649a54a8acfb279178c937c888c0bb4dfa63b3a3816e5c79",
+      "review_proxy": "review.mp4",
+      "overview_dir": "overview",
+      "review_contract": {
+        "direct_visual_review_required": true,
+        "count_from_video_only": true,
+        "record_jump_event_ms": true,
+        "metadata_is_not_count_evidence": true
+      }
+    },
+    "a2WuyITh__Y": {
+      "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+      "video_id": "a2WuyITh__Y",
+      "source_url": "https://www.youtube.com/watch?v=a2WuyITh__Y",
+      "status": "READY",
+      "reason": "",
+      "title": "JUMP ROPE DUX\u2019s DUS & CROSSOVERS. Great warm up before leg session. #shorts | Jump\u2019d Ropes",
+      "duration_s": 23.0,
+      "source_sha256": "ef5337c8c14d3c5a79c79851eea2d5e8f4fe9fbd1a6e527428d4b2b6a8d31e3f",
+      "review_proxy_sha256": "2bacd3867fd4454d17a4ebf7d3bc176afb8f132da9ecdb14747e1365f814b5ef",
+      "review_proxy": "review.mp4",
+      "overview_dir": "overview",
+      "review_contract": {
+        "direct_visual_review_required": true,
+        "count_from_video_only": true,
+        "record_jump_event_ms": true,
+        "metadata_is_not_count_evidence": true
+      }
+    }
+  }
+}

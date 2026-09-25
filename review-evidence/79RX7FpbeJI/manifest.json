@@ -1,0 +1,19 @@
+{
+  "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+  "video_id": "79RX7FpbeJI",
+  "source_url": "https://www.youtube.com/watch?v=79RX7FpbeJI",
+  "status": "READY",
+  "reason": "",
+  "title": "Pro Tips for Pain-Free Double Unders in CrossFit #doubleunders",
+  "duration_s": 40.0,
+  "source_sha256": "344c2917b976686f176c4b545be29aae0f03c9e5afb7b7c0f8b839dff75c3dab",
+  "review_proxy_sha256": "51af3decd8a0e3a04d92acfa905ae335c1c8e7a1a0be62621353d7cd38b8c0e0",
+  "review_proxy": "review.mp4",
+  "overview_dir": "overview",
+  "review_contract": {
+    "direct_visual_review_required": true,
+    "count_from_video_only": true,
+    "record_jump_event_ms": true,
+    "metadata_is_not_count_evidence": true
+  }
+}

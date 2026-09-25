@@ -1,0 +1,19 @@
+{
+  "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+  "video_id": "-NndIs9BaS4",
+  "source_url": "https://www.youtube.com/watch?v=-NndIs9BaS4",
+  "status": "READY",
+  "reason": "",
+  "title": "How to do the criss cross jump rope trick.",
+  "duration_s": 107.0,
+  "source_sha256": "0a673de0bd5b917b40012d41462d1e03abb1f468c563fb3d15e13f0f84933582",
+  "review_proxy_sha256": "4c1389c57dbfd63a4dba123c4d543a406668d8b9a13454e55d27894b92ad9557",
+  "review_proxy": "review.mp4",
+  "overview_dir": "overview",
+  "review_contract": {
+    "direct_visual_review_required": true,
+    "count_from_video_only": true,
+    "record_jump_event_ms": true,
+    "metadata_is_not_count_evidence": true
+  }
+}

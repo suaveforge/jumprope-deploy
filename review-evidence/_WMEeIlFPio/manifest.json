@@ -1,0 +1,19 @@
+{
+  "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+  "video_id": "_WMEeIlFPio",
+  "source_url": "https://www.youtube.com/watch?v=_WMEeIlFPio",
+  "status": "READY",
+  "reason": "",
+  "title": "\ud83e\udd4a 10 formas de saltar la soga en boxeo - Parte 2 #shorts #youtubeshorts #boxeo #jumprope",
+  "duration_s": 30.0,
+  "source_sha256": "70e06f159e4b9727b34a83740be3e775cc1c0f5a9667450992eca1198c0a8201",
+  "review_proxy_sha256": "49516b77a5ad8de46274287350c823408aa767e7d4082adc0482ff6f33d0cc1e",
+  "review_proxy": "review.mp4",
+  "overview_dir": "overview",
+  "review_contract": {
+    "direct_visual_review_required": true,
+    "count_from_video_only": true,
+    "record_jump_event_ms": true,
+    "metadata_is_not_count_evidence": true
+  }
+}
