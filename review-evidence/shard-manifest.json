@@ -1,0 +1,209 @@
+{
+  "schema": "ROPEJUMP_REVIEW_EVIDENCE_SHARD_V1",
+  "shard": "D",
+  "expected_count": 10,
+  "video_ids": [
+    "4wFQPdg70zk",
+    "56DJkcxwVFI",
+    "6Q20x3QYMHg",
+    "5V1iDW-3n6g",
+    "6BN0mpj5HQA",
+    "7XndvyHv3w8",
+    "6MK5m2bDe4M",
+    "6MNuSytNWjU",
+    "6MXkU56LAPc",
+    "6PzmqDsTWQE"
+  ],
+  "items": {
+    "4wFQPdg70zk": {
+      "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+      "video_id": "4wFQPdg70zk",
+      "source_url": "https://www.youtube.com/watch?v=4wFQPdg70zk",
+      "status": "READY",
+      "reason": "",
+      "title": "Aprende los 3 Mejores TRUCOS de SALTAR la CUERDA! \ud83d\ude31 (MUY F\u00c1CILES) Pasar\u00e1s de NOOB a PRO",
+      "duration_s": 586.0,
+      "source_sha256": "5be2a4cbe9cc9c6af497eec332051be53dfacdb902fff980060c09f0c2e9103d",
+      "review_proxy_sha256": "61e7821daf399fffe92489ed110b444b9cfa3b876f2829009322eb1aea2d0a6e",
+      "review_proxy": "review.mp4",
+      "overview_dir": "overview",
+      "review_contract": {
+        "direct_visual_review_required": true,
+        "count_from_video_only": true,
+        "record_jump_event_ms": true,
+        "metadata_is_not_count_evidence": true
+      }
+    },
+    "56DJkcxwVFI": {
+      "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+      "video_id": "56DJkcxwVFI",
+      "source_url": "https://www.youtube.com/watch?v=56DJkcxwVFI",
+      "status": "READY",
+      "reason": "",
+      "title": "How To Cross | Jump Rope Tutorial | Elite Jumps",
+      "duration_s": 47.0,
+      "source_sha256": "50ce02ebeb586a40b89029b81dfe6bc6562d4b43ab7c73e4085f2ba7a8dd44fb",
+      "review_proxy_sha256": "d072e54d9070bb5d9719c6e220bfbd00e46c508f8fbc8755a04a6569bee39220",
+      "review_proxy": "review.mp4",
+      "overview_dir": "overview",
+      "review_contract": {
+        "direct_visual_review_required": true,
+        "count_from_video_only": true,
+        "record_jump_event_ms": true,
+        "metadata_is_not_count_evidence": true
+      }
+    },
+    "6Q20x3QYMHg": {
+      "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+      "video_id": "6Q20x3QYMHg",
+      "source_url": "https://www.youtube.com/watch?v=6Q20x3QYMHg",
+      "status": "READY",
+      "reason": "",
+      "title": "Jump rope crossover pyramid drill WorkoutLA/Medal Maniacs",
+      "duration_s": 64.0,
+      "source_sha256": "57967d3f6ae39d851d61d764eb31a887defbbe3e389a0fe99ffe946eda1cd2f2",
+      "review_proxy_sha256": "583f1be92ed9547bbfad947c7e8e5cad5f473d1e24461501015d1928e692557d",
+      "review_proxy": "review.mp4",
+      "overview_dir": "overview",
+      "review_contract": {
+        "direct_visual_review_required": true,
+        "count_from_video_only": true,
+        "record_jump_event_ms": true,
+        "metadata_is_not_count_evidence": true
+      }
+    },
+    "5V1iDW-3n6g": {
+      "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+      "video_id": "5V1iDW-3n6g",
+      "source_url": "https://www.youtube.com/watch?v=5V1iDW-3n6g",
+      "status": "READY",
+      "reason": "",
+      "title": "Intermediate Jump Rope Trick: The Elevate Jump",
+      "duration_s": 417.0,
+      "source_sha256": "d5b56e39e668ad722ea70b14962508ce6cdc909a1001c5829386024c3ad16104",
+      "review_proxy_sha256": "4a4041e9a33bb0e4f2c7dfeed4b61e5a4bb6e7284c04385b8d90e25e328e4a27",
+      "review_proxy": "review.mp4",
+      "overview_dir": "overview",
+      "review_contract": {
+        "direct_visual_review_required": true,
+        "count_from_video_only": true,
+        "record_jump_event_ms": true,
+        "metadata_is_not_count_evidence": true
+      }
+    },
+    "6BN0mpj5HQA": {
+      "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+      "video_id": "6BN0mpj5HQA",
+      "source_url": "https://www.youtube.com/watch?v=6BN0mpj5HQA",
+      "status": "READY",
+      "reason": "",
+      "title": "Correct crossover skipping",
+      "duration_s": 23.0,
+      "source_sha256": "171af32d8b83c9264ac9240fdf2b0cf92be8c709f40c56c4066fe3bea9648901",
+      "review_proxy_sha256": "8bc10ced61d314253896179447eb7c1631a4ea1c2ab77398486bf40d1e420570",
+      "review_proxy": "review.mp4",
+      "overview_dir": "overview",
+      "review_contract": {
+        "direct_visual_review_required": true,
+        "count_from_video_only": true,
+        "record_jump_event_ms": true,
+        "metadata_is_not_count_evidence": true
+      }
+    },
+    "7XndvyHv3w8": {
+      "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+      "video_id": "7XndvyHv3w8",
+      "source_url": "https://www.youtube.com/watch?v=7XndvyHv3w8",
+      "status": "READY",
+      "reason": "",
+      "title": "How To Jump Rope Run In Place",
+      "duration_s": 312.0,
+      "source_sha256": "50e016379810888c43ec7dafc73c15886057b4741ca3a6156a588b4a30e68bed",
+      "review_proxy_sha256": "e17f04a95c019addfd241ba9eb009d464204ff661336ddf0349729b78c560560",
+      "review_proxy": "review.mp4",
+      "overview_dir": "overview",
+      "review_contract": {
+        "direct_visual_review_required": true,
+        "count_from_video_only": true,
+        "record_jump_event_ms": true,
+        "metadata_is_not_count_evidence": true
+      }
+    },
+    "6MK5m2bDe4M": {
+      "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+      "video_id": "6MK5m2bDe4M",
+      "source_url": "https://www.youtube.com/watch?v=6MK5m2bDe4M",
+      "status": "READY",
+      "reason": "",
+      "title": "Treino de pular corda tabata _ queime mais gordura",
+      "duration_s": 385.0,
+      "source_sha256": "58cfaf3355615400cf07a2492f136ea6756aa16d65a0d99d24b58759952eabc7",
+      "review_proxy_sha256": "6af4a0b80a09126dfaf1775b4730d2ef3c52b562fb34c905f680f509af26aba1",
+      "review_proxy": "review.mp4",
+      "overview_dir": "overview",
+      "review_contract": {
+        "direct_visual_review_required": true,
+        "count_from_video_only": true,
+        "record_jump_event_ms": true,
+        "metadata_is_not_count_evidence": true
+      }
+    },
+    "6MNuSytNWjU": {
+      "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+      "video_id": "6MNuSytNWjU",
+      "source_url": "https://www.youtube.com/watch?v=6MNuSytNWjU",
+      "status": "READY",
+      "reason": "",
+      "title": "Hiit JUMP ROPE Workout with SUICIDE Girl Caelyx Part 3 of 3",
+      "duration_s": 421.0,
+      "source_sha256": "a59cc25fbebb77f255d174ac87b82b5eee33f3efa96e12360f15ddc4c4691ff8",
+      "review_proxy_sha256": "7e59a3067a9f78bd46783dc6ef017f32fed5f03cd636eae16259aedc6f164e5d",
+      "review_proxy": "review.mp4",
+      "overview_dir": "overview",
+      "review_contract": {
+        "direct_visual_review_required": true,
+        "count_from_video_only": true,
+        "record_jump_event_ms": true,
+        "metadata_is_not_count_evidence": true
+      }
+    },
+    "6MXkU56LAPc": {
+      "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+      "video_id": "6MXkU56LAPc",
+      "source_url": "https://www.youtube.com/watch?v=6MXkU56LAPc",
+      "status": "READY",
+      "reason": "",
+      "title": "Jump Rope Tricks Tutorial: EB Open to Single Side Crossover",
+      "duration_s": 246.0,
+      "source_sha256": "66243fbb9ff2d5ec431e556e1784979c7ce0da922fc1a4d9768baf642a2901d8",
+      "review_proxy_sha256": "1074e9a09e8de3ae1edd8d496f39f41a4bb14265e0856d7f5e50ad0209d63251",
+      "review_proxy": "review.mp4",
+      "overview_dir": "overview",
+      "review_contract": {
+        "direct_visual_review_required": true,
+        "count_from_video_only": true,
+        "record_jump_event_ms": true,
+        "metadata_is_not_count_evidence": true
+      }
+    },
+    "6PzmqDsTWQE": {
+      "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+      "video_id": "6PzmqDsTWQE",
+      "source_url": "https://www.youtube.com/watch?v=6PzmqDsTWQE",
+      "status": "READY",
+      "reason": "",
+      "title": "4 lbs. Heavy Jump Rope Crossover",
+      "duration_s": 15.0,
+      "source_sha256": "7284227f0d58b87c6d90b9b69d4bad97d09f8222ec1f8567fadbde8929801df1",
+      "review_proxy_sha256": "a32b0c5067d42ca2a4a72885c4356805293b023b99aad2e6d4320a4181c25e73",
+      "review_proxy": "review.mp4",
+      "overview_dir": "overview",
+      "review_contract": {
+        "direct_visual_review_required": true,
+        "count_from_video_only": true,
+        "record_jump_event_ms": true,
+        "metadata_is_not_count_evidence": true
+      }
+    }
+  }
+}

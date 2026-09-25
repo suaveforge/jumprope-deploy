@@ -1,0 +1,19 @@
+{
+  "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+  "video_id": "7XndvyHv3w8",
+  "source_url": "https://www.youtube.com/watch?v=7XndvyHv3w8",
+  "status": "READY",
+  "reason": "",
+  "title": "How To Jump Rope Run In Place",
+  "duration_s": 312.0,
+  "source_sha256": "50e016379810888c43ec7dafc73c15886057b4741ca3a6156a588b4a30e68bed",
+  "review_proxy_sha256": "e17f04a95c019addfd241ba9eb009d464204ff661336ddf0349729b78c560560",
+  "review_proxy": "review.mp4",
+  "overview_dir": "overview",
+  "review_contract": {
+    "direct_visual_review_required": true,
+    "count_from_video_only": true,
+    "record_jump_event_ms": true,
+    "metadata_is_not_count_evidence": true
+  }
+}

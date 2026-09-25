@@ -1,0 +1,19 @@
+{
+  "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+  "video_id": "6PzmqDsTWQE",
+  "source_url": "https://www.youtube.com/watch?v=6PzmqDsTWQE",
+  "status": "READY",
+  "reason": "",
+  "title": "4 lbs. Heavy Jump Rope Crossover",
+  "duration_s": 15.0,
+  "source_sha256": "7284227f0d58b87c6d90b9b69d4bad97d09f8222ec1f8567fadbde8929801df1",
+  "review_proxy_sha256": "a32b0c5067d42ca2a4a72885c4356805293b023b99aad2e6d4320a4181c25e73",
+  "review_proxy": "review.mp4",
+  "overview_dir": "overview",
+  "review_contract": {
+    "direct_visual_review_required": true,
+    "count_from_video_only": true,
+    "record_jump_event_ms": true,
+    "metadata_is_not_count_evidence": true
+  }
+}

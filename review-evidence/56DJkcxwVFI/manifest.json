@@ -1,0 +1,19 @@
+{
+  "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+  "video_id": "56DJkcxwVFI",
+  "source_url": "https://www.youtube.com/watch?v=56DJkcxwVFI",
+  "status": "READY",
+  "reason": "",
+  "title": "How To Cross | Jump Rope Tutorial | Elite Jumps",
+  "duration_s": 47.0,
+  "source_sha256": "50ce02ebeb586a40b89029b81dfe6bc6562d4b43ab7c73e4085f2ba7a8dd44fb",
+  "review_proxy_sha256": "d072e54d9070bb5d9719c6e220bfbd00e46c508f8fbc8755a04a6569bee39220",
+  "review_proxy": "review.mp4",
+  "overview_dir": "overview",
+  "review_contract": {
+    "direct_visual_review_required": true,
+    "count_from_video_only": true,
+    "record_jump_event_ms": true,
+    "metadata_is_not_count_evidence": true
+  }
+}

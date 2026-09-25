@@ -1,0 +1,19 @@
+{
+  "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+  "video_id": "6MNuSytNWjU",
+  "source_url": "https://www.youtube.com/watch?v=6MNuSytNWjU",
+  "status": "READY",
+  "reason": "",
+  "title": "Hiit JUMP ROPE Workout with SUICIDE Girl Caelyx Part 3 of 3",
+  "duration_s": 421.0,
+  "source_sha256": "a59cc25fbebb77f255d174ac87b82b5eee33f3efa96e12360f15ddc4c4691ff8",
+  "review_proxy_sha256": "7e59a3067a9f78bd46783dc6ef017f32fed5f03cd636eae16259aedc6f164e5d",
+  "review_proxy": "review.mp4",
+  "overview_dir": "overview",
+  "review_contract": {
+    "direct_visual_review_required": true,
+    "count_from_video_only": true,
+    "record_jump_event_ms": true,
+    "metadata_is_not_count_evidence": true
+  }
+}

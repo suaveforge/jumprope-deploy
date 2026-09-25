@@ -1,0 +1,19 @@
+{
+  "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+  "video_id": "4wFQPdg70zk",
+  "source_url": "https://www.youtube.com/watch?v=4wFQPdg70zk",
+  "status": "READY",
+  "reason": "",
+  "title": "Aprende los 3 Mejores TRUCOS de SALTAR la CUERDA! \ud83d\ude31 (MUY F\u00c1CILES) Pasar\u00e1s de NOOB a PRO",
+  "duration_s": 586.0,
+  "source_sha256": "5be2a4cbe9cc9c6af497eec332051be53dfacdb902fff980060c09f0c2e9103d",
+  "review_proxy_sha256": "61e7821daf399fffe92489ed110b444b9cfa3b876f2829009322eb1aea2d0a6e",
+  "review_proxy": "review.mp4",
+  "overview_dir": "overview",
+  "review_contract": {
+    "direct_visual_review_required": true,
+    "count_from_video_only": true,
+    "record_jump_event_ms": true,
+    "metadata_is_not_count_evidence": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+  "video_id": "6MK5m2bDe4M",
+  "source_url": "https://www.youtube.com/watch?v=6MK5m2bDe4M",
+  "status": "READY",
+  "reason": "",
+  "title": "Treino de pular corda tabata _ queime mais gordura",
+  "duration_s": 385.0,
+  "source_sha256": "58cfaf3355615400cf07a2492f136ea6756aa16d65a0d99d24b58759952eabc7",
+  "review_proxy_sha256": "6af4a0b80a09126dfaf1775b4730d2ef3c52b562fb34c905f680f509af26aba1",
+  "review_proxy": "review.mp4",
+  "overview_dir": "overview",
+  "review_contract": {
+    "direct_visual_review_required": true,
+    "count_from_video_only": true,
+    "record_jump_event_ms": true,
+    "metadata_is_not_count_evidence": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+  "video_id": "6MXkU56LAPc",
+  "source_url": "https://www.youtube.com/watch?v=6MXkU56LAPc",
+  "status": "READY",
+  "reason": "",
+  "title": "Jump Rope Tricks Tutorial: EB Open to Single Side Crossover",
+  "duration_s": 246.0,
+  "source_sha256": "66243fbb9ff2d5ec431e556e1784979c7ce0da922fc1a4d9768baf642a2901d8",
+  "review_proxy_sha256": "1074e9a09e8de3ae1edd8d496f39f41a4bb14265e0856d7f5e50ad0209d63251",
+  "review_proxy": "review.mp4",
+  "overview_dir": "overview",
+  "review_contract": {
+    "direct_visual_review_required": true,
+    "count_from_video_only": true,
+    "record_jump_event_ms": true,
+    "metadata_is_not_count_evidence": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+  "video_id": "5V1iDW-3n6g",
+  "source_url": "https://www.youtube.com/watch?v=5V1iDW-3n6g",
+  "status": "READY",
+  "reason": "",
+  "title": "Intermediate Jump Rope Trick: The Elevate Jump",
+  "duration_s": 417.0,
+  "source_sha256": "d5b56e39e668ad722ea70b14962508ce6cdc909a1001c5829386024c3ad16104",
+  "review_proxy_sha256": "4a4041e9a33bb0e4f2c7dfeed4b61e5a4bb6e7284c04385b8d90e25e328e4a27",
+  "review_proxy": "review.mp4",
+  "overview_dir": "overview",
+  "review_contract": {
+    "direct_visual_review_required": true,
+    "count_from_video_only": true,
+    "record_jump_event_ms": true,
+    "metadata_is_not_count_evidence": true
+  }
+}

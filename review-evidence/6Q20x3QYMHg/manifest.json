@@ -1,0 +1,19 @@
+{
+  "schema": "ROPEJUMP_REVIEW_EVIDENCE_ITEM_V1",
+  "video_id": "6Q20x3QYMHg",
+  "source_url": "https://www.youtube.com/watch?v=6Q20x3QYMHg",
+  "status": "READY",
+  "reason": "",
+  "title": "Jump rope crossover pyramid drill WorkoutLA/Medal Maniacs",
+  "duration_s": 64.0,
+  "source_sha256": "57967d3f6ae39d851d61d764eb31a887defbbe3e389a0fe99ffe946eda1cd2f2",
+  "review_proxy_sha256": "583f1be92ed9547bbfad947c7e8e5cad5f473d1e24461501015d1928e692557d",
+  "review_proxy": "review.mp4",
+  "overview_dir": "overview",
+  "review_contract": {
+    "direct_visual_review_required": true,
+    "count_from_video_only": true,
+    "record_jump_event_ms": true,
+    "metadata_is_not_count_evidence": true
+  }
+}
