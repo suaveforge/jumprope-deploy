@@ -1,0 +1,10 @@
+project=ROPEJUMP
+source_main_sha=40e0b49d1d64280f6e91f04f635c59d8d18d5ec6
+synced_at_utc=2026-09-26T05:21:12Z
+runner=123-suaveforge-org-03
+ea0efa3115c5026523cfbf3e4a8a5e6f395fc5660caad3c0663af42458791fb1  /home/jumprope-research/PARALLEL_GPT_REVIEW.md
+a7ccf130cb8e67450e5910fa2a15d833614678075c1eb9d098755a261ab3a6da  /home/jumprope-research/THREAD_STARTERS.md
+a5d33b9df6e94db382fa0461ff6242e1f413d13637e97d3b34f5d9a891dd8c5c  /home/jumprope-research/review-shards/A.md
+b186e5d350834dc44cdf1633101b9a52a4a4b0498b0e433284558dec1fe01f04  /home/jumprope-research/review-shards/B.md
+3e4c099a0781a8bd524fd6a637ed40fb6ef4e2b15a1dfb9f8ff7113d823cc3e4  /home/jumprope-research/review-shards/C.md
+f378b44d0bfa177d722f1eb4e55fb34e907e2fd87b543034898f837d9073b16b  /home/jumprope-research/review-shards/D.md
