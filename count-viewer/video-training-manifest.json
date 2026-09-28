@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "generatedAtUtc": "2026-09-28T07:04:19.551Z",
+  "generatedAtUtc": "2026-09-28T07:22:13.130Z",
   "policy": "ROPEJUMP_VIDEO_TRAINING_V1 is authoritative: type policy + dataset split policy + count authority + content screen must all pass. Legacy F split_map inputs are not eligible for new training.",
   "stats": {
     "total": 1760,
-    "eligible": 1,
-    "positiveEligible": 1,
+    "eligible": 2,
+    "positiveEligible": 2,
     "hardNegativeEligible": 0,
-    "blocked": 1759
+    "blocked": 1758
   },
   "items": [
     {
@@ -26925,23 +26925,19 @@
       "id": "k7dq0RQlBpM",
       "authorityId": "k7dq0RQlBpM",
       "policyId": "ROPEJUMP_VIDEO_TRAINING_V1",
-      "eligible": false,
-      "positiveEligible": false,
+      "eligible": true,
+      "positiveEligible": true,
       "hardNegativeEligible": false,
-      "trainingUsage": "EXCLUDED",
-      "jumpRopeType": "",
-      "activeCount": null,
-      "countAuthorityStatus": "GPT_REQUIRED",
-      "contentStatus": "MISSING",
-      "typePolicyStatus": "TYPE_MISSING",
-      "datasetPolicyStatus": "DATASET_POLICY_UNAVAILABLE",
-      "datasetRole": "",
-      "datasetGroup": "",
-      "blockers": [
-        "COUNT_AUTHORITY:GPT_REQUIRED",
-        "CONTENT_SCREEN:MISSING",
-        "TYPE_POLICY:TYPE_MISSING"
-      ]
+      "trainingUsage": "POSITIVE_COUNT",
+      "jumpRopeType": "STANDARD_BASIC_SINGLE_UNDER",
+      "activeCount": 10,
+      "countAuthorityStatus": "GPT_ONLY",
+      "contentStatus": "PASS_CONTINUOUS",
+      "typePolicyStatus": "TYPE_POLICY_OK",
+      "datasetPolicyStatus": "DATASET_POLICY_OK",
+      "datasetRole": "TRAIN",
+      "datasetGroup": "YT_CHANNEL_UChPVBIfPpLf4akI9k2MaxoA",
+      "blockers": []
     },
     {
       "id": "KjopmXBBOkA",
@@ -38702,6 +38698,17 @@
       "datasetGroup": "USER_ORIGINAL_REPORTER_ORIGIN_UNRESOLVED_202609",
       "countAuthorityStatus": "MATCHED",
       "contentStatus": "PASS_CONTINUOUS"
+    },
+    {
+      "id": "k7dq0RQlBpM",
+      "authorityId": "k7dq0RQlBpM",
+      "trainingUsage": "POSITIVE_COUNT",
+      "jumpRopeType": "STANDARD_BASIC_SINGLE_UNDER",
+      "activeCount": 10,
+      "datasetRole": "TRAIN",
+      "datasetGroup": "YT_CHANNEL_UChPVBIfPpLf4akI9k2MaxoA",
+      "countAuthorityStatus": "GPT_ONLY",
+      "contentStatus": "PASS_CONTINUOUS"
     }
   ],
   "positiveItems": [
@@ -38711,6 +38718,13 @@
       "activeCount": 10,
       "datasetRole": "HOLDOUT",
       "datasetGroup": "USER_ORIGINAL_REPORTER_ORIGIN_UNRESOLVED_202609"
+    },
+    {
+      "id": "k7dq0RQlBpM",
+      "authorityId": "k7dq0RQlBpM",
+      "activeCount": 10,
+      "datasetRole": "TRAIN",
+      "datasetGroup": "YT_CHANNEL_UChPVBIfPpLf4akI9k2MaxoA"
     }
   ],
   "hardNegativeItems": []
