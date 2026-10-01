@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAtUtc": "2026-10-01T13:33:29.247Z",
+  "generatedAtUtc": "2026-10-01T16:08:46.754Z",
   "policy": "ROPEJUMP_VIDEO_TRAINING_V1 is authoritative: type policy + dataset split policy + count authority + content screen must all pass. Legacy F split_map inputs are not eligible for new training.",
   "stats": {
     "total": 1847,
@@ -4857,19 +4857,17 @@
       "eligible": false,
       "positiveEligible": false,
       "hardNegativeEligible": false,
-      "trainingUsage": "EXCLUDED",
-      "jumpRopeType": "",
+      "trainingUsage": "HARD_NEGATIVE_ONLY",
+      "jumpRopeType": "NO_JUMP_HARD_NEGATIVE",
       "activeCount": null,
-      "countAuthorityStatus": "GPT_REQUIRED",
+      "countAuthorityStatus": "GPT_ONLY",
       "contentStatus": "MISSING",
-      "typePolicyStatus": "TYPE_MISSING",
-      "datasetPolicyStatus": "DATASET_POLICY_UNAVAILABLE",
+      "typePolicyStatus": "TYPE_POLICY_OK",
+      "datasetPolicyStatus": "DATASET_POLICY_OK",
       "datasetRole": "",
       "datasetGroup": "",
       "blockers": [
-        "COUNT_AUTHORITY:GPT_REQUIRED",
-        "CONTENT_SCREEN:MISSING",
-        "TYPE_POLICY:TYPE_MISSING"
+        "CONTENT_SCREEN:MISSING"
       ]
     },
     {

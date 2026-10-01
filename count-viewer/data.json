@@ -1,7 +1,7 @@
 {
   "schemaVersion": 7,
-  "generatedAtUtc": "2026-10-01T13:33:28.800Z",
-  "corpusSnapshotUtc": "2026-10-01T12:35:42.344885+00:00",
+  "generatedAtUtc": "2026-10-01T16:08:46.343Z",
+  "corpusSnapshotUtc": "2026-10-01T15:35:42.629271+00:00",
   "source": "server123:/home/jumprope-research/corpus-registry + discovery candidate registries",
   "refreshPolicy": "relevant main pushes sync immediately; hourly fallback; viewer polls published data",
   "stats": {
@@ -19,11 +19,11 @@
     "canonicalWithoutLockedGt": 0,
     "finalComparableLockedGt": 15,
     "viewerRowsWithSourceCount": 2,
-    "viewerRowsWithGptGround": 49,
-    "gptGroundSourceRecords": 49,
+    "viewerRowsWithGptGround": 50,
+    "gptGroundSourceRecords": 50,
     "groundOnlyRowsCreated": 36,
     "gradedRows": 7,
-    "gptGroundCounted": 49,
+    "gptGroundCounted": 50,
     "logicCells": 31,
     "viewerRowsWithMaterializedMedia": 36
   },
@@ -13469,12 +13469,26 @@
       "canonical": false,
       "canonicalIds": [],
       "sourceClass": "",
-      "sha256": "",
+      "sha256": "c857b5e3e46270f814abdcfcf35baa84f1ec2fca7d9b32e06ca52f3e35451ba9",
       "thumbnailUrl": "",
       "evidenceGrade": "",
       "sourceDeclaredCount": null,
       "lockedGt": null,
-      "gptGround": null,
+      "gptGround": {
+        "count": 0,
+        "counted_at_kst": "2026-10-02 KST",
+        "confidence": "HIGH",
+        "source_ref": "https://www.youtube.com/watch?v=NwUYrxHx0Bg",
+        "note": "Direct visual review of all overview and dense 100 ms evidence: product-only footage; no human completed BODY jump is visible anywhere in the source. Count 0 is therefore a positive no-jump determination, not an inferred or unresolved zero.",
+        "source": "GPT_DIRECT_VIEWER",
+        "jump_rope_type": "NO_JUMP_HARD_NEGATIVE",
+        "non_standard_subtype": "",
+        "sha256": "c857b5e3e46270f814abdcfcf35baa84f1ec2fca7d9b32e06ca52f3e35451ba9",
+        "dataset_role": "",
+        "dataset_role_policy": "HARD_NEGATIVE_ONLY",
+        "dataset_eligibility": "HARD_NEGATIVE_ONLY",
+        "dataset_group": ""
+      },
       "logic": {
         "A": {
           "count": null,
