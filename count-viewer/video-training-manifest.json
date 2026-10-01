@@ -1,15 +1,33 @@
 {
   "schemaVersion": 2,
-  "generatedAtUtc": "2026-10-01T16:45:21.648Z",
+  "generatedAtUtc": "2026-10-01T18:13:37.046Z",
   "policy": "ROPEJUMP_VIDEO_TRAINING_V1 is authoritative: type policy + dataset split policy + count authority + content screen must all pass. Legacy F split_map inputs are not eligible for new training.",
   "stats": {
     "total": 1847,
-    "eligible": 9,
-    "positiveEligible": 9,
+    "eligible": 18,
+    "positiveEligible": 18,
     "hardNegativeEligible": 0,
-    "blocked": 1838
+    "blocked": 1829
   },
   "items": [
+    {
+      "id": "vEJ7XbbAMAg",
+      "authorityId": "vEJ7XbbAMAg",
+      "policyId": "ROPEJUMP_VIDEO_TRAINING_V1",
+      "eligible": true,
+      "positiveEligible": true,
+      "hardNegativeEligible": false,
+      "trainingUsage": "POSITIVE_COUNT",
+      "jumpRopeType": "STANDARD_BASIC_SINGLE_UNDER",
+      "activeCount": 1,
+      "countAuthorityStatus": "GPT_ONLY",
+      "contentStatus": "PASS_CROPPED",
+      "typePolicyStatus": "TYPE_POLICY_OK",
+      "datasetPolicyStatus": "DATASET_POLICY_OK",
+      "datasetRole": "TRAIN",
+      "datasetGroup": "YT_CHANNEL_UCuzCrSoZQ7-eTm9KEF5VOAQ",
+      "blockers": []
+    },
     {
       "id": "_2WGm7AtiuA",
       "authorityId": "_2WGm7AtiuA",
@@ -2808,23 +2826,19 @@
       "id": "eZUE40_-4cc",
       "authorityId": "eZUE40_-4cc",
       "policyId": "ROPEJUMP_VIDEO_TRAINING_V1",
-      "eligible": false,
-      "positiveEligible": false,
+      "eligible": true,
+      "positiveEligible": true,
       "hardNegativeEligible": false,
-      "trainingUsage": "EXCLUDED",
-      "jumpRopeType": "",
-      "activeCount": null,
-      "countAuthorityStatus": "GPT_REQUIRED",
-      "contentStatus": "MISSING",
-      "typePolicyStatus": "TYPE_MISSING",
-      "datasetPolicyStatus": "DATASET_POLICY_UNAVAILABLE",
-      "datasetRole": "",
-      "datasetGroup": "",
-      "blockers": [
-        "COUNT_AUTHORITY:GPT_REQUIRED",
-        "CONTENT_SCREEN:MISSING",
-        "TYPE_POLICY:TYPE_MISSING"
-      ]
+      "trainingUsage": "POSITIVE_COUNT",
+      "jumpRopeType": "STANDARD_BASIC_SINGLE_UNDER",
+      "activeCount": 1,
+      "countAuthorityStatus": "GPT_ONLY",
+      "contentStatus": "PASS_CROPPED",
+      "typePolicyStatus": "TYPE_POLICY_OK",
+      "datasetPolicyStatus": "DATASET_POLICY_OK",
+      "datasetRole": "TRAIN",
+      "datasetGroup": "YT_CHANNEL_UCc7zv7AXkOQpDaDB6GjynTw",
+      "blockers": []
     },
     {
       "id": "f0G_NaIRmy0",
@@ -3336,23 +3350,19 @@
       "id": "gYxwf3hO_NI",
       "authorityId": "gYxwf3hO_NI",
       "policyId": "ROPEJUMP_VIDEO_TRAINING_V1",
-      "eligible": false,
-      "positiveEligible": false,
+      "eligible": true,
+      "positiveEligible": true,
       "hardNegativeEligible": false,
-      "trainingUsage": "EXCLUDED",
-      "jumpRopeType": "",
-      "activeCount": null,
-      "countAuthorityStatus": "GPT_REQUIRED",
-      "contentStatus": "MISSING",
-      "typePolicyStatus": "TYPE_MISSING",
-      "datasetPolicyStatus": "DATASET_POLICY_UNAVAILABLE",
-      "datasetRole": "",
-      "datasetGroup": "",
-      "blockers": [
-        "COUNT_AUTHORITY:GPT_REQUIRED",
-        "CONTENT_SCREEN:MISSING",
-        "TYPE_POLICY:TYPE_MISSING"
-      ]
+      "trainingUsage": "POSITIVE_COUNT",
+      "jumpRopeType": "STANDARD_BASIC_SINGLE_UNDER",
+      "activeCount": 1,
+      "countAuthorityStatus": "GPT_ONLY",
+      "contentStatus": "PASS_CROPPED",
+      "typePolicyStatus": "TYPE_POLICY_OK",
+      "datasetPolicyStatus": "DATASET_POLICY_OK",
+      "datasetRole": "TRAIN",
+      "datasetGroup": "YT_CHANNEL_UCdDDPLL0XUjqtcRvtb6-h0A",
+      "blockers": []
     },
     {
       "id": "H-UXujFffT0",
@@ -4150,23 +4160,19 @@
       "id": "l9dQRrPjqmA",
       "authorityId": "l9dQRrPjqmA",
       "policyId": "ROPEJUMP_VIDEO_TRAINING_V1",
-      "eligible": false,
-      "positiveEligible": false,
+      "eligible": true,
+      "positiveEligible": true,
       "hardNegativeEligible": false,
-      "trainingUsage": "EXCLUDED",
-      "jumpRopeType": "",
-      "activeCount": null,
-      "countAuthorityStatus": "GPT_REQUIRED",
-      "contentStatus": "MISSING",
-      "typePolicyStatus": "TYPE_MISSING",
-      "datasetPolicyStatus": "DATASET_POLICY_UNAVAILABLE",
-      "datasetRole": "",
-      "datasetGroup": "",
-      "blockers": [
-        "COUNT_AUTHORITY:GPT_REQUIRED",
-        "CONTENT_SCREEN:MISSING",
-        "TYPE_POLICY:TYPE_MISSING"
-      ]
+      "trainingUsage": "POSITIVE_COUNT",
+      "jumpRopeType": "STANDARD_BASIC_SINGLE_UNDER",
+      "activeCount": 1,
+      "countAuthorityStatus": "GPT_ONLY",
+      "contentStatus": "PASS_CROPPED",
+      "typePolicyStatus": "TYPE_POLICY_OK",
+      "datasetPolicyStatus": "DATASET_POLICY_OK",
+      "datasetRole": "TRAIN",
+      "datasetGroup": "YT_CHANNEL_UCwCBQOUTw-quf9W5wOQLOmA",
+      "blockers": []
     },
     {
       "id": "LE-WRnyjixQ",
@@ -6260,19 +6266,23 @@
       "id": "u8aLkCM0l7U",
       "authorityId": "u8aLkCM0l7U",
       "policyId": "ROPEJUMP_VIDEO_TRAINING_V1",
-      "eligible": true,
-      "positiveEligible": true,
+      "eligible": false,
+      "positiveEligible": false,
       "hardNegativeEligible": false,
-      "trainingUsage": "POSITIVE_COUNT",
-      "jumpRopeType": "STANDARD_BASIC_SINGLE_UNDER",
-      "activeCount": 1,
-      "countAuthorityStatus": "GPT_ONLY",
-      "contentStatus": "PASS_CROPPED",
-      "typePolicyStatus": "TYPE_POLICY_OK",
-      "datasetPolicyStatus": "DATASET_POLICY_OK",
-      "datasetRole": "TRAIN",
-      "datasetGroup": "YT_CHANNEL_UCExAaJ2AFb_tUwzEzyClrXQ",
-      "blockers": []
+      "trainingUsage": "EXCLUDED",
+      "jumpRopeType": "",
+      "activeCount": null,
+      "countAuthorityStatus": "GPT_REQUIRED",
+      "contentStatus": "MISSING",
+      "typePolicyStatus": "TYPE_MISSING",
+      "datasetPolicyStatus": "DATASET_POLICY_UNAVAILABLE",
+      "datasetRole": "",
+      "datasetGroup": "",
+      "blockers": [
+        "COUNT_AUTHORITY:GPT_REQUIRED",
+        "CONTENT_SCREEN:MISSING",
+        "TYPE_POLICY:TYPE_MISSING"
+      ]
     },
     {
       "id": "U9wrCHuKgOM",
@@ -8896,23 +8906,19 @@
       "id": "bhjys_Ugzzw",
       "authorityId": "bhjys_Ugzzw",
       "policyId": "ROPEJUMP_VIDEO_TRAINING_V1",
-      "eligible": false,
-      "positiveEligible": false,
+      "eligible": true,
+      "positiveEligible": true,
       "hardNegativeEligible": false,
-      "trainingUsage": "EXCLUDED",
-      "jumpRopeType": "",
-      "activeCount": null,
-      "countAuthorityStatus": "GPT_REQUIRED",
-      "contentStatus": "MISSING",
-      "typePolicyStatus": "TYPE_MISSING",
-      "datasetPolicyStatus": "DATASET_POLICY_UNAVAILABLE",
-      "datasetRole": "",
-      "datasetGroup": "",
-      "blockers": [
-        "COUNT_AUTHORITY:GPT_REQUIRED",
-        "CONTENT_SCREEN:MISSING",
-        "TYPE_POLICY:TYPE_MISSING"
-      ]
+      "trainingUsage": "POSITIVE_COUNT",
+      "jumpRopeType": "STANDARD_BASIC_SINGLE_UNDER",
+      "activeCount": 1,
+      "countAuthorityStatus": "GPT_ONLY",
+      "contentStatus": "PASS_CROPPED",
+      "typePolicyStatus": "TYPE_POLICY_OK",
+      "datasetPolicyStatus": "DATASET_POLICY_OK",
+      "datasetRole": "TRAIN",
+      "datasetGroup": "YT_CHANNEL_UCYzME7QSoOT1AOO3eJccqBA",
+      "blockers": []
     },
     {
       "id": "bjoC2EFqxeA",
@@ -14220,19 +14226,23 @@
       "id": "Gt9hlRMXDXc",
       "authorityId": "Gt9hlRMXDXc",
       "policyId": "ROPEJUMP_VIDEO_TRAINING_V1",
-      "eligible": true,
-      "positiveEligible": true,
+      "eligible": false,
+      "positiveEligible": false,
       "hardNegativeEligible": false,
-      "trainingUsage": "POSITIVE_COUNT",
-      "jumpRopeType": "STANDARD_BASIC_SINGLE_UNDER",
-      "activeCount": 1,
-      "countAuthorityStatus": "GPT_ONLY",
-      "contentStatus": "PASS_CROPPED",
-      "typePolicyStatus": "TYPE_POLICY_OK",
-      "datasetPolicyStatus": "DATASET_POLICY_OK",
-      "datasetRole": "TRAIN",
-      "datasetGroup": "YT_CHANNEL_UCsWgI7YzrKaafI_dmI8q9Qw",
-      "blockers": []
+      "trainingUsage": "EXCLUDED",
+      "jumpRopeType": "",
+      "activeCount": null,
+      "countAuthorityStatus": "GPT_REQUIRED",
+      "contentStatus": "MISSING",
+      "typePolicyStatus": "TYPE_MISSING",
+      "datasetPolicyStatus": "DATASET_POLICY_UNAVAILABLE",
+      "datasetRole": "",
+      "datasetGroup": "",
+      "blockers": [
+        "COUNT_AUTHORITY:GPT_REQUIRED",
+        "CONTENT_SCREEN:MISSING",
+        "TYPE_POLICY:TYPE_MISSING"
+      ]
     },
     {
       "id": "gy6hPOiFmAk",
@@ -15030,19 +15040,23 @@
       "id": "Nssl3QZL6L8",
       "authorityId": "Nssl3QZL6L8",
       "policyId": "ROPEJUMP_VIDEO_TRAINING_V1",
-      "eligible": true,
-      "positiveEligible": true,
+      "eligible": false,
+      "positiveEligible": false,
       "hardNegativeEligible": false,
-      "trainingUsage": "POSITIVE_COUNT",
-      "jumpRopeType": "STANDARD_BASIC_SINGLE_UNDER",
-      "activeCount": 1,
-      "countAuthorityStatus": "GPT_ONLY",
-      "contentStatus": "PASS_CROPPED",
-      "typePolicyStatus": "TYPE_POLICY_OK",
-      "datasetPolicyStatus": "DATASET_POLICY_OK",
-      "datasetRole": "TRAIN",
-      "datasetGroup": "YT_CHANNEL_UCKqY3T2Eor2STa4e3iyeVfQ",
-      "blockers": []
+      "trainingUsage": "EXCLUDED",
+      "jumpRopeType": "",
+      "activeCount": null,
+      "countAuthorityStatus": "GPT_REQUIRED",
+      "contentStatus": "MISSING",
+      "typePolicyStatus": "TYPE_MISSING",
+      "datasetPolicyStatus": "DATASET_POLICY_UNAVAILABLE",
+      "datasetRole": "",
+      "datasetGroup": "",
+      "blockers": [
+        "COUNT_AUTHORITY:GPT_REQUIRED",
+        "CONTENT_SCREEN:MISSING",
+        "TYPE_POLICY:TYPE_MISSING"
+      ]
     },
     {
       "id": "NV6QEvmc7us",
@@ -16192,23 +16206,19 @@
       "id": "4b2HZTbx--k",
       "authorityId": "4b2HZTbx--k",
       "policyId": "ROPEJUMP_VIDEO_TRAINING_V1",
-      "eligible": false,
-      "positiveEligible": false,
+      "eligible": true,
+      "positiveEligible": true,
       "hardNegativeEligible": false,
-      "trainingUsage": "EXCLUDED",
-      "jumpRopeType": "",
-      "activeCount": null,
-      "countAuthorityStatus": "GPT_REQUIRED",
-      "contentStatus": "MISSING",
-      "typePolicyStatus": "TYPE_MISSING",
-      "datasetPolicyStatus": "DATASET_POLICY_UNAVAILABLE",
-      "datasetRole": "",
-      "datasetGroup": "",
-      "blockers": [
-        "COUNT_AUTHORITY:GPT_REQUIRED",
-        "CONTENT_SCREEN:MISSING",
-        "TYPE_POLICY:TYPE_MISSING"
-      ]
+      "trainingUsage": "POSITIVE_COUNT",
+      "jumpRopeType": "STANDARD_BASIC_SINGLE_UNDER",
+      "activeCount": 1,
+      "countAuthorityStatus": "GPT_ONLY",
+      "contentStatus": "PASS_CROPPED",
+      "typePolicyStatus": "TYPE_POLICY_OK",
+      "datasetPolicyStatus": "DATASET_POLICY_OK",
+      "datasetRole": "TRAIN",
+      "datasetGroup": "YT_CHANNEL_UC9DjpzE-RfhdEzwBUgh8Wpw",
+      "blockers": []
     },
     {
       "id": "4DW1mNXEA0Q",
@@ -19206,23 +19216,19 @@
       "id": "NN9S4BVGM3Q",
       "authorityId": "NN9S4BVGM3Q",
       "policyId": "ROPEJUMP_VIDEO_TRAINING_V1",
-      "eligible": false,
-      "positiveEligible": false,
+      "eligible": true,
+      "positiveEligible": true,
       "hardNegativeEligible": false,
-      "trainingUsage": "EXCLUDED",
-      "jumpRopeType": "",
-      "activeCount": null,
-      "countAuthorityStatus": "GPT_REQUIRED",
-      "contentStatus": "MISSING",
-      "typePolicyStatus": "TYPE_MISSING",
-      "datasetPolicyStatus": "DATASET_POLICY_UNAVAILABLE",
-      "datasetRole": "",
-      "datasetGroup": "",
-      "blockers": [
-        "COUNT_AUTHORITY:GPT_REQUIRED",
-        "CONTENT_SCREEN:MISSING",
-        "TYPE_POLICY:TYPE_MISSING"
-      ]
+      "trainingUsage": "POSITIVE_COUNT",
+      "jumpRopeType": "STANDARD_BASIC_SINGLE_UNDER",
+      "activeCount": 1,
+      "countAuthorityStatus": "GPT_ONLY",
+      "contentStatus": "PASS_CROPPED",
+      "typePolicyStatus": "TYPE_POLICY_OK",
+      "datasetPolicyStatus": "DATASET_POLICY_OK",
+      "datasetRole": "TRAIN",
+      "datasetGroup": "YT_CHANNEL_UCwIfKaGiqlIyUA_YTe7-1UQ",
+      "blockers": []
     },
     {
       "id": "nOYdOtb82Yo",
@@ -19558,23 +19564,19 @@
       "id": "sMpMSUcyZgk",
       "authorityId": "sMpMSUcyZgk",
       "policyId": "ROPEJUMP_VIDEO_TRAINING_V1",
-      "eligible": false,
-      "positiveEligible": false,
+      "eligible": true,
+      "positiveEligible": true,
       "hardNegativeEligible": false,
-      "trainingUsage": "EXCLUDED",
-      "jumpRopeType": "",
-      "activeCount": null,
-      "countAuthorityStatus": "GPT_REQUIRED",
-      "contentStatus": "MISSING",
-      "typePolicyStatus": "TYPE_MISSING",
-      "datasetPolicyStatus": "DATASET_POLICY_UNAVAILABLE",
-      "datasetRole": "",
-      "datasetGroup": "",
-      "blockers": [
-        "COUNT_AUTHORITY:GPT_REQUIRED",
-        "CONTENT_SCREEN:MISSING",
-        "TYPE_POLICY:TYPE_MISSING"
-      ]
+      "trainingUsage": "POSITIVE_COUNT",
+      "jumpRopeType": "STANDARD_BASIC_SINGLE_UNDER",
+      "activeCount": 1,
+      "countAuthorityStatus": "GPT_ONLY",
+      "contentStatus": "PASS_CROPPED",
+      "typePolicyStatus": "TYPE_POLICY_OK",
+      "datasetPolicyStatus": "DATASET_POLICY_OK",
+      "datasetRole": "TRAIN",
+      "datasetGroup": "YT_CHANNEL_UCc7zv7AXkOQpDaDB6GjynTw",
+      "blockers": []
     },
     {
       "id": "SnKkTY03hfI",
@@ -28024,23 +28026,19 @@
       "id": "VYxrbSVKQjk",
       "authorityId": "VYxrbSVKQjk",
       "policyId": "ROPEJUMP_VIDEO_TRAINING_V1",
-      "eligible": false,
-      "positiveEligible": false,
+      "eligible": true,
+      "positiveEligible": true,
       "hardNegativeEligible": false,
-      "trainingUsage": "EXCLUDED",
-      "jumpRopeType": "",
-      "activeCount": null,
-      "countAuthorityStatus": "GPT_REQUIRED",
-      "contentStatus": "MISSING",
-      "typePolicyStatus": "TYPE_MISSING",
-      "datasetPolicyStatus": "DATASET_POLICY_UNAVAILABLE",
-      "datasetRole": "",
-      "datasetGroup": "",
-      "blockers": [
-        "COUNT_AUTHORITY:GPT_REQUIRED",
-        "CONTENT_SCREEN:MISSING",
-        "TYPE_POLICY:TYPE_MISSING"
-      ]
+      "trainingUsage": "POSITIVE_COUNT",
+      "jumpRopeType": "STANDARD_BASIC_SINGLE_UNDER",
+      "activeCount": 1,
+      "countAuthorityStatus": "GPT_ONLY",
+      "contentStatus": "PASS_CROPPED",
+      "typePolicyStatus": "TYPE_POLICY_OK",
+      "datasetPolicyStatus": "DATASET_POLICY_OK",
+      "datasetRole": "TRAIN",
+      "datasetGroup": "YT_CHANNEL_UCbJ8oxm0bEvSdTbqfj0JKig",
+      "blockers": []
     },
     {
       "id": "wU5mVgpO0pA",
@@ -29454,23 +29452,19 @@
       "id": "Nm4CFLU7Fb4",
       "authorityId": "Nm4CFLU7Fb4",
       "policyId": "ROPEJUMP_VIDEO_TRAINING_V1",
-      "eligible": false,
-      "positiveEligible": false,
+      "eligible": true,
+      "positiveEligible": true,
       "hardNegativeEligible": false,
-      "trainingUsage": "EXCLUDED",
-      "jumpRopeType": "",
-      "activeCount": null,
-      "countAuthorityStatus": "GPT_REQUIRED",
-      "contentStatus": "MISSING",
-      "typePolicyStatus": "TYPE_MISSING",
-      "datasetPolicyStatus": "DATASET_POLICY_UNAVAILABLE",
-      "datasetRole": "",
-      "datasetGroup": "",
-      "blockers": [
-        "COUNT_AUTHORITY:GPT_REQUIRED",
-        "CONTENT_SCREEN:MISSING",
-        "TYPE_POLICY:TYPE_MISSING"
-      ]
+      "trainingUsage": "POSITIVE_COUNT",
+      "jumpRopeType": "STANDARD_BASIC_SINGLE_UNDER",
+      "activeCount": 1,
+      "countAuthorityStatus": "GPT_ONLY",
+      "contentStatus": "PASS_CROPPED",
+      "typePolicyStatus": "TYPE_POLICY_OK",
+      "datasetPolicyStatus": "DATASET_POLICY_OK",
+      "datasetRole": "TRAIN",
+      "datasetGroup": "YT_CHANNEL_UCc7zv7AXkOQpDaDB6GjynTw",
+      "blockers": []
     },
     {
       "id": "nm6vNt9P_fA",
@@ -29806,23 +29800,19 @@
       "id": "qjRMa53uL-I",
       "authorityId": "qjRMa53uL-I",
       "policyId": "ROPEJUMP_VIDEO_TRAINING_V1",
-      "eligible": false,
-      "positiveEligible": false,
+      "eligible": true,
+      "positiveEligible": true,
       "hardNegativeEligible": false,
-      "trainingUsage": "EXCLUDED",
-      "jumpRopeType": "",
-      "activeCount": null,
-      "countAuthorityStatus": "GPT_REQUIRED",
-      "contentStatus": "MISSING",
-      "typePolicyStatus": "TYPE_MISSING",
-      "datasetPolicyStatus": "DATASET_POLICY_UNAVAILABLE",
-      "datasetRole": "",
-      "datasetGroup": "",
-      "blockers": [
-        "COUNT_AUTHORITY:GPT_REQUIRED",
-        "CONTENT_SCREEN:MISSING",
-        "TYPE_POLICY:TYPE_MISSING"
-      ]
+      "trainingUsage": "POSITIVE_COUNT",
+      "jumpRopeType": "STANDARD_BASIC_SINGLE_UNDER",
+      "activeCount": 1,
+      "countAuthorityStatus": "GPT_ONLY",
+      "contentStatus": "PASS_CROPPED",
+      "typePolicyStatus": "TYPE_POLICY_OK",
+      "datasetPolicyStatus": "DATASET_POLICY_OK",
+      "datasetRole": "TRAIN",
+      "datasetGroup": "YT_CHANNEL_UCIFmpXXoNajx_Lk3eY-6i_A",
+      "blockers": []
     },
     {
       "id": "QOWUduVU0og",
@@ -32539,23 +32529,19 @@
       "id": "gEeCbBHdXPI",
       "authorityId": "gEeCbBHdXPI",
       "policyId": "ROPEJUMP_VIDEO_TRAINING_V1",
-      "eligible": false,
-      "positiveEligible": false,
+      "eligible": true,
+      "positiveEligible": true,
       "hardNegativeEligible": false,
-      "trainingUsage": "EXCLUDED",
-      "jumpRopeType": "",
-      "activeCount": null,
-      "countAuthorityStatus": "GPT_REQUIRED",
-      "contentStatus": "MISSING",
-      "typePolicyStatus": "TYPE_MISSING",
-      "datasetPolicyStatus": "DATASET_POLICY_UNAVAILABLE",
-      "datasetRole": "",
-      "datasetGroup": "",
-      "blockers": [
-        "COUNT_AUTHORITY:GPT_REQUIRED",
-        "CONTENT_SCREEN:MISSING",
-        "TYPE_POLICY:TYPE_MISSING"
-      ]
+      "trainingUsage": "POSITIVE_COUNT",
+      "jumpRopeType": "STANDARD_BASIC_SINGLE_UNDER",
+      "activeCount": 1,
+      "countAuthorityStatus": "GPT_ONLY",
+      "contentStatus": "PASS_CROPPED",
+      "typePolicyStatus": "TYPE_POLICY_OK",
+      "datasetPolicyStatus": "DATASET_POLICY_OK",
+      "datasetRole": "TRAIN",
+      "datasetGroup": "YT_CHANNEL_UCIFmpXXoNajx_Lk3eY-6i_A",
+      "blockers": []
     },
     {
       "id": "gGpcOv1mMA0",
@@ -33507,23 +33493,19 @@
       "id": "WL2a0n8Y4hA",
       "authorityId": "WL2a0n8Y4hA",
       "policyId": "ROPEJUMP_VIDEO_TRAINING_V1",
-      "eligible": false,
-      "positiveEligible": false,
+      "eligible": true,
+      "positiveEligible": true,
       "hardNegativeEligible": false,
-      "trainingUsage": "EXCLUDED",
-      "jumpRopeType": "",
-      "activeCount": null,
-      "countAuthorityStatus": "GPT_REQUIRED",
-      "contentStatus": "MISSING",
-      "typePolicyStatus": "TYPE_MISSING",
-      "datasetPolicyStatus": "DATASET_POLICY_UNAVAILABLE",
-      "datasetRole": "",
-      "datasetGroup": "",
-      "blockers": [
-        "COUNT_AUTHORITY:GPT_REQUIRED",
-        "CONTENT_SCREEN:MISSING",
-        "TYPE_POLICY:TYPE_MISSING"
-      ]
+      "trainingUsage": "POSITIVE_COUNT",
+      "jumpRopeType": "STANDARD_BASIC_SINGLE_UNDER",
+      "activeCount": 1,
+      "countAuthorityStatus": "GPT_ONLY",
+      "contentStatus": "PASS_CROPPED",
+      "typePolicyStatus": "TYPE_POLICY_OK",
+      "datasetPolicyStatus": "DATASET_POLICY_OK",
+      "datasetRole": "TRAIN",
+      "datasetGroup": "YT_CHANNEL_UCGBw2lMB0cRz5kveHOGwFWQ",
+      "blockers": []
     },
     {
       "id": "WM6sRpCUYKk",
@@ -39743,19 +39725,23 @@
       "id": "y2RrklqngKs",
       "authorityId": "y2RrklqngKs",
       "policyId": "ROPEJUMP_VIDEO_TRAINING_V1",
-      "eligible": true,
-      "positiveEligible": true,
+      "eligible": false,
+      "positiveEligible": false,
       "hardNegativeEligible": false,
-      "trainingUsage": "POSITIVE_COUNT",
-      "jumpRopeType": "STANDARD_BASIC_SINGLE_UNDER",
-      "activeCount": 1,
-      "countAuthorityStatus": "GPT_ONLY",
-      "contentStatus": "PASS_CROPPED",
-      "typePolicyStatus": "TYPE_POLICY_OK",
-      "datasetPolicyStatus": "DATASET_POLICY_OK",
-      "datasetRole": "TRAIN",
-      "datasetGroup": "YT_CHANNEL_UCoZtTeBVbRPtB6lgTTDAkPw",
-      "blockers": []
+      "trainingUsage": "EXCLUDED",
+      "jumpRopeType": "",
+      "activeCount": null,
+      "countAuthorityStatus": "GPT_REQUIRED",
+      "contentStatus": "MISSING",
+      "typePolicyStatus": "TYPE_MISSING",
+      "datasetPolicyStatus": "DATASET_POLICY_UNAVAILABLE",
+      "datasetRole": "",
+      "datasetGroup": "",
+      "blockers": [
+        "COUNT_AUTHORITY:GPT_REQUIRED",
+        "CONTENT_SCREEN:MISSING",
+        "TYPE_POLICY:TYPE_MISSING"
+      ]
     },
     {
       "id": "yQvvdm44DDw",
@@ -40462,28 +40448,6 @@
       ]
     },
     {
-      "id": "vEJ7XbbAMAg",
-      "authorityId": "vEJ7XbbAMAg",
-      "policyId": "ROPEJUMP_VIDEO_TRAINING_V1",
-      "eligible": false,
-      "positiveEligible": false,
-      "hardNegativeEligible": false,
-      "trainingUsage": "EXCLUDED",
-      "jumpRopeType": "",
-      "activeCount": null,
-      "countAuthorityStatus": "GPT_REQUIRED",
-      "contentStatus": "MISSING",
-      "typePolicyStatus": "TYPE_MISSING",
-      "datasetPolicyStatus": "DATASET_POLICY_UNAVAILABLE",
-      "datasetRole": "",
-      "datasetGroup": "",
-      "blockers": [
-        "COUNT_AUTHORITY:GPT_REQUIRED",
-        "CONTENT_SCREEN:MISSING",
-        "TYPE_POLICY:TYPE_MISSING"
-      ]
-    },
-    {
       "id": "Wcm5kHJCCSw",
       "authorityId": "Wcm5kHJCCSw",
       "policyId": "ROPEJUMP_VIDEO_TRAINING_V1",
@@ -40573,35 +40537,90 @@
   ],
   "eligibleItems": [
     {
-      "id": "u8aLkCM0l7U",
-      "authorityId": "u8aLkCM0l7U",
+      "id": "vEJ7XbbAMAg",
+      "authorityId": "vEJ7XbbAMAg",
       "trainingUsage": "POSITIVE_COUNT",
       "jumpRopeType": "STANDARD_BASIC_SINGLE_UNDER",
       "activeCount": 1,
       "datasetRole": "TRAIN",
-      "datasetGroup": "YT_CHANNEL_UCExAaJ2AFb_tUwzEzyClrXQ",
+      "datasetGroup": "YT_CHANNEL_UCuzCrSoZQ7-eTm9KEF5VOAQ",
       "countAuthorityStatus": "GPT_ONLY",
       "contentStatus": "PASS_CROPPED"
     },
     {
-      "id": "Gt9hlRMXDXc",
-      "authorityId": "Gt9hlRMXDXc",
+      "id": "eZUE40_-4cc",
+      "authorityId": "eZUE40_-4cc",
       "trainingUsage": "POSITIVE_COUNT",
       "jumpRopeType": "STANDARD_BASIC_SINGLE_UNDER",
       "activeCount": 1,
       "datasetRole": "TRAIN",
-      "datasetGroup": "YT_CHANNEL_UCsWgI7YzrKaafI_dmI8q9Qw",
+      "datasetGroup": "YT_CHANNEL_UCc7zv7AXkOQpDaDB6GjynTw",
       "countAuthorityStatus": "GPT_ONLY",
       "contentStatus": "PASS_CROPPED"
     },
     {
-      "id": "Nssl3QZL6L8",
-      "authorityId": "Nssl3QZL6L8",
+      "id": "gYxwf3hO_NI",
+      "authorityId": "gYxwf3hO_NI",
       "trainingUsage": "POSITIVE_COUNT",
       "jumpRopeType": "STANDARD_BASIC_SINGLE_UNDER",
       "activeCount": 1,
       "datasetRole": "TRAIN",
-      "datasetGroup": "YT_CHANNEL_UCKqY3T2Eor2STa4e3iyeVfQ",
+      "datasetGroup": "YT_CHANNEL_UCdDDPLL0XUjqtcRvtb6-h0A",
+      "countAuthorityStatus": "GPT_ONLY",
+      "contentStatus": "PASS_CROPPED"
+    },
+    {
+      "id": "l9dQRrPjqmA",
+      "authorityId": "l9dQRrPjqmA",
+      "trainingUsage": "POSITIVE_COUNT",
+      "jumpRopeType": "STANDARD_BASIC_SINGLE_UNDER",
+      "activeCount": 1,
+      "datasetRole": "TRAIN",
+      "datasetGroup": "YT_CHANNEL_UCwCBQOUTw-quf9W5wOQLOmA",
+      "countAuthorityStatus": "GPT_ONLY",
+      "contentStatus": "PASS_CROPPED"
+    },
+    {
+      "id": "bhjys_Ugzzw",
+      "authorityId": "bhjys_Ugzzw",
+      "trainingUsage": "POSITIVE_COUNT",
+      "jumpRopeType": "STANDARD_BASIC_SINGLE_UNDER",
+      "activeCount": 1,
+      "datasetRole": "TRAIN",
+      "datasetGroup": "YT_CHANNEL_UCYzME7QSoOT1AOO3eJccqBA",
+      "countAuthorityStatus": "GPT_ONLY",
+      "contentStatus": "PASS_CROPPED"
+    },
+    {
+      "id": "4b2HZTbx--k",
+      "authorityId": "4b2HZTbx--k",
+      "trainingUsage": "POSITIVE_COUNT",
+      "jumpRopeType": "STANDARD_BASIC_SINGLE_UNDER",
+      "activeCount": 1,
+      "datasetRole": "TRAIN",
+      "datasetGroup": "YT_CHANNEL_UC9DjpzE-RfhdEzwBUgh8Wpw",
+      "countAuthorityStatus": "GPT_ONLY",
+      "contentStatus": "PASS_CROPPED"
+    },
+    {
+      "id": "NN9S4BVGM3Q",
+      "authorityId": "NN9S4BVGM3Q",
+      "trainingUsage": "POSITIVE_COUNT",
+      "jumpRopeType": "STANDARD_BASIC_SINGLE_UNDER",
+      "activeCount": 1,
+      "datasetRole": "TRAIN",
+      "datasetGroup": "YT_CHANNEL_UCwIfKaGiqlIyUA_YTe7-1UQ",
+      "countAuthorityStatus": "GPT_ONLY",
+      "contentStatus": "PASS_CROPPED"
+    },
+    {
+      "id": "sMpMSUcyZgk",
+      "authorityId": "sMpMSUcyZgk",
+      "trainingUsage": "POSITIVE_COUNT",
+      "jumpRopeType": "STANDARD_BASIC_SINGLE_UNDER",
+      "activeCount": 1,
+      "datasetRole": "TRAIN",
+      "datasetGroup": "YT_CHANNEL_UCc7zv7AXkOQpDaDB6GjynTw",
       "countAuthorityStatus": "GPT_ONLY",
       "contentStatus": "PASS_CROPPED"
     },
@@ -40617,6 +40636,39 @@
       "contentStatus": "PASS_CROPPED"
     },
     {
+      "id": "VYxrbSVKQjk",
+      "authorityId": "VYxrbSVKQjk",
+      "trainingUsage": "POSITIVE_COUNT",
+      "jumpRopeType": "STANDARD_BASIC_SINGLE_UNDER",
+      "activeCount": 1,
+      "datasetRole": "TRAIN",
+      "datasetGroup": "YT_CHANNEL_UCbJ8oxm0bEvSdTbqfj0JKig",
+      "countAuthorityStatus": "GPT_ONLY",
+      "contentStatus": "PASS_CROPPED"
+    },
+    {
+      "id": "Nm4CFLU7Fb4",
+      "authorityId": "Nm4CFLU7Fb4",
+      "trainingUsage": "POSITIVE_COUNT",
+      "jumpRopeType": "STANDARD_BASIC_SINGLE_UNDER",
+      "activeCount": 1,
+      "datasetRole": "TRAIN",
+      "datasetGroup": "YT_CHANNEL_UCc7zv7AXkOQpDaDB6GjynTw",
+      "countAuthorityStatus": "GPT_ONLY",
+      "contentStatus": "PASS_CROPPED"
+    },
+    {
+      "id": "qjRMa53uL-I",
+      "authorityId": "qjRMa53uL-I",
+      "trainingUsage": "POSITIVE_COUNT",
+      "jumpRopeType": "STANDARD_BASIC_SINGLE_UNDER",
+      "activeCount": 1,
+      "datasetRole": "TRAIN",
+      "datasetGroup": "YT_CHANNEL_UCIFmpXXoNajx_Lk3eY-6i_A",
+      "countAuthorityStatus": "GPT_ONLY",
+      "contentStatus": "PASS_CROPPED"
+    },
+    {
       "id": "canonical:JR-20260912-D5EEAE97",
       "authorityId": "JR-20260912-D5EEAE97",
       "trainingUsage": "POSITIVE_COUNT",
@@ -40626,6 +40678,28 @@
       "datasetGroup": "USER_ORIGINAL_REPORTER_ORIGIN_UNRESOLVED_202609",
       "countAuthorityStatus": "MATCHED",
       "contentStatus": "PASS_CONTINUOUS"
+    },
+    {
+      "id": "gEeCbBHdXPI",
+      "authorityId": "gEeCbBHdXPI",
+      "trainingUsage": "POSITIVE_COUNT",
+      "jumpRopeType": "STANDARD_BASIC_SINGLE_UNDER",
+      "activeCount": 1,
+      "datasetRole": "TRAIN",
+      "datasetGroup": "YT_CHANNEL_UCIFmpXXoNajx_Lk3eY-6i_A",
+      "countAuthorityStatus": "GPT_ONLY",
+      "contentStatus": "PASS_CROPPED"
+    },
+    {
+      "id": "WL2a0n8Y4hA",
+      "authorityId": "WL2a0n8Y4hA",
+      "trainingUsage": "POSITIVE_COUNT",
+      "jumpRopeType": "STANDARD_BASIC_SINGLE_UNDER",
+      "activeCount": 1,
+      "datasetRole": "TRAIN",
+      "datasetGroup": "YT_CHANNEL_UCGBw2lMB0cRz5kveHOGwFWQ",
+      "countAuthorityStatus": "GPT_ONLY",
+      "contentStatus": "PASS_CROPPED"
     },
     {
       "id": "BwwAjZ7dUcc",
@@ -40659,40 +40733,64 @@
       "datasetGroup": "YT_CHANNEL_UChPVBIfPpLf4akI9k2MaxoA",
       "countAuthorityStatus": "GPT_ONLY",
       "contentStatus": "PASS_CONTINUOUS"
-    },
-    {
-      "id": "y2RrklqngKs",
-      "authorityId": "y2RrklqngKs",
-      "trainingUsage": "POSITIVE_COUNT",
-      "jumpRopeType": "STANDARD_BASIC_SINGLE_UNDER",
-      "activeCount": 1,
-      "datasetRole": "TRAIN",
-      "datasetGroup": "YT_CHANNEL_UCoZtTeBVbRPtB6lgTTDAkPw",
-      "countAuthorityStatus": "GPT_ONLY",
-      "contentStatus": "PASS_CROPPED"
     }
   ],
   "positiveItems": [
     {
-      "id": "u8aLkCM0l7U",
-      "authorityId": "u8aLkCM0l7U",
+      "id": "vEJ7XbbAMAg",
+      "authorityId": "vEJ7XbbAMAg",
       "activeCount": 1,
       "datasetRole": "TRAIN",
-      "datasetGroup": "YT_CHANNEL_UCExAaJ2AFb_tUwzEzyClrXQ"
+      "datasetGroup": "YT_CHANNEL_UCuzCrSoZQ7-eTm9KEF5VOAQ"
     },
     {
-      "id": "Gt9hlRMXDXc",
-      "authorityId": "Gt9hlRMXDXc",
+      "id": "eZUE40_-4cc",
+      "authorityId": "eZUE40_-4cc",
       "activeCount": 1,
       "datasetRole": "TRAIN",
-      "datasetGroup": "YT_CHANNEL_UCsWgI7YzrKaafI_dmI8q9Qw"
+      "datasetGroup": "YT_CHANNEL_UCc7zv7AXkOQpDaDB6GjynTw"
     },
     {
-      "id": "Nssl3QZL6L8",
-      "authorityId": "Nssl3QZL6L8",
+      "id": "gYxwf3hO_NI",
+      "authorityId": "gYxwf3hO_NI",
       "activeCount": 1,
       "datasetRole": "TRAIN",
-      "datasetGroup": "YT_CHANNEL_UCKqY3T2Eor2STa4e3iyeVfQ"
+      "datasetGroup": "YT_CHANNEL_UCdDDPLL0XUjqtcRvtb6-h0A"
+    },
+    {
+      "id": "l9dQRrPjqmA",
+      "authorityId": "l9dQRrPjqmA",
+      "activeCount": 1,
+      "datasetRole": "TRAIN",
+      "datasetGroup": "YT_CHANNEL_UCwCBQOUTw-quf9W5wOQLOmA"
+    },
+    {
+      "id": "bhjys_Ugzzw",
+      "authorityId": "bhjys_Ugzzw",
+      "activeCount": 1,
+      "datasetRole": "TRAIN",
+      "datasetGroup": "YT_CHANNEL_UCYzME7QSoOT1AOO3eJccqBA"
+    },
+    {
+      "id": "4b2HZTbx--k",
+      "authorityId": "4b2HZTbx--k",
+      "activeCount": 1,
+      "datasetRole": "TRAIN",
+      "datasetGroup": "YT_CHANNEL_UC9DjpzE-RfhdEzwBUgh8Wpw"
+    },
+    {
+      "id": "NN9S4BVGM3Q",
+      "authorityId": "NN9S4BVGM3Q",
+      "activeCount": 1,
+      "datasetRole": "TRAIN",
+      "datasetGroup": "YT_CHANNEL_UCwIfKaGiqlIyUA_YTe7-1UQ"
+    },
+    {
+      "id": "sMpMSUcyZgk",
+      "authorityId": "sMpMSUcyZgk",
+      "activeCount": 1,
+      "datasetRole": "TRAIN",
+      "datasetGroup": "YT_CHANNEL_UCc7zv7AXkOQpDaDB6GjynTw"
     },
     {
       "id": "uz3nLpfU8iw",
@@ -40702,11 +40800,46 @@
       "datasetGroup": "YT_CHANNEL_UC5k5qsjn4kM3yR1GZwORJ6w"
     },
     {
+      "id": "VYxrbSVKQjk",
+      "authorityId": "VYxrbSVKQjk",
+      "activeCount": 1,
+      "datasetRole": "TRAIN",
+      "datasetGroup": "YT_CHANNEL_UCbJ8oxm0bEvSdTbqfj0JKig"
+    },
+    {
+      "id": "Nm4CFLU7Fb4",
+      "authorityId": "Nm4CFLU7Fb4",
+      "activeCount": 1,
+      "datasetRole": "TRAIN",
+      "datasetGroup": "YT_CHANNEL_UCc7zv7AXkOQpDaDB6GjynTw"
+    },
+    {
+      "id": "qjRMa53uL-I",
+      "authorityId": "qjRMa53uL-I",
+      "activeCount": 1,
+      "datasetRole": "TRAIN",
+      "datasetGroup": "YT_CHANNEL_UCIFmpXXoNajx_Lk3eY-6i_A"
+    },
+    {
       "id": "canonical:JR-20260912-D5EEAE97",
       "authorityId": "JR-20260912-D5EEAE97",
       "activeCount": 10,
       "datasetRole": "HOLDOUT",
       "datasetGroup": "USER_ORIGINAL_REPORTER_ORIGIN_UNRESOLVED_202609"
+    },
+    {
+      "id": "gEeCbBHdXPI",
+      "authorityId": "gEeCbBHdXPI",
+      "activeCount": 1,
+      "datasetRole": "TRAIN",
+      "datasetGroup": "YT_CHANNEL_UCIFmpXXoNajx_Lk3eY-6i_A"
+    },
+    {
+      "id": "WL2a0n8Y4hA",
+      "authorityId": "WL2a0n8Y4hA",
+      "activeCount": 1,
+      "datasetRole": "TRAIN",
+      "datasetGroup": "YT_CHANNEL_UCGBw2lMB0cRz5kveHOGwFWQ"
     },
     {
       "id": "BwwAjZ7dUcc",
@@ -40728,13 +40861,6 @@
       "activeCount": 10,
       "datasetRole": "TRAIN",
       "datasetGroup": "YT_CHANNEL_UChPVBIfPpLf4akI9k2MaxoA"
-    },
-    {
-      "id": "y2RrklqngKs",
-      "authorityId": "y2RrklqngKs",
-      "activeCount": 1,
-      "datasetRole": "TRAIN",
-      "datasetGroup": "YT_CHANNEL_UCoZtTeBVbRPtB6lgTTDAkPw"
     }
   ],
   "hardNegativeItems": []
