@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "generatedAtUtc": "2026-10-03T02:06:46.621Z",
+  "generatedAtUtc": "2026-10-03T03:33:48.396Z",
   "policy": "ROPEJUMP_VIDEO_TRAINING_V1 is authoritative: type policy + dataset split policy + count authority + content screen must all pass. Legacy F split_map inputs are not eligible for new training.",
   "stats": {
-    "total": 1892,
-    "eligible": 24,
-    "positiveEligible": 24,
+    "total": 1891,
+    "eligible": 23,
+    "positiveEligible": 23,
     "hardNegativeEligible": 0,
     "blocked": 1868
   },
@@ -12629,24 +12629,6 @@
         "CONTENT_SCREEN:MISSING",
         "TYPE_POLICY:TYPE_MISSING"
       ]
-    },
-    {
-      "id": "vEJ7XbbAMAg",
-      "authorityId": "vEJ7XbbAMAg",
-      "policyId": "ROPEJUMP_VIDEO_TRAINING_V1",
-      "eligible": true,
-      "positiveEligible": true,
-      "hardNegativeEligible": false,
-      "trainingUsage": "POSITIVE_COUNT",
-      "jumpRopeType": "STANDARD_BASIC_SINGLE_UNDER",
-      "activeCount": 1,
-      "countAuthorityStatus": "GPT_ONLY",
-      "contentStatus": "PASS_CROPPED",
-      "typePolicyStatus": "TYPE_POLICY_OK",
-      "datasetPolicyStatus": "DATASET_POLICY_OK",
-      "datasetRole": "TRAIN",
-      "datasetGroup": "YT_CHANNEL_UCuzCrSoZQ7-eTm9KEF5VOAQ",
-      "blockers": []
     },
     {
       "id": "_2WGm7AtiuA",
@@ -41525,17 +41507,6 @@
       "contentStatus": "PASS_CROPPED"
     },
     {
-      "id": "vEJ7XbbAMAg",
-      "authorityId": "vEJ7XbbAMAg",
-      "trainingUsage": "POSITIVE_COUNT",
-      "jumpRopeType": "STANDARD_BASIC_SINGLE_UNDER",
-      "activeCount": 1,
-      "datasetRole": "TRAIN",
-      "datasetGroup": "YT_CHANNEL_UCuzCrSoZQ7-eTm9KEF5VOAQ",
-      "countAuthorityStatus": "GPT_ONLY",
-      "contentStatus": "PASS_CROPPED"
-    },
-    {
       "id": "eZUE40_-4cc",
       "authorityId": "eZUE40_-4cc",
       "trainingUsage": "POSITIVE_COUNT",
@@ -41781,13 +41752,6 @@
       "activeCount": 1,
       "datasetRole": "TRAIN",
       "datasetGroup": "YT_CHANNEL_UCGBw2lMB0cRz5kveHOGwFWQ"
-    },
-    {
-      "id": "vEJ7XbbAMAg",
-      "authorityId": "vEJ7XbbAMAg",
-      "activeCount": 1,
-      "datasetRole": "TRAIN",
-      "datasetGroup": "YT_CHANNEL_UCuzCrSoZQ7-eTm9KEF5VOAQ"
     },
     {
       "id": "eZUE40_-4cc",

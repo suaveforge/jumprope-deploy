@@ -1,29 +1,29 @@
 {
   "schemaVersion": 7,
-  "generatedAtUtc": "2026-10-03T02:06:46.297Z",
-  "corpusSnapshotUtc": "2026-10-03T01:35:45.560695+00:00",
+  "generatedAtUtc": "2026-10-03T03:33:48.034Z",
+  "corpusSnapshotUtc": "2026-10-03T02:35:45.645588+00:00",
   "source": "server123:/home/jumprope-research/corpus-registry + discovery candidate registries",
   "refreshPolicy": "relevant main pushes sync immediately; hourly fallback; viewer polls published data",
   "stats": {
     "discoveredSourceRecords": 1840,
     "youtubeSourceRecords": 1838,
     "openMediaSourceRecords": 2,
-    "viewerRows": 1892,
+    "viewerRows": 1891,
     "canonicalTotal": 15,
     "canonicalUniqueSha256": 15,
     "lockedGt": 15,
     "lockedGtTotal": 15,
     "linkedLockedGt": 15,
     "viewerRowsWithLockedGt": 15,
-    "viewerRowsWithoutLockedGt": 1877,
+    "viewerRowsWithoutLockedGt": 1876,
     "canonicalWithoutLockedGt": 0,
     "finalComparableLockedGt": 15,
     "viewerRowsWithSourceCount": 2,
-    "viewerRowsWithGptGround": 72,
-    "gptGroundSourceRecords": 72,
-    "groundOnlyRowsCreated": 37,
+    "viewerRowsWithGptGround": 71,
+    "gptGroundSourceRecords": 71,
+    "groundOnlyRowsCreated": 36,
     "gradedRows": 7,
-    "gptGroundCounted": 72,
+    "gptGroundCounted": 71,
     "logicCells": 31,
     "viewerRowsWithMaterializedMedia": 36
   },
@@ -35036,81 +35036,6 @@
       "sourceDeclaredCount": null,
       "lockedGt": null,
       "gptGround": null,
-      "logic": {
-        "A": {
-          "count": null,
-          "at": "",
-          "source": ""
-        },
-        "B": {
-          "count": null,
-          "at": "",
-          "source": ""
-        },
-        "C": {
-          "count": null,
-          "at": "",
-          "source": ""
-        },
-        "D": {
-          "count": null,
-          "at": "",
-          "source": ""
-        },
-        "E": {
-          "count": null,
-          "at": "",
-          "source": ""
-        },
-        "F": {
-          "count": null,
-          "at": "",
-          "source": ""
-        }
-      },
-      "latestLogicAt": ""
-    },
-    {
-      "key": "gpt:vEJ7XbbAMAg",
-      "id": "vEJ7XbbAMAg",
-      "title": "vEJ7XbbAMAg",
-      "platform": "youtube",
-      "sourceUrl": "https://www.youtube.com/watch?v=vEJ7XbbAMAg",
-      "play": {
-        "kind": "youtube",
-        "ref": "vEJ7XbbAMAg"
-      },
-      "candidateRole": "gpt-reviewed",
-      "query": "",
-      "duration": null,
-      "materialized": false,
-      "license": "",
-      "qualityScore": null,
-      "discoveredAt": "2026-10-02 02:32 KST",
-      "channel": "",
-      "canonical": false,
-      "canonicalIds": [],
-      "sourceClass": "GPT_REVIEWED_EXTERNAL",
-      "sha256": "c9b70832cbaff766ed5e8bcdee684bb7b8fdf063dd581a3a635fb2ca7b0ae957",
-      "thumbnailUrl": "",
-      "evidenceGrade": "",
-      "sourceDeclaredCount": null,
-      "lockedGt": null,
-      "gptGround": {
-        "count": 1,
-        "counted_at_kst": "2026-10-02 02:32 KST",
-        "confidence": "HIGH",
-        "source_ref": "https://www.youtube.com/watch?v=vEJ7XbbAMAg",
-        "note": "All nine overview sheets were reviewed. Whole source is instructional, so only the independently verified 51.5-52.1 s BASIC window is admitted. Full and lower 100 ms sheet 6 directly show a physical-rope synchronized two-foot single-under cycle with the airborne body event at cell 18 (51.8 s), bounded by takeoff/landing frames. No alternate-foot, crossover, high-knee, double-under, or trick occurs inside the cropped interval; title/counter/prior GT was not used for the count. Promoted from accepted TRAIN direct-review result; event timestamps remain tied to inspected 100ms cells.",
-        "source": "GPT_DIRECT_VIEWER",
-        "jump_rope_type": "STANDARD_BASIC_SINGLE_UNDER",
-        "non_standard_subtype": "",
-        "sha256": "c9b70832cbaff766ed5e8bcdee684bb7b8fdf063dd581a3a635fb2ca7b0ae957",
-        "dataset_role": "TRAIN",
-        "dataset_role_policy": "EXTERNAL_SOURCE_GROUP_LOCKED_NO_LEAKAGE",
-        "dataset_eligibility": "ELIGIBLE_VERIFIED_STANDARD",
-        "dataset_group": "YT_CHANNEL_UCuzCrSoZQ7-eTm9KEF5VOAQ"
-      },
       "logic": {
         "A": {
           "count": null,
