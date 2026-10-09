@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAtUtc": "2026-10-09T09:18:48.875Z",
+  "generatedAtUtc": "2026-10-09T16:22:23.895Z",
   "policy": "ROPEJUMP_VIDEO_TRAINING_V1 is authoritative: type policy + dataset split policy + count authority + content screen must all pass. Legacy F split_map inputs are not eligible for new training.",
   "stats": {
     "total": 2046,
