@@ -1,7 +1,7 @@
 {
   "schemaVersion": 7,
-  "generatedAtUtc": "2026-10-11T20:24:03.803Z",
-  "corpusSnapshotUtc": "2026-10-11T19:36:02.865309+00:00",
+  "generatedAtUtc": "2026-10-12T00:38:21.046Z",
+  "corpusSnapshotUtc": "2026-10-12T00:36:03.347922+00:00",
   "source": "server123:/home/jumprope-research/corpus-registry + discovery candidate registries",
   "refreshPolicy": "relevant main pushes sync immediately; hourly fallback; viewer polls published data",
   "stats": {
@@ -28,6 +28,128 @@
     "viewerRowsWithMaterializedMedia": 36
   },
   "rows": [
+    {
+      "key": "commons:f5e6d3bf483f634c144a9c1a37df27a39da85569",
+      "id": "f5e6d3bf483f634c144a9c1a37df27a39da85569",
+      "title": "File:Jumping jack slow motion.webm",
+      "platform": "wikimedia_commons",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Jumping_jack_slow_motion.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "play": {
+        "kind": "video",
+        "ref": "https://upload.wikimedia.org/wikipedia/commons/5/53/Jumping_jack_slow_motion.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      "candidateRole": "hard_negative_no_rope_motion",
+      "query": "jumping jacks",
+      "duration": null,
+      "materialized": false,
+      "license": "CC0",
+      "qualityScore": null,
+      "discoveredAt": "2026-10-12T00:37:40.072149+00:00",
+      "channel": "",
+      "canonical": false,
+      "canonicalIds": [],
+      "sourceClass": "",
+      "sha256": "",
+      "thumbnailUrl": "",
+      "evidenceGrade": "",
+      "sourceDeclaredCount": null,
+      "lockedGt": null,
+      "gptGround": null,
+      "logic": {
+        "A": {
+          "count": null,
+          "at": "",
+          "source": ""
+        },
+        "B": {
+          "count": null,
+          "at": "",
+          "source": ""
+        },
+        "C": {
+          "count": null,
+          "at": "",
+          "source": ""
+        },
+        "D": {
+          "count": null,
+          "at": "",
+          "source": ""
+        },
+        "E": {
+          "count": null,
+          "at": "",
+          "source": ""
+        },
+        "F": {
+          "count": null,
+          "at": "",
+          "source": ""
+        }
+      },
+      "latestLogicAt": ""
+    },
+    {
+      "key": "commons:de0408ee2f90afba376f23d86f48d6c98d4eb42b",
+      "id": "de0408ee2f90afba376f23d86f48d6c98d4eb42b",
+      "title": "File:Jumping jacks and burpees.webm",
+      "platform": "wikimedia_commons",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Jumping_jacks_and_burpees.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "play": {
+        "kind": "video",
+        "ref": "https://upload.wikimedia.org/wikipedia/commons/5/57/Jumping_jacks_and_burpees.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      "candidateRole": "hard_negative_no_rope_motion",
+      "query": "jumping jacks",
+      "duration": null,
+      "materialized": false,
+      "license": "CC BY-SA 4.0",
+      "qualityScore": null,
+      "discoveredAt": "2026-10-12T00:37:40.071971+00:00",
+      "channel": "",
+      "canonical": false,
+      "canonicalIds": [],
+      "sourceClass": "",
+      "sha256": "",
+      "thumbnailUrl": "",
+      "evidenceGrade": "",
+      "sourceDeclaredCount": null,
+      "lockedGt": null,
+      "gptGround": null,
+      "logic": {
+        "A": {
+          "count": null,
+          "at": "",
+          "source": ""
+        },
+        "B": {
+          "count": null,
+          "at": "",
+          "source": ""
+        },
+        "C": {
+          "count": null,
+          "at": "",
+          "source": ""
+        },
+        "D": {
+          "count": null,
+          "at": "",
+          "source": ""
+        },
+        "E": {
+          "count": null,
+          "at": "",
+          "source": ""
+        },
+        "F": {
+          "count": null,
+          "at": "",
+          "source": ""
+        }
+      },
+      "latestLogicAt": ""
+    },
     {
       "key": "youtube:_5tNYMFt-UE",
       "id": "_5tNYMFt-UE",
@@ -21044,128 +21166,6 @@
       "qualityScore": 3,
       "discoveredAt": "2026-10-11T00:41:18.541077+00:00",
       "channel": "Rope Rage",
-      "canonical": false,
-      "canonicalIds": [],
-      "sourceClass": "",
-      "sha256": "",
-      "thumbnailUrl": "",
-      "evidenceGrade": "",
-      "sourceDeclaredCount": null,
-      "lockedGt": null,
-      "gptGround": null,
-      "logic": {
-        "A": {
-          "count": null,
-          "at": "",
-          "source": ""
-        },
-        "B": {
-          "count": null,
-          "at": "",
-          "source": ""
-        },
-        "C": {
-          "count": null,
-          "at": "",
-          "source": ""
-        },
-        "D": {
-          "count": null,
-          "at": "",
-          "source": ""
-        },
-        "E": {
-          "count": null,
-          "at": "",
-          "source": ""
-        },
-        "F": {
-          "count": null,
-          "at": "",
-          "source": ""
-        }
-      },
-      "latestLogicAt": ""
-    },
-    {
-      "key": "commons:f5e6d3bf483f634c144a9c1a37df27a39da85569",
-      "id": "f5e6d3bf483f634c144a9c1a37df27a39da85569",
-      "title": "File:Jumping jack slow motion.webm",
-      "platform": "wikimedia_commons",
-      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Jumping_jack_slow_motion.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "play": {
-        "kind": "video",
-        "ref": "https://upload.wikimedia.org/wikipedia/commons/5/53/Jumping_jack_slow_motion.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
-      },
-      "candidateRole": "hard_negative_no_rope_motion",
-      "query": "jumping jacks",
-      "duration": null,
-      "materialized": true,
-      "license": "CC0",
-      "qualityScore": null,
-      "discoveredAt": "2026-10-11T00:37:11.741803+00:00",
-      "channel": "",
-      "canonical": false,
-      "canonicalIds": [],
-      "sourceClass": "",
-      "sha256": "",
-      "thumbnailUrl": "",
-      "evidenceGrade": "",
-      "sourceDeclaredCount": null,
-      "lockedGt": null,
-      "gptGround": null,
-      "logic": {
-        "A": {
-          "count": null,
-          "at": "",
-          "source": ""
-        },
-        "B": {
-          "count": null,
-          "at": "",
-          "source": ""
-        },
-        "C": {
-          "count": null,
-          "at": "",
-          "source": ""
-        },
-        "D": {
-          "count": null,
-          "at": "",
-          "source": ""
-        },
-        "E": {
-          "count": null,
-          "at": "",
-          "source": ""
-        },
-        "F": {
-          "count": null,
-          "at": "",
-          "source": ""
-        }
-      },
-      "latestLogicAt": ""
-    },
-    {
-      "key": "commons:de0408ee2f90afba376f23d86f48d6c98d4eb42b",
-      "id": "de0408ee2f90afba376f23d86f48d6c98d4eb42b",
-      "title": "File:Jumping jacks and burpees.webm",
-      "platform": "wikimedia_commons",
-      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Jumping_jacks_and_burpees.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "play": {
-        "kind": "video",
-        "ref": "https://upload.wikimedia.org/wikipedia/commons/5/57/Jumping_jacks_and_burpees.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
-      },
-      "candidateRole": "hard_negative_no_rope_motion",
-      "query": "jumping jacks",
-      "duration": null,
-      "materialized": true,
-      "license": "CC BY-SA 4.0",
-      "qualityScore": null,
-      "discoveredAt": "2026-10-11T00:37:11.741643+00:00",
-      "channel": "",
       "canonical": false,
       "canonicalIds": [],
       "sourceClass": "",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAtUtc": "2026-10-11T20:24:04.105Z",
+  "generatedAtUtc": "2026-10-12T00:38:21.481Z",
   "policy": "ROPEJUMP_VIDEO_TRAINING_V1 is authoritative: type policy + dataset split policy + count authority + content screen must all pass. Legacy F split_map inputs are not eligible for new training.",
   "stats": {
     "total": 2073,
@@ -10,6 +10,50 @@
     "blocked": 2050
   },
   "items": [
+    {
+      "id": "f5e6d3bf483f634c144a9c1a37df27a39da85569",
+      "authorityId": "f5e6d3bf483f634c144a9c1a37df27a39da85569",
+      "policyId": "ROPEJUMP_VIDEO_TRAINING_V1",
+      "eligible": false,
+      "positiveEligible": false,
+      "hardNegativeEligible": false,
+      "trainingUsage": "EXCLUDED",
+      "jumpRopeType": "",
+      "activeCount": null,
+      "countAuthorityStatus": "GPT_REQUIRED",
+      "contentStatus": "MISSING",
+      "typePolicyStatus": "TYPE_MISSING",
+      "datasetPolicyStatus": "DATASET_POLICY_UNAVAILABLE",
+      "datasetRole": "",
+      "datasetGroup": "",
+      "blockers": [
+        "COUNT_AUTHORITY:GPT_REQUIRED",
+        "CONTENT_SCREEN:MISSING",
+        "TYPE_POLICY:TYPE_MISSING"
+      ]
+    },
+    {
+      "id": "de0408ee2f90afba376f23d86f48d6c98d4eb42b",
+      "authorityId": "de0408ee2f90afba376f23d86f48d6c98d4eb42b",
+      "policyId": "ROPEJUMP_VIDEO_TRAINING_V1",
+      "eligible": false,
+      "positiveEligible": false,
+      "hardNegativeEligible": false,
+      "trainingUsage": "EXCLUDED",
+      "jumpRopeType": "",
+      "activeCount": null,
+      "countAuthorityStatus": "GPT_REQUIRED",
+      "contentStatus": "MISSING",
+      "typePolicyStatus": "TYPE_MISSING",
+      "datasetPolicyStatus": "DATASET_POLICY_UNAVAILABLE",
+      "datasetRole": "",
+      "datasetGroup": "",
+      "blockers": [
+        "COUNT_AUTHORITY:GPT_REQUIRED",
+        "CONTENT_SCREEN:MISSING",
+        "TYPE_POLICY:TYPE_MISSING"
+      ]
+    },
     {
       "id": "_5tNYMFt-UE",
       "authorityId": "_5tNYMFt-UE",
@@ -7577,50 +7621,6 @@
     {
       "id": "ZYOzNpViADE",
       "authorityId": "ZYOzNpViADE",
-      "policyId": "ROPEJUMP_VIDEO_TRAINING_V1",
-      "eligible": false,
-      "positiveEligible": false,
-      "hardNegativeEligible": false,
-      "trainingUsage": "EXCLUDED",
-      "jumpRopeType": "",
-      "activeCount": null,
-      "countAuthorityStatus": "GPT_REQUIRED",
-      "contentStatus": "MISSING",
-      "typePolicyStatus": "TYPE_MISSING",
-      "datasetPolicyStatus": "DATASET_POLICY_UNAVAILABLE",
-      "datasetRole": "",
-      "datasetGroup": "",
-      "blockers": [
-        "COUNT_AUTHORITY:GPT_REQUIRED",
-        "CONTENT_SCREEN:MISSING",
-        "TYPE_POLICY:TYPE_MISSING"
-      ]
-    },
-    {
-      "id": "f5e6d3bf483f634c144a9c1a37df27a39da85569",
-      "authorityId": "f5e6d3bf483f634c144a9c1a37df27a39da85569",
-      "policyId": "ROPEJUMP_VIDEO_TRAINING_V1",
-      "eligible": false,
-      "positiveEligible": false,
-      "hardNegativeEligible": false,
-      "trainingUsage": "EXCLUDED",
-      "jumpRopeType": "",
-      "activeCount": null,
-      "countAuthorityStatus": "GPT_REQUIRED",
-      "contentStatus": "MISSING",
-      "typePolicyStatus": "TYPE_MISSING",
-      "datasetPolicyStatus": "DATASET_POLICY_UNAVAILABLE",
-      "datasetRole": "",
-      "datasetGroup": "",
-      "blockers": [
-        "COUNT_AUTHORITY:GPT_REQUIRED",
-        "CONTENT_SCREEN:MISSING",
-        "TYPE_POLICY:TYPE_MISSING"
-      ]
-    },
-    {
-      "id": "de0408ee2f90afba376f23d86f48d6c98d4eb42b",
-      "authorityId": "de0408ee2f90afba376f23d86f48d6c98d4eb42b",
       "policyId": "ROPEJUMP_VIDEO_TRAINING_V1",
       "eligible": false,
       "positiveEligible": false,
