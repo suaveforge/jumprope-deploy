@@ -1,12 +1,12 @@
 {
   "schemaVersion": 7,
-  "generatedAtUtc": "2026-10-30T01:09:37.119Z",
-  "corpusSnapshotUtc": "2026-10-30T00:38:57.377623+00:00",
+  "generatedAtUtc": "2026-10-30T07:18:07.723Z",
+  "corpusSnapshotUtc": "2026-10-30T06:38:58.027145+00:00",
   "source": "server123:/home/jumprope-research/corpus-registry + discovery candidate registries",
   "refreshPolicy": "relevant main pushes sync immediately; hourly fallback; viewer polls published data",
   "stats": {
-    "discoveredSourceRecords": 2200,
-    "youtubeSourceRecords": 2198,
+    "discoveredSourceRecords": 2209,
+    "youtubeSourceRecords": 2207,
     "openMediaSourceRecords": 2,
     "viewerRows": 2260,
     "canonicalTotal": 15,
