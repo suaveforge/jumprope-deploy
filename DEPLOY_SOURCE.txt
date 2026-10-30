@@ -1,5 +1,5 @@
 source_repository=suaveforge/jumprope
-source_sha=565688b55fdd1dfcb8c57314479ea806c7cac04c
+source_sha=17cb84d9c507b815b6d4d14e61703968f401550d
 validation_mode=build-deploy
-built_at_utc=2026-10-30T02:34:10Z
+built_at_utc=2026-10-30T02:47:33Z
 runner=123-jumprope-deploy-05
